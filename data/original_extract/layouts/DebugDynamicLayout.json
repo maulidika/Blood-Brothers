@@ -1,0 +1,157 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "text",
+   "name": "title",
+   "attrs": {
+    "tag": "title",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 18,
+    "horizontal_align": 1,
+    "vertical_align": 0,
+    "text": "Sample Mission Name",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 320,
+    "h": 50,
+    "x": 0,
+    "y": 55
+   }
+  },
+  {
+   "type": "button",
+   "name": "btn_claim",
+   "attrs": {
+    "tag": "btn_claim",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 20,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "Claim Rewards",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "",
+    "image_color": null,
+    "image": "common/ui/button/bt_base_red_n_110.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_110.png",
+    "image_checked": "common/ui/button/bt_base_red_p_56.png",
+    "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+    "image_selected": "common/ui/button/bt_base_red_p_56.png",
+    "image_focused": "common/ui/button/bt_base_red_p_56.png",
+    "w": 188,
+    "h": 55,
+    "x": 66,
+    "y": 340
+   }
+  },
+  {
+   "type": "card_image",
+   "name": "card",
+   "attrs": {
+    "tag": "card",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "displayType": "figure",
+    "showRarity": true,
+    "showEvolution": true,
+    "iconRatio": null,
+    "w": 150,
+    "h": 224,
+    "x": 11,
+    "y": 105
+   }
+  },
+  {
+   "type": "gift_image",
+   "name": "gift1",
+   "attrs": {
+    "tag": "gift1",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 100,
+    "h": 100,
+    "x": 192,
+    "y": 115
+   }
+  },
+  {
+   "type": "gift_image",
+   "name": "gift2",
+   "attrs": {
+    "tag": "gift2",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 100,
+    "h": 100,
+    "x": 192,
+    "y": 229
+   }
+  }
+ ],
+ "name": "DebugDynamicLayout",
+ "type": "component"
+}

@@ -1,0 +1,260 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "root",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 320,
+    "h": 480,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "image",
+     "name": "frame",
+     "attrs": {
+      "tag": "frame",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/login/frame_today_l.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 312,
+      "h": 284,
+      "x": 0,
+      "y": 8
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "reward",
+     "attrs": {
+      "tag": "reward",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": null,
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 0,
+      "h": 0,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "image",
+     "name": "pin1",
+     "attrs": {
+      "tag": "pin1",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/login/detail.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 12,
+      "h": 34,
+      "x": 106,
+      "y": 0
+     }
+    },
+    {
+     "type": "image",
+     "name": "pin2",
+     "attrs": {
+      "tag": "pin2",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/login/detail.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 12,
+      "h": 34,
+      "x": 68,
+      "y": 0
+     }
+    },
+    {
+     "type": "image",
+     "name": "pin3",
+     "attrs": {
+      "tag": "pin3",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/login/detail.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 12,
+      "h": 34,
+      "x": 232,
+      "y": 0
+     }
+    },
+    {
+     "type": "image",
+     "name": "pin4",
+     "attrs": {
+      "tag": "pin4",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/login/detail.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 12,
+      "h": 34,
+      "x": 194,
+      "y": 0
+     }
+    },
+    {
+     "type": "image",
+     "name": "cutin_bg",
+     "attrs": {
+      "tag": "cutin_bg",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/battle/cut_in_bg.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 120,
+      "h": 45,
+      "x": 29,
+      "y": 29
+     }
+    },
+    {
+     "type": "image",
+     "name": "catun_text",
+     "attrs": {
+      "tag": "cutin_text",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "image": "login/text_finalbonus.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 96,
+      "h": 27,
+      "x": 82,
+      "y": 50
+     }
+    }
+   ]
+  }
+ ],
+ "name": "GettingReward_l",
+ "type": "component"
+}

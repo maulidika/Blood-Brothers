@@ -1,0 +1,1146 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "image",
+   "name": "image0",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": false,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "image": "common/ui/raidboss/dialog/dialog_background.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 320,
+    "h": 480,
+    "x": -23,
+    "y": 0
+   }
+  },
+  {
+   "type": "node",
+   "name": "content",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 100,
+    "h": 100,
+    "x": 0,
+    "y": -8
+   },
+   "children": [
+    {
+     "type": "image",
+     "name": "remain_bg",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/ui/dialog/profile_back.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 140,
+      "h": 68,
+      "x": 121,
+      "y": 132
+     }
+    },
+    {
+     "type": "component",
+     "name": "raidboss_profile",
+     "attrs": {
+      "tag": "raidboss_profile",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 259,
+      "h": 103,
+      "x": 0,
+      "y": 10
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "hpbar",
+       "attrs": {
+        "tag": "hpbar",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 90,
+        "h": 42,
+        "x": -8,
+        "y": 119
+       }
+      },
+      {
+       "type": "bar_meter_object",
+       "name": "hp_bar",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "background_color_key": null,
+        "barType": "hp",
+        "showText": true,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "w": 240,
+        "h": 15,
+        "x": 0,
+        "y": 104
+       }
+      },
+      {
+       "type": "card_sprite",
+       "name": "face",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "displayType": "Figure",
+        "showRarity": false,
+        "showEvolution": false,
+        "w": 132,
+        "h": 120,
+        "x": 64,
+        "y": -17
+       }
+      }
+     ]
+    },
+    {
+     "type": "sprite",
+     "name": "lv_bg",
+     "attrs": {
+      "tag": "lv_bg",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/level_back.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 72,
+      "h": 22,
+      "x": 164,
+      "y": 91
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "lv_label",
+       "attrs": {
+        "tag": "lv_label",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 16,
+        "horizontal_align": 1,
+        "vertical_align": 2,
+        "text": "LV.",
+        "text_wrap": true,
+        "text_color_key": "#E9DEEB",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 32,
+        "h": 24,
+        "x": 21,
+        "y": 9
+       }
+      },
+      {
+       "type": "text",
+       "name": "lv_value",
+       "attrs": {
+        "tag": "lv_value",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0.5
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 2,
+        "text": "11",
+        "text_wrap": true,
+        "text_color_key": "#E9DEEB",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 43,
+        "h": 24,
+        "x": 32,
+        "y": 9
+       }
+      }
+     ]
+    },
+    {
+     "type": "sprite",
+     "name": "check_image",
+     "attrs": {
+      "tag": "check_image",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/raidboss/dialog/defeated_check.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 127,
+      "h": 63,
+      "x": 68,
+      "y": 30
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "check_image_text",
+       "attrs": {
+        "tag": "check_image_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": -20,
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "Got away ",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 128,
+        "h": 32,
+        "x": 12,
+        "y": 36
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "info",
+     "attrs": {
+      "tag": "info",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 140,
+      "h": 120,
+      "x": -13,
+      "y": 127
+     },
+     "children": [
+      {
+       "type": "image",
+       "name": "remain_bg0",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/ui/dialog/profile_back.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 129,
+        "h": 68,
+        "x": -1,
+        "y": 5
+       }
+      },
+      {
+       "type": "component",
+       "name": "remain_time",
+       "attrs": {
+        "tag": "remain_time",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 128,
+        "h": 24,
+        "x": 5,
+        "y": 45
+       },
+       "children": [
+        {
+         "type": "sprite",
+         "name": "remain_h_box",
+         "attrs": {
+          "tag": "remain_h_box",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image": "common/ui/raidboss/dialog/time_box.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": "FFFFFF",
+          "w": 33,
+          "h": 24,
+          "x": 0,
+          "y": 0
+         },
+         "children": [
+          {
+           "type": "text",
+           "name": "remain_h_label",
+           "attrs": {
+            "tag": "remain_h_label",
+            "mock_image": null,
+            "visible": true,
+            "anchor": [
+             0.5,
+             0.5
+            ],
+            "scale": [
+             1,
+             1
+            ],
+            "rotate": 0,
+            "text_size": 24,
+            "horizontal_align": 1,
+            "vertical_align": 1,
+            "text": "00",
+            "text_wrap": true,
+            "text_color_key": "#A80000",
+            "background_color_key": null,
+            "font_family": "",
+            "is_bold": false,
+            "w": 33,
+            "h": 32,
+            "x": 17,
+            "y": 12
+           }
+          }
+         ]
+        },
+        {
+         "type": "sprite",
+         "name": "remain_m_box",
+         "attrs": {
+          "tag": "remain_m_box",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image": "common/ui/raidboss/dialog/time_box.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": "FFFFFF",
+          "w": 33,
+          "h": 24,
+          "x": 40,
+          "y": 0
+         },
+         "children": [
+          {
+           "type": "text",
+           "name": "remain_m_label",
+           "attrs": {
+            "tag": "remain_m_label",
+            "mock_image": null,
+            "visible": true,
+            "anchor": [
+             0.5,
+             0.5
+            ],
+            "scale": [
+             1,
+             1
+            ],
+            "rotate": 0,
+            "text_size": 24,
+            "horizontal_align": 1,
+            "vertical_align": 1,
+            "text": "00",
+            "text_wrap": true,
+            "text_color_key": "#A80000",
+            "background_color_key": null,
+            "font_family": "",
+            "is_bold": false,
+            "w": 33,
+            "h": 32,
+            "x": 17,
+            "y": 12
+           }
+          }
+         ]
+        },
+        {
+         "type": "sprite",
+         "name": "remain_s_box",
+         "attrs": {
+          "tag": "remain_s_box",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image": "common/ui/raidboss/dialog/time_box.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": "FFFFFF",
+          "w": 33,
+          "h": 24,
+          "x": 80,
+          "y": 0
+         },
+         "children": [
+          {
+           "type": "text",
+           "name": "remain_s_label",
+           "attrs": {
+            "tag": "remain_s_label",
+            "mock_image": null,
+            "visible": true,
+            "anchor": [
+             0.5,
+             0.5
+            ],
+            "scale": [
+             1,
+             1
+            ],
+            "rotate": 0,
+            "text_size": 24,
+            "horizontal_align": 1,
+            "vertical_align": 1,
+            "text": "00",
+            "text_wrap": true,
+            "text_color_key": "#A80000",
+            "background_color_key": null,
+            "font_family": "",
+            "is_bold": false,
+            "w": 33,
+            "h": 32,
+            "x": 17,
+            "y": 12
+           }
+          }
+         ]
+        },
+        {
+         "type": "sprite",
+         "name": "colons1",
+         "attrs": {
+          "tag": "colons1",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image": "common/ui/raidboss/dialog/colons.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": "FFFFFF",
+          "w": 8,
+          "h": 16,
+          "x": 33,
+          "y": 6
+         }
+        },
+        {
+         "type": "sprite",
+         "name": "colons2",
+         "attrs": {
+          "tag": "colons2",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image": "common/ui/raidboss/dialog/colons.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": "FFFFFF",
+          "w": 8,
+          "h": 16,
+          "x": 72,
+          "y": 6
+         }
+        },
+        {
+         "type": "sprite",
+         "name": "timer_bg",
+         "attrs": {
+          "tag": "",
+          "mock_image": null,
+          "visible": false,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image": "common/ui/dialog/profile_back.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 120,
+          "h": 30,
+          "x": 0,
+          "y": -3
+         }
+        }
+       ]
+      },
+      {
+       "type": "component",
+       "name": "rewards",
+       "attrs": {
+        "tag": "rewards",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 120,
+        "h": 32,
+        "x": 0,
+        "y": 89
+       },
+       "children": [
+        {
+         "type": "button",
+         "name": "rewards_button",
+         "attrs": {
+          "tag": "rewards_button",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "text_size": 18,
+          "horizontal_align": 0,
+          "vertical_align": 0,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "font_family": "",
+          "action": "WorldbossEventType_Action_Select_Rewards",
+          "image_color": "FFFFFF",
+          "image": "common/ui/raidboss/dialog/checkrewards.png",
+          "image_pressed": "common/ui/raidboss/dialog/checkrewards.png",
+          "image_checked": null,
+          "image_disabled": null,
+          "image_selected": null,
+          "image_focused": null,
+          "w": 120,
+          "h": 23,
+          "x": 0,
+          "y": -13
+         }
+        }
+       ]
+      },
+      {
+       "type": "text",
+       "name": "no_remain_text",
+       "attrs": {
+        "tag": "no_remain_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 18,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "Slayed",
+        "text_wrap": true,
+        "text_color_key": "#A80000",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 130,
+        "h": 50,
+        "x": 0,
+        "y": 31
+       }
+      },
+      {
+       "type": "text",
+       "name": "remain_label",
+       "attrs": {
+        "tag": "remain_label",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 100,
+        "h": 24,
+        "x": 17,
+        "y": 20
+       }
+      }
+     ]
+    },
+    {
+     "type": "node",
+     "name": "mvp",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 16,
+      "h": 16,
+      "x": 126,
+      "y": 122
+     },
+     "children": [
+      {
+       "type": "node",
+       "name": "chara_image",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 46,
+        "h": 46,
+        "x": -1,
+        "y": 27
+       }
+      },
+      {
+       "type": "text",
+       "name": "name",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 100,
+        "h": 19,
+        "x": 47,
+        "y": 23
+       }
+      },
+      {
+       "type": "text",
+       "name": "damage_text",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#A80000",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 100,
+        "h": 18,
+        "x": 47,
+        "y": 40
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "damage_bg",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/raidboss/dialog/point.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 90,
+        "h": 21,
+        "x": 45,
+        "y": 55
+       }
+      },
+      {
+       "type": "text",
+       "name": "damage",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 100,
+        "h": 20,
+        "x": 50,
+        "y": 54
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "name": "history_text",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 13,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FF0000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 130,
+      "h": 22,
+      "x": 53,
+      "y": 228
+     }
+    },
+    {
+     "type": "text",
+     "name": "no_attackers_text",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 13,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 142,
+      "h": 24,
+      "x": 125,
+      "y": 153
+     }
+    },
+    {
+     "type": "text",
+     "name": "mvp_title",
+     "attrs": {
+      "tag": "mvp_title",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "Current MVP",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 130,
+      "h": 24,
+      "x": 132,
+      "y": 130
+     }
+    },
+    {
+     "type": "component",
+     "name": "btn_damage",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 120,
+      "h": 32,
+      "x": 0,
+      "y": 84
+     },
+     "children": [
+      {
+       "type": "button",
+       "name": "rewards_button1",
+       "attrs": {
+        "tag": "btn_damage_button",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "WorldbossEventType_Action_Select_Damages",
+        "image_color": "FFFFFF",
+        "image": "common/ui/raidboss/dialog/checkrewards.png",
+        "image_pressed": "common/ui/raidboss/dialog/checkrewards.png",
+        "image_checked": null,
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 129,
+        "h": 23,
+        "x": 128,
+        "y": 119
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "WorldBossInfo",
+ "type": "component"
+}

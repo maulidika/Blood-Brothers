@@ -1,0 +1,2390 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "node",
+   "name": "submenu",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 0,
+    "h": 0,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "touch_target",
+     "name": "bgCollision",
+     "attrs": {
+      "tag": "bgCollision",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "action": "Sub_Menu_Close",
+      "w": 320,
+      "h": 480,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "node",
+     "name": "bg",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 0,
+      "h": 0,
+      "x": 4,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "image",
+       "name": "right",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/card/evolution_back2.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 19,
+        "h": 168,
+        "x": 251,
+        "y": 48
+       }
+      },
+      {
+       "type": "image",
+       "name": "left",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/card/evolution_back1.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 19,
+        "h": 168,
+        "x": 9,
+        "y": 48
+       }
+      },
+      {
+       "type": "image",
+       "name": "center",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/card/evolution_back3.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 224,
+        "h": 168,
+        "x": 27,
+        "y": 48
+       }
+      },
+      {
+       "type": "button",
+       "name": "exp",
+       "attrs": {
+        "tag": "exp",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": null,
+        "font_family": "",
+        "action": "ToAddExp",
+        "image_color": null,
+        "image": "card/bb_mergexp_btn_n.png",
+        "image_pressed": "card/bb_mergexp_btn_p.png",
+        "image_checked": null,
+        "image_disabled": "card/bb_mergexp_btn_p.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 77,
+        "h": 72,
+        "x": 177,
+        "y": 135
+       }
+      },
+      {
+       "type": "button",
+       "name": "skill",
+       "attrs": {
+        "tag": "skill",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "ToAddSkill",
+        "image_color": "FFFFFF",
+        "image": "card/bb_addskill_btn_n.png",
+        "image_pressed": "card/bb_addskill_btn_p.png",
+        "image_checked": null,
+        "image_disabled": "card/bb_addskill_btn_p.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 77,
+        "h": 72,
+        "x": 16,
+        "y": 135
+       }
+      },
+      {
+       "type": "button",
+       "name": "empower",
+       "attrs": {
+        "tag": "empower",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "ToEmpower",
+        "image_color": "FFFFFF",
+        "image": "card/bb_empower_btn_n.png",
+        "image_pressed": "card/bb_empower_btn_p.png",
+        "image_checked": null,
+        "image_disabled": "card/bb_empower_btn_p.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 77,
+        "h": 72,
+        "x": 180,
+        "y": 58
+       }
+      },
+      {
+       "type": "button",
+       "name": "bb",
+       "attrs": {
+        "tag": "bb",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "ToCombine",
+        "image_color": "FFFFFF",
+        "image": "card/bb_bloodbrothers_btn_n.png",
+        "image_pressed": "card/bb_bloodbrothers_btn_p.png",
+        "image_checked": null,
+        "image_disabled": "card/bb_bloodbrothers_btn_p.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 77,
+        "h": 72,
+        "x": 16,
+        "y": 58
+       }
+      },
+      {
+       "type": "image",
+       "name": "line3",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/card/evolution_back_line.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 1,
+        "h": 53,
+        "x": 95,
+        "y": 150
+       }
+      },
+      {
+       "type": "image",
+       "name": "line2",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/card/evolution_back_line.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 1,
+        "h": 53,
+        "x": 177,
+        "y": 68
+       }
+      },
+      {
+       "type": "image",
+       "name": "line1",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/card/evolution_back_line.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 1,
+        "h": 53,
+        "x": 95,
+        "y": 68
+       }
+      },
+      {
+       "type": "button",
+       "name": "evolve",
+       "attrs": {
+        "tag": "evolve",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "ToEvolve",
+        "image_color": "FFFFFF",
+        "image": "card/bb_evolution_btn_n.png",
+        "image_pressed": "card/bb_evolution_btn_p.png",
+        "image_checked": null,
+        "image_disabled": "card/bb_evolution_btn_p.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 77,
+        "h": 72,
+        "x": 98,
+        "y": 58
+       }
+      },
+      {
+       "type": "button",
+       "name": "boost",
+       "attrs": {
+        "tag": "boost",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": null,
+        "font_family": "",
+        "action": "ToBoost",
+        "image_color": null,
+        "image": "card/bb_boost_btn_n.png",
+        "image_pressed": "card/bb_boost_btn_p.png",
+        "image_checked": null,
+        "image_disabled": "card/bb_boost_btn_p.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 77,
+        "h": 72,
+        "x": 98,
+        "y": 135
+       }
+      }
+     ]
+    },
+    {
+     "type": "button",
+     "name": "menu",
+     "attrs": {
+      "tag": "menu",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "Open_Menu",
+      "image_color": "FFFFFF",
+      "image": "card/bb_menu_btn_n.png",
+      "image_pressed": "card/bb_menu_btn_p.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 45,
+      "h": 30,
+      "x": 274,
+      "y": 50
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "panel",
+   "attrs": {
+    "tag": "panel",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 296,
+    "h": 23,
+    "x": 12,
+    "y": 276
+   },
+   "children": [
+    {
+     "type": "button",
+     "name": "ok",
+     "attrs": {
+      "tag": "ok",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "onExecRequest",
+      "image_color": "FFFFFF",
+      "image": "common/combine/bb_cost_btn_n.png",
+      "image_pressed": "common/combine/bb_cost_btn_p.png",
+      "image_checked": null,
+      "image_disabled": "common/combine/bb_cost_btn_gray.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 77,
+      "h": 23,
+      "x": 219,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "bar",
+     "attrs": {
+      "tag": "bar",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/combine/bb_cost.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 219,
+      "h": 23,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "label",
+       "attrs": {
+        "tag": "label",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 64,
+        "h": 23,
+        "x": 17,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "num",
+       "attrs": {
+        "tag": "num",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 18,
+        "horizontal_align": 2,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 104,
+        "h": 23,
+        "x": 98,
+        "y": 0
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "preview",
+   "attrs": {
+    "tag": "preview",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "message",
+     "attrs": {
+      "tag": "message",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 190,
+      "h": 64,
+      "x": 60,
+      "y": 51
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "counter",
+   "attrs": {
+    "tag": "counter",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "max_lv_xp",
+     "attrs": {
+      "tag": "max_lv_xp",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 0,
+      "h": 0,
+      "x": 0,
+      "y": 88
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "xp_frame",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/combine/bb_total.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 90,
+        "h": 45,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "xp_num1",
+       "attrs": {
+        "tag": "xp_num1",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 11,
+        "h": 21,
+        "x": 13,
+        "y": 16
+       }
+      },
+      {
+       "type": "text",
+       "name": "xp_num2",
+       "attrs": {
+        "tag": "xp_num2",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 11,
+        "h": 21,
+        "x": 24,
+        "y": 16
+       }
+      },
+      {
+       "type": "text",
+       "name": "xp_num3",
+       "attrs": {
+        "tag": "xp_num3",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 11,
+        "h": 21,
+        "x": 35,
+        "y": 16
+       }
+      },
+      {
+       "type": "text",
+       "name": "xp_num4",
+       "attrs": {
+        "tag": "xp_num4",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 11,
+        "h": 21,
+        "x": 46,
+        "y": 16
+       }
+      },
+      {
+       "type": "text",
+       "name": "xp_num5",
+       "attrs": {
+        "tag": "xp_num5",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 11,
+        "h": 21,
+        "x": 57,
+        "y": 16
+       }
+      },
+      {
+       "type": "text",
+       "name": "xp_num6",
+       "attrs": {
+        "tag": "xp_num6",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 11,
+        "h": 21,
+        "x": 68,
+        "y": 16
+       }
+      },
+      {
+       "type": "text",
+       "name": "xp_title",
+       "attrs": {
+        "tag": "xp_title",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 2,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 102,
+        "h": 20,
+        "x": 4,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "xp_msg",
+       "attrs": {
+        "tag": "xp_msg",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 2,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 76,
+        "h": 20,
+        "x": 8,
+        "y": 40
+       }
+      }
+     ]
+    },
+    {
+     "type": "sprite",
+     "name": "frame",
+     "attrs": {
+      "tag": "frame",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/combine/bb_total.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 90,
+      "h": 45,
+      "x": 0,
+      "y": 45
+     }
+    },
+    {
+     "type": "text",
+     "name": "num1",
+     "attrs": {
+      "tag": "num1",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 11,
+      "h": 21,
+      "x": 13,
+      "y": 61
+     }
+    },
+    {
+     "type": "text",
+     "name": "num2",
+     "attrs": {
+      "tag": "num2",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 11,
+      "h": 21,
+      "x": 24,
+      "y": 61
+     }
+    },
+    {
+     "type": "text",
+     "name": "num3",
+     "attrs": {
+      "tag": "num3",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 11,
+      "h": 21,
+      "x": 35,
+      "y": 61
+     }
+    },
+    {
+     "type": "text",
+     "name": "num4",
+     "attrs": {
+      "tag": "num4",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 11,
+      "h": 21,
+      "x": 46,
+      "y": 61
+     }
+    },
+    {
+     "type": "text",
+     "name": "num5",
+     "attrs": {
+      "tag": "num5",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 11,
+      "h": 21,
+      "x": 57,
+      "y": 61
+     }
+    },
+    {
+     "type": "text",
+     "name": "num6",
+     "attrs": {
+      "tag": "num6",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 11,
+      "h": 21,
+      "x": 68,
+      "y": 61
+     }
+    },
+    {
+     "type": "text",
+     "name": "plus",
+     "attrs": {
+      "tag": "plus",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 11,
+      "h": 21,
+      "x": 2,
+      "y": 61
+     }
+    },
+    {
+     "type": "text",
+     "name": "title",
+     "attrs": {
+      "tag": "title",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 66,
+      "h": 21,
+      "x": 13,
+      "y": 45
+     }
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "name": "levelup",
+   "attrs": {
+    "tag": "levelup",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 0,
+    "h": 0,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "image",
+     "name": "countbg",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/card/bb_total2.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 104,
+      "h": 77,
+      "x": 0,
+      "y": 43
+     }
+    },
+    {
+     "type": "text",
+     "name": "expnum7",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 11,
+      "h": 21,
+      "x": 79,
+      "y": 61
+     }
+    },
+    {
+     "type": "text",
+     "name": "expnum6",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 11,
+      "h": 21,
+      "x": 68,
+      "y": 61
+     }
+    },
+    {
+     "type": "text",
+     "name": "expnum5",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 11,
+      "h": 21,
+      "x": 57,
+      "y": 61
+     }
+    },
+    {
+     "type": "text",
+     "name": "expnum4",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 11,
+      "h": 21,
+      "x": 46,
+      "y": 61
+     }
+    },
+    {
+     "type": "text",
+     "name": "expnum3",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 11,
+      "h": 21,
+      "x": 35,
+      "y": 61
+     }
+    },
+    {
+     "type": "text",
+     "name": "expnum2",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 11,
+      "h": 21,
+      "x": 24,
+      "y": 61
+     }
+    },
+    {
+     "type": "text",
+     "name": "expnum1",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 11,
+      "h": 21,
+      "x": 13,
+      "y": 61
+     }
+    },
+    {
+     "type": "text",
+     "name": "afterlevel3",
+     "attrs": {
+      "tag": "afterlevel3",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 11,
+      "h": 21,
+      "x": 78,
+      "y": 91
+     }
+    },
+    {
+     "type": "text",
+     "name": "afterlevel2",
+     "attrs": {
+      "tag": "afterlevel2",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 11,
+      "h": 21,
+      "x": 67,
+      "y": 91
+     }
+    },
+    {
+     "type": "text",
+     "name": "afterlevel1",
+     "attrs": {
+      "tag": "afterlevel1",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 11,
+      "h": 21,
+      "x": 56,
+      "y": 91
+     }
+    },
+    {
+     "type": "text",
+     "name": "beforelevel3",
+     "attrs": {
+      "tag": "beforelevel3",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 13,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 10,
+      "h": 21,
+      "x": 34,
+      "y": 92
+     }
+    },
+    {
+     "type": "text",
+     "name": "beforelevel2",
+     "attrs": {
+      "tag": "beforelevel2",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 13,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 10,
+      "h": 21,
+      "x": 24,
+      "y": 92
+     }
+    },
+    {
+     "type": "text",
+     "name": "beforelevel1",
+     "attrs": {
+      "tag": "beforelevel1",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 13,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 10,
+      "h": 21,
+      "x": 14,
+      "y": 92
+     }
+    },
+    {
+     "type": "text",
+     "name": "lvText",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 50,
+      "h": 20,
+      "x": 14,
+      "y": 77
+     }
+    },
+    {
+     "type": "text",
+     "name": "expText",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 2,
+      "text": "\n\n\n",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 50,
+      "h": 20,
+      "x": 14,
+      "y": 43
+     }
+    },
+    {
+     "type": "text",
+     "name": "exp_plus",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 20,
+      "h": 20,
+      "x": 6,
+      "y": 61
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "arrow",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/card/lv_up_arrow.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 7,
+      "h": 8,
+      "x": 50,
+      "y": 101
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "shadestorage",
+   "attrs": {
+    "tag": "shadestorage",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 100,
+    "h": 100,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "passiveskill",
+     "attrs": {
+      "tag": "passiveskill",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 0,
+      "h": 0,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "button",
+       "name": "shade20129",
+       "attrs": {
+        "tag": "shade20129",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": null,
+        "font_family": "",
+        "action": "",
+        "image_color": null,
+        "image": "common/card/bt_shade3_n.png",
+        "image_pressed": "common/card/bt_shade3_p.png",
+        "image_checked": "common/card/bt_shade3_pushed.png",
+        "image_disabled": "common/card/bt_shade3_disabled.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 46,
+        "h": 46,
+        "x": 274,
+        "y": 84
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "shadeNum20129",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/bullet.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 16,
+        "h": 16,
+        "x": 276,
+        "y": 110
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "num20129",
+         "attrs": {
+          "tag": "num20129",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 10,
+          "horizontal_align": 1,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "is_bold": false,
+          "w": 16,
+          "h": 16,
+          "x": 8,
+          "y": 8
+         }
+        }
+       ]
+      },
+      {
+       "type": "button",
+       "name": "shade20133",
+       "attrs": {
+        "tag": "shade20133",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": null,
+        "font_family": "",
+        "action": "",
+        "image_color": null,
+        "image": "common/card/bt_shade4_n.png",
+        "image_pressed": "common/card/bt_shade4_p.png",
+        "image_checked": "common/card/bt_shade4_pushed.png",
+        "image_disabled": "common/card/bt_shade4_disabled.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 46,
+        "h": 46,
+        "x": 274,
+        "y": 134
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "shadeNum20133",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/bullet.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 16,
+        "h": 16,
+        "x": 276,
+        "y": 160
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "num20133",
+         "attrs": {
+          "tag": "num20133",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 10,
+          "horizontal_align": 1,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "is_bold": false,
+          "w": 16,
+          "h": 16,
+          "x": 8,
+          "y": 8
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "shade",
+     "attrs": {
+      "tag": "shade",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 0,
+      "h": 0,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "button",
+       "name": "shade129",
+       "attrs": {
+        "tag": "shade129",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": null,
+        "font_family": "",
+        "action": "",
+        "image_color": null,
+        "image": "common/card/bt_shade1_n.png",
+        "image_pressed": "common/card/bt_shade1_p.png",
+        "image_checked": "common/card/bt_shade1_pushed.png",
+        "image_disabled": "common/card/bt_shade1_disabled.png",
+        "image_selected": "common/ui/button/bt_base_red_p_56.png",
+        "image_focused": "common/ui/button/bt_base_red_p_56.png",
+        "w": 46,
+        "h": 46,
+        "x": 274,
+        "y": 84
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "shadeNum129",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/bullet.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 16,
+        "h": 16,
+        "x": 276,
+        "y": 110
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "numText2",
+         "attrs": {
+          "tag": "num129",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 10,
+          "horizontal_align": 1,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "is_bold": false,
+          "w": 16,
+          "h": 16,
+          "x": 8,
+          "y": 8
+         }
+        }
+       ]
+      },
+      {
+       "type": "button",
+       "name": "shade133",
+       "attrs": {
+        "tag": "shade133",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": null,
+        "font_family": "",
+        "action": "",
+        "image_color": null,
+        "image": "common/card/bt_shade2_n.png",
+        "image_pressed": "common/card/bt_shade2_p.png",
+        "image_checked": "common/card/bt_shade2_pushed.png",
+        "image_disabled": "common/card/bt_shade2_disabled.png",
+        "image_selected": "common/ui/button/bt_base_red_p_56.png",
+        "image_focused": "common/ui/button/bt_base_red_p_56.png",
+        "w": 46,
+        "h": 46,
+        "x": 274,
+        "y": 134
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "shadeNum133",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/bullet.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 16,
+        "h": 16,
+        "x": 276,
+        "y": 160
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "numText",
+         "attrs": {
+          "tag": "num133",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 10,
+          "horizontal_align": 1,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "is_bold": false,
+          "w": 16,
+          "h": 16,
+          "x": 8,
+          "y": 8
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "button",
+     "name": "proactive",
+     "attrs": {
+      "tag": "proactive",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "To_Passive_Mode",
+      "image_color": "FFFFFF",
+      "image": "card/passiveskill_btn_n.png",
+      "image_pressed": "card/passiveskill_btn_p.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 45,
+      "h": 30,
+      "x": 224,
+      "y": 50
+     }
+    },
+    {
+     "type": "button",
+     "name": "passive",
+     "attrs": {
+      "tag": "passive",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "To_Proactive_Mode",
+      "image_color": "FFFFFF",
+      "image": "card/skill_btn_n.png",
+      "image_pressed": "card/skill_btn_p.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 45,
+      "h": 30,
+      "x": 224,
+      "y": 50
+     }
+    }
+   ]
+  }
+ ],
+ "name": "CardPreviewLayout",
+ "type": "component"
+}

@@ -1,0 +1,168 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "root",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 240,
+    "h": 380,
+    "x": 40,
+    "y": 60
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "container2",
+     "attrs": {
+      "tag": "container2",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 240,
+      "h": 50,
+      "x": 0,
+      "y": 253
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "image",
+       "attrs": {
+        "tag": "image",
+        "mock_image": null,
+        "visible": false,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/dialog/profile_back.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 280,
+        "h": 56,
+        "x": -20,
+        "y": -3
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "container3",
+     "attrs": {
+      "tag": "container3",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 240,
+      "h": 80,
+      "x": 0,
+      "y": 305
+     }
+    },
+    {
+     "type": "component",
+     "name": "container1",
+     "attrs": {
+      "tag": "container1",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 240,
+      "h": 222,
+      "x": 0,
+      "y": 17
+     }
+    },
+    {
+     "type": "component",
+     "name": "header",
+     "attrs": {
+      "tag": "header",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 240,
+      "h": 24,
+      "x": 0,
+      "y": -15
+     }
+    }
+   ]
+  }
+ ],
+ "name": "ThreeRowDialogWorldBossLayout",
+ "type": "component"
+}

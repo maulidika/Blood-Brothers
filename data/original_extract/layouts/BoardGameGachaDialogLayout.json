@@ -1,0 +1,504 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "node",
+   "name": "root",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 100,
+    "h": 100,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "cost",
+     "attrs": {
+      "tag": "cost",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 234,
+      "h": 32,
+      "x": 43,
+      "y": 355
+     }
+    },
+    {
+     "type": "text",
+     "name": "description",
+     "attrs": {
+      "tag": "description",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 23,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "Lorem.",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 234,
+      "h": 60,
+      "x": 43,
+      "y": 197
+     }
+    },
+    {
+     "type": "component",
+     "name": "image",
+     "attrs": {
+      "tag": "image",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 240,
+      "h": 78,
+      "x": 160,
+      "y": 148
+     }
+    },
+    {
+     "type": "text",
+     "name": "title",
+     "attrs": {
+      "tag": "title",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 22,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "Lorem",
+      "text_wrap": true,
+      "text_color_key": "#9F820F",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 234,
+      "h": 32,
+      "x": 43,
+      "y": 58
+     }
+    },
+    {
+     "type": "text",
+     "name": "count",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 20,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#B30000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 234,
+      "h": 32,
+      "x": 43,
+      "y": 261
+     }
+    },
+    {
+     "type": "text",
+     "name": "warning",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#B30000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 234,
+      "h": 40,
+      "x": 43,
+      "y": 296
+     }
+    },
+    {
+     "type": "button",
+     "name": "gacha_random",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "ok",
+      "image_color": "FFFFFF",
+      "image": "common/sugoroku/sugoroku_button_2_n.png",
+      "image_pressed": "common/sugoroku/sugoroku_button_2_p.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 128,
+      "h": 28,
+      "x": 96,
+      "y": 397
+     }
+    },
+    {
+     "type": "button",
+     "name": "gacha_one",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "ok",
+      "image_color": "FFFFFF",
+      "image": "common/sugoroku/sugoroku_button_2_n.png",
+      "image_pressed": "common/sugoroku/sugoroku_button_2_p.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 128,
+      "h": 28,
+      "x": 96,
+      "y": 397
+     }
+    },
+    {
+     "type": "node",
+     "name": "coins",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 280,
+      "h": 65,
+      "x": 20,
+      "y": 332
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "coinNum",
+       "attrs": {
+        "tag": "coinNum",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 20,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 80,
+        "h": 26,
+        "x": 156,
+        "y": 6
+       }
+      },
+      {
+       "type": "component",
+       "name": "coinMulti",
+       "attrs": {
+        "tag": "coinMulti",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 14,
+        "h": 14,
+        "x": 134,
+        "y": 14
+       }
+      },
+      {
+       "type": "component",
+       "name": "coinIcon",
+       "attrs": {
+        "tag": "coinIcon",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 26,
+        "h": 26,
+        "x": 100,
+        "y": 6
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "possesion",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "ui/icon/icon_possession.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 20,
+        "h": 20,
+        "x": 71,
+        "y": 38
+       }
+      },
+      {
+       "type": "text",
+       "name": "itemNum",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 20,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 60,
+        "h": 26,
+        "x": 88,
+        "y": 34
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "arrow",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "ui/icon/icon_arrow.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 22,
+        "h": 22,
+        "x": 141,
+        "y": 37
+       }
+      },
+      {
+       "type": "text",
+       "name": "useNum",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 20,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 60,
+        "h": 26,
+        "x": 155,
+        "y": 34
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "BoardGameGachaDialogLayout",
+ "type": "component"
+}

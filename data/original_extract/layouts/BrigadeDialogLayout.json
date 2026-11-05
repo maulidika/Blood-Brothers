@@ -1,0 +1,81 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "root",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 320,
+    "h": 480,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "button",
+     "name": "ok",
+     "attrs": {
+      "tag": "ok",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "ok",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56L.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 128,
+      "h": 28,
+      "x": 96,
+      "y": 388
+     }
+    }
+   ]
+  }
+ ],
+ "name": "BrigadeDialogLayout",
+ "type": "component"
+}

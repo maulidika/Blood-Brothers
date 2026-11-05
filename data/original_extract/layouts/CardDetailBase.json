@@ -1,0 +1,977 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "node",
+   "name": "root",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 320,
+    "h": 480,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "node",
+     "name": "base",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 360,
+      "h": 490,
+      "x": 0,
+      "y": -10
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "back000",
+       "attrs": {
+        "tag": "back000",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/character_detail_bg1.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 130,
+        "h": 40,
+        "x": 159,
+        "y": 79
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "back001",
+       "attrs": {
+        "tag": "back001",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/character_detail_bg2.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 130,
+        "h": 143,
+        "x": 159,
+        "y": 121
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "back002",
+       "attrs": {
+        "tag": "back002",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/profile_back.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 281,
+        "h": 107,
+        "x": 19,
+        "y": 264
+       }
+      },
+      {
+       "type": "text",
+       "name": "name",
+       "attrs": {
+        "tag": "name",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 16,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 240,
+        "h": 44,
+        "x": 40,
+        "y": 46
+       }
+      },
+      {
+       "type": "text",
+       "name": "sub_name",
+       "attrs": {
+        "tag": "sub_name",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 240,
+        "h": 22,
+        "x": 40,
+        "y": 69
+       }
+      },
+      {
+       "type": "text",
+       "name": "level",
+       "attrs": {
+        "tag": "level",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFEBDA",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 48,
+        "h": 20,
+        "x": 167,
+        "y": 82
+       }
+      },
+      {
+       "type": "text",
+       "name": "paramLevel",
+       "attrs": {
+        "tag": "paramLevel",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 60,
+        "h": 20,
+        "x": 211,
+        "y": 82
+       }
+      },
+      {
+       "type": "component",
+       "name": "xp",
+       "attrs": {
+        "tag": "xp",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 16,
+        "h": 16,
+        "x": 170,
+        "y": 100
+       },
+       "children": [
+        {
+         "type": "component",
+         "name": "paramXp",
+         "attrs": {
+          "tag": "paramXp",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "w": 72,
+          "h": 12,
+          "x": 26,
+          "y": 2
+         }
+        }
+       ]
+      },
+      {
+       "type": "component",
+       "name": "hp",
+       "attrs": {
+        "tag": "hp",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 16,
+        "h": 16,
+        "x": 170,
+        "y": 165
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "textHp",
+         "attrs": {
+          "tag": "textHp",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 14,
+          "horizontal_align": 0,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#0A0A0A",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 48,
+          "h": 20,
+          "x": 22,
+          "y": -2
+         }
+        },
+        {
+         "type": "text",
+         "name": "textHpExt",
+         "attrs": {
+          "tag": "textHpExt",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 11,
+          "horizontal_align": 0,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 56,
+          "h": 20,
+          "x": 68,
+          "y": -2
+         }
+        }
+       ]
+      },
+      {
+       "type": "component",
+       "name": "atk",
+       "attrs": {
+        "tag": "atk",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 16,
+        "h": 16,
+        "x": 170,
+        "y": 185
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "textAtk",
+         "attrs": {
+          "tag": "textAtk",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 14,
+          "horizontal_align": 0,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#0A0A0A",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 48,
+          "h": 18,
+          "x": 22,
+          "y": -2
+         }
+        },
+        {
+         "type": "text",
+         "name": "textAtkExt",
+         "attrs": {
+          "tag": "textAtkExt",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 11,
+          "horizontal_align": 0,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 56,
+          "h": 20,
+          "x": 68,
+          "y": -2
+         }
+        }
+       ]
+      },
+      {
+       "type": "component",
+       "name": "def",
+       "attrs": {
+        "tag": "def",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 16,
+        "h": 16,
+        "x": 170,
+        "y": 205
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "textDef",
+         "attrs": {
+          "tag": "textDef",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 14,
+          "horizontal_align": 0,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#0A0A0A",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 48,
+          "h": 20,
+          "x": 22,
+          "y": -2
+         }
+        },
+        {
+         "type": "text",
+         "name": "textDefExt",
+         "attrs": {
+          "tag": "textDefExt",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 11,
+          "horizontal_align": 0,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 56,
+          "h": 20,
+          "x": 68,
+          "y": -2
+         }
+        }
+       ]
+      },
+      {
+       "type": "component",
+       "name": "int",
+       "attrs": {
+        "tag": "int",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 16,
+        "h": 16,
+        "x": 170,
+        "y": 225
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "textInt",
+         "attrs": {
+          "tag": "textInt",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 14,
+          "horizontal_align": 0,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#0A0A0A",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 48,
+          "h": 20,
+          "x": 22,
+          "y": -2
+         }
+        },
+        {
+         "type": "text",
+         "name": "textIntExt",
+         "attrs": {
+          "tag": "textIntExt",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 11,
+          "horizontal_align": 0,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 56,
+          "h": 20,
+          "x": 68,
+          "y": -2
+         }
+        }
+       ]
+      },
+      {
+       "type": "component",
+       "name": "agi",
+       "attrs": {
+        "tag": "agi",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 16,
+        "h": 16,
+        "x": 170,
+        "y": 245
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "textQuik",
+         "attrs": {
+          "tag": "textQuik",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 14,
+          "horizontal_align": 0,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#0A0A0A",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 48,
+          "h": 20,
+          "x": 22,
+          "y": -2
+         }
+        },
+        {
+         "type": "text",
+         "name": "textQuikExt",
+         "attrs": {
+          "tag": "textQuikExt",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 11,
+          "horizontal_align": 0,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 56,
+          "h": 20,
+          "x": 69,
+          "y": -2
+         }
+        }
+       ]
+      },
+      {
+       "type": "component",
+       "name": "gender",
+       "attrs": {
+        "tag": "gender",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 24,
+        "h": 24,
+        "x": 241,
+        "y": 140
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "textGender",
+         "attrs": {
+          "tag": "textGender",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 14,
+          "horizontal_align": 1,
+          "vertical_align": 0,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#000000",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 46,
+          "h": 20,
+          "x": -10,
+          "y": -16
+         }
+        }
+       ]
+      },
+      {
+       "type": "component",
+       "name": "race",
+       "attrs": {
+        "tag": "race",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 24,
+        "h": 24,
+        "x": 184,
+        "y": 136
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "textRace",
+         "attrs": {
+          "tag": "textRace",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 14,
+          "horizontal_align": 1,
+          "vertical_align": 0,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#0E0E0E",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 46,
+          "h": 20,
+          "x": -10,
+          "y": -12
+         }
+        }
+       ]
+      },
+      {
+       "type": "component",
+       "name": "figure",
+       "attrs": {
+        "tag": "figure",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 120,
+        "h": 170,
+        "x": 34,
+        "y": 80
+       }
+      },
+      {
+       "type": "component",
+       "name": "hpBar",
+       "attrs": {
+        "tag": "hpBar",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 96,
+        "h": 13,
+        "x": 46,
+        "y": 250
+       }
+      },
+      {
+       "type": "component",
+       "name": "skills",
+       "attrs": {
+        "tag": "skills",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 240,
+        "h": 103,
+        "x": 40,
+        "y": 266
+       }
+      },
+      {
+       "type": "node",
+       "name": "defaultSkill",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 240,
+        "h": 60,
+        "x": 42,
+        "y": 370
+       }
+      },
+      {
+       "type": "button",
+       "name": "button0",
+       "attrs": {
+        "tag": "lock",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": null,
+        "font_family": "",
+        "action": "Toggle_Lock",
+        "image_color": null,
+        "image": "common/ui/btn_unlock_l.png",
+        "image_pressed": null,
+        "image_checked": "common/ui/btn_lock_l.png",
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 50,
+        "h": 50,
+        "x": 110,
+        "y": 75
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "CardDetailBase",
+ "type": "component"
+}

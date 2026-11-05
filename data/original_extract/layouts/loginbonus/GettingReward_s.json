@@ -1,0 +1,208 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "root",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 320,
+    "h": 480,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "image",
+     "name": "frame",
+     "attrs": {
+      "tag": "frame",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/login/frame_today_s.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 140,
+      "h": 256,
+      "x": 0,
+      "y": 8
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "reward",
+     "attrs": {
+      "tag": "reward",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": null,
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 0,
+      "h": 0,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "image",
+     "name": "pin1",
+     "attrs": {
+      "tag": "pin1",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/login/detail.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 12,
+      "h": 34,
+      "x": 46,
+      "y": 0
+     }
+    },
+    {
+     "type": "image",
+     "name": "pin2",
+     "attrs": {
+      "tag": "pin2",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/login/detail.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 12,
+      "h": 34,
+      "x": 84,
+      "y": 0
+     }
+    },
+    {
+     "type": "image",
+     "name": "cutin_bg",
+     "attrs": {
+      "tag": "cutin_bg",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/battle/cut_in_bg.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 120,
+      "h": 45,
+      "x": 12,
+      "y": 29
+     }
+    },
+    {
+     "type": "image",
+     "name": "cutin_text",
+     "attrs": {
+      "tag": "cutin_text",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "image": "login/todaysbonus.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 104,
+      "h": 27,
+      "x": 64,
+      "y": 50
+     }
+    }
+   ]
+  }
+ ],
+ "name": "GettingReward_s",
+ "type": "component"
+}

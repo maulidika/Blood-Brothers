@@ -1,0 +1,404 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 327
+   },
+   "children": [
+    {
+     "name": "title",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "title",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "22",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 43,
+      "y": 36,
+      "w": 234,
+      "h": 32
+     }
+    },
+    {
+     "name": "icon",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "icon",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 64,
+      "y": 84,
+      "w": 32,
+      "h": 32
+     }
+    },
+    {
+     "name": "gold",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "gold",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 2,
+      "vertical_align": 1,
+      "text_size": 18,
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 128,
+      "y": 84,
+      "w": 128,
+      "h": 32
+     }
+    },
+    {
+     "name": "bar",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "bar",
+      "mock_image": null,
+      "image": "common/ui/cost_bar.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 40,
+      "y": 125,
+      "w": 240,
+      "h": 23
+     },
+     "children": [
+      {
+       "name": "barTitle",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "barTitle",
+        "mock_image": null,
+        "text_color_key": "#151515",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text_size": 18,
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 24,
+        "y": 0,
+        "w": 64,
+        "h": 23
+       }
+      },
+      {
+       "name": "money",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "money",
+        "mock_image": null,
+        "text_color_key": "#000000",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 2,
+        "vertical_align": 1,
+        "text_size": 18,
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 88,
+        "y": 0,
+        "w": 128,
+        "h": 23
+       }
+      }
+     ]
+    },
+    {
+     "name": "desc",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "desc",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "17",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 36,
+      "y": 168,
+      "w": 248,
+      "h": 70
+     }
+    },
+    {
+     "name": "buttons",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "buttons",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 253,
+      "w": 0,
+      "h": 0
+     },
+     "children": [
+      {
+       "name": "ok",
+       "type": "button",
+       "attrs": {
+        "visible": true,
+        "tag": "ok",
+        "mock_image": null,
+        "action": "ok",
+        "enabled": true,
+        "text_color_key": "#FFFFFF",
+        "image_color": "FFFFFF",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text_size": 18,
+        "image": "common/ui/button/bt_base_red_n_56L.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+        "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+        "anchor": null,
+        "scale": [
+         1,
+         1
+        ],
+        "x": 96,
+        "y": 0,
+        "w": 128,
+        "h": 28
+       }
+      },
+      {
+       "name": "no",
+       "type": "button",
+       "attrs": {
+        "visible": true,
+        "tag": "no",
+        "mock_image": null,
+        "action": "no",
+        "enabled": true,
+        "text_color_key": "#FFFFFF",
+        "image_color": "FFFFFF",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text_size": 18,
+        "image": "common/ui/button/bt_base_red_n_56.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+        "image_focused": "common/ui/button/bt_base_gray_56.png",
+        "anchor": null,
+        "scale": [
+         1,
+         1
+        ],
+        "x": 68,
+        "y": 0,
+        "w": 84,
+        "h": 28
+       }
+      },
+      {
+       "name": "yes",
+       "type": "button",
+       "attrs": {
+        "visible": true,
+        "tag": "yes",
+        "mock_image": null,
+        "action": "yes",
+        "enabled": true,
+        "text_color_key": "#FFFFFF",
+        "image_color": "FFFFFF",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text_size": 18,
+        "image": "common/ui/button/bt_base_red_n_56.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+        "image_focused": "common/ui/button/bt_base_gray_56.png",
+        "anchor": null,
+        "scale": [
+         1,
+         1
+        ],
+        "x": 168,
+        "y": 0,
+        "w": 84,
+        "h": 28
+       }
+      }
+     ]
+    },
+    {
+     "name": "sentence1",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "sentence1",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "17",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 36,
+      "y": 153,
+      "w": 248,
+      "h": 60
+     }
+    },
+    {
+     "name": "sentence2",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "sentence2",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "17",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 36,
+      "y": 213,
+      "w": 248,
+      "h": 35
+     }
+    }
+   ]
+  }
+ ],
+ "name": "CostDialogLayout",
+ "type": "component"
+}

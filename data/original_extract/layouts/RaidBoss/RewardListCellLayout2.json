@@ -1,0 +1,162 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "cell",
+   "attrs": {
+    "tag": "cell",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 76,
+    "h": 98,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "imgContent",
+     "attrs": {
+      "tag": "imgContent",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 64,
+      "h": 64,
+      "x": 5,
+      "y": 1
+     }
+    },
+    {
+     "type": "text",
+     "name": "description",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#A80000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 72,
+      "h": 20,
+      "x": 2,
+      "y": 79
+     }
+    },
+    {
+     "type": "text",
+     "name": "name",
+     "attrs": {
+      "tag": "name",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#0E0E0E",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 72,
+      "h": 20,
+      "x": 1,
+      "y": 65
+     }
+    }
+   ]
+  },
+  {
+   "type": "sprite",
+   "name": "line",
+   "attrs": {
+    "tag": "line",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/line_gray.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": "FFFFFF",
+    "w": 288,
+    "h": 4,
+    "x": 16,
+    "y": 0
+   }
+  }
+ ],
+ "name": "RewardListCellLayout2",
+ "type": "component"
+}

@@ -1,0 +1,240 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "enabled": true,
+  "h": 480,
+  "mock_image": null,
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "text",
+   "name": "name",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 18,
+    "horizontal_align": 0,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 200,
+    "h": 28,
+    "x": 58,
+    "y": 56
+   }
+  },
+  {
+   "type": "node",
+   "name": "avatar",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 28,
+    "h": 28,
+    "x": 26,
+    "y": 56
+   }
+  },
+  {
+   "type": "node",
+   "name": "card",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 200,
+    "h": 36,
+    "x": 48,
+    "y": 20
+   }
+  },
+  {
+   "type": "image",
+   "name": "10vs10",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "image": "common/ui/pvp/dialog/10vs10_icon.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 41,
+    "h": 35,
+    "x": 6,
+    "y": 32
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "revenged_lose",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "pvp/pvp_revenge_lost.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 110,
+    "h": 39,
+    "x": 0,
+    "y": 0
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "revenged_win",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "pvp/pvp_revenge_taken.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 110,
+    "h": 39,
+    "x": 0,
+    "y": 0
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "lose",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "pvp/pvp_defeat.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 110,
+    "h": 39,
+    "x": 0,
+    "y": 0
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "win",
+   "attrs": {
+    "tag": null,
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "pvp/pvp_victory.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 110,
+    "h": 39,
+    "x": 0,
+    "y": 0
+   }
+  }
+ ],
+ "name": "PvpHomeHistoryCell",
+ "type": "view"
+}

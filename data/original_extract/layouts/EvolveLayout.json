@@ -1,0 +1,422 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "statusUpPanel",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "statusUpPanel",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 218
+   },
+   "children": [
+    {
+     "name": "statusUpBack",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "statusUpBack",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 30,
+      "w": 320,
+      "h": 128
+     }
+    },
+    {
+     "name": "top",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "top",
+      "mock_image": null,
+      "image": "common/card/list_top_bg.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 30
+     }
+    },
+    {
+     "name": "list",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "list",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 20,
+      "w": 320,
+      "h": 150
+     }
+    },
+    {
+     "name": "bgBlood",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "bgBlood",
+      "mock_image": null,
+      "image": "common/evolve/bg_blood.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 71,
+      "y": 30,
+      "w": 174,
+      "h": 160
+     }
+    },
+    {
+     "name": "5iconOff",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "5iconOff",
+      "mock_image": null,
+      "image": "evolve/5up_off.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 13,
+      "y": 39,
+      "w": 70,
+      "h": 63
+     }
+    },
+    {
+     "name": "5iconOn",
+     "type": "sprite",
+     "attrs": {
+      "visible": false,
+      "tag": "5iconOn",
+      "mock_image": null,
+      "image": "evolve/5up_on.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 13,
+      "y": 39,
+      "w": 70,
+      "h": 63
+     }
+    },
+    {
+     "name": "10iconOff",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "10iconOff",
+      "mock_image": null,
+      "image": "evolve/10up_off.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 13,
+      "y": 103,
+      "w": 70,
+      "h": 79
+     }
+    },
+    {
+     "name": "10iconOn",
+     "type": "sprite",
+     "attrs": {
+      "visible": false,
+      "tag": "10iconOn",
+      "mock_image": null,
+      "image": "evolve/10up_on.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 13,
+      "y": 103,
+      "w": 70,
+      "h": 79
+     }
+    }
+   ]
+  },
+  {
+   "name": "statusUpCell",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "statusUpCell",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "addedValue",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "addedValue",
+      "mock_image": null,
+      "text_color_key": "#FFE6E6",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 2,
+      "vertical_align": 1,
+      "text_size": "16",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 55,
+      "y": -3,
+      "w": 64,
+      "h": 33
+     }
+    },
+    {
+     "name": "correctedValue",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "correctedValue",
+      "mock_image": null,
+      "text_color_key": "#FFE6E6",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 2,
+      "vertical_align": 1,
+      "text_size": "16",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 55,
+      "y": -3,
+      "w": 64,
+      "h": 33
+     }
+    },
+    {
+     "name": "statusBg",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "statusBg",
+      "mock_image": null,
+      "image": "common/evolve/count_box.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 125,
+      "h": 27
+     }
+    },
+    {
+     "name": "num",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "num",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 2,
+      "vertical_align": 1,
+      "text_size": "23",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 55,
+      "y": -3,
+      "w": 64,
+      "h": 33
+     }
+    },
+    {
+     "name": "icon",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "icon",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 5.5,
+      "y": 5.5,
+      "w": 16,
+      "h": 16
+     }
+    }
+   ]
+  }
+ ],
+ "name": "EvolveLayout",
+ "type": "component"
+}

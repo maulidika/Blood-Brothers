@@ -1,0 +1,772 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "itemInfo",
+   "attrs": {
+    "tag": "itemInfo",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 0,
+    "h": 0,
+    "x": 43,
+    "y": 58
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "name",
+     "attrs": {
+      "tag": "name",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 22,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 260,
+      "h": 30,
+      "x": -13,
+      "y": -5
+     }
+    },
+    {
+     "type": "component",
+     "name": "imgBase",
+     "attrs": {
+      "tag": "imgBase",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 128,
+      "h": 128,
+      "x": 53,
+      "y": 24
+     }
+    },
+    {
+     "type": "component",
+     "name": "arrow",
+     "attrs": {
+      "tag": "arrow",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 16,
+      "h": 16,
+      "x": 61,
+      "y": 24
+     }
+    },
+    {
+     "type": "component",
+     "name": "possession2",
+     "attrs": {
+      "tag": "possession2",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 16,
+      "h": 16,
+      "x": 53,
+      "y": 24
+     }
+    },
+    {
+     "type": "component",
+     "name": "possession",
+     "attrs": {
+      "tag": "possession",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 16,
+      "h": 16,
+      "x": 53,
+      "y": 24
+     }
+    },
+    {
+     "type": "component",
+     "name": "smallImg",
+     "attrs": {
+      "tag": "smallImg",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 51,
+      "y": 204
+     }
+    },
+    {
+     "type": "component",
+     "name": "smallOwnImg",
+     "attrs": {
+      "tag": "smallOwnImg",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 116,
+      "y": 204
+     }
+    },
+    {
+     "type": "text",
+     "name": "comment",
+     "attrs": {
+      "tag": "comment",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#1F1F1F",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 244,
+      "h": 60,
+      "x": -5,
+      "y": 158
+     }
+    },
+    {
+     "type": "text",
+     "name": "commentForOwn",
+     "attrs": {
+      "tag": "commentForOwn",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#1F1F1F",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 274,
+      "h": 60,
+      "x": -20,
+      "y": 158
+     }
+    },
+    {
+     "type": "text",
+     "name": "beforeNum",
+     "attrs": {
+      "tag": "beforeNum",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 45,
+      "h": 25,
+      "x": 80,
+      "y": 209
+     }
+    },
+    {
+     "type": "text",
+     "name": "beforeOwnNum",
+     "attrs": {
+      "tag": "beforeOwnNum",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 45,
+      "h": 25,
+      "x": 80,
+      "y": 209
+     }
+    },
+    {
+     "type": "text",
+     "name": "afterNum",
+     "attrs": {
+      "tag": "afterNum",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 45,
+      "h": 25,
+      "x": 143,
+      "y": 209
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "line",
+     "attrs": {
+      "tag": "line",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/line_gray.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 234,
+      "h": 4,
+      "x": 0,
+      "y": 230
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "itemInfoMessage",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 180,
+        "h": 80,
+        "x": 27,
+        "y": 11
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "name": "presentNum",
+     "attrs": {
+      "tag": "presentNum",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 234,
+      "h": 30,
+      "x": 0,
+      "y": 206
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "recoverItem",
+   "attrs": {
+    "tag": "recoverItem",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 0,
+    "h": 0,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "energyTitle",
+     "attrs": {
+      "tag": "energyTitle",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 22,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 200,
+      "h": 30,
+      "x": 60,
+      "y": 300
+     }
+    },
+    {
+     "type": "text",
+     "name": "hpText",
+     "attrs": {
+      "tag": "hpText",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 120,
+      "h": 30,
+      "x": 100,
+      "y": 367
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "reviveItem",
+   "attrs": {
+    "tag": "reviveItem",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 0,
+    "h": 0,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "alphaL",
+     "attrs": {
+      "tag": "alphaL",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/items/gradation_paper_l.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 55,
+      "h": 92,
+      "x": 43,
+      "y": 305
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "lefticon",
+     "attrs": {
+      "tag": "lefticon",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/arrow/guide_left_off.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 13,
+      "h": 20,
+      "x": 43,
+      "y": 344
+     }
+    },
+    {
+     "type": "text",
+     "name": "title",
+     "attrs": {
+      "tag": "title",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 234,
+      "h": 30,
+      "x": 44,
+      "y": 290
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "alphaR",
+     "attrs": {
+      "tag": "alphaR",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/items/gradation_paper_r.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 55,
+      "h": 92,
+      "x": 222,
+      "y": 305
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "righticon",
+     "attrs": {
+      "tag": "righticon",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/arrow/guide_right_off.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 13,
+      "h": 20,
+      "x": 270,
+      "y": 344
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "fog",
+     "attrs": {
+      "tag": "fog",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/signup/fog_base.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 220,
+      "h": 100,
+      "x": 50,
+      "y": 305
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "message",
+       "attrs": {
+        "tag": "message",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 18,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 180,
+        "h": 80,
+        "x": 20,
+        "y": 10
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "ItemDialogLayout",
+ "type": "component"
+}

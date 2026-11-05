@@ -1,0 +1,2000 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "footer",
+   "attrs": {
+    "tag": "footer",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "button",
+     "name": "menu",
+     "attrs": {
+      "tag": "menu",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "Menu_Tab_Clicked",
+      "image_color": "FFFFFF",
+      "image": "zone/zone_btn_menu_n.png",
+      "image_pressed": "zone/zone_btn_menu_p.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 55,
+      "h": 41,
+      "x": 0,
+      "y": 439
+     }
+    },
+    {
+     "type": "button",
+     "name": "map",
+     "attrs": {
+      "tag": "map",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "Map_Tab_Clicked",
+      "image_color": "FFFFFF",
+      "image": "zone/zone_btn_map_n.png",
+      "image_pressed": "zone/zone_btn_map_p.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 55,
+      "h": 41,
+      "x": 55,
+      "y": 439
+     }
+    },
+    {
+     "type": "component",
+     "name": "okNode",
+     "attrs": {
+      "tag": "okNode",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 64,
+      "h": 64,
+      "x": 122,
+      "y": 414
+     },
+     "children": [
+      {
+       "type": "button",
+       "name": "ok",
+       "attrs": {
+        "tag": "ok",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "Ok_Clicked",
+        "image_color": "FFFFFF",
+        "image": "zone/zone_btn_ok_n.png",
+        "image_pressed": "zone/zone_btn_ok_p.png",
+        "image_checked": null,
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 75,
+        "h": 59,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ]
+    },
+    {
+     "type": "button",
+     "name": "go",
+     "attrs": {
+      "tag": "go",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "Go_Clicked",
+      "image_color": "FFFFFF",
+      "image": "zone/zone_btn_go_n.png",
+      "image_pressed": "zone/zone_btn_go_p.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 100,
+      "h": 66,
+      "x": 110,
+      "y": 414
+     }
+    },
+    {
+     "type": "button",
+     "name": "select",
+     "attrs": {
+      "tag": "select",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "Select_Clicked",
+      "image_color": "FFFFFF",
+      "image": "zone/zone_btn_select_n.png",
+      "image_pressed": "zone/zone_btn_select_p.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 100,
+      "h": 66,
+      "x": 110,
+      "y": 414
+     }
+    },
+    {
+     "type": "button",
+     "name": "battle",
+     "attrs": {
+      "tag": "battle",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "Battle_Tab_Clicked",
+      "image_color": "FFFFFF",
+      "image": "zone/zone_btn_battle_n.png",
+      "image_pressed": "zone/zone_btn_battle_p.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 55,
+      "h": 41,
+      "x": 210,
+      "y": 439
+     }
+    },
+    {
+     "type": "button",
+     "name": "event",
+     "attrs": {
+      "tag": "event",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "Event_Tab_Clicked",
+      "image_color": "FFFFFF",
+      "image": "zone/zone_btn_event_n.png",
+      "image_pressed": "zone/zone_btn_event_p.png",
+      "image_checked": null,
+      "image_disabled": "zone/zone_btn_event_n_gray.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 55,
+      "h": 41,
+      "x": 265,
+      "y": 439
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "eventLight",
+       "attrs": {
+        "tag": "eventLight",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 64,
+        "h": 64,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "component",
+       "name": "eventBullet",
+       "attrs": {
+        "tag": "eventBullet",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 64,
+        "h": 64,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ]
+    },
+    {
+     "type": "button",
+     "name": "bgTouch",
+     "attrs": {
+      "tag": "bgTouch",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "Bg_Clicked",
+      "image_color": "FFFFFF",
+      "image": null,
+      "image_pressed": null,
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 320,
+      "h": 480,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "component",
+     "name": "menuPanel",
+     "attrs": {
+      "tag": "menuPanel",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 217
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "menuBgTop",
+       "attrs": {
+        "tag": "menuBgTop",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "zone/zone_back_s1.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 68,
+        "h": 18,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "menuBgMiddle",
+       "attrs": {
+        "tag": "menuBgMiddle",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "zone/zone_back_s2.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 68,
+        "h": 190,
+        "x": 0,
+        "y": 18
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "menuBgBottom",
+       "attrs": {
+        "tag": "menuBgBottom",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "zone/zone_back_s3.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 68,
+        "h": 13,
+        "x": 0,
+        "y": 208
+       }
+      },
+      {
+       "type": "button",
+       "name": "withdrow",
+       "attrs": {
+        "tag": "withdrow",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "Withdrow_Clicked",
+        "image_color": "FFFFFF",
+        "image": "zone/zone_menu_exit_icon_n.png",
+        "image_pressed": "zone/zone_menu_exit_icon_p.png",
+        "image_checked": null,
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 64,
+        "h": 65,
+        "x": 2,
+        "y": 19
+       }
+      },
+      {
+       "type": "button",
+       "name": "item",
+       "attrs": {
+        "tag": "item",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "Item_Clicked",
+        "image_color": "FFFFFF",
+        "image": "zone/zone_menu_itemp_icon_n.png",
+        "image_pressed": "zone/zone_menu_item_icon_p.png",
+        "image_checked": null,
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 64,
+        "h": 65,
+        "x": 2,
+        "y": 84
+       }
+      },
+      {
+       "type": "button",
+       "name": "shop",
+       "attrs": {
+        "tag": "shop",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "Shop_Clicked",
+        "image_color": "FFFFFF",
+        "image": "zone/zone_menu_shop_icon_n.png",
+        "image_pressed": "zone/zone_menu_shop_icon_p.png",
+        "image_checked": null,
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 64,
+        "h": 65,
+        "x": 2,
+        "y": 149
+       }
+      },
+      {
+       "type": "text",
+       "name": "menuTopText",
+       "attrs": {
+        "tag": "menuTopText",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 68,
+        "h": 24,
+        "x": 0,
+        "y": 2
+       }
+      },
+      {
+       "type": "text",
+       "name": "withdrowText",
+       "attrs": {
+        "tag": "withdrowText",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 64,
+        "h": 24,
+        "x": 2,
+        "y": 19
+       }
+      },
+      {
+       "type": "text",
+       "name": "itemText",
+       "attrs": {
+        "tag": "itemText",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 64,
+        "h": 24,
+        "x": 2,
+        "y": 84
+       }
+      },
+      {
+       "type": "text",
+       "name": "shopText",
+       "attrs": {
+        "tag": "shopText",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 64,
+        "h": 24,
+        "x": 2,
+        "y": 149
+       }
+      },
+      {
+       "type": "component",
+       "name": "itemShortcut",
+       "attrs": {
+        "tag": "itemShortcut",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 0,
+        "h": 0,
+        "x": 70,
+        "y": 83
+       },
+       "children": [
+        {
+         "type": "sprite",
+         "name": "itemShortcutBgLeft",
+         "attrs": {
+          "tag": "itemShortcutBgLeft",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image": "zone/zone_menu_back_s1.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": "FFFFFF",
+          "w": 19,
+          "h": 68,
+          "x": 0,
+          "y": 0
+         }
+        },
+        {
+         "type": "sprite",
+         "name": "itemShortcutBgMiddle",
+         "attrs": {
+          "tag": "itemShortcutBgMiddle",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image": "zone/zone_menu_back_s2.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": "FFFFFF",
+          "w": 94,
+          "h": 68,
+          "x": 19,
+          "y": 0
+         }
+        },
+        {
+         "type": "sprite",
+         "name": "itemShortcutBgRigth",
+         "attrs": {
+          "tag": "itemShortcutBgRigth",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 180,
+          "image": "zone/zone_menu_back_s1.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": "FFFFFF",
+          "w": 19,
+          "h": 68,
+          "x": 132,
+          "y": 68
+         }
+        },
+        {
+         "type": "button",
+         "name": "sage",
+         "attrs": {
+          "tag": "sage",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "text_size": 18,
+          "horizontal_align": 0,
+          "vertical_align": 0,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "font_family": "",
+          "action": "Sage_Clicked",
+          "image_color": "FFFFFF",
+          "image": null,
+          "image_pressed": null,
+          "image_checked": null,
+          "image_disabled": null,
+          "image_selected": null,
+          "image_focused": null,
+          "w": 64,
+          "h": 65,
+          "x": 2,
+          "y": 0
+         },
+         "children": [
+          {
+           "type": "text",
+           "name": "sageLabel",
+           "attrs": {
+            "tag": "sageLabel",
+            "mock_image": null,
+            "visible": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "scale": [
+             1,
+             1
+            ],
+            "rotate": 0,
+            "text_size": 13,
+            "horizontal_align": 1,
+            "vertical_align": 0,
+            "text": "",
+            "text_wrap": true,
+            "text_color_key": "#FFFFFF",
+            "background_color_key": null,
+            "font_family": "",
+            "is_bold": false,
+            "w": 64,
+            "h": 24,
+            "x": 0,
+            "y": 2
+           }
+          },
+          {
+           "type": "sprite",
+           "name": "sageImage",
+           "attrs": {
+            "tag": "sageImage",
+            "mock_image": null,
+            "visible": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "scale": [
+             1,
+             1
+            ],
+            "rotate": 0,
+            "image": "zone/dryed_sage_icon.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": "FFFFFF",
+            "w": 54,
+            "h": 53,
+            "x": 5,
+            "y": 12
+           }
+          },
+          {
+           "type": "text",
+           "name": "sageCount",
+           "attrs": {
+            "tag": "sageCount",
+            "mock_image": null,
+            "visible": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "scale": [
+             1,
+             1
+            ],
+            "rotate": 0,
+            "text_size": 18,
+            "horizontal_align": 1,
+            "vertical_align": 2,
+            "text": "",
+            "text_wrap": true,
+            "text_color_key": "#FFFFFF",
+            "background_color_key": null,
+            "font_family": "",
+            "is_bold": false,
+            "w": 64,
+            "h": 24,
+            "x": 0,
+            "y": 42
+           }
+          }
+         ]
+        },
+        {
+         "type": "button",
+         "name": "elixir",
+         "attrs": {
+          "tag": "elixir",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "text_size": 18,
+          "horizontal_align": 0,
+          "vertical_align": 0,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "font_family": "",
+          "action": "Elixir_Clicked",
+          "image_color": "FFFFFF",
+          "image": null,
+          "image_pressed": null,
+          "image_checked": null,
+          "image_disabled": null,
+          "image_selected": null,
+          "image_focused": null,
+          "w": 64,
+          "h": 65,
+          "x": 66,
+          "y": 0
+         },
+         "children": [
+          {
+           "type": "text",
+           "name": "elixirLabel",
+           "attrs": {
+            "tag": "elixirLabel",
+            "mock_image": null,
+            "visible": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "scale": [
+             1,
+             1
+            ],
+            "rotate": 0,
+            "text_size": 13,
+            "horizontal_align": 1,
+            "vertical_align": 0,
+            "text": "",
+            "text_wrap": true,
+            "text_color_key": "#FFFFFF",
+            "background_color_key": null,
+            "font_family": "",
+            "is_bold": false,
+            "w": 64,
+            "h": 24,
+            "x": 0,
+            "y": 2
+           }
+          },
+          {
+           "type": "sprite",
+           "name": "elixirImage",
+           "attrs": {
+            "tag": "elixirImage",
+            "mock_image": null,
+            "visible": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "scale": [
+             1,
+             1
+            ],
+            "rotate": 0,
+            "image": "zone/elixir_icon.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": "FFFFFF",
+            "w": 54,
+            "h": 53,
+            "x": 5,
+            "y": 12
+           }
+          },
+          {
+           "type": "text",
+           "name": "elixirCount",
+           "attrs": {
+            "tag": "elixirCount",
+            "mock_image": null,
+            "visible": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "scale": [
+             1,
+             1
+            ],
+            "rotate": 0,
+            "text_size": 18,
+            "horizontal_align": 1,
+            "vertical_align": 2,
+            "text": "",
+            "text_wrap": true,
+            "text_color_key": "#FFFFFF",
+            "background_color_key": null,
+            "font_family": "",
+            "is_bold": false,
+            "w": 64,
+            "h": 24,
+            "x": 0,
+            "y": 42
+           }
+          }
+         ]
+        },
+        {
+         "type": "sprite",
+         "name": "line",
+         "attrs": {
+          "tag": "line",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image": "zone/zone_menu_line.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": "FFFFFF",
+          "w": 1,
+          "h": 64,
+          "x": 66,
+          "y": 2
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "battlePanel",
+     "attrs": {
+      "tag": "battlePanel",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 64,
+      "h": 64,
+      "x": 195,
+      "y": 126
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "battleBgTop",
+       "attrs": {
+        "tag": "battleBgTop",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "zone/zone_back_b3.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 88,
+        "h": 19,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "battleBgMiddle",
+       "attrs": {
+        "tag": "battleBgMiddle",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "zone/zone_back_b2.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 88,
+        "h": 280,
+        "x": 0,
+        "y": 19
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "battleBgBottom",
+       "attrs": {
+        "tag": "battleBgBottom",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "zone/zone_back_b1.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 88,
+        "h": 13,
+        "x": 0,
+        "y": 299
+       }
+      },
+      {
+       "type": "button",
+       "name": "result",
+       "attrs": {
+        "tag": "result",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "Pvp_Result_Clicked",
+        "image_color": "FFFFFF",
+        "image": "zone/zone_result_n.png",
+        "image_pressed": "zone/zone_result_p.png",
+        "image_checked": null,
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 84,
+        "h": 72,
+        "x": 2,
+        "y": 12
+       }
+      },
+      {
+       "type": "button",
+       "name": "rank",
+       "attrs": {
+        "tag": "rank",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "Rank_Clicked",
+        "image_color": "FFFFFF",
+        "image": "zone/zone_battle_rank_icon_n.png",
+        "image_pressed": "zone/zone_battle_rank_icon_p.png",
+        "image_checked": null,
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 84,
+        "h": 72,
+        "x": 2,
+        "y": 89
+       }
+      },
+      {
+       "type": "button",
+       "name": "reward",
+       "attrs": {
+        "tag": "reward",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "Reward_Clicked",
+        "image_color": "FFFFFF",
+        "image": "zone/zone_battle_reward_icon_n.png",
+        "image_pressed": "zone/zone_battle_reward_icon_p.png",
+        "image_checked": null,
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 84,
+        "h": 72,
+        "x": 2,
+        "y": 161
+       }
+      },
+      {
+       "type": "button",
+       "name": "gotoBattle",
+       "attrs": {
+        "tag": "gotoBattle",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "ToBattle_Clicked",
+        "image_color": "FFFFFF",
+        "image": "zone/zone_battle_battle_icon_n.png",
+        "image_pressed": "zone/zone_battle_battle_icon_p.png",
+        "image_checked": null,
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 84,
+        "h": 72,
+        "x": 2,
+        "y": 233
+       }
+      },
+      {
+       "type": "text",
+       "name": "battleTopText",
+       "attrs": {
+        "tag": "battleTopText",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 84,
+        "h": 24,
+        "x": 2,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "resultText",
+       "attrs": {
+        "tag": "resultText",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 84,
+        "h": 20,
+        "x": 2,
+        "y": 22
+       }
+      },
+      {
+       "type": "text",
+       "name": "rankText",
+       "attrs": {
+        "tag": "rankText",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 84,
+        "h": 20,
+        "x": 2,
+        "y": 94
+       }
+      },
+      {
+       "type": "text",
+       "name": "rankValue",
+       "attrs": {
+        "tag": "rankValue",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 84,
+        "h": 20,
+        "x": 2,
+        "y": 108
+       }
+      },
+      {
+       "type": "text",
+       "name": "rewardText",
+       "attrs": {
+        "tag": "rewardText",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 84,
+        "h": 24,
+        "x": 2,
+        "y": 167
+       }
+      },
+      {
+       "type": "text",
+       "name": "gotoBattleText",
+       "attrs": {
+        "tag": "gotoBattleText",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 84,
+        "h": 20,
+        "x": 2,
+        "y": 238
+       }
+      },
+      {
+       "type": "text",
+       "name": "battleTimeValue",
+       "attrs": {
+        "tag": "battleTimeValue",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 84,
+        "h": 20,
+        "x": 2,
+        "y": 252
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "SDEventPanel",
+   "attrs": {
+    "tag": "SDEventPanel",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 64,
+    "h": 64,
+    "x": 252,
+    "y": 217
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "SDBgTop",
+     "attrs": {
+      "tag": "SDBgTop",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "zone/zone_back_s1.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 68,
+      "h": 18,
+      "x": 0,
+      "y": 148
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "SDBgBottom",
+     "attrs": {
+      "tag": "SDBgBottom",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "zone/zone_back_s3.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 68,
+      "h": 13,
+      "x": 0,
+      "y": 208
+     }
+    },
+    {
+     "type": "text",
+     "name": "eventDetailText",
+     "attrs": {
+      "tag": "eventDetailText",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 13,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 64,
+      "h": 24,
+      "x": 2,
+      "y": 149
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "SDBgMiddle",
+     "attrs": {
+      "tag": "SDBgMiddle",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "zone/zone_back_s2.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 68,
+      "h": 43,
+      "x": 0,
+      "y": 165
+     }
+    },
+    {
+     "type": "button",
+     "name": "eventDetail",
+     "attrs": {
+      "tag": "eventDetail",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "SDEventDetail_Clicked",
+      "image_color": "FFFFFF",
+      "image": "zone/zone_battle_detail_icon_n.png",
+      "image_pressed": "zone/zone_battle_detail_icon_p.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 64,
+      "h": 65,
+      "x": 2,
+      "y": 149
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "RBEventPanel",
+   "attrs": {
+    "tag": "RBEventPanel",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 64,
+    "h": 64,
+    "x": 252,
+    "y": 217
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "RBBgTop",
+     "attrs": {
+      "tag": "RBBgTop",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "zone/zone_back_s1.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 68,
+      "h": 18,
+      "x": 0,
+      "y": 73
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "RBBgBottom",
+     "attrs": {
+      "tag": "RBBgBottom",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "zone/zone_back_s3.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 68,
+      "h": 13,
+      "x": 0,
+      "y": 208
+     }
+    },
+    {
+     "type": "text",
+     "name": "RBEventDetailText",
+     "attrs": {
+      "tag": "RBEventDetailText",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 13,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 64,
+      "h": 24,
+      "x": 2,
+      "y": 149
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "RBBgMiddle",
+     "attrs": {
+      "tag": "RBBgMiddle",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "zone/zone_back_s2.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 68,
+      "h": 118,
+      "x": 0,
+      "y": 90
+     }
+    },
+    {
+     "type": "button",
+     "name": "RBEventDetail",
+     "attrs": {
+      "tag": "RBEventDetail",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "RBEventDetail_Clicked",
+      "image_color": "FFFFFF",
+      "image": "zone/zone_battle_detail_icon_n.png",
+      "image_pressed": "zone/zone_battle_detail_icon_p.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 64,
+      "h": 65,
+      "x": 2,
+      "y": 149
+     }
+    },
+    {
+     "type": "button",
+     "name": "RBEventMember",
+     "attrs": {
+      "tag": "RBEventMember",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "RBEventMember_Clicked",
+      "image_color": "FFFFFF",
+      "image": "zone/zone_event_n.png",
+      "image_pressed": "zone/zone_event_p.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 64,
+      "h": 65,
+      "x": 2,
+      "y": 75
+     }
+    },
+    {
+     "type": "text",
+     "name": "RBEventMemberText",
+     "attrs": {
+      "tag": "RBEventMemberText",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 13,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 64,
+      "h": 24,
+      "x": 2,
+      "y": 75
+     }
+    }
+   ]
+  }
+ ],
+ "name": "ZoneFooterLayout",
+ "type": "component"
+}

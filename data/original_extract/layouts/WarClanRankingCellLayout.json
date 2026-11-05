@@ -1,0 +1,175 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "row",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "row",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 80
+   },
+   "children": [
+    {
+     "name": "rank",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "rank",
+      "mock_image": null,
+      "text_color_key": "#1E1E1E",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": "20",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 90,
+      "y": 2,
+      "w": 110,
+      "h": 26
+     }
+    },
+    {
+     "name": "name",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "name",
+      "mock_image": null,
+      "text_color_key": "#0D0D0D",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": "18",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 90,
+      "y": 30,
+      "w": 212,
+      "h": 24
+     }
+    },
+    {
+     "name": "point",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "point",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": "16",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 90,
+      "y": 50,
+      "w": 200,
+      "h": 22
+     }
+    },
+    {
+     "name": "icon",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "icon",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 20,
+      "y": 20,
+      "w": 48,
+      "h": 48
+     }
+    },
+    {
+     "name": "yourTeam",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "yourTeam",
+      "mock_image": null,
+      "text_color_key": "#1E1E1E",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": "20",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 200,
+      "y": 2,
+      "w": 110,
+      "h": 26
+     }
+    }
+   ]
+  }
+ ],
+ "name": "WarClanRankingCellLayout",
+ "type": "component"
+}

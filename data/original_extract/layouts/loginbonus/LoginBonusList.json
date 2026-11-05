@@ -1,0 +1,388 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "root",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 320,
+    "h": 480,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "countdown",
+     "attrs": {
+      "tag": "countdown",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 320,
+      "h": 80,
+      "x": 0,
+      "y": 398
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "just",
+       "attrs": {
+        "tag": "just",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 15,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "Just",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 64,
+        "h": 26,
+        "x": 12,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "message",
+       "attrs": {
+        "tag": "progess_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 18,
+        "horizontal_align": 2,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 226,
+        "h": 28,
+        "x": 0,
+        "y": 24
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "collection",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/login/count_bg.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 64,
+        "h": 32,
+        "x": 230,
+        "y": 22
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "progess",
+         "attrs": {
+          "tag": "progess_num",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 22,
+          "horizontal_align": 1,
+          "vertical_align": 1,
+          "text": "9/9",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 64,
+          "h": 32,
+          "x": 0,
+          "y": 0
+         }
+        }
+       ]
+      },
+      {
+       "type": "sprite",
+       "name": "back",
+       "attrs": {
+        "tag": "back",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/login/count_bg.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 46,
+        "h": 32,
+        "x": 44,
+        "y": -3
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "date",
+         "attrs": {
+          "tag": "date",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 22,
+          "horizontal_align": 1,
+          "vertical_align": 1,
+          "text": "1",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 46,
+          "h": 32,
+          "x": 0,
+          "y": 0
+         }
+        }
+       ]
+      },
+      {
+       "type": "text",
+       "name": "more",
+       "attrs": {
+        "tag": "more",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 15,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 226,
+        "h": 26,
+        "x": 94,
+        "y": 0
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "blood",
+     "attrs": {
+      "tag": "blood",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 0,
+      "h": 0,
+      "x": 0,
+      "y": 104
+     },
+     "children": [
+      {
+       "type": "image",
+       "name": "bg",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/login/blood_bg.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 305,
+        "h": 24,
+        "x": 6,
+        "y": 4
+       }
+      },
+      {
+       "type": "image",
+       "name": "bar",
+       "attrs": {
+        "tag": "bar",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/login/blood_bar.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 5,
+        "h": 23,
+        "x": 6,
+        "y": 7
+       }
+      },
+      {
+       "type": "image",
+       "name": "frame",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/login/blood_cover.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 320,
+        "h": 49,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "LoginBonusList",
+ "type": "component"
+}

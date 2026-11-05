@@ -1,0 +1,566 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 1,
+    "h": 1
+   },
+   "children": [
+    {
+     "name": "title",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "title",
+      "mock_image": null,
+      "text_color_key": "#FF0000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text_size": "22",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 50,
+      "y": 60,
+      "w": 220,
+      "h": 30
+     }
+    },
+    {
+     "name": "regain_msg",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "regain_msg",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "14",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 40,
+      "y": 83,
+      "w": 240,
+      "h": 39
+     }
+    },
+    {
+     "name": "items_node",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "items_node",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 43,
+      "y": 114,
+      "w": 0,
+      "h": 0
+     },
+     "children": [
+      {
+       "name": "item_icon1",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "item_icon1",
+        "mock_image": null,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 80
+       }
+      },
+      {
+       "name": "name1",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "name1",
+        "mock_image": null,
+        "text_color_key": "#000000",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text_size": "18",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 93,
+        "y": 2,
+        "w": 150,
+        "h": 25
+       }
+      },
+      {
+       "name": "num_icon1",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "num_icon1",
+        "mock_image": null,
+        "image": "ui/icon/icon_possession.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 93,
+        "y": 26,
+        "w": 16,
+        "h": 16
+       }
+      },
+      {
+       "name": "multiply1",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "multiply1",
+        "mock_image": null,
+        "image": "ui/icon/icon_multiply.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 115,
+        "y": 31,
+        "w": 10,
+        "h": 10
+       }
+      },
+      {
+       "name": "num_item1",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "num_item1",
+        "mock_image": null,
+        "text_color_key": "#000000",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text_size": "14",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 132,
+        "y": 26,
+        "w": 30,
+        "h": 20
+       }
+      },
+      {
+       "name": "use_button1",
+       "type": "button",
+       "attrs": {
+        "visible": true,
+        "tag": "use_button1",
+        "mock_image": null,
+        "action": "useItem1",
+        "enabled": true,
+        "text_color_key": "#FFFFFF",
+        "image_color": "FFFFFF",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text_size": 18,
+        "image": "common/ui/button/bt_base_red_n_56.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+        "image_disabled": "common/ui/button/bt_base_gray_56.png",
+        "anchor": null,
+        "scale": [
+         1,
+         1
+        ],
+        "x": 149,
+        "y": 51,
+        "w": 84,
+        "h": 28
+       }
+      },
+      {
+       "name": "item_icon2",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "item_icon2",
+        "mock_image": null,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 88,
+        "w": 80,
+        "h": 80
+       }
+      },
+      {
+       "name": "name2",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "name2",
+        "mock_image": null,
+        "text_color_key": "#000000",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text_size": "18",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 93,
+        "y": 90,
+        "w": 150,
+        "h": 25
+       }
+      },
+      {
+       "name": "num_icon2",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "num_icon2",
+        "mock_image": null,
+        "image": "ui/icon/icon_possession.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 93,
+        "y": 116,
+        "w": 16,
+        "h": 16
+       }
+      },
+      {
+       "name": "multiply2",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "multiply2",
+        "mock_image": null,
+        "image": "ui/icon/icon_multiply.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 115,
+        "y": 121,
+        "w": 10,
+        "h": 10
+       }
+      },
+      {
+       "name": "num_item2",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "num_item2",
+        "mock_image": null,
+        "text_color_key": "#000000",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text_size": "14",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 132,
+        "y": 116,
+        "w": 30,
+        "h": 20
+       }
+      },
+      {
+       "name": "use_button2",
+       "type": "button",
+       "attrs": {
+        "visible": true,
+        "tag": "use_button2",
+        "mock_image": null,
+        "action": "useItem2",
+        "enabled": true,
+        "text_color_key": "#FFFFFF",
+        "image_color": "FFFFFF",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text_size": 18,
+        "image": "common/ui/button/bt_base_red_n_56.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+        "image_disabled": "common/ui/button/bt_base_gray_56.png",
+        "anchor": null,
+        "scale": [
+         1,
+         1
+        ],
+        "x": 149,
+        "y": 140,
+        "w": 84,
+        "h": 28
+       }
+      }
+     ]
+    },
+    {
+     "name": "line",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "line",
+      "mock_image": null,
+      "image": "common/ui/line_gray.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 43,
+      "y": 376,
+      "w": 234,
+      "h": 4
+     }
+    },
+    {
+     "name": "leave_btn",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "leave_btn",
+      "mock_image": null,
+      "action": "leave",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": "common/ui/button/bt_base_gray_56.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 70,
+      "y": 391,
+      "w": 84,
+      "h": 28
+     }
+    },
+    {
+     "name": "home_btn",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "home_btn",
+      "mock_image": null,
+      "action": "home",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": "common/ui/button/bt_base_gray_56.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 166,
+      "y": 391,
+      "w": 84,
+      "h": 28
+     }
+    },
+    {
+     "name": "banner",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "banner",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 43,
+      "y": 300,
+      "w": 234,
+      "h": 64
+     }
+    }
+   ]
+  }
+ ],
+ "name": "GameOverLayout",
+ "type": "component"
+}

@@ -1,0 +1,236 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "root",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 320,
+    "h": 480,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "title",
+     "attrs": {
+      "tag": "title",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 22,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 234,
+      "h": 32,
+      "x": 43,
+      "y": 15
+     }
+    },
+    {
+     "type": "text",
+     "name": "notice",
+     "attrs": {
+      "tag": "notice",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 280,
+      "h": 20,
+      "x": 20,
+      "y": 336
+     }
+    },
+    {
+     "type": "text",
+     "name": "price",
+     "attrs": {
+      "tag": "price",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 280,
+      "h": 40,
+      "x": 20,
+      "y": 351
+     }
+    },
+    {
+     "type": "component",
+     "name": "coins",
+     "attrs": {
+      "tag": "coins",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 280,
+      "h": 38,
+      "x": 20,
+      "y": 351
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "coinIcon",
+       "attrs": {
+        "tag": "coinIcon",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 24,
+        "h": 24,
+        "x": 100,
+        "y": 6
+       }
+      },
+      {
+       "type": "component",
+       "name": "coinMulti",
+       "attrs": {
+        "tag": "coinMulti",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 12,
+        "h": 12,
+        "x": 134,
+        "y": 14
+       }
+      },
+      {
+       "type": "text",
+       "name": "coinNum",
+       "attrs": {
+        "tag": "coinNum",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 80,
+        "h": 24,
+        "x": 156,
+        "y": 6
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "GachaDialogLayout",
+ "type": "component"
+}

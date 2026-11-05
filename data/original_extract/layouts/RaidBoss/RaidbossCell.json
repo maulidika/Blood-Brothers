@@ -1,0 +1,519 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "node",
+   "name": "face",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 44,
+    "x": 1,
+    "y": 22
+   }
+  },
+  {
+   "type": "node",
+   "name": "frame",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 224,
+    "h": 80,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "frame_right",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": false,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/raidboss/dialog/raidboss_list_frame.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 13,
+      "h": 80,
+      "x": 211,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "frame_center",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": false,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/raidboss/dialog/raidboss_list_frame02.png",
+      "uvs": [
+       0.1,
+       0,
+       0.8,
+       1
+      ],
+      "image_color": null,
+      "w": 198,
+      "h": 80,
+      "x": 13,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "frame_left",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": false,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       -1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/raidboss/dialog/raidboss_list_frame.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 13,
+      "h": 80,
+      "x": 13,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "frame_tab",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/raidboss/dialog/line.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 224,
+      "h": 14,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "name",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 13,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 165,
+      "h": 18,
+      "x": 30,
+      "y": 0
+     }
+    },
+    {
+     "type": "image",
+     "name": "new_tag",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "ui/raidboss/new.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 29,
+      "h": 28,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "button",
+     "name": "attack_button",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": false,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "font_family": "",
+      "action": "",
+      "image_color": null,
+      "image": "common/ui/raidboss/dialog/button_red_n.png",
+      "image_pressed": "common/ui/raidboss/dialog/button_red_p.png",
+      "image_checked": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+      "image_selected": "common/ui/button/bt_base_red_p_56.png",
+      "image_focused": "common/ui/button/bt_base_red_p_56.png",
+      "w": 62,
+      "h": 23,
+      "x": 160,
+      "y": 26
+     }
+    },
+    {
+     "type": "button",
+     "name": "again_button",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": false,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "font_family": "",
+      "action": "",
+      "image_color": null,
+      "image": "common/ui/raidboss/dialog/button_orange_n.png",
+      "image_pressed": "common/ui/raidboss/dialog/button_orange_p.png",
+      "image_checked": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+      "image_selected": "common/ui/button/bt_base_red_p_56.png",
+      "image_focused": "common/ui/button/bt_base_red_p_56.png",
+      "w": 62,
+      "h": 23,
+      "x": 160,
+      "y": 26
+     }
+    },
+    {
+     "type": "button",
+     "name": "info_button",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": false,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "font_family": "",
+      "action": "",
+      "image_color": null,
+      "image": "common/ui/raidboss/dialog/button_getreward_n.png",
+      "image_pressed": "common/ui/raidboss/dialog/button_getreward_p.png",
+      "image_checked": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+      "image_selected": "common/ui/button/bt_base_red_p_56.png",
+      "image_focused": "common/ui/button/bt_base_red_p_56.png",
+      "w": 62,
+      "h": 23,
+      "x": 160,
+      "y": 26
+     }
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "name": "hp",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 147,
+    "h": 19,
+    "x": 72,
+    "y": 63
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "lv",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/level_back.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": "FFFFFF",
+    "w": 43,
+    "h": 16,
+    "x": 19,
+    "y": 62
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "lv_value",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "99",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 60,
+      "h": 16,
+      "x": -1,
+      "y": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "name": "attackers_text",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 15,
+    "horizontal_align": 0,
+    "vertical_align": 2,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "background_color_key": null,
+    "font_family": "",
+    "w": 80,
+    "h": 21,
+    "x": 85,
+    "y": 22
+   }
+  },
+  {
+   "type": "text",
+   "name": "num_attackers",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 18,
+    "horizontal_align": 2,
+    "vertical_align": 2,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#F9BB00",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 27,
+    "h": 24,
+    "x": 59,
+    "y": 19
+   }
+  },
+  {
+   "type": "text",
+   "name": "time",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 14,
+    "horizontal_align": 2,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 77,
+    "h": 19,
+    "x": 66,
+    "y": 41
+   }
+  }
+ ],
+ "name": "RaidbossCell",
+ "type": "component"
+}

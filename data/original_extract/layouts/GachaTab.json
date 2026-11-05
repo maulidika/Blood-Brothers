@@ -1,0 +1,356 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "sprite",
+   "name": "on_event_tab",
+   "attrs": {
+    "tag": "on_event_tab",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/pact/exclusive.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 308,
+    "h": 44,
+    "x": 7,
+    "y": 54
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "on_normal_tab",
+   "attrs": {
+    "tag": "on_normal_tab",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/pact/basic.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 308,
+    "h": 44,
+    "x": 7,
+    "y": 54
+   }
+  },
+  {
+   "type": "component",
+   "name": "top_buttons",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 0,
+    "h": 0,
+    "x": 0,
+    "y": 53
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "event_tab",
+     "attrs": {
+      "tag": "event_tab",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 160,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "button",
+       "name": "event_button",
+       "attrs": {
+        "tag": "event_button",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "EventTab",
+        "image_color": null,
+        "image": null,
+        "image_pressed": null,
+        "image_checked": null,
+        "image_disabled": "common/ui/button/tab_button_pushed.png",
+        "image_selected": "common/ui/button/tab_button_pushed.png",
+        "image_focused": null,
+        "w": 145,
+        "h": 36,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "event_button_text",
+       "attrs": {
+        "tag": "event_button_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 18,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "event",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 145,
+        "h": 36,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "component",
+       "name": "event_button_bullet",
+       "attrs": {
+        "tag": "event_button_bullet",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 16,
+        "h": 16,
+        "x": 123,
+        "y": -7
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "normal_tab",
+     "attrs": {
+      "tag": "normal_tab",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "button",
+       "name": "normal_button",
+       "attrs": {
+        "tag": "normal_button",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "NormalTab",
+        "image_color": null,
+        "image": null,
+        "image_pressed": null,
+        "image_checked": null,
+        "image_disabled": "common/ui/button/tab_button_pushed.png",
+        "image_selected": "common/ui/button/tab_button_pushed.png",
+        "image_focused": null,
+        "w": 145,
+        "h": 36,
+        "x": 7,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "normal_button_text",
+       "attrs": {
+        "tag": "normal_button_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 18,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "normal",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 145,
+        "h": 36,
+        "x": 7,
+        "y": 0
+       }
+      },
+      {
+       "type": "component",
+       "name": "normal_button_bullet",
+       "attrs": {
+        "tag": "normal_button_bullet",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 17,
+        "h": 16,
+        "x": 129,
+        "y": -7
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "name": "info_text",
+   "attrs": {
+    "tag": "info_text",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 16,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "background_color_key": null,
+    "font_family": "",
+    "w": 270,
+    "h": 92,
+    "x": 25,
+    "y": 158
+   }
+  }
+ ],
+ "name": "GachaTab",
+ "type": "component"
+}

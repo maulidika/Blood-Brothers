@@ -1,0 +1,914 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "root",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 1,
+    "h": 1,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "title",
+     "attrs": {
+      "tag": "title",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 22,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "Forge Pact",
+      "text_wrap": true,
+      "text_color_key": "#FF0000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 220,
+      "h": 30,
+      "x": 50,
+      "y": 60
+     }
+    },
+    {
+     "type": "component",
+     "name": "cards_node",
+     "attrs": {
+      "tag": "cards_node",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 320,
+      "h": 78,
+      "x": 0,
+      "y": 88
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "line",
+     "attrs": {
+      "tag": "line",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/line_gray.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 234,
+      "h": 4,
+      "x": 43,
+      "y": 176
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "line1",
+     "attrs": {
+      "tag": "line1",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/line_gray.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 234,
+      "h": 4,
+      "x": 43,
+      "y": 313
+     }
+    },
+    {
+     "type": "component",
+     "name": "item1",
+     "attrs": {
+      "tag": "item1",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 0,
+      "h": 0,
+      "x": 0,
+      "y": 195
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "item_icon1",
+       "attrs": {
+        "tag": "item_icon1",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 48,
+        "h": 48,
+        "x": 43,
+        "y": 3
+       }
+      },
+      {
+       "type": "text",
+       "name": "name1",
+       "attrs": {
+        "tag": "name1",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 166,
+        "h": 25,
+        "x": 94,
+        "y": 2
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "num_icon1",
+       "attrs": {
+        "tag": "num_icon1",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "ui/icon/icon_possession.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 16,
+        "h": 16,
+        "x": 98,
+        "y": 28
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "multiply1",
+       "attrs": {
+        "tag": "multiply1",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "ui/icon/icon_multiply.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 10,
+        "h": 10,
+        "x": 119,
+        "y": 32
+       }
+      },
+      {
+       "type": "text",
+       "name": "num_item1",
+       "attrs": {
+        "tag": "num_item1",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 110,
+        "h": 24,
+        "x": 133,
+        "y": 25
+       }
+      },
+      {
+       "type": "button",
+       "name": "use_button1",
+       "attrs": {
+        "tag": "use_button1",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "useItem1",
+        "image_color": null,
+        "image": "common/ui/button/bt_base_red_n_56.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+        "image_checked": null,
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 84,
+        "h": 28,
+        "x": 192,
+        "y": 24
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "chance_box_100",
+       "attrs": {
+        "tag": "chance_box_100",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "ui/chance.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "800000",
+        "w": 56,
+        "h": 50,
+        "x": 232,
+        "y": -5
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "chance_label_100",
+         "attrs": {
+          "tag": "chance_label_100",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 7,
+          "text_size": 18,
+          "horizontal_align": 1,
+          "vertical_align": 1,
+          "text": "100",
+          "text_wrap": true,
+          "text_color_key": "#800000",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 64,
+          "h": 24,
+          "x": 28,
+          "y": 16
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "item2",
+     "attrs": {
+      "tag": "item2",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 0,
+      "h": 0,
+      "x": 0,
+      "y": 247
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "item_icon2",
+       "attrs": {
+        "tag": "item_icon2",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 48,
+        "h": 48,
+        "x": 43,
+        "y": 3
+       }
+      },
+      {
+       "type": "text",
+       "name": "name2",
+       "attrs": {
+        "tag": "name2",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 16,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 216,
+        "h": 25,
+        "x": 94,
+        "y": 2
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "num_icon2",
+       "attrs": {
+        "tag": "num_icon2",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "ui/icon/icon_possession.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 16,
+        "h": 16,
+        "x": 98,
+        "y": 28
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "multiply2",
+       "attrs": {
+        "tag": "multiply2",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "ui/icon/icon_multiply.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 10,
+        "h": 10,
+        "x": 119,
+        "y": 32
+       }
+      },
+      {
+       "type": "text",
+       "name": "num_item2",
+       "attrs": {
+        "tag": "num_item2",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 110,
+        "h": 24,
+        "x": 133,
+        "y": 25
+       }
+      },
+      {
+       "type": "button",
+       "name": "use_button2",
+       "attrs": {
+        "tag": "use_button2",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "useItem2",
+        "image_color": null,
+        "image": "common/ui/button/bt_base_red_n_56.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+        "image_checked": null,
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 84,
+        "h": 28,
+        "x": 192,
+        "y": 24
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "item3",
+     "attrs": {
+      "tag": "item3",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 0,
+      "h": 0,
+      "x": 0,
+      "y": 330
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "item_icon3",
+       "attrs": {
+        "tag": "item_icon3",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 48,
+        "h": 48,
+        "x": 43,
+        "y": 3
+       }
+      },
+      {
+       "type": "text",
+       "name": "name3",
+       "attrs": {
+        "tag": "name3",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 166,
+        "h": 25,
+        "x": 94,
+        "y": 2
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "num_icon3",
+       "attrs": {
+        "tag": "num_icon3",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "ui/icon/icon_possession.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 16,
+        "h": 16,
+        "x": 98,
+        "y": 28
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "multiply3",
+       "attrs": {
+        "tag": "multiply3",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "ui/icon/icon_multiply.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 10,
+        "h": 10,
+        "x": 119,
+        "y": 32
+       }
+      },
+      {
+       "type": "text",
+       "name": "num_item3",
+       "attrs": {
+        "tag": "num_item3",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 110,
+        "h": 24,
+        "x": 133,
+        "y": 25
+       }
+      },
+      {
+       "type": "button",
+       "name": "use_button3",
+       "attrs": {
+        "tag": "use_button3",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "useItem3",
+        "image_color": null,
+        "image": "common/ui/button/bt_base_red_n_56.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+        "image_checked": null,
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 84,
+        "h": 28,
+        "x": 192,
+        "y": 24
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "chance_box_bonus",
+       "attrs": {
+        "tag": "chance_box_bonus",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "ui/chance.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "294D84",
+        "w": 56,
+        "h": 50,
+        "x": 232,
+        "y": -5
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "chance_label_bonus",
+         "attrs": {
+          "tag": "chance_label_bonus",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 7,
+          "text_size": 18,
+          "horizontal_align": 1,
+          "vertical_align": 1,
+          "text": "100",
+          "text_wrap": true,
+          "text_color_key": "#294D84",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 64,
+          "h": 24,
+          "x": 28,
+          "y": 16
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "button",
+     "name": "cancel",
+     "attrs": {
+      "tag": "cancel",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "cancel",
+      "image_color": null,
+      "image": "common/ui/button/bt_base_red_n_56L.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 128,
+      "h": 28,
+      "x": 96,
+      "y": 396
+     }
+    }
+   ]
+  }
+ ],
+ "name": "CaptureDialogLayout",
+ "type": "component"
+}

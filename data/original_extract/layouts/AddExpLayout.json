@@ -1,0 +1,168 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "levelupCell",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 320,
+    "h": 50,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "level",
+     "attrs": {
+      "tag": "level",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 16,
+      "horizontal_align": 2,
+      "vertical_align": 2,
+      "text": "000",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 60,
+      "h": 25,
+      "x": 5,
+      "y": 7
+     }
+    },
+    {
+     "type": "text",
+     "name": "slash",
+     "attrs": {
+      "tag": "slash",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 16,
+      "horizontal_align": 1,
+      "vertical_align": 2,
+      "text": "/",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 10,
+      "h": 25,
+      "x": 68,
+      "y": 7
+     }
+    },
+    {
+     "type": "text",
+     "name": "maxExp",
+     "attrs": {
+      "tag": "maxExp",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 16,
+      "horizontal_align": 0,
+      "vertical_align": 2,
+      "text": "0000",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 50,
+      "h": 25,
+      "x": 82,
+      "y": 7
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "line",
+     "attrs": {
+      "tag": "line",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/line_white.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 308,
+      "h": 4,
+      "x": 6,
+      "y": 45
+     }
+    }
+   ]
+  }
+ ],
+ "name": "AddExpLayout",
+ "type": "component"
+}

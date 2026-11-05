@@ -1,0 +1,634 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 374,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 286,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "root",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 2,
+    "h": 2,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "mainBack",
+     "attrs": {
+      "tag": "mainBack",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/pact/featured_bg.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 286,
+      "h": 374,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "fire",
+     "attrs": {
+      "tag": "fire",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": null,
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 120,
+      "h": 141,
+      "x": 21,
+      "y": 25
+     }
+    },
+    {
+     "type": "text",
+     "name": "copy",
+     "attrs": {
+      "tag": "copy",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 16,
+      "horizontal_align": 2,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 242,
+      "h": 22,
+      "x": 18,
+      "y": 8
+     }
+    },
+    {
+     "type": "text",
+     "name": "paramHp",
+     "attrs": {
+      "tag": "paramHp",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 50,
+      "h": 18,
+      "x": 200,
+      "y": 71
+     }
+    },
+    {
+     "type": "text",
+     "name": "paramAtk",
+     "attrs": {
+      "tag": "paramAtk",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 50,
+      "h": 18,
+      "x": 200,
+      "y": 91
+     }
+    },
+    {
+     "type": "text",
+     "name": "paramDef",
+     "attrs": {
+      "tag": "paramDef",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 50,
+      "h": 18,
+      "x": 200,
+      "y": 111
+     }
+    },
+    {
+     "type": "text",
+     "name": "paramAgi",
+     "attrs": {
+      "tag": "paramAgi",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 50,
+      "h": 18,
+      "x": 200,
+      "y": 151
+     }
+    },
+    {
+     "type": "text",
+     "name": "paramInt",
+     "attrs": {
+      "tag": "paramInt",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 50,
+      "h": 18,
+      "x": 200,
+      "y": 131
+     }
+    },
+    {
+     "type": "text",
+     "name": "alert",
+     "attrs": {
+      "tag": "alert",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 244,
+      "h": 70,
+      "x": 21,
+      "y": 305
+     }
+    },
+    {
+     "type": "component",
+     "name": "figure",
+     "attrs": {
+      "tag": "figure",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 120,
+      "h": 148,
+      "x": 21,
+      "y": 27
+     }
+    },
+    {
+     "type": "text",
+     "name": "notGuaranteed",
+     "attrs": {
+      "tag": "notGuaranteed",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 11,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 234,
+      "h": 16,
+      "x": 26,
+      "y": 239
+     }
+    },
+    {
+     "type": "component",
+     "name": "gender",
+     "attrs": {
+      "tag": "gender",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 22,
+      "h": 22,
+      "x": 220,
+      "y": 48
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "textGender",
+       "attrs": {
+        "tag": "textGender",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 46,
+        "h": 20,
+        "x": -10,
+        "y": -18
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "race",
+     "attrs": {
+      "tag": "race",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 24,
+      "h": 24,
+      "x": 176,
+      "y": 44
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "textRace",
+       "attrs": {
+        "tag": "textRace",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#0E0E0E",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 46,
+        "h": 20,
+        "x": -10,
+        "y": -14
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "skill",
+   "attrs": {
+    "tag": "skill",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 2,
+    "h": 2,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "skillDesc",
+     "attrs": {
+      "tag": "skillDesc",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 11,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 228,
+      "h": 30,
+      "x": 3,
+      "y": 21
+     }
+    },
+    {
+     "type": "text",
+     "name": "skillName",
+     "attrs": {
+      "tag": "skillName",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 200,
+      "h": 18,
+      "x": 24,
+      "y": -1
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "skillIcon",
+     "attrs": {
+      "tag": "skillIcon",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/pact/skillmark.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 20,
+      "h": 20,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "passiveSkillIcon",
+     "attrs": {
+      "tag": "passiveSkillIcon",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/[DOWNLOAD_CONTENT]/DownloadContent/lang/ui/passive_skill.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 20,
+      "h": 20,
+      "x": 0,
+      "y": 0
+     }
+    }
+   ]
+  }
+ ],
+ "name": "GachaCardDesc",
+ "type": "component"
+}

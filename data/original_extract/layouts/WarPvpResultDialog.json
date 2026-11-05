@@ -1,0 +1,498 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "main",
+   "attrs": {
+    "tag": "main",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "title",
+     "attrs": {
+      "tag": "title",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 22,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#A80000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 234,
+      "h": 32,
+      "x": 43,
+      "y": 58
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "text_back",
+     "attrs": {
+      "tag": "text_back",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/dialog/text_back.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 234,
+      "h": 50,
+      "x": 43,
+      "y": 85
+     }
+    },
+    {
+     "type": "text",
+     "name": "total_damage",
+     "attrs": {
+      "tag": "total_damage",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 16,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "5000Pts",
+      "text_wrap": true,
+      "text_color_key": "#A80000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 234,
+      "h": 32,
+      "x": 43,
+      "y": 140
+     }
+    },
+    {
+     "type": "text",
+     "name": "total_damage_point",
+     "attrs": {
+      "tag": "total_damage_point",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 16,
+      "horizontal_align": 2,
+      "vertical_align": 0,
+      "text": "5000Pts",
+      "text_wrap": true,
+      "text_color_key": "#2E4F86",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 234,
+      "h": 32,
+      "x": 43,
+      "y": 140
+     }
+    },
+    {
+     "type": "button",
+     "name": "ok",
+     "attrs": {
+      "tag": "ok",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "WarPvpDialogOK_Clicked",
+      "image_color": null,
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 104,
+      "h": 28,
+      "x": 168,
+      "y": 390
+     }
+    },
+    {
+     "type": "component",
+     "name": "banner",
+     "attrs": {
+      "tag": "banner",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 234,
+      "h": 64,
+      "x": 44,
+      "y": 325
+     }
+    },
+    {
+     "type": "component",
+     "name": "area_icon",
+     "attrs": {
+      "tag": "area_icon",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 36,
+      "h": 36,
+      "x": 64,
+      "y": 95
+     }
+    },
+    {
+     "type": "component",
+     "name": "clan_icon",
+     "attrs": {
+      "tag": "clan_icon",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 24,
+      "h": 24,
+      "x": 90,
+      "y": 90
+     }
+    },
+    {
+     "type": "text",
+     "name": "area_hp_text",
+     "attrs": {
+      "tag": "area_hp_text",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#5B402A",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 180,
+      "h": 20,
+      "x": 120,
+      "y": 90
+     }
+    },
+    {
+     "type": "component",
+     "name": "area_hp_bar",
+     "attrs": {
+      "tag": "area_hp_bar",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 130,
+      "h": 18,
+      "x": 120,
+      "y": 113
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "image_newItem",
+     "attrs": {
+      "tag": "image_newItem",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/line_gray.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 220,
+      "h": 4,
+      "x": 53,
+      "y": 162
+     }
+    },
+    {
+     "type": "button",
+     "name": "challenger",
+     "attrs": {
+      "tag": "challenger",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "WarPvpDialogChallenger_Clicked",
+      "image_color": null,
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 104,
+      "h": 28,
+      "x": 46,
+      "y": 390
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "bonusBar_node",
+   "attrs": {
+    "tag": "bonusBar_node",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 64,
+    "x": 39,
+    "y": 174
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "bonus_bar",
+     "attrs": {
+      "tag": "bonus_bar",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/dialog/text_back.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 240,
+      "h": 20,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "type",
+       "attrs": {
+        "tag": "type",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "Damage Bonus",
+        "text_wrap": true,
+        "text_color_key": "#5B402A",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 230,
+        "h": 20,
+        "x": 5,
+        "y": 3
+       }
+      },
+      {
+       "type": "text",
+       "name": "points",
+       "attrs": {
+        "tag": "points",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 2,
+        "vertical_align": 0,
+        "text": "5000Pts",
+        "text_wrap": true,
+        "text_color_key": "#2E4F86",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 230,
+        "h": 20,
+        "x": 5,
+        "y": 3
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "WarPvpResultDialog",
+ "type": "component"
+}

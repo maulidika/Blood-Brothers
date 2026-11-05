@@ -1,0 +1,153 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "node",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "node",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "bg",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "bg",
+      "mock_image": null,
+      "image": "common/ui/red_icicle_top.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 62
+     }
+    },
+    {
+     "name": "title",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "title",
+      "mock_image": null,
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 53,
+      "y": 7,
+      "w": 214,
+      "h": 20
+     }
+    },
+    {
+     "name": "home",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "home",
+      "mock_image": null,
+      "action": "Home",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/ui/bt_gp_camp_n.png",
+      "image_pressed": "common/ui/bt_gp_camp_p.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 1,
+      "y": 1,
+      "w": 39,
+      "h": 39
+     }
+    },
+    {
+     "name": "back",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "back",
+      "mock_image": null,
+      "action": "Back",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/ui/bt_gp_back_n.png",
+      "image_pressed": "common/ui/bt_gp_back_p.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 1,
+      "y": 1,
+      "w": 39,
+      "h": 39
+     }
+    }
+   ]
+  }
+ ],
+ "name": "HeaderLayout",
+ "type": "component"
+}

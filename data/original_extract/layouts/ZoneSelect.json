@@ -1,0 +1,205 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 480
+   },
+   "children": [
+    {
+     "name": "area",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "area",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "22",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 43,
+      "y": 55,
+      "w": 234,
+      "h": 32
+     }
+    },
+    {
+     "name": "still",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "still",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 36,
+      "y": 90,
+      "w": 248,
+      "h": 112
+     }
+    },
+    {
+     "name": "descShadow",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "descShadow",
+      "mock_image": null,
+      "text_color_key": "#1A1A1A",
+      "text": "The great dwarf craftsmen",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "15",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 41,
+      "y": 90,
+      "w": 238,
+      "h": 112
+     }
+    },
+    {
+     "name": "desc",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "desc",
+      "mock_image": null,
+      "text_color_key": "#E7DFD4",
+      "text": "The great dwarf craftsmen",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "15",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 41,
+      "y": 90,
+      "w": 238,
+      "h": 112
+     }
+    },
+    {
+     "name": "ok",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "ok",
+      "mock_image": null,
+      "action": "decideZone",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/ui/button/bt_base_red_n_56L.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+      "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 96,
+      "y": 400,
+      "w": 128,
+      "h": 28
+     }
+    },
+    {
+     "name": "enemyText",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "enemyText",
+      "mock_image": null,
+      "text_color_key": "#A80000",
+      "text": "Enemies You will encounter!",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "14",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 43,
+      "y": 242,
+      "w": 234,
+      "h": 22
+     }
+    }
+   ]
+  }
+ ],
+ "name": "ZoneSelect",
+ "type": "component"
+}

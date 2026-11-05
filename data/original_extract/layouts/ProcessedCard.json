@@ -1,0 +1,180 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 480
+   },
+   "children": [
+    {
+     "name": "ok",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "ok",
+      "mock_image": null,
+      "action": "Reset",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 118,
+      "y": 422,
+      "w": 84,
+      "h": 28
+     }
+    },
+    {
+     "name": "okCancelCont",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "okCancelCont",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 64,
+      "h": 64
+     },
+     "children": [
+      {
+       "name": "cancel",
+       "type": "button",
+       "attrs": {
+        "visible": true,
+        "tag": "cancel",
+        "mock_image": null,
+        "action": "Reset",
+        "enabled": true,
+        "text_color_key": "#FFFFFF",
+        "image_color": "FFFFFF",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text_size": 18,
+        "image": "common/ui/button/bt_base_red_n_56.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+        "anchor": null,
+        "scale": [
+         1,
+         1
+        ],
+        "x": 66,
+        "y": 422,
+        "w": 84,
+        "h": 28
+       }
+      },
+      {
+       "name": "continue",
+       "type": "button",
+       "attrs": {
+        "visible": true,
+        "tag": "continue",
+        "mock_image": null,
+        "action": "Continue",
+        "enabled": true,
+        "text_color_key": "#FFFFFF",
+        "image_color": "FFFFFF",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text_size": 18,
+        "image": "common/ui/button/bt_base_red_n_56.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+        "anchor": null,
+        "scale": [
+         1,
+         1
+        ],
+        "x": 170,
+        "y": 422,
+        "w": 84,
+        "h": 28
+       }
+      }
+     ]
+    },
+    {
+     "name": "message",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "message",
+      "mock_image": null,
+      "text_color_key": "#060606",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "18",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 30,
+      "y": 398,
+      "w": 260,
+      "h": 24
+     }
+    }
+   ]
+  }
+ ],
+ "name": "ProcessedCard",
+ "type": "component"
+}

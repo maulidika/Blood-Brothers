@@ -1,0 +1,447 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "node",
+   "name": "root",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 100,
+    "h": 100,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "bot_back",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/results_base.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 242,
+      "h": 33,
+      "x": 39,
+      "y": 254
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "mid_back",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/results_base.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 242,
+      "h": 33,
+      "x": 39,
+      "y": 202
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "top_back",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/results_base.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 242,
+      "h": 33,
+      "x": 39,
+      "y": 126
+     }
+    },
+    {
+     "type": "text",
+     "name": "pointsGot",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 20,
+      "horizontal_align": 2,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#A80000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 114,
+      "h": 30,
+      "x": 163,
+      "y": 205
+     }
+    },
+    {
+     "type": "text",
+     "name": "prevPoints",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 20,
+      "horizontal_align": 2,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "DeepBlu",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 114,
+      "h": 30,
+      "x": 163,
+      "y": 257
+     }
+    },
+    {
+     "type": "text",
+     "name": "ranking",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 20,
+      "horizontal_align": 2,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "DeepBlu",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 114,
+      "h": 30,
+      "x": 163,
+      "y": 128
+     }
+    },
+    {
+     "type": "text",
+     "name": "title",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 22,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#800000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 220,
+      "h": 30,
+      "x": 50,
+      "y": 61
+     }
+    },
+    {
+     "type": "button",
+     "name": "detail",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "DETAIL",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 104,
+      "h": 28,
+      "x": 52,
+      "y": 393
+     }
+    },
+    {
+     "type": "button",
+     "name": "ok_r",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "OK",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 104,
+      "h": 28,
+      "x": 168,
+      "y": 393
+     }
+    },
+    {
+     "type": "button",
+     "name": "ok",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "OK",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 104,
+      "h": 28,
+      "x": 108,
+      "y": 393
+     }
+    },
+    {
+     "type": "text",
+     "name": "nowRankText",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 20,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 131,
+      "h": 30,
+      "x": 43,
+      "y": 128
+     }
+    },
+    {
+     "type": "text",
+     "name": "nowPointText",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 20,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 131,
+      "h": 30,
+      "x": 43,
+      "y": 205
+     }
+    },
+    {
+     "type": "text",
+     "name": "prevPointText",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 20,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 131,
+      "h": 30,
+      "x": 42,
+      "y": 257
+     }
+    }
+   ]
+  }
+ ],
+ "name": "GachaRankingResultDialogLayout",
+ "type": "component"
+}

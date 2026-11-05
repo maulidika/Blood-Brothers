@@ -1,0 +1,390 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "sprite",
+   "name": "bg",
+   "attrs": {
+    "tag": "bg",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/background.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 320,
+    "h": 480,
+    "x": 0,
+    "y": 0
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "footerLada",
+   "attrs": {
+    "tag": "footerLada",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/exchange_shop/lada.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 138,
+    "h": 102,
+    "x": 22,
+    "y": 378
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "footerBalloonBg",
+   "attrs": {
+    "tag": "footerBalloonBg",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/exchange_shop/balloon_r.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 132,
+    "h": 68,
+    "x": 166,
+    "y": 376
+   }
+  },
+  {
+   "type": "text",
+   "name": "footerBalloonText",
+   "attrs": {
+    "tag": "footerBalloonText",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 12,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "FFFFFF",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 119,
+    "h": 62,
+    "x": 176,
+    "y": 379
+   }
+  },
+  {
+   "type": "text",
+   "name": "timeLimitValueText",
+   "attrs": {
+    "tag": "timeLimitValueText",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 14,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 160,
+    "h": 18,
+    "x": 160,
+    "y": 463
+   }
+  },
+  {
+   "type": "text",
+   "name": "timeLimitText",
+   "attrs": {
+    "tag": "timeLimitText",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 14,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 160,
+    "h": 18,
+    "x": 160,
+    "y": 446
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "line",
+   "attrs": {
+    "tag": "line",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/exchange_shop/cutpaper.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 320,
+    "h": 17,
+    "x": 0,
+    "y": 97
+   }
+  },
+  {
+   "type": "text",
+   "name": "coinNum",
+   "attrs": {
+    "tag": "coinNum",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 18,
+    "horizontal_align": 0,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 78,
+    "h": 24,
+    "x": 200,
+    "y": 72
+   }
+  },
+  {
+   "type": "text",
+   "name": "coinName",
+   "attrs": {
+    "tag": "coinName",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 14,
+    "horizontal_align": 2,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 100,
+    "h": 18,
+    "x": 52,
+    "y": 76
+   }
+  },
+  {
+   "type": "component",
+   "name": "coinMulti",
+   "attrs": {
+    "tag": "coinMulti",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 12,
+    "h": 12,
+    "x": 182,
+    "y": 79
+   }
+  },
+  {
+   "type": "component",
+   "name": "coinIcon",
+   "attrs": {
+    "tag": "coinIcon",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0.2,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 24,
+    "h": 24,
+    "x": 157,
+    "y": 73
+   }
+  },
+  {
+   "type": "text",
+   "name": "explanationText",
+   "attrs": {
+    "tag": "explanationText",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 14,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 320,
+    "h": 18,
+    "x": 0,
+    "y": 55
+   }
+  },
+  {
+   "type": "component",
+   "name": "list",
+   "attrs": {
+    "tag": "list",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 320,
+    "h": 266,
+    "x": 0,
+    "y": 114
+   }
+  }
+ ],
+ "name": "ExchangeShopLayout",
+ "type": "component"
+}

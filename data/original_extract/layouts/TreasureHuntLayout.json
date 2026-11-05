@@ -1,0 +1,796 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "node",
+   "name": "layout",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 100,
+    "h": 100,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "node",
+     "name": "title_node",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 212,
+      "h": 39,
+      "x": 59,
+      "y": 2
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "banner",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "treasure/treasure_title.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 212,
+        "h": 39,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "name": "promo_text",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "w": 280,
+      "h": 40,
+      "x": 20,
+      "y": 33
+     }
+    },
+    {
+     "type": "text",
+     "name": "remaining_text",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "w": 212,
+      "h": 35,
+      "x": 54,
+      "y": 55
+     }
+    },
+    {
+     "type": "text",
+     "name": "counter_text_item",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#8ADAFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 87,
+      "h": 35,
+      "x": 174,
+      "y": 81
+     }
+    },
+    {
+     "type": "text",
+     "name": "counter_text_familiar",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#EDE59F",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 102,
+      "h": 35,
+      "x": 87,
+      "y": 81
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "cost_bg_l",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "treasure/treasure_back3_1_r.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 30,
+      "h": 23,
+      "x": 290,
+      "y": 336
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "cost_bg_c",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "treasure/treasure_back3_2.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 260,
+      "h": 23,
+      "x": 30,
+      "y": 336
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "cost_bg_r",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "treasure/treasure_back3_1.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 30,
+      "h": 23,
+      "x": 0,
+      "y": 336
+     }
+    },
+    {
+     "type": "text",
+     "name": "help_text",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "w": 140,
+      "h": 60,
+      "x": 5,
+      "y": 410
+     }
+    },
+    {
+     "type": "text",
+     "name": "price_num",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 2,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "w": 43,
+      "h": 23,
+      "x": 61,
+      "y": 336
+     }
+    },
+    {
+     "type": "text",
+     "name": "price",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFF9F3",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 159,
+      "h": 23,
+      "x": 119,
+      "y": 336
+     }
+    },
+    {
+     "type": "node",
+     "name": "help_button_node",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 84,
+      "h": 20,
+      "x": 117,
+      "y": 428
+     }
+    },
+    {
+     "type": "node",
+     "name": "probability_node",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 144,
+      "h": 20,
+      "x": 176,
+      "y": 408
+     }
+    },
+    {
+     "type": "node",
+     "name": "detail_button_node",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 84,
+      "h": 20,
+      "x": 237,
+      "y": 95
+     }
+    },
+    {
+     "type": "button",
+     "name": "move_left",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#F9BB00",
+      "font_family": "",
+      "action": "MoveLeft",
+      "image_color": "F9BB00",
+      "image": "treasure/treasure_arrow2left.png",
+      "image_pressed": "treasure/treasure_arrow2left.png",
+      "image_checked": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+      "image_selected": "common/ui/button/bt_base_red_p_56.png",
+      "image_focused": "common/ui/button/bt_base_red_p_56.png",
+      "w": 32,
+      "h": 32,
+      "x": 0,
+      "y": 224
+     }
+    },
+    {
+     "type": "button",
+     "name": "move_right",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#F9BB00",
+      "font_family": "",
+      "action": "MoveRight",
+      "image_color": "F9BB00",
+      "image": "treasure/treasure_arrow2.png",
+      "image_pressed": "treasure/treasure_arrow2.png",
+      "image_checked": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+      "image_selected": "common/ui/button/bt_base_red_p_56.png",
+      "image_focused": "common/ui/button/bt_base_red_p_56.png",
+      "w": 32,
+      "h": 32,
+      "x": 288,
+      "y": 224
+     }
+    },
+    {
+     "type": "text",
+     "name": "crypt_info_1",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "w": 93,
+      "h": 23,
+      "x": 37,
+      "y": 359
+     }
+    },
+    {
+     "type": "text",
+     "name": "pact_num",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "w": 43,
+      "h": 23,
+      "x": 135,
+      "y": 355
+     }
+    },
+    {
+     "type": "text",
+     "name": "crypt_info_2",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "w": 70,
+      "h": 23,
+      "x": 144,
+      "y": 359
+     }
+    },
+    {
+     "type": "text",
+     "name": "treasure_num",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "w": 43,
+      "h": 23,
+      "x": 200,
+      "y": 355
+     }
+    },
+    {
+     "type": "text",
+     "name": "crypt_info_3",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "w": 70,
+      "h": 23,
+      "x": 215,
+      "y": 359
+     }
+    },
+    {
+     "type": "component",
+     "name": "imgContent",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 23,
+      "h": 23,
+      "x": 134,
+      "y": 379
+     }
+    },
+    {
+     "type": "text",
+     "name": "drop_rate_text",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#F9BB00",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 100,
+      "h": 26,
+      "x": 156,
+      "y": 378
+     }
+    },
+    {
+     "type": "text",
+     "name": "drop_rate",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#F9BB00",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 38,
+      "h": 26,
+      "x": 96,
+      "y": 378
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "shadow_bg",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": false,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/blackblank.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 320,
+      "h": 480,
+      "x": 0,
+      "y": 0
+     }
+    }
+   ]
+  }
+ ],
+ "name": "TreasureHuntLayout",
+ "type": "component"
+}

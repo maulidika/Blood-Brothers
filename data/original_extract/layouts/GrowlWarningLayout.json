@@ -1,0 +1,114 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "sprite",
+   "name": "bg",
+   "attrs": {
+    "tag": "bg",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/text_base.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": "FFFFFF",
+    "w": 320,
+    "h": 50,
+    "x": 0,
+    "y": 0
+   }
+  },
+  {
+   "type": "text",
+   "name": "description",
+   "attrs": {
+    "tag": "description",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 11,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#FFE6E6",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 320,
+    "h": 48,
+    "x": 0,
+    "y": 1
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "alert",
+   "attrs": {
+    "tag": "alert",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/text_line.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": "FFFFFF",
+    "w": 320,
+    "h": 50,
+    "x": 0,
+    "y": 0
+   }
+  }
+ ],
+ "name": "GrowlWarningLayout",
+ "type": "component"
+}

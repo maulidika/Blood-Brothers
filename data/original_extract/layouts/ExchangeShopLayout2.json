@@ -1,0 +1,196 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "sprite",
+   "name": "bg",
+   "attrs": {
+    "tag": "bg",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/background.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 320,
+    "h": 480,
+    "x": 0,
+    "y": 0
+   }
+  },
+  {
+   "type": "text",
+   "name": "timeLimitValueText",
+   "attrs": {
+    "tag": "timeLimitValueText",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 14,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 160,
+    "h": 18,
+    "x": 160,
+    "y": 463
+   }
+  },
+  {
+   "type": "text",
+   "name": "timeLimitText",
+   "attrs": {
+    "tag": "timeLimitText",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 14,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 160,
+    "h": 18,
+    "x": 160,
+    "y": 446
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "line",
+   "attrs": {
+    "tag": "line",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/exchange_shop/cutpaper.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 320,
+    "h": 11,
+    "x": 0,
+    "y": 97
+   }
+  },
+  {
+   "type": "text",
+   "name": "explanationText",
+   "attrs": {
+    "tag": "explanationText",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 14,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 320,
+    "h": 18,
+    "x": 0,
+    "y": 55
+   }
+  },
+  {
+   "type": "view",
+   "name": "list",
+   "attrs": {
+    "tag": "list",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 320,
+    "h": 334,
+    "x": 0,
+    "y": 110
+   }
+  }
+ ],
+ "name": "ExchangeShopLayout2",
+ "type": "component"
+}

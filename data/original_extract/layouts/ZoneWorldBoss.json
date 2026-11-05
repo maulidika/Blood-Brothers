@@ -1,0 +1,244 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "world_boss_timer",
+   "attrs": {
+    "tag": "world_boss_timer",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 100,
+    "h": 100,
+    "x": 256,
+    "y": 57
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "title",
+     "attrs": {
+      "tag": "title",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 2,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 47,
+      "h": 20,
+      "x": -17,
+      "y": -20
+     }
+    },
+    {
+     "type": "text",
+     "name": "time",
+     "attrs": {
+      "tag": "time",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "00:00",
+      "text_wrap": true,
+      "text_color_key": "#FF0000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 40,
+      "h": 20,
+      "x": 31,
+      "y": -20
+     }
+    },
+    {
+     "type": "component",
+     "name": "world_boss",
+     "attrs": {
+      "tag": "world_boss",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": -3,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "button",
+       "name": "btn_world_boss0",
+       "attrs": {
+        "tag": "btn_world_boss",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": null,
+        "font_family": "",
+        "action": "World_Boss_Clicked",
+        "image_color": null,
+        "image": null,
+        "image_pressed": null,
+        "image_checked": "common/ui/button/bt_base_red_p_56.png",
+        "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+        "image_selected": "common/ui/button/bt_base_red_p_56.png",
+        "image_focused": "common/ui/button/bt_base_red_p_56.png",
+        "w": 64,
+        "h": 64,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "component",
+       "name": "hpbar",
+       "attrs": {
+        "tag": "hpbar",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 64,
+        "h": 15,
+        "x": 0,
+        "y": 64
+       },
+       "children": [
+        {
+         "type": "bar_meter_object",
+         "name": "meter",
+         "attrs": {
+          "tag": "",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "background_color_key": null,
+          "barType": "hp_percentage",
+          "showText": true,
+          "horizontal_align": 1,
+          "vertical_align": 1,
+          "w": 64,
+          "h": 15,
+          "x": 0,
+          "y": 0
+         }
+        }
+       ]
+      },
+      {
+       "type": "image",
+       "name": "image00",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/ui/raidboss/dialog/world_boss_frame.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 64,
+        "h": 64,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "ZoneWorldBoss",
+ "type": "component"
+}

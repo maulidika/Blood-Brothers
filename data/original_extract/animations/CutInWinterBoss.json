@@ -1,0 +1,3733 @@
+{
+ "action": [],
+ "fps": 30,
+ "meta": {
+  "app": "AnimationBuilder",
+  "app_ver": "20140708_0",
+  "core_ver": "1.0",
+  "created_date": "Fri Oct 10 20:32:49 2014",
+  "date": "Mon Dec 29 15:45:12 2014",
+  "runtime_type": "cocos2d-x",
+  "runtime_ver": "2.1.4",
+  "ver": "0.05"
+ },
+ "screenSize": {
+  "h": 480,
+  "w": 320
+ },
+ "tag": {
+  "all": [
+   0,
+   70,
+   0
+  ]
+ },
+ "tree": [
+  {
+   "attrs": {
+    "alpha": 1,
+    "anchor": [
+     0,
+     0
+    ],
+    "color": [
+     1,
+     1,
+     1
+    ],
+    "frame": [
+     160,
+     240,
+     64,
+     64
+    ],
+    "rotation": [
+     0,
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "visible": true
+   },
+   "children": [
+    {
+     "attrs": {
+      "alpha": 1,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "color": [
+       1,
+       1,
+       1
+      ],
+      "frame": [
+       0,
+       -70,
+       64,
+       64
+      ],
+      "rotation": [
+       0,
+       0,
+       0
+      ],
+      "scale": [
+       1.7000000476837158,
+       1
+      ],
+      "visible": true
+     },
+     "children": [
+      {
+       "attrs": {
+        "alpha": 0,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "anime": {
+         "alpha": [
+          {
+           "point": [
+            0,
+            0,
+            7.5,
+            0,
+            7.5,
+            0.7843137383460999,
+            15,
+            0.7843137383460999
+           ],
+           "type": "spline"
+          },
+          {
+           "point": [
+            15,
+            0.7843137383460999,
+            22.5,
+            0.7843137383460999,
+            22.5,
+            0,
+            30,
+            0
+           ],
+           "type": "spline"
+          }
+         ],
+         "rotZ": [
+          {
+           "point": [
+            0,
+            0,
+            18,
+            0,
+            12,
+            10,
+            30,
+            10
+           ],
+           "type": "spline"
+          }
+         ],
+         "scaleX": [
+          {
+           "point": [
+            0,
+            0,
+            7.5,
+            0,
+            21,
+            1,
+            30,
+            1
+           ],
+           "type": "spline"
+          }
+         ],
+         "scaleY": [
+          {
+           "point": [
+            0,
+            0,
+            7.5,
+            0,
+            21,
+            1,
+            30,
+            1
+           ],
+           "type": "spline"
+          }
+         ]
+        },
+        "blend": "add",
+        "color": [
+         0.9098039215686274,
+         0.0196078431372549,
+         0.0196078431372549
+        ],
+        "filtering": true,
+        "frame": [
+         0,
+         0,
+         300,
+         300
+        ],
+        "image": {
+         "url": "cutscene/effect/vfx_tex2.png",
+         "uvs": [
+          0.501953125,
+          0.251953125,
+          0.24609375,
+          0.24609375
+         ]
+        },
+        "rotation": [
+         0,
+         0,
+         0
+        ],
+        "scale": [
+         0,
+         0
+        ],
+        "visible": true
+       },
+       "name": "BlackSmoke3",
+       "type": "image"
+      },
+      {
+       "attrs": {
+        "alpha": 0,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "anime": {
+         "alpha": [
+          {
+           "point": [
+            0,
+            0,
+            4.5,
+            0,
+            1.5,
+            0.7843137383460999,
+            15,
+            0.7843137383460999
+           ],
+           "type": "spline"
+          },
+          {
+           "point": [
+            15,
+            0.7843137383460999,
+            28.5,
+            0.7843137383460999,
+            12,
+            0,
+            30,
+            0
+           ],
+           "type": "spline"
+          }
+         ],
+         "scaleX": [
+          {
+           "point": [
+            0,
+            0.5,
+            1.5,
+            0.5,
+            25.5,
+            1.2999999523162842,
+            30,
+            1.2999999523162842
+           ],
+           "type": "spline"
+          }
+         ],
+         "scaleY": [
+          {
+           "point": [
+            0,
+            0.5,
+            1.5,
+            0.5,
+            25.5,
+            1.2999999523162842,
+            30,
+            1.2999999523162842
+           ],
+           "type": "spline"
+          }
+         ]
+        },
+        "blend": "add",
+        "color": [
+         1,
+         0.35294117647058826,
+         0.06274509803921569
+        ],
+        "filtering": true,
+        "frame": [
+         0,
+         0,
+         256,
+         256
+        ],
+        "image": {
+         "url": "cutscene/effect/vfx_tex2.png",
+         "uvs": [
+          0.501953125,
+          0.251953125,
+          0.24609375,
+          0.24609375
+         ]
+        },
+        "rotation": [
+         0,
+         0,
+         45
+        ],
+        "scale": [
+         0.5,
+         0.5
+        ],
+        "visible": true
+       },
+       "name": "BlackSmoke2",
+       "type": "image"
+      },
+      {
+       "attrs": {
+        "alpha": 0,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "anime": {
+         "alpha": [
+          {
+           "point": [
+            0,
+            0,
+            2,
+            1
+           ],
+           "type": "liner"
+          },
+          {
+           "point": [
+            2,
+            1,
+            8,
+            0.7745583057403564
+           ],
+           "type": "liner"
+          },
+          {
+           "point": [
+            8,
+            0.7745583057403564,
+            9.800000190734863,
+            0.7745583057403564,
+            12.199999809265137,
+            1,
+            20,
+            1
+           ],
+           "type": "spline"
+          },
+          {
+           "point": [
+            20,
+            1,
+            27.799999237060547,
+            1,
+            29.399999618530273,
+            0.7547703385353088,
+            33,
+            0.7547703385353088
+           ],
+           "type": "spline"
+          },
+          {
+           "point": [
+            33,
+            0.7547703385353088,
+            36.599998474121094,
+            0.7547703385353088,
+            33,
+            1,
+            46,
+            1
+           ],
+           "type": "spline"
+          },
+          {
+           "point": [
+            46,
+            1,
+            60,
+            0
+           ],
+           "type": "liner"
+          }
+         ],
+         "scaleX": [
+          {
+           "point": [
+            0,
+            0.10000000149011612,
+            20,
+            1.5
+           ],
+           "type": "liner"
+          }
+         ],
+         "scaleY": [
+          {
+           "point": [
+            0,
+            0.10000000149011612,
+            20,
+            1.5
+           ],
+           "type": "liner"
+          }
+         ]
+        },
+        "blend": "add",
+        "color": [
+         1,
+         0.5764705882352941,
+         0.06274509803921569
+        ],
+        "filtering": true,
+        "frame": [
+         0,
+         0,
+         256,
+         256
+        ],
+        "image": {
+         "url": "cutscene/effect/vfx_tex1.png",
+         "uvs": [
+          0.501953125,
+          0.001953125,
+          0.12109375,
+          0.12109375
+         ]
+        },
+        "rotation": [
+         0,
+         0,
+         0
+        ],
+        "scale": [
+         0.10000000149011612,
+         0.10000000149011612
+        ],
+        "visible": true
+       },
+       "name": "Glow",
+       "type": "image"
+      },
+      {
+       "attrs": {
+        "alpha": 0,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "anime": {
+         "alpha": [
+          {
+           "point": [
+            0,
+            0,
+            3,
+            -1.4407609604659012e-18,
+            27,
+            1,
+            30,
+            1
+           ],
+           "type": "spline"
+          },
+          {
+           "point": [
+            30,
+            1,
+            33,
+            1,
+            42,
+            0,
+            60,
+            0
+           ],
+           "type": "spline"
+          }
+         ],
+         "scaleX": [
+          {
+           "point": [
+            0,
+            0.699999988079071,
+            4.5,
+            0.699999988079071,
+            55.5,
+            2,
+            60,
+            2
+           ],
+           "type": "spline"
+          }
+         ],
+         "scaleY": [
+          {
+           "point": [
+            0,
+            0.699999988079071,
+            4.5,
+            0.699999988079071,
+            55.5,
+            2,
+            60,
+            2
+           ],
+           "type": "spline"
+          }
+         ]
+        },
+        "blend": "add",
+        "color": [
+         0.7568627450980392,
+         0.01568627450980392,
+         0.043137254901960784
+        ],
+        "filtering": true,
+        "frame": [
+         0,
+         0,
+         200,
+         200
+        ],
+        "image": {
+         "url": "cutscene/effect/vfx_tex2.png",
+         "uvs": [
+          0.501953125,
+          0.251953125,
+          0.24609375,
+          0.24609375
+         ]
+        },
+        "rotation": [
+         0,
+         0,
+         180
+        ],
+        "scale": [
+         0.699999988079071,
+         0.699999988079071
+        ],
+        "visible": true
+       },
+       "name": "BlackSmoke1",
+       "type": "image"
+      },
+      {
+       "attrs": {
+        "alpha": 1,
+        "anchor": [
+         0,
+         0
+        ],
+        "color": [
+         1,
+         0.6352941176470588,
+         0.047058823529411764
+        ],
+        "frame": [
+         0,
+         0,
+         64,
+         64
+        ],
+        "rotation": [
+         0,
+         0,
+         0
+        ],
+        "scale": [
+         0.800000011920929,
+         0.800000011920929
+        ],
+        "visible": true
+       },
+       "children": [
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           1
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              0,
+              0,
+              1,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              1,
+              1,
+              3,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              3,
+              1,
+              7,
+              0
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              0,
+              5,
+              7,
+              1
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              0,
+              5,
+              7,
+              1
+             ],
+             "type": "liner"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           0,
+           0,
+           32,
+           128
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex2.png",
+           "uvs": [
+            0.376953125,
+            0.001953125,
+            0.12109375,
+            0.24609375
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           0
+          ],
+          "scale": [
+           5,
+           5
+          ],
+          "visible": true
+         },
+         "name": "Sonic1",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           1
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              0,
+              0,
+              2,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              2,
+              1,
+              5,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              5,
+              1,
+              11,
+              0
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              0,
+              5,
+              11,
+              1
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              0,
+              5,
+              11,
+              1
+             ],
+             "type": "liner"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           0,
+           0,
+           32,
+           128
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex2.png",
+           "uvs": [
+            0.376953125,
+            0.001953125,
+            0.12109375,
+            0.24609375
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           28
+          ],
+          "scale": [
+           5,
+           5
+          ],
+          "visible": true
+         },
+         "name": "Sonic2",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           1
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              0,
+              0,
+              1,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              1,
+              1,
+              2,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              2,
+              1,
+              7,
+              0
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              0,
+              5,
+              7,
+              1
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              0,
+              5,
+              7,
+              1
+             ],
+             "type": "liner"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           0,
+           0,
+           32,
+           128
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex2.png",
+           "uvs": [
+            0.376953125,
+            0.001953125,
+            0.12109375,
+            0.24609375
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           60
+          ],
+          "scale": [
+           5,
+           5
+          ],
+          "visible": true
+         },
+         "name": "Sonic3",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           1
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              0,
+              0,
+              2,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              2,
+              1,
+              5,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              5,
+              1,
+              11,
+              0
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              0,
+              5,
+              11,
+              1
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              0,
+              5,
+              11,
+              1
+             ],
+             "type": "liner"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           0,
+           0,
+           32,
+           128
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex2.png",
+           "uvs": [
+            0.376953125,
+            0.001953125,
+            0.12109375,
+            0.24609375
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           100
+          ],
+          "scale": [
+           5,
+           5
+          ],
+          "visible": true
+         },
+         "name": "Sonic4",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           1
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              0,
+              0,
+              2,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              2,
+              1,
+              3,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              3,
+              1,
+              8,
+              0
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              0,
+              5,
+              8,
+              1
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              0,
+              5,
+              8,
+              1
+             ],
+             "type": "liner"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           0,
+           0,
+           32,
+           128
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex2.png",
+           "uvs": [
+            0.376953125,
+            0.001953125,
+            0.12109375,
+            0.24609375
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           145
+          ],
+          "scale": [
+           5,
+           5
+          ],
+          "visible": true
+         },
+         "name": "Sonic5",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           1
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              0,
+              0,
+              1,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              1,
+              1,
+              3,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              3,
+              1,
+              7,
+              0
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              0,
+              5,
+              7,
+              1
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              0,
+              5,
+              7,
+              1
+             ],
+             "type": "liner"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           0,
+           0,
+           32,
+           128
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex2.png",
+           "uvs": [
+            0.376953125,
+            0.001953125,
+            0.12109375,
+            0.24609375
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           190
+          ],
+          "scale": [
+           5,
+           5
+          ],
+          "visible": true
+         },
+         "name": "Sonic6",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           1
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              0,
+              0,
+              2,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              2,
+              1,
+              5,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              5,
+              1,
+              11,
+              0
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              0,
+              5,
+              11,
+              1
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              0,
+              5,
+              11,
+              1
+             ],
+             "type": "liner"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           0,
+           0,
+           32,
+           128
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex2.png",
+           "uvs": [
+            0.376953125,
+            0.001953125,
+            0.12109375,
+            0.24609375
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           225
+          ],
+          "scale": [
+           5,
+           5
+          ],
+          "visible": true
+         },
+         "name": "Sonic7",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           0
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              0,
+              0,
+              1,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              1,
+              1,
+              3,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              3,
+              1,
+              7,
+              0
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              0,
+              5,
+              7,
+              1
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              0,
+              5,
+              7,
+              1
+             ],
+             "type": "liner"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           0,
+           0,
+           32,
+           128
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex2.png",
+           "uvs": [
+            0.376953125,
+            0.001953125,
+            0.12109375,
+            0.24609375
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           260
+          ],
+          "scale": [
+           5,
+           5
+          ],
+          "visible": true
+         },
+         "name": "Sonic8",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           1
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              0,
+              0,
+              1,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              1,
+              1,
+              2,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              2,
+              1,
+              7,
+              0
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              0,
+              5,
+              7,
+              1
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              0,
+              5,
+              7,
+              1
+             ],
+             "type": "liner"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           0,
+           0,
+           32,
+           128
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex2.png",
+           "uvs": [
+            0.376953125,
+            0.001953125,
+            0.12109375,
+            0.24609375
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           240
+          ],
+          "scale": [
+           5,
+           5
+          ],
+          "visible": true
+         },
+         "name": "Sonic9",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           0
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              0,
+              0,
+              1,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              1,
+              1,
+              3,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              3,
+              1,
+              7,
+              0
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              0,
+              5,
+              7,
+              1
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              0,
+              5,
+              7,
+              1
+             ],
+             "type": "liner"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           0,
+           0,
+           32,
+           128
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex2.png",
+           "uvs": [
+            0.376953125,
+            0.001953125,
+            0.12109375,
+            0.24609375
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           95
+          ],
+          "scale": [
+           5,
+           5
+          ],
+          "visible": true
+         },
+         "name": "Sonic10",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           1
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              0,
+              0,
+              2,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              2,
+              1,
+              5,
+              1
+             ],
+             "type": "liner"
+            },
+            {
+             "point": [
+              5,
+              1,
+              11,
+              0
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              0,
+              5,
+              11,
+              1
+             ],
+             "type": "liner"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              0,
+              5,
+              11,
+              1
+             ],
+             "type": "liner"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           0,
+           0,
+           32,
+           128
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex2.png",
+           "uvs": [
+            0.376953125,
+            0.001953125,
+            0.12109375,
+            0.24609375
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           330
+          ],
+          "scale": [
+           5,
+           5
+          ],
+          "visible": true
+         },
+         "name": "Sonic11",
+         "type": "image"
+        }
+       ],
+       "isCreate": true,
+       "name": "SonicAnim",
+       "type": "null"
+      },
+      {
+       "attrs": {
+        "alpha": 1,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "color": [
+         1,
+         1,
+         1
+        ],
+        "frame": [
+         0,
+         0,
+         64,
+         64
+        ],
+        "rotation": [
+         0,
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "visible": true
+       },
+       "children": [
+        {
+         "attrs": {
+          "alpha": 0.3921568691730499,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              5,
+              0.3921568691730499,
+              5.900000095367432,
+              0.3921568691730499,
+              13.100000381469727,
+              0,
+              14,
+              0
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              0,
+              0,
+              3,
+              0,
+              11,
+              7,
+              14,
+              7
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              0,
+              0,
+              3,
+              0,
+              11,
+              7,
+              14,
+              7
+             ],
+             "type": "spline"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           0.8156862745098039
+          ],
+          "filtering": true,
+          "frame": [
+           0,
+           0,
+           128,
+           128
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex1.png",
+           "uvs": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           90
+          ],
+          "scale": [
+           0,
+           0
+          ],
+          "visible": true
+         },
+         "name": "flash",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0.3921568691730499,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              5,
+              0.3921568691730499,
+              5.900000095367432,
+              0.3921568691730499,
+              13.100000381469727,
+              0,
+              14,
+              0
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              0,
+              0,
+              3,
+              0,
+              11,
+              9,
+              14,
+              9
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              0,
+              0,
+              3,
+              0,
+              11,
+              9,
+              14,
+              9
+             ],
+             "type": "spline"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           0,
+           0,
+           128,
+           128
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex1.png",
+           "uvs": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           0
+          ],
+          "scale": [
+           0,
+           0
+          ],
+          "visible": true
+         },
+         "name": "flash_1",
+         "type": "image"
+        }
+       ],
+       "isCreate": true,
+       "name": "F",
+       "type": "null"
+      }
+     ],
+     "isCreate": true,
+     "name": "root_1",
+     "type": "null"
+    },
+    {
+     "attrs": {
+      "alpha": 0,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "anime": {
+       "alpha": [
+        {
+         "point": [
+          9,
+          0,
+          9.300000190734863,
+          -1.4407609604659012e-19,
+          9.699999809265137,
+          1,
+          10,
+          1
+         ],
+         "type": "spline"
+        },
+        {
+         "point": [
+          10,
+          1,
+          10.300000190734863,
+          1,
+          59,
+          1,
+          65,
+          1
+         ],
+         "type": "spline"
+        },
+        {
+         "point": [
+          65,
+          1,
+          71,
+          1,
+          64,
+          0,
+          70,
+          0
+         ],
+         "type": "spline"
+        }
+       ],
+       "scaleX": [
+        {
+         "point": [
+          10,
+          3,
+          12,
+          0.6000000238418579
+         ],
+         "type": "liner"
+        },
+        {
+         "point": [
+          12,
+          0.6000000238418579,
+          13,
+          0.800000011920929
+         ],
+         "type": "liner"
+        },
+        {
+         "point": [
+          13,
+          0.800000011920929,
+          14,
+          0.6000000238418579
+         ],
+         "type": "liner"
+        }
+       ],
+       "scaleY": [
+        {
+         "point": [
+          10,
+          3,
+          12,
+          0.6000000238418579
+         ],
+         "type": "liner"
+        },
+        {
+         "point": [
+          12,
+          0.6000000238418579,
+          13,
+          0.800000011920929
+         ],
+         "type": "liner"
+        },
+        {
+         "point": [
+          13,
+          0.800000011920929,
+          14,
+          0.6000000238418579
+         ],
+         "type": "liner"
+        }
+       ]
+      },
+      "blend": "alpha",
+      "color": [
+       1,
+       1,
+       1
+      ],
+      "filtering": true,
+      "frame": [
+       5,
+       -70,
+       512,
+       256
+      ],
+      "image": {
+       "url": "[DOWNLOAD_CONTENT]/DownloadContent/en/ab/challenge_boss.png",
+       "uvs": [
+        0,
+        0,
+        1,
+        1
+       ]
+      },
+      "rotation": [
+       0,
+       0,
+       0
+      ],
+      "scale": [
+       3,
+       3
+      ],
+      "visible": true
+     },
+     "name": "image_newItem_3_1",
+     "type": "image"
+    },
+    {
+     "attrs": {
+      "alpha": 0,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "anime": {
+       "alpha": [
+        {
+         "point": [
+          0,
+          0,
+          0.30000001192092896,
+          -1.4407609604659012e-19,
+          13.699999809265137,
+          0.7843137383460999,
+          14,
+          0.7843137383460999
+         ],
+         "type": "spline"
+        },
+        {
+         "point": [
+          14,
+          0.7843137383460999,
+          14.300000190734863,
+          0.7843137383460999,
+          24,
+          0,
+          30,
+          0
+         ],
+         "type": "spline"
+        }
+       ],
+       "scaleX": [
+        {
+         "point": [
+          12,
+          0,
+          13,
+          0.6000000238418579
+         ],
+         "type": "liner"
+        },
+        {
+         "point": [
+          13,
+          0.6000000238418579,
+          14,
+          0.800000011920929
+         ],
+         "type": "liner"
+        },
+        {
+         "point": [
+          14,
+          0.800000011920929,
+          15,
+          0.6000000238418579
+         ],
+         "type": "liner"
+        }
+       ],
+       "scaleY": [
+        {
+         "point": [
+          12,
+          0,
+          13,
+          0.6000000238418579
+         ],
+         "type": "liner"
+        },
+        {
+         "point": [
+          13,
+          0.6000000238418579,
+          14,
+          0.800000011920929
+         ],
+         "type": "liner"
+        },
+        {
+         "point": [
+          14,
+          0.800000011920929,
+          15,
+          0.6000000238418579
+         ],
+         "type": "liner"
+        }
+       ]
+      },
+      "blend": "add",
+      "color": [
+       1,
+       1,
+       1
+      ],
+      "filtering": true,
+      "frame": [
+       5,
+       -70,
+       512,
+       256
+      ],
+      "image": {
+       "url": "[DOWNLOAD_CONTENT]/DownloadContent/en/ab/challenge_boss.png",
+       "uvs": [
+        0,
+        0,
+        1,
+        1
+       ]
+      },
+      "rotation": [
+       0,
+       0,
+       0
+      ],
+      "scale": [
+       0,
+       0
+      ],
+      "visible": true
+     },
+     "name": "image_newItem_3_1_1",
+     "type": "image"
+    },
+    {
+     "attrs": {
+      "alpha": 1,
+      "anchor": [
+       0,
+       0
+      ],
+      "color": [
+       1,
+       1,
+       1
+      ],
+      "frame": [
+       0,
+       0,
+       64,
+       64
+      ],
+      "rotation": [
+       0,
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "visible": true
+     },
+     "children": [
+      {
+       "attrs": {
+        "alpha": 1,
+        "anchor": [
+         0,
+         0
+        ],
+        "color": [
+         1,
+         1,
+         1
+        ],
+        "frame": [
+         0,
+         0,
+         64,
+         64
+        ],
+        "rotation": [
+         0,
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "visible": true
+       },
+       "children": [
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           1
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              0,
+              0,
+              1.7999999523162842,
+              0,
+              20.5,
+              1,
+              25,
+              1
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              25,
+              1,
+              29.5,
+              1,
+              55,
+              0,
+              55,
+              0
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              55,
+              0,
+              55,
+              0,
+              44.696205139160156,
+              0,
+              55,
+              0
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              0,
+              0,
+              6,
+              0,
+              49,
+              1.7000000476837158,
+              55,
+              1.7000000476837158
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              55,
+              1.7000000476837158,
+              61,
+              1.7000000476837158,
+              44.696205139160156,
+              1.7000000476837158,
+              55,
+              1.7000000476837158
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              0,
+              0,
+              6,
+              0,
+              49,
+              1.7000000476837158,
+              55,
+              1.7000000476837158
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              55,
+              1.7000000476837158,
+              61,
+              1.7000000476837158,
+              44.696205139160156,
+              1.7000000476837158,
+              55,
+              1.7000000476837158
+             ],
+             "type": "spline"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           0.8470588235294118,
+           0.0196078431372549,
+           0.10196078431372549
+          ],
+          "filtering": true,
+          "frame": [
+           0,
+           20,
+           200,
+           200
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex2.png",
+           "uvs": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           1
+          ],
+          "scale": [
+           0,
+           0
+          ],
+          "visible": true
+         },
+         "name": "smoke_04",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           1
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              0,
+              0,
+              1.7999999523162842,
+              0,
+              22.200000762939453,
+              1,
+              30,
+              1
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              30,
+              1,
+              37.79999923706055,
+              1,
+              68.19999694824219,
+              0,
+              70,
+              0
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              70,
+              0,
+              71.80000305175781,
+              0,
+              61.45985412597656,
+              0.016140351071953773,
+              70,
+              0
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              0,
+              0.5,
+              6,
+              0.5,
+              64,
+              1.5,
+              70,
+              1.5
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              70,
+              1.5,
+              76,
+              1.5,
+              59.696205139160156,
+              1.5,
+              70,
+              1.5
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              0,
+              0.5,
+              6,
+              0.5,
+              64,
+              1.5,
+              70,
+              1.5
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              70,
+              1.5,
+              76,
+              1.5,
+              59.696205139160156,
+              1.5,
+              70,
+              1.5
+             ],
+             "type": "spline"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           0.792156862745098,
+           0.01568627450980392,
+           0.01568627450980392
+          ],
+          "filtering": true,
+          "frame": [
+           -50,
+           20,
+           200,
+           200
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex2.png",
+           "uvs": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           0.5
+          ],
+          "scale": [
+           0.5,
+           0.5
+          ],
+          "visible": true
+         },
+         "name": "smoke_04_1_1",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           1
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              0,
+              0,
+              1.7999999523162842,
+              0,
+              20.5,
+              1,
+              25,
+              1
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              25,
+              1,
+              29.5,
+              1,
+              55,
+              0,
+              55,
+              0
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              55,
+              0,
+              55,
+              0,
+              44.696205139160156,
+              0,
+              55,
+              0
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              0,
+              0,
+              6,
+              0,
+              49,
+              1.7000000476837158,
+              55,
+              1.7000000476837158
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              55,
+              1.7000000476837158,
+              61,
+              1.7000000476837158,
+              44.696205139160156,
+              1.7000000476837158,
+              55,
+              1.7000000476837158
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              0,
+              0,
+              6,
+              0,
+              49,
+              1.7000000476837158,
+              55,
+              1.7000000476837158
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              55,
+              1.7000000476837158,
+              61,
+              1.7000000476837158,
+              44.696205139160156,
+              1.7000000476837158,
+              55,
+              1.7000000476837158
+             ],
+             "type": "spline"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           0.8470588235294118,
+           0.0196078431372549,
+           0.10196078431372549
+          ],
+          "filtering": true,
+          "frame": [
+           70,
+           20,
+           200,
+           200
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex2.png",
+           "uvs": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           1
+          ],
+          "scale": [
+           0,
+           0
+          ],
+          "visible": true
+         },
+         "name": "smoke_04_1",
+         "type": "image"
+        }
+       ],
+       "isCreate": true,
+       "name": "null_newItem_1",
+       "type": "null"
+      },
+      {
+       "attrs": {
+        "alpha": 0.3921568691730499,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "color": [
+         1,
+         1,
+         1
+        ],
+        "frame": [
+         0,
+         0,
+         64,
+         64
+        ],
+        "rotation": [
+         0,
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1.2000000476837158
+        ],
+        "visible": true
+       },
+       "children": [
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              10,
+              0,
+              10.600000381469727,
+              0,
+              15.800000190734863,
+              1,
+              20,
+              1
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              20,
+              1,
+              24.200000762939453,
+              1,
+              34.400001525878906,
+              0,
+              35,
+              0
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              10,
+              0,
+              17.5,
+              0,
+              27.5,
+              1.5,
+              35,
+              1.5
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              10,
+              0,
+              12.699999809265137,
+              0,
+              27.5,
+              2.5,
+              35,
+              2.5
+             ],
+             "type": "spline"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           -30,
+           -50,
+           192,
+           64
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex1.png",
+           "uvs": [
+            0,
+            0.75,
+            0.375,
+            0.125
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           0
+          ],
+          "scale": [
+           0,
+           0
+          ],
+          "visible": true
+         },
+         "name": "a",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              10,
+              0,
+              10.600000381469727,
+              0,
+              15.800000190734863,
+              1,
+              20,
+              1
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              20,
+              1,
+              24.200000762939453,
+              1,
+              34.400001525878906,
+              0,
+              35,
+              0
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              10,
+              0,
+              17.5,
+              0,
+              27.5,
+              3,
+              35,
+              3
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              10,
+              0,
+              12.699999809265137,
+              0,
+              27.5,
+              4,
+              35,
+              4
+             ],
+             "type": "spline"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           50,
+           -100,
+           192,
+           64
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex1.png",
+           "uvs": [
+            0,
+            0.75,
+            0.375,
+            0.125
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           0
+          ],
+          "scale": [
+           0,
+           0
+          ],
+          "visible": true
+         },
+         "name": "b",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              10,
+              0,
+              10.600000381469727,
+              0,
+              15.800000190734863,
+              1,
+              20,
+              1
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              20,
+              1,
+              24.200000762939453,
+              1,
+              34.400001525878906,
+              0,
+              35,
+              0
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              10,
+              0,
+              17.5,
+              0,
+              27.5,
+              2,
+              35,
+              2
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              10,
+              0,
+              12.699999809265137,
+              0,
+              27.5,
+              3,
+              35,
+              3
+             ],
+             "type": "spline"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           100,
+           -30,
+           192,
+           64
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex1.png",
+           "uvs": [
+            0,
+            0.75,
+            0.375,
+            0.125
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           0
+          ],
+          "scale": [
+           0,
+           0
+          ],
+          "visible": true
+         },
+         "name": "c",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              10,
+              0,
+              10.600000381469727,
+              0,
+              15.800000190734863,
+              1,
+              20,
+              1
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              20,
+              1,
+              24.200000762939453,
+              1,
+              34.400001525878906,
+              0,
+              35,
+              0
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              10,
+              0,
+              17.5,
+              0,
+              27.5,
+              -2,
+              35,
+              -2
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              10,
+              0,
+              12.699999809265137,
+              0,
+              27.5,
+              -4,
+              35,
+              -4
+             ],
+             "type": "spline"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           0,
+           -100,
+           192,
+           64
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex1.png",
+           "uvs": [
+            0,
+            0.75,
+            0.375,
+            0.125
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           0
+          ],
+          "scale": [
+           0,
+           0
+          ],
+          "visible": true
+         },
+         "name": "d",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              10,
+              0,
+              10.600000381469727,
+              0,
+              15.800000190734863,
+              1,
+              20,
+              1
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              20,
+              1,
+              24.200000762939453,
+              1,
+              34.400001525878906,
+              0,
+              35,
+              0
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              10,
+              0,
+              17.5,
+              0,
+              27.5,
+              -3,
+              35,
+              -3
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              10,
+              0,
+              12.699999809265137,
+              0,
+              27.5,
+              -6,
+              35,
+              -6
+             ],
+             "type": "spline"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           30,
+           -70,
+           192,
+           64
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex1.png",
+           "uvs": [
+            0,
+            0.75,
+            0.375,
+            0.125
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           0
+          ],
+          "scale": [
+           0,
+           0
+          ],
+          "visible": true
+         },
+         "name": "e",
+         "type": "image"
+        }
+       ],
+       "isCreate": true,
+       "name": "small_fire",
+       "type": "null"
+      },
+      {
+       "attrs": {
+        "alpha": 0.7843137383460999,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "color": [
+         1,
+         1,
+         1
+        ],
+        "frame": [
+         50,
+         -30,
+         64,
+         64
+        ],
+        "rotation": [
+         0,
+         0,
+         0
+        ],
+        "scale": [
+         -0.699999988079071,
+         0.699999988079071
+        ],
+        "visible": true
+       },
+       "children": [
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              10,
+              0,
+              10.600000381469727,
+              0,
+              15.800000190734863,
+              1,
+              20,
+              1
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              20,
+              1,
+              24.200000762939453,
+              1,
+              34.400001525878906,
+              0,
+              35,
+              0
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              10,
+              0,
+              17.5,
+              0,
+              27.5,
+              1.5,
+              35,
+              1.5
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              10,
+              0,
+              12.699999809265137,
+              0,
+              27.5,
+              2.5,
+              35,
+              2.5
+             ],
+             "type": "spline"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           -30,
+           -50,
+           192,
+           64
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex1.png",
+           "uvs": [
+            0,
+            0.75,
+            0.375,
+            0.125
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           0
+          ],
+          "scale": [
+           0,
+           0
+          ],
+          "visible": true
+         },
+         "name": "a_1",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              10,
+              0,
+              10.600000381469727,
+              0,
+              15.800000190734863,
+              1,
+              20,
+              1
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              20,
+              1,
+              24.200000762939453,
+              1,
+              34.400001525878906,
+              0,
+              35,
+              0
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              10,
+              0,
+              17.5,
+              0,
+              27.5,
+              3,
+              35,
+              3
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              10,
+              0,
+              12.699999809265137,
+              0,
+              27.5,
+              4,
+              35,
+              4
+             ],
+             "type": "spline"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           50,
+           -100,
+           192,
+           64
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex1.png",
+           "uvs": [
+            0,
+            0.75,
+            0.375,
+            0.125
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           0
+          ],
+          "scale": [
+           0,
+           0
+          ],
+          "visible": true
+         },
+         "name": "b_1",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              10,
+              0,
+              10.600000381469727,
+              0,
+              15.800000190734863,
+              1,
+              20,
+              1
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              20,
+              1,
+              24.200000762939453,
+              1,
+              34.400001525878906,
+              0,
+              35,
+              0
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              10,
+              0,
+              17.5,
+              0,
+              27.5,
+              2,
+              35,
+              2
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              10,
+              0,
+              12.699999809265137,
+              0,
+              27.5,
+              3,
+              35,
+              3
+             ],
+             "type": "spline"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           100,
+           -30,
+           192,
+           64
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex1.png",
+           "uvs": [
+            0,
+            0.75,
+            0.375,
+            0.125
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           0
+          ],
+          "scale": [
+           0,
+           0
+          ],
+          "visible": true
+         },
+         "name": "c_1",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              10,
+              0,
+              10.600000381469727,
+              0,
+              15.800000190734863,
+              1,
+              20,
+              1
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              20,
+              1,
+              24.200000762939453,
+              1,
+              34.400001525878906,
+              0,
+              35,
+              0
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              10,
+              0,
+              17.5,
+              0,
+              27.5,
+              -2,
+              35,
+              -2
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              10,
+              0,
+              12.699999809265137,
+              0,
+              27.5,
+              -4,
+              35,
+              -4
+             ],
+             "type": "spline"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           0,
+           -100,
+           192,
+           64
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex1.png",
+           "uvs": [
+            0,
+            0.75,
+            0.375,
+            0.125
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           0
+          ],
+          "scale": [
+           0,
+           0
+          ],
+          "visible": true
+         },
+         "name": "d_1",
+         "type": "image"
+        },
+        {
+         "attrs": {
+          "alpha": 0,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "anime": {
+           "alpha": [
+            {
+             "point": [
+              10,
+              0,
+              10.600000381469727,
+              0,
+              15.800000190734863,
+              1,
+              20,
+              1
+             ],
+             "type": "spline"
+            },
+            {
+             "point": [
+              20,
+              1,
+              24.200000762939453,
+              1,
+              34.400001525878906,
+              0,
+              35,
+              0
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleX": [
+            {
+             "point": [
+              10,
+              0,
+              17.5,
+              0,
+              27.5,
+              -3,
+              35,
+              -3
+             ],
+             "type": "spline"
+            }
+           ],
+           "scaleY": [
+            {
+             "point": [
+              10,
+              0,
+              12.699999809265137,
+              0,
+              27.5,
+              -6,
+              35,
+              -6
+             ],
+             "type": "spline"
+            }
+           ]
+          },
+          "blend": "add",
+          "color": [
+           1,
+           1,
+           1
+          ],
+          "filtering": true,
+          "frame": [
+           30,
+           -70,
+           192,
+           64
+          ],
+          "image": {
+           "url": "cutscene/effect/vfx_tex1.png",
+           "uvs": [
+            0,
+            0.75,
+            0.375,
+            0.125
+           ]
+          },
+          "rotation": [
+           0,
+           0,
+           0
+          ],
+          "scale": [
+           0,
+           0
+          ],
+          "visible": true
+         },
+         "name": "e_1",
+         "type": "image"
+        }
+       ],
+       "isCreate": true,
+       "name": "small_fire_1",
+       "type": "null"
+      }
+     ],
+     "isCreate": true,
+     "name": "root_2",
+     "type": "null"
+    }
+   ],
+   "isCreate": true,
+   "name": "root",
+   "type": "null"
+  }
+ ]
+}

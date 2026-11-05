@@ -1,0 +1,145 @@
+{
+ "attrs": {
+  "enabled": true,
+  "h": 480,
+  "mock_image": null,
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "ui_image",
+   "name": "ui_image0",
+   "attrs": {
+    "tag": null,
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "image": "common/ui/help_base.png",
+    "fitmode": "None",
+    "w": 320,
+    "h": 420,
+    "x": 0,
+    "y": 60
+   },
+   "children": [
+    {
+     "type": "ui_label",
+     "name": "label_test",
+     "attrs": {
+      "tag": "label_test",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "text_size": 24,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "UI TEST",
+      "text_wrap": true,
+      "text_color_key": "color_3",
+      "background_color_key": null,
+      "w": 280,
+      "h": 40,
+      "x": 20,
+      "y": 20
+     }
+    },
+    {
+     "type": "ui_button",
+     "name": "button_test",
+     "attrs": {
+      "tag": "button_test",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "TEST",
+      "text_wrap": true,
+      "text_color_key": "color_3",
+      "action": "EVENT_TEST_BUTTON",
+      "image": "common/ui/blank.png",
+      "image_pressed": "common/ui/blackblank.png",
+      "image_checked": "common/coreui_p.png",
+      "image_disabled": "common/coreui_d.png",
+      "image_selected": "common/coreui_p.png",
+      "image_focused": "common/coreui_n.png",
+      "w": 240,
+      "h": 40,
+      "x": 40,
+      "y": 360
+     }
+    },
+    {
+     "type": "ui_edit",
+     "name": "edit_test",
+     "attrs": {
+      "tag": "edit_test",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "text_size": 16,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": null,
+      "text_wrap": true,
+      "text_color_key": null,
+      "placeholder": null,
+      "placeholder_color_key": null,
+      "background_color_key": "color_0",
+      "editmode": "Text",
+      "w": 240,
+      "h": 28,
+      "x": 40,
+      "y": 64
+     }
+    },
+    {
+     "type": "ui_web_view",
+     "name": "ui_web_view0",
+     "attrs": {
+      "tag": "webview_test",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "url": "http://mgwdev5005.gdev.dena.jp/3/blood_content/en/html/help/help.html",
+      "w": 240,
+      "h": 160,
+      "x": 40,
+      "y": 180
+     }
+    },
+    {
+     "type": "ui_editarea",
+     "name": "editarea_test",
+     "attrs": {
+      "tag": "editarea_test",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": null,
+      "text_wrap": true,
+      "text_color_key": null,
+      "placeholder": null,
+      "placeholder_color_key": null,
+      "background_color_key": "color_0",
+      "editmode": "Text",
+      "w": 240,
+      "h": 80,
+      "x": 40,
+      "y": 96
+     }
+    }
+   ]
+  }
+ ],
+ "name": "UIDebug",
+ "type": "view"
+}

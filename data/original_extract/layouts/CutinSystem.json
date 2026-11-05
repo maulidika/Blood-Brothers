@@ -1,0 +1,102 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 480
+   },
+   "children": [
+    {
+     "name": "bg",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "bg",
+      "mock_image": null,
+      "image": "common/cutscene/message/system_bg.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 15,
+      "y": 0,
+      "w": 300,
+      "h": 108
+     },
+     "children": [
+      {
+       "name": "message",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "message",
+        "mock_image": null,
+        "text_color_key": "#000000",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text_size": "14",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 20,
+        "y": 12,
+        "w": 250,
+        "h": 72
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "CutinSystem",
+ "type": "component"
+}

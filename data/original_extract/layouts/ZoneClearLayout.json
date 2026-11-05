@@ -1,0 +1,394 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 1,
+    "h": 1
+   },
+   "children": [
+    {
+     "name": "title",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "title",
+      "mock_image": null,
+      "text_color_key": "#408000",
+      "text": "Lorem",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "22",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 50,
+      "y": 60,
+      "w": 220,
+      "h": 30
+     }
+    },
+    {
+     "name": "infor_message",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "infor_message",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "Lorem",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": 18,
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 60,
+      "y": 93,
+      "w": 200,
+      "h": 25
+     }
+    },
+    {
+     "name": "icon1",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "icon1",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 51,
+      "y": 125,
+      "w": 100,
+      "h": 100
+     }
+    },
+    {
+     "name": "rare_item",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "rare_item",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "Lorem",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": "22",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 176,
+      "y": 148,
+      "w": 120,
+      "h": 30
+     }
+    },
+    {
+     "name": "icon_posses1",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "icon_posses1",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 177,
+      "y": 186,
+      "w": 16,
+      "h": 16
+     }
+    },
+    {
+     "name": "icon_multi1",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "icon_multi1",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 200,
+      "y": 190,
+      "w": 10,
+      "h": 10
+     }
+    },
+    {
+     "name": "r_treasure_count",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "r_treasure_count",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": 18,
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 216,
+      "y": 182,
+      "w": 25,
+      "h": 25
+     }
+    },
+    {
+     "name": "icon2",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "icon2",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 51,
+      "y": 250,
+      "w": 100,
+      "h": 100
+     }
+    },
+    {
+     "name": "very_rare_item",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "very_rare_item",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "Lorem",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": "22",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 176,
+      "y": 270,
+      "w": 120,
+      "h": 30
+     }
+    },
+    {
+     "name": "icon_posses2",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "icon_posses2",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 177,
+      "y": 310,
+      "w": 16,
+      "h": 16
+     }
+    },
+    {
+     "name": "icon_multi2",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "icon_multi2",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 200,
+      "y": 313,
+      "w": 10,
+      "h": 10
+     }
+    },
+    {
+     "name": "vr_treasure_count",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "vr_treasure_count",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": 18,
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 216,
+      "y": 305,
+      "w": 25,
+      "h": 25
+     }
+    },
+    {
+     "name": "open_message",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "open_message",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "Lorem",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text_size": "18",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 60,
+      "y": 363,
+      "w": 206,
+      "h": 25
+     }
+    },
+    {
+     "name": "ok_button",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "ok_button",
+      "mock_image": null,
+      "action": "ok",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "E9DCCB",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/ui/button/bt_base_red_n_56L.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+      "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 96,
+      "y": 397,
+      "w": 128,
+      "h": 28
+     }
+    }
+   ]
+  }
+ ],
+ "name": "ZoneClearLayout",
+ "type": "component"
+}

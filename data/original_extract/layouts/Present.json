@@ -1,0 +1,767 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "root",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "bg",
+     "attrs": {
+      "tag": "bg",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/background.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 320,
+      "h": 480,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "page",
+     "attrs": {
+      "tag": "page",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 16,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 60,
+      "h": 30,
+      "x": 130,
+      "y": 400
+     }
+    },
+    {
+     "type": "button",
+     "name": "present",
+     "attrs": {
+      "tag": "present",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "Select_Present",
+      "image_color": "FFFFFF",
+      "image": "common/present/btn_wagon_n_s.png",
+      "image_pressed": "common/present/btn_wagon_p_s.png",
+      "image_checked": null,
+      "image_disabled": "common/present/btn_wagon_p_s.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 99,
+      "h": 30,
+      "x": 6,
+      "y": 50
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "presentBullet",
+     "attrs": {
+      "tag": "presentBullet",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/bullet.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 16,
+      "h": 16,
+      "x": 95,
+      "y": 45
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "presentNum",
+       "attrs": {
+        "tag": "presentNum",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 10,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 16,
+        "h": 16,
+        "x": 8,
+        "y": 8
+       }
+      }
+     ]
+    },
+    {
+     "type": "button",
+     "name": "overflow",
+     "attrs": {
+      "tag": "overflow",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "Select_Overflow",
+      "image_color": "FFFFFF",
+      "image": "common/present/btn_wagon_n_s.png",
+      "image_pressed": "common/present/btn_wagon_p_s.png",
+      "image_checked": null,
+      "image_disabled": "common/present/btn_wagon_p_s.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 99,
+      "h": 30,
+      "x": 111,
+      "y": 50
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "overflowBullet",
+     "attrs": {
+      "tag": "overflowBullet",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/bullet.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 16,
+      "h": 16,
+      "x": 198,
+      "y": 45
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "overflowNum",
+       "attrs": {
+        "tag": "overflowNum",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 10,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 16,
+        "h": 16,
+        "x": 8,
+        "y": 8
+       }
+      }
+     ]
+    },
+    {
+     "type": "button",
+     "name": "trade",
+     "attrs": {
+      "tag": "trade",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "Select_Trade",
+      "image_color": "FFFFFF",
+      "image": "common/present/btn_wagon_n_s.png",
+      "image_pressed": "common/present/btn_wagon_p_s.png",
+      "image_checked": null,
+      "image_disabled": "common/present/btn_wagon_p_s.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 99,
+      "h": 30,
+      "x": 215,
+      "y": 50
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "tradeBullet",
+     "attrs": {
+      "tag": "tradeBullet",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/bullet.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 16,
+      "h": 16,
+      "x": 301,
+      "y": 45
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "tradeNum",
+       "attrs": {
+        "tag": "tradeNum",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 10,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 16,
+        "h": 16,
+        "x": 8,
+        "y": 8
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "name": "warn",
+     "attrs": {
+      "tag": "warn",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 220,
+      "h": 220,
+      "x": 50,
+      "y": 140
+     }
+    },
+    {
+     "type": "button",
+     "name": "recvAll",
+     "attrs": {
+      "tag": "recvAll",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "Withdraw_Multi",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56L.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 128,
+      "h": 28,
+      "x": 96,
+      "y": 87
+     }
+    },
+    {
+     "type": "button",
+     "name": "dismissAll",
+     "attrs": {
+      "tag": "dismiss",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "Dismiss",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56L.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 128,
+      "h": 28,
+      "x": 176,
+      "y": 87
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "presentCell",
+   "attrs": {
+    "tag": "presentCell",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 320,
+    "h": 87,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "imgContent",
+     "attrs": {
+      "tag": "imgContent",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 20,
+      "y": 9
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "imgBg",
+     "attrs": {
+      "tag": "imgBg",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/present/list_wagon_title_back.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 210,
+      "h": 24,
+      "x": 90,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "name",
+     "attrs": {
+      "tag": "name",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#0E0E0E",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 176,
+      "h": 30,
+      "x": 96,
+      "y": -3
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "cross",
+     "attrs": {
+      "tag": "cross",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/present/multiply_red.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 10,
+      "h": 10,
+      "x": 270,
+      "y": 7
+     }
+    },
+    {
+     "type": "text",
+     "name": "num",
+     "attrs": {
+      "tag": "num",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#A80000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 60,
+      "h": 30,
+      "x": 281,
+      "y": -3
+     }
+    },
+    {
+     "type": "text",
+     "name": "comment",
+     "attrs": {
+      "tag": "comment",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 205,
+      "h": 40,
+      "x": 96,
+      "y": 20
+     }
+    },
+    {
+     "type": "text",
+     "name": "time",
+     "attrs": {
+      "tag": "time",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 13,
+      "horizontal_align": 0,
+      "vertical_align": 2,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 180,
+      "h": 25,
+      "x": 96,
+      "y": 58
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "line",
+     "attrs": {
+      "tag": "line",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/line_gray.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 288,
+      "h": 4,
+      "x": 16,
+      "y": 83
+     }
+    },
+    {
+     "type": "component",
+     "name": "avatarImgContent",
+     "attrs": {
+      "tag": "avatarImgContent",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 32,
+      "h": 32,
+      "x": 5,
+      "y": 25
+     }
+    }
+   ]
+  }
+ ],
+ "name": "Present",
+ "type": "component"
+}

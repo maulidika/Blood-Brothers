@@ -1,0 +1,156 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "dialog",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "dialog",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "to",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "to",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": "22",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 38,
+      "y": 118,
+      "w": 200,
+      "h": 50
+     }
+    },
+    {
+     "name": "messageBg",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "messageBg",
+      "mock_image": null,
+      "image": "common/profile/comnemt_text_field.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 38,
+      "y": 199,
+      "w": 244,
+      "h": 82
+     }
+    },
+    {
+     "name": "count",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "count",
+      "mock_image": null,
+      "text_color_key": "#121212",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 2,
+      "vertical_align": 0,
+      "text_size": "22",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 143,
+      "y": 175,
+      "w": 100,
+      "h": 30
+     }
+    },
+    {
+     "name": "countMax",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "countMax",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": "22",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 245,
+      "y": 175,
+      "w": 64,
+      "h": 30
+     }
+    }
+   ]
+  }
+ ],
+ "name": "CommentLayout",
+ "type": "component"
+}

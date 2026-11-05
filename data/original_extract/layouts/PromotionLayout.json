@@ -1,0 +1,385 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "text",
+   "name": "title",
+   "attrs": {
+    "tag": "title",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 22,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 320,
+    "h": 40,
+    "x": 0,
+    "y": 48
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "rank_name",
+   "attrs": {
+    "tag": "rank_name",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/comnemt_text_back.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": "FFFFFF",
+    "w": 218,
+    "h": 33,
+    "x": 51,
+    "y": 107
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "rank_name_value",
+     "attrs": {
+      "tag": "rank_name_value",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 16,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 200,
+      "h": 32,
+      "x": 109,
+      "y": 16
+     }
+    }
+   ]
+  },
+  {
+   "type": "button",
+   "name": "ok_button",
+   "attrs": {
+    "tag": "ok_button",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 18,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "PushOK",
+    "image_color": "FFFFFF",
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": null,
+    "image_disabled": null,
+    "image_selected": null,
+    "image_focused": null,
+    "w": 84,
+    "h": 28,
+    "x": 118,
+    "y": 397
+   }
+  },
+  {
+   "type": "component",
+   "name": "rank_image",
+   "attrs": {
+    "tag": "rank_image",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0.5,
+     0.5
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 0,
+    "h": 0,
+    "x": 160,
+    "y": 200
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "status_bonus",
+   "attrs": {
+    "tag": "status_bonus",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/dialog/profile_back.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": "FFFFFF",
+    "w": 282,
+    "h": 78,
+    "x": 19,
+    "y": 260
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "status_two_rank_up",
+     "attrs": {
+      "tag": "status_two_rank_up",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 280,
+      "h": 26,
+      "x": 141,
+      "y": 14
+     }
+    },
+    {
+     "type": "text",
+     "name": "status_bonus_label",
+     "attrs": {
+      "tag": "status_bonus_label",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 280,
+      "h": 26,
+      "x": 141,
+      "y": 34
+     }
+    },
+    {
+     "type": "text",
+     "name": "status_bonus_value",
+     "attrs": {
+      "tag": "status_bonus_value",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 280,
+      "h": 26,
+      "x": 141,
+      "y": 54
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "name": "next_rank_group",
+   "attrs": {
+    "tag": "next_rank_group",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0.5,
+     0.5
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 18,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 260,
+    "h": 52,
+    "x": 160,
+    "y": 367
+   }
+  },
+  {
+   "type": "text",
+   "name": "next_rank",
+   "attrs": {
+    "tag": "next_rank",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0.5,
+     0.5
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 18,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 260,
+    "h": 26,
+    "x": 160,
+    "y": 358
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "next_rank_point",
+     "attrs": {
+      "tag": "next_rank_point",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 260,
+      "h": 26,
+      "x": 0,
+      "y": 24
+     }
+    }
+   ]
+  }
+ ],
+ "name": "PromotionLayout",
+ "type": "component"
+}

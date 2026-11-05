@@ -1,0 +1,4673 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "base",
+   "attrs": {
+    "tag": "base",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 320,
+    "h": 292,
+    "x": 4,
+    "y": 96
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "corner_upper_l",
+     "attrs": {
+      "tag": "corner_upper_l",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_corner_upper_l.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 6,
+      "h": 6,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "corner_below_l",
+     "attrs": {
+      "tag": "corner_below_l",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_corner_below_l.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 6,
+      "h": 6,
+      "x": 0,
+      "y": 287
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "corner_upper_r",
+     "attrs": {
+      "tag": "corner_upper_r",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_corner_upper_r.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 6,
+      "h": 6,
+      "x": 307,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "corner_below_r",
+     "attrs": {
+      "tag": "corner_below_r",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_corner_below_r.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 6,
+      "h": 6,
+      "x": 307,
+      "y": 287
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "line_upper",
+     "attrs": {
+      "tag": "line_upper",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_list_upper.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 301,
+      "h": 6,
+      "x": 6,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "line_right",
+     "attrs": {
+      "tag": "line_right",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_list_r.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 6,
+      "h": 281,
+      "x": 307,
+      "y": 6
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "line_left",
+     "attrs": {
+      "tag": "line_left",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_list_l.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 6,
+      "h": 281,
+      "x": 0,
+      "y": 6
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "line_below",
+     "attrs": {
+      "tag": "line_below",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_list_below.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 301,
+      "h": 6,
+      "x": 6,
+      "y": 287
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "bg_base",
+     "attrs": {
+      "tag": "bg_base",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_list_base.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 301,
+      "h": 281,
+      "x": 6,
+      "y": 6
+     }
+    },
+    {
+     "type": "sprite",
+     "name": " line_h",
+     "attrs": {
+      "tag": " line_h",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_list_line_h.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 309,
+      "h": 8,
+      "x": 2,
+      "y": 18
+     }
+    },
+    {
+     "type": "sprite",
+     "name": " line_v",
+     "attrs": {
+      "tag": " line_v",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_list_line_v.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 4,
+      "h": 269,
+      "x": 226,
+      "y": 22
+     }
+    },
+    {
+     "type": "text",
+     "name": "title",
+     "attrs": {
+      "tag": "title",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 313,
+      "h": 20,
+      "x": 0,
+      "y": 2
+     }
+    },
+    {
+     "type": "component",
+     "name": "content",
+     "attrs": {
+      "tag": "content",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 2,
+      "y": 24
+     }
+    },
+    {
+     "type": "button",
+     "name": "bgBlack",
+     "attrs": {
+      "tag": "bgBlack",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "Clicked_Bg",
+      "image_color": "FFFFFF",
+      "image": null,
+      "image_pressed": null,
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 320,
+      "h": 292,
+      "x": -3,
+      "y": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "new_event_ally",
+   "attrs": {
+    "tag": "new_event_ally",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "new_event_ally_view",
+     "attrs": {
+      "tag": "new_event_ally_view",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "new_event_ally_center_line",
+       "attrs": {
+        "tag": "new_event_ally_center_line",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/zone/header/boss_list_line_h.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 224,
+        "h": 8,
+        "x": 0,
+        "y": 46
+       }
+      },
+      {
+       "type": "text",
+       "name": "lbl_new_event_ally_num",
+       "attrs": {
+        "tag": "lbl_new_event_ally_num",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 200,
+        "h": 20,
+        "x": 5,
+        "y": 2
+       }
+      },
+      {
+       "type": "text",
+       "name": "lbl_new_event_ally_boost_lvl",
+       "attrs": {
+        "tag": "lbl_new_event_ally_boost_lvl",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 200,
+        "h": 20,
+        "x": 5,
+        "y": 22
+       }
+      },
+      {
+       "type": "text",
+       "name": "lbl_new_event_boost_lvl_plus",
+       "attrs": {
+        "tag": "lbl_new_event_boost_lvl_plus",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 200,
+        "h": 20,
+        "x": 5,
+        "y": 22
+       }
+      },
+      {
+       "type": "component",
+       "name": "new_event_ally_content",
+       "attrs": {
+        "tag": "new_event_ally_content",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 64,
+        "h": 64,
+        "x": 2,
+        "y": 53
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "new_event_ally_button",
+     "attrs": {
+      "tag": "new_event_ally_button",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "new_event_ally_button_text",
+       "attrs": {
+        "tag": "new_event_ally_button_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 80,
+        "h": 24,
+        "x": -6,
+        "y": 0
+       }
+      },
+      {
+       "type": "button",
+       "name": "new_event_ally_button_icon",
+       "attrs": {
+        "tag": "new_event_ally_button_icon",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "ZoneFooterEventType_Action_EventAlly_Clicked",
+        "image_color": "FFFFFF",
+        "image": "zone/zone_event_n.png",
+        "image_pressed": "zone/zone_event_p.png",
+        "image_checked": null,
+        "image_disabled": "zone/zone_event_p.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 64,
+        "h": 64,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "new_event_ally_pt_icon",
+       "attrs": {
+        "tag": "new_event_ally_pt_icon",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "zone/eventally_pt_icon.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 17,
+        "h": 17,
+        "x": 1,
+        "y": 20
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "new_event_ally_column",
+     "attrs": {
+      "tag": "new_event_ally_column",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 223,
+      "h": 71,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "new_event_ally_column_rank",
+       "attrs": {
+        "tag": "new_event_ally_column_rank",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 11,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#7F0000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 130,
+        "h": 14,
+        "x": 75,
+        "y": 4
+       }
+      },
+      {
+       "type": "text",
+       "name": "new_event_ally_column_name",
+       "attrs": {
+        "tag": "new_event_ally_column_name",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 130,
+        "h": 18,
+        "x": 75,
+        "y": 20
+       }
+      },
+      {
+       "type": "text",
+       "name": "new_event_ally_column_point",
+       "attrs": {
+        "tag": "new_event_ally_column_point",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 11,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 130,
+        "h": 14,
+        "x": 75,
+        "y": 35
+       }
+      },
+      {
+       "type": "text",
+       "name": "new_event_ally_column_shared_point",
+       "attrs": {
+        "tag": "new_event_ally_column_shared_point",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 11,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 120,
+        "h": 22,
+        "x": 106,
+        "y": 50
+       }
+      },
+      {
+       "type": "text",
+       "name": "new_event_ally_column_option",
+       "attrs": {
+        "tag": "new_event_ally_column_option",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 11,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#D69907",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 160,
+        "h": 22,
+        "x": 75,
+        "y": 63
+       }
+      },
+      {
+       "type": "component",
+       "name": "new_event_ally_column_thumb",
+       "attrs": {
+        "tag": "new_event_ally_column_thumb",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 64,
+        "h": 64,
+        "x": 20,
+        "y": 10
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "new_event_ally_column_l",
+       "attrs": {
+        "tag": "new_event_ally_column_l",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "zone/point_l.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 8,
+        "h": 8,
+        "x": 96,
+        "y": 47
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "new_event_ally_search_column",
+     "attrs": {
+      "tag": "new_event_ally_search_column",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 223,
+      "h": 71,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "new_event_ally_search_column_text",
+       "attrs": {
+        "tag": "new_event_ally_search_column_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 180,
+        "h": 20,
+        "x": 36,
+        "y": 16
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "event_ally",
+   "attrs": {
+    "tag": "event_ally",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "event_ally_view",
+     "attrs": {
+      "tag": "event_ally_view",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "event_ally_center_line",
+       "attrs": {
+        "tag": "event_ally_center_line",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/zone/header/boss_list_line_h.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 224,
+        "h": 8,
+        "x": 0,
+        "y": 46
+       }
+      },
+      {
+       "type": "text",
+       "name": "event_ally_title_text",
+       "attrs": {
+        "tag": "event_ally_title_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 200,
+        "h": 20,
+        "x": 28,
+        "y": 2
+       }
+      },
+      {
+       "type": "text",
+       "name": "event_ally_point_text",
+       "attrs": {
+        "tag": "event_ally_point_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 200,
+        "h": 20,
+        "x": 67,
+        "y": 24
+       }
+      },
+      {
+       "type": "component",
+       "name": "event_ally_content",
+       "attrs": {
+        "tag": "event_ally_content",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 64,
+        "h": 64,
+        "x": 2,
+        "y": 53
+       }
+      },
+      {
+       "type": "button",
+       "name": "event_ally_title_accept_button",
+       "attrs": {
+        "tag": "event_ally_title_accept_button",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "0",
+        "image_color": "FFF3E9",
+        "image": "common/ui/button/bt_base_red_n_56.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_40.png",
+        "image_checked": null,
+        "image_disabled": "common/ui/button/bt_base_gray_40.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 60,
+        "h": 20,
+        "x": 155,
+        "y": 24
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "event_ally_raidboss_view",
+     "attrs": {
+      "tag": "event_ally_raidboss_view",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "event_ally_raidboss_center_line",
+       "attrs": {
+        "tag": "event_ally_raidboss_center_line",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/zone/header/boss_list_line_h.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 224,
+        "h": 8,
+        "x": 0,
+        "y": 120
+       }
+      },
+      {
+       "type": "text",
+       "name": "event_ally_raidboss_accept_point_text",
+       "attrs": {
+        "tag": "event_ally_raidboss_accept_point_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF9F3",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 220,
+        "h": 20,
+        "x": 0,
+        "y": 100
+       }
+      },
+      {
+       "type": "text",
+       "name": "event_ally_raidboss_title_notice",
+       "attrs": {
+        "tag": "event_ally_raidboss_title_notice",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#E60000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 228,
+        "h": 60,
+        "x": 0,
+        "y": 2
+       }
+      },
+      {
+       "type": "text",
+       "name": "event_ally_raidboss_title_text",
+       "attrs": {
+        "tag": "event_ally_raidboss_title_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 200,
+        "h": 20,
+        "x": 0,
+        "y": 60
+       }
+      },
+      {
+       "type": "text",
+       "name": "event_ally_raidboss_point_text",
+       "attrs": {
+        "tag": "event_ally_raidboss_point_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 200,
+        "h": 20,
+        "x": 22,
+        "y": 80
+       }
+      },
+      {
+       "type": "component",
+       "name": "event_ally_raidboss_content",
+       "attrs": {
+        "tag": "event_ally_raidboss_content",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 64,
+        "h": 64,
+        "x": 2,
+        "y": 120
+       }
+      },
+      {
+       "type": "button",
+       "name": "event_ally_raidboss_title_accept_button",
+       "attrs": {
+        "tag": "event_ally_raidboss_title_accept_button",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "0",
+        "image_color": "FFF3E9",
+        "image": "common/ui/button/bt_base_red_n_56.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_40.png",
+        "image_checked": null,
+        "image_disabled": "common/ui/button/bt_base_gray_40.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 60,
+        "h": 20,
+        "x": 155,
+        "y": 80
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "event_ally_button",
+     "attrs": {
+      "tag": "event_ally_button",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "event_ally_button_text",
+       "attrs": {
+        "tag": "event_ally_button_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 80,
+        "h": 24,
+        "x": -6,
+        "y": 0
+       }
+      },
+      {
+       "type": "button",
+       "name": "event_ally_button_icon",
+       "attrs": {
+        "tag": "event_ally_button_icon",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "ZoneFooterEventType_Action_EventAlly_Clicked",
+        "image_color": "FFFFFF",
+        "image": "zone/zone_event_n.png",
+        "image_pressed": "zone/zone_event_p.png",
+        "image_checked": null,
+        "image_disabled": "zone/zone_event_p.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 64,
+        "h": 64,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "event_ally_pt_icon",
+       "attrs": {
+        "tag": "event_ally_pt_icon",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "zone/eventally_pt_icon.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 17,
+        "h": 17,
+        "x": 1,
+        "y": 20
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "event_ally_column",
+     "attrs": {
+      "tag": "event_ally_column",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 223,
+      "h": 71,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "event_ally_column_rank",
+       "attrs": {
+        "tag": "event_ally_column_rank",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 11,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#7F0000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 130,
+        "h": 14,
+        "x": 75,
+        "y": 4
+       }
+      },
+      {
+       "type": "text",
+       "name": "event_ally_column_name",
+       "attrs": {
+        "tag": "event_ally_column_name",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 130,
+        "h": 18,
+        "x": 75,
+        "y": 20
+       }
+      },
+      {
+       "type": "text",
+       "name": "event_ally_column_point",
+       "attrs": {
+        "tag": "event_ally_column_point",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 11,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 130,
+        "h": 14,
+        "x": 75,
+        "y": 35
+       }
+      },
+      {
+       "type": "text",
+       "name": "event_ally_column_shared_point",
+       "attrs": {
+        "tag": "event_ally_column_shared_point",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 11,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 120,
+        "h": 22,
+        "x": 106,
+        "y": 50
+       }
+      },
+      {
+       "type": "text",
+       "name": "event_ally_column_option",
+       "attrs": {
+        "tag": "event_ally_column_option",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 11,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#D69907",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 160,
+        "h": 22,
+        "x": 75,
+        "y": 63
+       }
+      },
+      {
+       "type": "component",
+       "name": "event_ally_column_thumb",
+       "attrs": {
+        "tag": "event_ally_column_thumb",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 64,
+        "h": 64,
+        "x": 20,
+        "y": 10
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "event_ally_column_l",
+       "attrs": {
+        "tag": "event_ally_column_l",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "zone/point_l.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 8,
+        "h": 8,
+        "x": 96,
+        "y": 47
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "event_ally_search_column",
+     "attrs": {
+      "tag": "event_ally_search_column",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 223,
+      "h": 71,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "event_ally_search_column_text",
+       "attrs": {
+        "tag": "event_ally_search_column_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 180,
+        "h": 20,
+        "x": 36,
+        "y": 16
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "name": "raidboss_list_refresh",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 100,
+    "h": 100,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "raidboss_list_refresh_text",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": false,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 13,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 64,
+      "h": 20,
+      "x": 2,
+      "y": 0
+     }
+    },
+    {
+     "type": "button",
+     "name": "raidboss_list_refresh_icon",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "font_family": "",
+      "action": "Refresh",
+      "image_color": null,
+      "image": "ui/raidboss/Refresh.png",
+      "image_pressed": null,
+      "image_checked": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": null,
+      "image_selected": "common/ui/button/bt_base_red_p_56.png",
+      "image_focused": "common/ui/button/bt_base_red_p_56.png",
+      "w": 47,
+      "h": 49,
+      "x": 8,
+      "y": 7
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "tower_details",
+   "attrs": {
+    "tag": "tower_details",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "tower_details_list_view",
+     "attrs": {
+      "tag": "tower_details_list_view",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 92
+     }
+    },
+    {
+     "type": "component",
+     "name": "tower_details_button",
+     "attrs": {
+      "tag": "tower_details_button",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "tower_details_button_text",
+       "attrs": {
+        "tag": "tower_details_button_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "Realm Status",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 64,
+        "h": 40,
+        "x": 2,
+        "y": 0
+       }
+      },
+      {
+       "type": "button",
+       "name": "tower_details_button_icon",
+       "attrs": {
+        "tag": "tower_details_button_icon",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "ZoneFooterEventType_Action_TowerDetails_Clicked",
+        "image_color": "FFFFFF",
+        "image": "arena/icon_realm_status_n.png",
+        "image_pressed": "arena/icon_realm_status_p.png",
+        "image_checked": null,
+        "image_disabled": "arena/icon_realm_status_p.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 43,
+        "h": 39,
+        "x": 11,
+        "y": 27
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "boost_details",
+   "attrs": {
+    "tag": "boost_details",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "boost_details_list_view",
+     "attrs": {
+      "tag": "boost_details_list_view",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "info",
+       "attrs": {
+        "tag": "boost_level",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 16,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 223,
+        "h": 33,
+        "x": 0,
+        "y": 0
+       },
+       "children": [
+        {
+         "type": "image",
+         "name": "image30",
+         "attrs": {
+          "tag": "boost_xp_layout",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": "arena/icon_xp.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 24,
+          "h": 24,
+          "x": 17,
+          "y": 32
+         }
+        },
+        {
+         "type": "text",
+         "name": "info1",
+         "attrs": {
+          "tag": "",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 16,
+          "horizontal_align": 2,
+          "vertical_align": 1,
+          "text": "Arena LV:",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 78,
+          "h": 33,
+          "x": 56,
+          "y": 0
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "image4",
+           "attrs": {
+            "tag": "icon_boost_level",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/arena/ui/icon_arena_lv.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 20,
+            "h": 20,
+            "x": 81,
+            "y": 5
+           }
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "name": "info0",
+         "attrs": {
+          "tag": "txt_next_boost",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 14,
+          "horizontal_align": 1,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 224,
+          "h": 28,
+          "x": -1,
+          "y": 59
+         }
+        },
+        {
+         "type": "image",
+         "name": "image0",
+         "attrs": {
+          "tag": "",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": "arena/table.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 192,
+          "h": 152,
+          "x": 15,
+          "y": 110
+         },
+         "children": [
+          {
+           "type": "text",
+           "name": "infoLeft1",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "scale": [
+             1,
+             1
+            ],
+            "rotate": 0,
+            "text_size": 12,
+            "horizontal_align": 0,
+            "vertical_align": 0,
+            "text": "",
+            "text_wrap": true,
+            "text_color_key": "#FFFFFF",
+            "background_color_key": null,
+            "font_family": "",
+            "w": 98,
+            "h": 20,
+            "x": 2,
+            "y": 0
+           },
+           "children": [
+            {
+             "type": "text",
+             "name": "infoLeft025000000",
+             "attrs": {
+              "tag": "txt_boost_title_9",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "POINT BOOST",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 98,
+              "h": 20,
+              "x": 6,
+              "y": 120
+             }
+            },
+            {
+             "type": "text",
+             "name": "infoLeft02500000",
+             "attrs": {
+              "tag": "txt_boost_title_8",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "BREATH BARRIER",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 118,
+              "h": 20,
+              "x": 6,
+              "y": 105
+             }
+            },
+            {
+             "type": "text",
+             "name": "infoLeft0250000",
+             "attrs": {
+              "tag": "txt_boost_title_7",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "MAGICAL BARRIER",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 118,
+              "h": 20,
+              "x": 6,
+              "y": 90
+             }
+            },
+            {
+             "type": "text",
+             "name": "infoLeft025000",
+             "attrs": {
+              "tag": "txt_boost_title_6",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "PHYSCIAL BARRIER",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 118,
+              "h": 20,
+              "x": 6,
+              "y": 75
+             }
+            },
+            {
+             "type": "text",
+             "name": "infoLeft02500",
+             "attrs": {
+              "tag": "txt_boost_title_5",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "AGILITY",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 98,
+              "h": 20,
+              "x": 6,
+              "y": 60
+             }
+            },
+            {
+             "type": "text",
+             "name": "infoLeft0250",
+             "attrs": {
+              "tag": "txt_boost_title_4",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "WISDOM",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 98,
+              "h": 20,
+              "x": 6,
+              "y": 45
+             }
+            },
+            {
+             "type": "text",
+             "name": "infoLeft025",
+             "attrs": {
+              "tag": "txt_boost_title_3",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "ATTACK",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 98,
+              "h": 20,
+              "x": 6,
+              "y": 30
+             }
+            },
+            {
+             "type": "text",
+             "name": "infoLeft0",
+             "attrs": {
+              "tag": "txt_boost_title_2",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "HP",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 98,
+              "h": 20,
+              "x": 6,
+              "y": 15
+             }
+            },
+            {
+             "type": "text",
+             "name": "infoLeft",
+             "attrs": {
+              "tag": "txt_boost_title_1",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "DAMAGE",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 98,
+              "h": 20,
+              "x": 6,
+              "y": 0
+             }
+            },
+            {
+             "type": "text",
+             "name": "infoLeft0250000001",
+             "attrs": {
+              "tag": "txt_boost_title_10",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "POINT BOOST",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 98,
+              "h": 20,
+              "x": 6,
+              "y": 135
+             }
+            }
+           ]
+          },
+          {
+           "type": "text",
+           "name": "infoRight",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "scale": [
+             1,
+             1
+            ],
+            "rotate": 0,
+            "text_size": 12,
+            "horizontal_align": 0,
+            "vertical_align": 0,
+            "text": "",
+            "text_wrap": true,
+            "text_color_key": "#FFFFFF",
+            "background_color_key": null,
+            "font_family": "",
+            "w": 60,
+            "h": 20,
+            "x": 125,
+            "y": 0
+           },
+           "children": [
+            {
+             "type": "text",
+             "name": "infoLeft0250000000",
+             "attrs": {
+              "tag": "txt_boost_param_9",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "+0%",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 60,
+              "h": 20,
+              "x": 6,
+              "y": 120
+             }
+            },
+            {
+             "type": "text",
+             "name": "infoLeft025000001",
+             "attrs": {
+              "tag": "txt_boost_param_8",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "+0%",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 60,
+              "h": 20,
+              "x": 6,
+              "y": 105
+             }
+            },
+            {
+             "type": "text",
+             "name": "infoLeft02500001",
+             "attrs": {
+              "tag": "txt_boost_param_7",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "+0%",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 60,
+              "h": 20,
+              "x": 6,
+              "y": 90
+             }
+            },
+            {
+             "type": "text",
+             "name": "infoLeft0250001",
+             "attrs": {
+              "tag": "txt_boost_param_6",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "+0%",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 60,
+              "h": 20,
+              "x": 6,
+              "y": 75
+             }
+            },
+            {
+             "type": "text",
+             "name": "infoLeft025001",
+             "attrs": {
+              "tag": "txt_boost_param_5",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "+0%",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 60,
+              "h": 20,
+              "x": 6,
+              "y": 60
+             }
+            },
+            {
+             "type": "text",
+             "name": "infoLeft02501",
+             "attrs": {
+              "tag": "txt_boost_param_4",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "+0%",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 60,
+              "h": 20,
+              "x": 6,
+              "y": 45
+             }
+            },
+            {
+             "type": "text",
+             "name": "infoRight0251",
+             "attrs": {
+              "tag": "txt_boost_param_3",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "+0%",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 60,
+              "h": 20,
+              "x": 6,
+              "y": 30
+             }
+            },
+            {
+             "type": "text",
+             "name": "infoRight00",
+             "attrs": {
+              "tag": "txt_boost_param_2",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "+0%",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 60,
+              "h": 20,
+              "x": 6,
+              "y": 15
+             }
+            },
+            {
+             "type": "text",
+             "name": "infoRight2",
+             "attrs": {
+              "tag": "txt_boost_param_1",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "+0%",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 60,
+              "h": 20,
+              "x": 6,
+              "y": 0
+             }
+            },
+            {
+             "type": "text",
+             "name": "infoLeft02500000000",
+             "attrs": {
+              "tag": "txt_boost_param_10",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 0,
+              "vertical_align": 0,
+              "text": "+0%",
+              "text_wrap": true,
+              "text_color_key": "#FFFFFF",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 60,
+              "h": 20,
+              "x": 6,
+              "y": 135
+             }
+            }
+           ]
+          },
+          {
+           "type": "text",
+           "name": "info010",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "scale": [
+             1,
+             1
+            ],
+            "rotate": 0,
+            "text_size": 14,
+            "horizontal_align": 0,
+            "vertical_align": 1,
+            "text": "BONUS:",
+            "text_wrap": true,
+            "text_color_key": "#FF3939",
+            "background_color_key": null,
+            "font_family": "",
+            "w": 185,
+            "h": 26,
+            "x": 8,
+            "y": -23
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "boost_details_button",
+     "attrs": {
+      "tag": "boost_details_button",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "boost_details_button_text",
+       "attrs": {
+        "tag": "boost_details_button_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 64,
+        "h": 25,
+        "x": 2,
+        "y": 0
+       }
+      },
+      {
+       "type": "button",
+       "name": "boost_details_button_icon",
+       "attrs": {
+        "tag": "boost_details_button_icon",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "ZoneFooterEventType_Action_BoostDetails_Clicked",
+        "image_color": "FFFFFF",
+        "image": "arena/icon_arena_lv_n.png",
+        "image_pressed": "arena/icon_arena_lv_p.png",
+        "image_checked": null,
+        "image_disabled": "arena/icon_arena_lv_p.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 43,
+        "h": 43,
+        "x": 13,
+        "y": 21
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "raidboss_list",
+   "attrs": {
+    "tag": "raidboss_list",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "raidboss_list_view",
+     "attrs": {
+      "tag": "raidboss_list_view",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "info",
+       "attrs": {
+        "tag": "info",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 20,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 224,
+        "h": 261,
+        "x": 2,
+        "y": 0
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "raidboss_list_button",
+     "attrs": {
+      "tag": "raidboss_list_button",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "raidboss_list_button_text",
+       "attrs": {
+        "tag": "raidboss_list_button_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 64,
+        "h": 20,
+        "x": 2,
+        "y": 0
+       }
+      },
+      {
+       "type": "button",
+       "name": "raidboss_list_button_icon",
+       "attrs": {
+        "tag": "raidboss_list_button_icon",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "ZoneFooterEventType_Action_RaidBossList_Clicked",
+        "image_color": "FFFFFF",
+        "image": "zone/zone_battle_battle_icon_n.png",
+        "image_pressed": "zone/zone_battle_battle_icon_p.png",
+        "image_checked": null,
+        "image_disabled": "zone/zone_battle_battle_icon_p.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 64,
+        "h": 65,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "detail_button",
+   "attrs": {
+    "tag": "detail_button",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "detail_button_text",
+     "attrs": {
+      "tag": "detail_button_text",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 64,
+      "h": 22,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "button",
+     "name": "detail_button_icon",
+     "attrs": {
+      "tag": "detail_button_icon",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "ZoneFooterEventType_Action_Detail_Clicked",
+      "image_color": "FFFFFF",
+      "image": "zone/zone_battle_detail_icon_n.png",
+      "image_pressed": "zone/zone_battle_detail_icon_p.png",
+      "image_checked": null,
+      "image_disabled": "zone/zone_battle_detail_icon_p.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 64,
+      "h": 65,
+      "x": 0,
+      "y": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "pvp",
+   "attrs": {
+    "tag": "pvp",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "pvp_rank",
+     "attrs": {
+      "tag": "pvp_rank",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "bg_base_1",
+       "attrs": {
+        "tag": "bg_base_1",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/zone/header/boss_list_base.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 200,
+        "h": 30,
+        "x": 115,
+        "y": 68
+       }
+      },
+      {
+       "type": "text",
+       "name": "pvpRankName",
+       "attrs": {
+        "tag": "pvpRankName",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 132,
+        "h": 30,
+        "x": 115,
+        "y": 68
+       }
+      },
+      {
+       "type": "component",
+       "name": "pvpRankImage",
+       "attrs": {
+        "tag": "pvpRankImage",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 64,
+        "h": 30,
+        "x": 280,
+        "y": 83
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "pvp_battle_button",
+     "attrs": {
+      "tag": "pvp_battle_button",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "pvp_battle_button_text",
+       "attrs": {
+        "tag": "pvp_battle_button_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 64,
+        "h": 22,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "pvp_battle_button_time_text",
+       "attrs": {
+        "tag": "pvp_battle_button_time_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 64,
+        "h": 22,
+        "x": 0,
+        "y": 12
+       }
+      },
+      {
+       "type": "button",
+       "name": "pvp_battle_button_icon",
+       "attrs": {
+        "tag": "pvp_battle_button_icon",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "ToBattle_Clicked",
+        "image_color": "FFFFFF",
+        "image": "zone/zone_battle_battle_icon_n.png",
+        "image_pressed": "zone/zone_battle_battle_icon_p.png",
+        "image_checked": null,
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 65,
+        "h": 64,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "pvp_group_battle_button",
+     "attrs": {
+      "tag": "pvp_group_battle_button",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "pvp_group_battle_button_text",
+       "attrs": {
+        "tag": "pvp_group_battle_button_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 80,
+        "h": 22,
+        "x": -6,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "pvp_group_battle_button_time_text",
+       "attrs": {
+        "tag": "pvp_group_battle_button_time_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 64,
+        "h": 22,
+        "x": 0,
+        "y": 12
+       }
+      },
+      {
+       "type": "button",
+       "name": "pvp_group_battle_button_icon",
+       "attrs": {
+        "tag": "pvp_group_battle_button_icon",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "PvpGroupBattle_Clicked",
+        "image_color": "FFFFFF",
+        "image": "zone/zone_group_n.png",
+        "image_pressed": "zone/zone_group_p.png",
+        "image_checked": null,
+        "image_disabled": "zone/zone_group_p.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 65,
+        "h": 64,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "pvp_group_reward_button",
+     "attrs": {
+      "tag": "pvp_group_reward_button",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "pvp_group_reward_button_text",
+       "attrs": {
+        "tag": "pvp_group_reward_button_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 95,
+        "h": 22,
+        "x": -11,
+        "y": 0
+       }
+      },
+      {
+       "type": "button",
+       "name": "pvp_group_reward_button_icon",
+       "attrs": {
+        "tag": "pvp_group_reward_button_icon",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "Pvp_GroupReward_Clicked",
+        "image_color": "FFFFFF",
+        "image": "zone/zone_group_reward_icon_n.png",
+        "image_pressed": "zone/zone_group_reward_icon_p.png",
+        "image_checked": null,
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 65,
+        "h": 64,
+        "x": 2,
+        "y": -5
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "pvp_detail_button",
+     "attrs": {
+      "tag": "pvp_detail_button",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "pvp_detail_button_text",
+       "attrs": {
+        "tag": "pvp_detail_button_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 64,
+        "h": 22,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "button",
+       "name": "pvp_detail_button_icon",
+       "attrs": {
+        "tag": "pvp_detail_button_icon",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "ZoneFooterEventType_Action_Detail_Clicked",
+        "image_color": "FFFFFF",
+        "image": "zone/zone_pvp_battle_detail_icon_n.png",
+        "image_pressed": "zone/zone_pvp_battle_detail_icon_p.png",
+        "image_checked": null,
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 65,
+        "h": 64,
+        "x": 0,
+        "y": -2
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "tower_details_panel",
+   "attrs": {
+    "tag": "tower_details_panel",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 224,
+    "h": 124,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "info",
+     "attrs": {
+      "tag": "info",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 16,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#EDE59F",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 233,
+      "h": 25,
+      "x": 10,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "area_reward",
+     "attrs": {
+      "tag": "area_reward",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 214,
+      "h": 20,
+      "x": 11,
+      "y": 47
+     }
+    },
+    {
+     "type": "text",
+     "name": "area_title",
+     "attrs": {
+      "tag": "area_title",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FF3939",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 114,
+      "h": 22,
+      "x": 11,
+      "y": 25
+     }
+    },
+    {
+     "type": "text",
+     "name": "area_players",
+     "attrs": {
+      "tag": "area_rank",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 118,
+      "h": 22,
+      "x": 115,
+      "y": 25
+     }
+    },
+    {
+     "type": "image",
+     "name": "image2",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/ui/arena/event_pane_table_1.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 150,
+      "h": 50,
+      "x": 36,
+      "y": 69
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "area_rewardEP",
+       "attrs": {
+        "tag": "area_reward_gold",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 104,
+        "h": 20,
+        "x": 85,
+        "y": 2
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "area_rewardR",
+         "attrs": {
+          "tag": "area_reward_silver",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 13,
+          "horizontal_align": 0,
+          "vertical_align": 0,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 104,
+          "h": 20,
+          "x": 0,
+          "y": 15
+         }
+        },
+        {
+         "type": "text",
+         "name": "area_rewardR0",
+         "attrs": {
+          "tag": "area_reward_bronze",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 13,
+          "horizontal_align": 0,
+          "vertical_align": 0,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 104,
+          "h": 20,
+          "x": 0,
+          "y": 30
+         }
+        },
+        {
+         "type": "text",
+         "name": "area_rewardEP0",
+         "attrs": {
+          "tag": "area_reward_title_gold",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 13,
+          "horizontal_align": 0,
+          "vertical_align": 0,
+          "text": "GOLD",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 59,
+          "h": 20,
+          "x": -68,
+          "y": 0
+         },
+         "children": [
+          {
+           "type": "text",
+           "name": "area_rewardR1",
+           "attrs": {
+            "tag": "area_reward_title_silver",
+            "mock_image": null,
+            "visible": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "scale": [
+             1,
+             1
+            ],
+            "rotate": 0,
+            "text_size": 13,
+            "horizontal_align": 0,
+            "vertical_align": 0,
+            "text": "SILVER",
+            "text_wrap": true,
+            "text_color_key": "#FFFFFF",
+            "background_color_key": null,
+            "font_family": "",
+            "w": 59,
+            "h": 20,
+            "x": 0,
+            "y": 15
+           }
+          },
+          {
+           "type": "text",
+           "name": "area_rewardR00",
+           "attrs": {
+            "tag": "area_reward_title_bronze",
+            "mock_image": null,
+            "visible": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "scale": [
+             1,
+             1
+            ],
+            "rotate": 0,
+            "text_size": 13,
+            "horizontal_align": 0,
+            "vertical_align": 0,
+            "text": "BRONZE",
+            "text_wrap": true,
+            "text_color_key": "#FFFFFF",
+            "background_color_key": null,
+            "font_family": "",
+            "w": 59,
+            "h": 20,
+            "x": 0,
+            "y": 30
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "image",
+       "name": "image9",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/ui/arena/event_pane_table_2.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 2,
+        "h": 42,
+        "x": 79,
+        "y": 4
+       }
+      },
+      {
+       "type": "image",
+       "name": "image5",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/ui/arena/event_pane_table_3.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 138,
+        "h": 2,
+        "x": 5,
+        "y": 17
+       },
+       "children": [
+        {
+         "type": "image",
+         "name": "image51",
+         "attrs": {
+          "tag": "",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": "common/ui/arena/event_pane_table_3.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 138,
+          "h": 2,
+          "x": 0,
+          "y": 15
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "tower_details_view_all",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 224,
+    "h": 121,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "image",
+     "name": "all_reward_char",
+     "attrs": {
+      "tag": "all_reward_char",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": null,
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 51,
+      "h": 51,
+      "x": 87,
+      "y": 32
+     },
+     "children": [
+      {
+       "type": "image",
+       "name": "image1",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/ui/arena/ally_thumbnail_card.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 51,
+        "h": 51,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "name": "all_reward_frame",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/ui/arena/diamond_frame.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 64,
+      "h": 64,
+      "x": 80,
+      "y": 26
+     }
+    },
+    {
+     "type": "text",
+     "name": "txt_area_all_reward",
+     "attrs": {
+      "tag": "txt_area_all_reward",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 16,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "w": 114,
+      "h": 25,
+      "x": 55,
+      "y": 90
+     }
+    },
+    {
+     "type": "text",
+     "name": "label_all_realm",
+     "attrs": {
+      "tag": "txt_all_realm",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 17,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "All Realms",
+      "text_wrap": true,
+      "text_color_key": "#FFEBDA",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 237,
+      "h": 29,
+      "x": -6,
+      "y": 0
+     }
+    },
+    {
+     "type": "image",
+     "name": "image7",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/ui/zone/header/boss_list_line.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 213,
+      "h": 2,
+      "x": 5,
+      "y": 119
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "common",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "event_mission",
+     "attrs": {
+      "tag": "event_mission",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 224,
+      "h": 260,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "event_mission_text",
+       "attrs": {
+        "tag": "event_mission_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "Mission",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 64,
+        "h": 22,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "button",
+       "name": "event_mission_icon",
+       "attrs": {
+        "tag": "event_mission_icon",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "ZoneFooterEventType_Action_MissionList_Clicked",
+        "image_color": "FFFFFF",
+        "image": "zone/zone_battle_mission_icon_n.png",
+        "image_pressed": "zone/zone_battle_mission_icon_p.png",
+        "image_checked": null,
+        "image_disabled": "zone/zone_battle_mission_icon_p.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 48,
+        "h": 30,
+        "x": 7,
+        "y": 21
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "event_mission_list_view",
+     "attrs": {
+      "tag": "event_mission_list_view",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 224,
+      "h": 260,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "mission_info",
+       "attrs": {
+        "tag": "mission_info",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 20,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 224,
+        "h": 261,
+        "x": 2,
+        "y": 0
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "ZoneFooterPanelLayout",
+ "type": "component"
+}

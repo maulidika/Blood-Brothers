@@ -1,0 +1,39 @@
+{
+ "action": [
+  {
+   "image": {
+    "url": "[DOWNLOAD_CONTENT]/DownloadContent/en/ab/sheet01.png"
+   }
+  },
+  {
+   "image": {
+    "url": "[DOWNLOAD_CONTENT]/DownloadContent/en/ab/sheet02.png"
+   }
+  },
+  {
+   "image": {
+    "url": "[DOWNLOAD_CONTENT]/DownloadContent/en/ab/sheet03.png"
+   }
+  },
+  {
+   "image": {
+    "url": "[DOWNLOAD_CONTENT]/DownloadContent/en/ab/world_boss_03.png"
+   }
+  },
+  {
+   "image": {
+    "url": "[DOWNLOAD_CONTENT]/DownloadContent/en/ab/world_boss_01.png"
+   }
+  },
+  {
+   "image": {
+    "url": "[DOWNLOAD_CONTENT]/DownloadContent/en/ab/world_boss_02.png"
+   }
+  },
+  {
+   "image": {
+    "url": "[DOWNLOAD_CONTENT]/DownloadContent/lang/ab/effect/img_effects.png"
+   }
+  }
+ ]
+}

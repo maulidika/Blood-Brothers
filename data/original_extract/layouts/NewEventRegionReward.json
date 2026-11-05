@@ -1,0 +1,72 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "enabled": true,
+  "h": 480,
+  "mock_image": null,
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "text",
+   "name": "text0",
+   "attrs": {
+    "tag": "txt",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 12,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "Test",
+    "text_wrap": true,
+    "text_color_key": "#FF0000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 242,
+    "h": 322,
+    "x": 39,
+    "y": 79
+   }
+  },
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 100,
+    "h": 100,
+    "x": 0,
+    "y": 0
+   }
+  }
+ ],
+ "name": "NewEventRegionReward",
+ "type": "view"
+}

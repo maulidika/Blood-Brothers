@@ -1,0 +1,138 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "super_raidboss_notice",
+   "attrs": {
+    "tag": "super_raidboss_notice",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 230,
+    "h": 34,
+    "x": 45,
+    "y": 43
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "bg",
+     "attrs": {
+      "tag": "bg",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/zone_superraidboss_textback.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 172,
+      "h": 48,
+      "x": 29,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "title",
+     "attrs": {
+      "tag": "title",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "Super Raid Boss appears",
+      "text_wrap": true,
+      "text_color_key": "#E9DCCB",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 230,
+      "h": 36,
+      "x": 0,
+      "y": -2
+     }
+    },
+    {
+     "type": "text",
+     "name": "time",
+     "attrs": {
+      "tag": "time",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "00:00:00",
+      "text_wrap": true,
+      "text_color_key": "#FF0000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 230,
+      "h": 20,
+      "x": 0,
+      "y": 28
+     }
+    }
+   ]
+  }
+ ],
+ "name": "ZoneNotice",
+ "type": "component"
+}

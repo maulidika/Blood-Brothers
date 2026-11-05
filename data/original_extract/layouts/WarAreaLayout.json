@@ -1,0 +1,538 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "node",
+   "name": "panel",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 100,
+    "h": 100,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "area_panel_bg",
+     "attrs": {
+      "tag": "area_panel_bg",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/zone_superraidboss_textback.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 290,
+      "h": 46,
+      "x": 30,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "area_panel_text",
+     "attrs": {
+      "tag": "area_panel_text",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 16,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 270,
+      "h": 46,
+      "x": 40,
+      "y": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "name": "team_num",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 100,
+    "h": 100,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "your_team1",
+     "attrs": {
+      "tag": "your_team1",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/icon/team01.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 9,
+      "h": 20,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "your_team2",
+     "attrs": {
+      "tag": "your_team2",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/icon/team01.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 9,
+      "h": 20,
+      "x": 9,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "your_team3",
+     "attrs": {
+      "tag": "your_team3",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/icon/team01.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 9,
+      "h": 20,
+      "x": 18,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "your_team4",
+     "attrs": {
+      "tag": "your_team4",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/icon/team01.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 9,
+      "h": 20,
+      "x": 27,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "your_team5",
+     "attrs": {
+      "tag": "your_team5",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/icon/team01.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 9,
+      "h": 20,
+      "x": 36,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "enemy_team5",
+     "attrs": {
+      "tag": "enemy_team5",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/icon/team02.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 9,
+      "h": 20,
+      "x": 51,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "enemy_team4",
+     "attrs": {
+      "tag": "enemy_team4",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/icon/team02.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 9,
+      "h": 20,
+      "x": 60,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "enemy_team3",
+     "attrs": {
+      "tag": "enemy_team3",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/icon/team02.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 9,
+      "h": 20,
+      "x": 69,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "enemy_team2",
+     "attrs": {
+      "tag": "enemy_team2",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/icon/team02.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 9,
+      "h": 20,
+      "x": 78,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "enemy_team1",
+     "attrs": {
+      "tag": "enemy_team1",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/icon/team02.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 9,
+      "h": 20,
+      "x": 87,
+      "y": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "name": "point",
+   "attrs": {
+    "tag": null,
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 100,
+    "h": 100,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "point_bg",
+     "attrs": {
+      "tag": null,
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/region/region_text_base.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 120,
+      "h": 22,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "node",
+     "name": "point_icon",
+     "attrs": {
+      "tag": null,
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 24,
+      "h": 24,
+      "x": 0,
+      "y": -1
+     }
+    },
+    {
+     "type": "text",
+     "name": "point_text",
+     "attrs": {
+      "tag": null,
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": false,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": null,
+      "w": 100,
+      "h": 22,
+      "x": 28,
+      "y": 0
+     }
+    }
+   ]
+  }
+ ],
+ "name": "WarAreaLayout",
+ "type": "component"
+}

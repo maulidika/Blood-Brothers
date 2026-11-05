@@ -1,0 +1,184 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "row",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "row",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 96
+   },
+   "children": [
+    {
+     "name": "rank",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "rank",
+      "mock_image": null,
+      "text_color_key": "#1E1E1E",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": "20",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 100,
+      "y": 2,
+      "w": 212,
+      "h": 26
+     }
+    },
+    {
+     "name": "textback",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "textback",
+      "mock_image": null,
+      "image": "common/ui/level_back.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 98,
+      "y": 26,
+      "w": 107,
+      "h": 22
+     }
+    },
+    {
+     "name": "warlord",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "warlord",
+      "mock_image": null,
+      "text_color_key": "#F9F9F9",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": "12",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 102,
+      "y": 26,
+      "w": 118,
+      "h": 22
+     }
+    },
+    {
+     "name": "name",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "name",
+      "mock_image": null,
+      "text_color_key": "#0D0D0D",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": "18",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 100,
+      "y": 46,
+      "w": 212,
+      "h": 24
+     }
+    },
+    {
+     "name": "point",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "point",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": "16",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 100,
+      "y": 70,
+      "w": 200,
+      "h": 22
+     }
+    }
+   ]
+  }
+ ],
+ "name": "EventRankingCellLayout",
+ "type": "component"
+}

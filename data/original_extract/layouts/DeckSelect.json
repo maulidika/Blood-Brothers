@@ -1,0 +1,244 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 480
+   },
+   "children": [
+    {
+     "name": "title",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "title",
+      "mock_image": null,
+      "text_color_key": "#FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "22",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 43,
+      "y": 56,
+      "w": 234,
+      "h": 32
+     }
+    },
+    {
+     "name": "brigade1",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "brigade1",
+      "mock_image": null,
+      "action": "onBrigade1",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/deck/btn_deck_n.png",
+      "image_pressed": "common/deck/btn_deck_p.png",
+      "image_disabled": "common/deck/btn_deck_grey.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 66,
+      "y": 110,
+      "w": 188,
+      "h": 55
+     }
+    },
+    {
+     "name": "brigade2",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "brigade2",
+      "mock_image": null,
+      "action": "onBrigade2",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/deck/btn_deck_n.png",
+      "image_pressed": "common/deck/btn_deck_p.png",
+      "image_disabled": "common/deck/btn_deck_grey.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 66,
+      "y": 216,
+      "w": 188,
+      "h": 55
+     }
+    },
+    {
+     "name": "brigade3",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "brigade3",
+      "mock_image": null,
+      "action": "onBrigade3",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/deck/btn_deck_n.png",
+      "image_pressed": "common/deck/btn_deck_p.png",
+      "image_disabled": "common/deck/btn_deck_grey.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 66,
+      "y": 322,
+      "w": 188,
+      "h": 55
+     }
+    },
+    {
+     "name": "text001",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "text001",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "14",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 30,
+      "y": 172,
+      "w": 260,
+      "h": 24
+     }
+    },
+    {
+     "name": "text002",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "text002",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "14",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 30,
+      "y": 278,
+      "w": 260,
+      "h": 24
+     }
+    },
+    {
+     "name": "text003",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "text003",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "14",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 30,
+      "y": 384,
+      "w": 260,
+      "h": 24
+     }
+    }
+   ]
+  }
+ ],
+ "name": "DeckSelect",
+ "type": "component"
+}

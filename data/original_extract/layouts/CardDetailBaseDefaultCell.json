@@ -1,0 +1,162 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "node",
+   "name": "root",
+   "attrs": {
+    "tag": "root",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 240,
+    "h": 65,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "image_newItem",
+     "attrs": {
+      "tag": "image_newItem",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/collection_skill.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 20,
+      "h": 20,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "skillName",
+     "attrs": {
+      "tag": "skillName",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#010101",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 210,
+      "h": 20,
+      "x": 24,
+      "y": 0
+     }
+    },
+    {
+     "type": "node",
+     "name": "clipDesc",
+     "attrs": {
+      "tag": "clipDesc",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 240,
+      "h": 32,
+      "x": 1,
+      "y": 22
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "skillDesc",
+       "attrs": {
+        "tag": "skillDesc",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 240,
+        "h": 32,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "CardDetailBaseDefaultCell",
+ "type": "component"
+}

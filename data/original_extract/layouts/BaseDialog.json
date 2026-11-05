@@ -1,0 +1,163 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 480
+   },
+   "children": [
+    {
+     "name": "blockWall",
+     "type": "touch_target",
+     "attrs": {
+      "visible": true,
+      "tag": "blockWall",
+      "mock_image": null,
+      "action": "onClickWall",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 480
+     }
+    },
+    {
+     "name": "grayBg",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "grayBg",
+      "mock_image": null,
+      "image": "common/ui/black_alpha.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 480
+     },
+     "children": [
+      {
+       "name": "grayBgCollision",
+       "type": "touch_target",
+       "attrs": {
+        "visible": true,
+        "tag": "grayBgCollision",
+        "mock_image": null,
+        "action": "onClickBG",
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 480
+       }
+      }
+     ]
+    },
+    {
+     "name": "baseContent",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "baseContent",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 64,
+      "h": 64
+     },
+     "children": [
+      {
+       "name": "baseContentCollision",
+       "type": "touch_target",
+       "attrs": {
+        "visible": true,
+        "tag": "baseContentCollision",
+        "mock_image": null,
+        "action": "onClickContent",
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "BaseDialog",
+ "type": "component"
+}

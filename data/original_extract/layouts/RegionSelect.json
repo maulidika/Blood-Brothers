@@ -1,0 +1,121 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 480
+   },
+   "children": [
+    {
+     "name": "map",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "map",
+      "mock_image": null,
+      "image": "common/world/worldmap.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FAFAFA",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 480
+     }
+    },
+    {
+     "name": "selector",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "selector",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 420,
+      "w": 320,
+      "h": 60
+     }
+    },
+    {
+     "name": "tips",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "tips",
+      "mock_image": null,
+      "text_color_key": "#FAFAFA",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "14",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 400,
+      "w": 320,
+      "h": 20
+     }
+    }
+   ]
+  }
+ ],
+ "name": "RegionSelect",
+ "type": "component"
+}

@@ -1,0 +1,275 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "bg_chara",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "bg_chara",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "battle_bg",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "battle_bg",
+      "mock_image": null,
+      "image": "common/cutscene/raidboss/battle_bg.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 480
+     }
+    },
+    {
+     "name": "chara",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "chara",
+      "mock_image": null,
+      "image": "common/cutscene/raidboss/chara_size.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 160,
+      "y": 240,
+      "w": 512,
+      "h": 512
+     }
+    }
+   ]
+  },
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     2,
+     2
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "flash",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "flash",
+      "mock_image": null,
+      "image": "common/cutscene/effect/raid_elite.png",
+      "uvs": [
+       0,
+       0,
+       0.5,
+       1
+      ],
+      "rotate": 45.09988648960447,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       0.1,
+       0.2
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 512,
+      "h": 256
+     }
+    },
+    {
+     "name": "glow",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "glow",
+      "mock_image": null,
+      "image": "common/cutscene/effect/raid_elite.png",
+      "uvs": [
+       0.75,
+       0.5,
+       0.25,
+       0.5
+      ],
+      "rotate": 0,
+      "image_color": "498FEB",
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       -0.03267065389753905,
+       0.2
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 512,
+      "h": 256
+     }
+    },
+    {
+     "name": "lenz1",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "lenz1",
+      "mock_image": null,
+      "image": "common/cutscene/effect/raid_elite.png",
+      "uvs": [
+       0.5,
+       0,
+       0.5,
+       0.5
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       0.2,
+       0.5
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 512,
+      "h": 256
+     }
+    },
+    {
+     "name": "lenz2",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "lenz2",
+      "mock_image": null,
+      "image": "common/cutscene/effect/raid_elite.png",
+      "uvs": [
+       0.5,
+       0,
+       0.5,
+       0.5
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       0.2,
+       0.5
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 512,
+      "h": 256
+     }
+    },
+    {
+     "name": "lenz3",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "lenz3",
+      "mock_image": null,
+      "image": "common/cutscene/effect/raid_elite.png",
+      "uvs": [
+       0.5,
+       0.5,
+       0.25,
+       0.5
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       0.5,
+       7.101943462897523
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 512,
+      "h": 256
+     }
+    }
+   ]
+  }
+ ],
+ "name": "Effect41",
+ "type": "component"
+}

@@ -1,0 +1,305 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "enabled": true,
+  "h": 80,
+  "mock_image": null,
+  "tag": "",
+  "visible": true,
+  "w": 224,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "view",
+   "name": "base",
+   "attrs": {
+    "tag": "base",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "w": 224,
+    "h": 80,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "gift_image",
+     "name": "reward",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "showFrame": true,
+      "w": 62,
+      "h": 62,
+      "x": 8,
+      "y": 16
+     }
+    },
+    {
+     "type": "bar_meter_object",
+     "name": "progress_bar",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "background_color_key": "Green",
+      "barType": "no_color",
+      "showText": false,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "w": 142,
+      "h": 14,
+      "x": 74,
+      "y": 62
+     }
+    },
+    {
+     "type": "text",
+     "name": "progress_label",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "Progress:",
+      "text_wrap": true,
+      "text_color_key": "Yellow",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 58,
+      "h": 24,
+      "x": 75,
+      "y": 27
+     }
+    },
+    {
+     "type": "button",
+     "name": "detail_btn",
+     "attrs": {
+      "tag": "detail_btn",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "Details",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "",
+      "image_color": null,
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+      "image_selected": "common/ui/button/bt_base_red_p_56.png",
+      "image_focused": "common/ui/button/bt_base_red_p_56.png",
+      "w": 80,
+      "h": 24,
+      "x": 136,
+      "y": 27
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "finished_chk",
+     "attrs": {
+      "tag": "finished_chk",
+      "mock_image": null,
+      "visible": false,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/login/login_bonus_check.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 59,
+      "h": 61,
+      "x": 87,
+      "y": 10
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "frame_tab_special",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": false,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/raidboss/dialog/line_red.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 224,
+      "h": 14,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "frame_tab",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/raidboss/dialog/line.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 224,
+      "h": 14,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "name",
+     "attrs": {
+      "tag": "name",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "Mission name",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 140,
+      "h": 30,
+      "x": 8,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "claimed_chk",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": false,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/black_alpha.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 224,
+      "h": 80,
+      "x": 0,
+      "y": 0
+     }
+    }
+   ]
+  }
+ ],
+ "name": "EventMissionCell",
+ "type": "view"
+}

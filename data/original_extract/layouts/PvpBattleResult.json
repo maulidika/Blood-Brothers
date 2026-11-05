@@ -1,0 +1,491 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "enabled": true,
+  "h": 480,
+  "mock_image": null,
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "node",
+   "name": "buttons",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 0,
+    "h": 0,
+    "x": 0,
+    "y": 397
+   },
+   "children": [
+    {
+     "type": "button",
+     "name": "button_left",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "PushLeftButton",
+      "image_color": null,
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 84,
+      "h": 28,
+      "x": 68,
+      "y": 0
+     }
+    },
+    {
+     "type": "button",
+     "name": "button_right",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "PushRightButton",
+      "image_color": null,
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 84,
+      "h": 28,
+      "x": 168,
+      "y": 0
+     }
+    },
+    {
+     "type": "button",
+     "name": "button_center",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "PushCenterButton",
+      "image_color": null,
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 84,
+      "h": 28,
+      "x": 118,
+      "y": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "name": "notice",
+   "attrs": {
+    "tag": null,
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": null,
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": null,
+    "w": 280,
+    "h": 20,
+    "x": 20,
+    "y": 374
+   }
+  },
+  {
+   "type": "image",
+   "name": "point",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "image": "common/present/list_wagon_title_back.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 240,
+    "h": 26,
+    "x": 40,
+    "y": 344
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "point_label",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 180,
+      "h": 26,
+      "x": 4,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "point_value",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 2,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 100,
+      "h": 26,
+      "x": 138,
+      "y": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "name": "lose",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "image": "common/battle/battle_blackbackground.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 242,
+    "h": 86,
+    "x": 46,
+    "y": 260
+   },
+   "children": [
+    {
+     "type": "image",
+     "name": "defeat",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "battle/lose.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 188,
+      "h": 91,
+      "x": 16,
+      "y": -6
+     }
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "name": "win",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "image": "common/battle/cut_in_bg.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 242,
+    "h": 86,
+    "x": 46,
+    "y": 260
+   },
+   "children": [
+    {
+     "type": "image",
+     "name": "victory",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "battle/win.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 188,
+      "h": 91,
+      "x": 16,
+      "y": -6
+     }
+    }
+   ]
+  },
+  {
+   "type": "sprite",
+   "name": "enemy_list",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0.5,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/dialog/profile_back.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 285,
+    "h": 180,
+    "x": 160,
+    "y": 84
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "enemy_list_title",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0.5,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 280,
+      "h": 22,
+      "x": 0,
+      "y": 4
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "name": "num",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 14,
+    "horizontal_align": 2,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 60,
+    "h": 20,
+    "x": 226,
+    "y": 90
+   }
+  },
+  {
+   "type": "text",
+   "name": "title",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 22,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#800000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 320,
+    "h": 40,
+    "x": 0,
+    "y": 48
+   }
+  }
+ ],
+ "name": "PvpBattleResult",
+ "type": "view"
+}

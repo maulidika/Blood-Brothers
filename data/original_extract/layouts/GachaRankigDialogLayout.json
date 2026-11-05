@@ -1,0 +1,588 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "node",
+   "name": "root",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 320,
+    "h": 480,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "node",
+     "name": "frame",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 224,
+      "h": 215,
+      "x": 48,
+      "y": 138
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "left",
+     "attrs": {
+      "tag": "left",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/card/gradation_paper_card_l.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 25,
+      "h": 300,
+      "x": 45,
+      "y": 97
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "right",
+     "attrs": {
+      "tag": "right",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/card/gradation_paper_card_r.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 25,
+      "h": 300,
+      "x": 250,
+      "y": 97
+     }
+    },
+    {
+     "type": "text",
+     "name": "title",
+     "attrs": {
+      "tag": "title",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 22,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 234,
+      "h": 32,
+      "x": 43,
+      "y": 55
+     }
+    },
+    {
+     "type": "text",
+     "name": "desc",
+     "attrs": {
+      "tag": "desc",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0.5,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 16,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 210,
+      "h": 44,
+      "x": 160,
+      "y": 328
+     }
+    },
+    {
+     "type": "text",
+     "name": "notice",
+     "attrs": {
+      "tag": "notice",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 280,
+      "h": 22,
+      "x": 20,
+      "y": 310
+     }
+    },
+    {
+     "type": "text",
+     "name": "price",
+     "attrs": {
+      "tag": "price",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 280,
+      "h": 22,
+      "x": 20,
+      "y": 370
+     }
+    },
+    {
+     "type": "button",
+     "name": "pact",
+     "attrs": {
+      "tag": "pact",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "pactMulti",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56L.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 128,
+      "h": 28,
+      "x": 96,
+      "y": 391
+     }
+    },
+    {
+     "type": "node",
+     "name": "coins",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 280,
+      "h": 38,
+      "x": 20,
+      "y": 360
+     },
+     "children": [
+      {
+       "type": "node",
+       "name": "coinMulti",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 12,
+        "h": 12,
+        "x": 134,
+        "y": 14
+       }
+      },
+      {
+       "type": "node",
+       "name": "coinIcon",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 24,
+        "h": 24,
+        "x": 100,
+        "y": 6
+       }
+      },
+      {
+       "type": "text",
+       "name": "coinNum",
+       "attrs": {
+        "tag": "coinNum",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 80,
+        "h": 24,
+        "x": 156,
+        "y": 6
+       }
+      }
+     ]
+    },
+    {
+     "type": "node",
+     "name": "rank",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 224,
+      "h": 61,
+      "x": 48,
+      "y": 82
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "rankC",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/ranking_base_a.png",
+        "uvs": [
+         0.1,
+         0,
+         0.8,
+         1
+        ],
+        "image_color": null,
+        "w": 164,
+        "h": 61,
+        "x": 30,
+        "y": 0
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "rankR",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         -1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/ranking_base_b.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 30,
+        "h": 61,
+        "x": 224,
+        "y": 0
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "rankL",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/ranking_base_b.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 30,
+        "h": 61,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "yourPoint",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 224,
+        "h": 22,
+        "x": 0,
+        "y": 28
+       }
+      },
+      {
+       "type": "text",
+       "name": "yourRank",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 224,
+        "h": 22,
+        "x": 0,
+        "y": 10
+       }
+      }
+     ]
+    },
+    {
+     "type": "button",
+     "name": "detail",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "font_family": "",
+      "action": "",
+      "image_color": null,
+      "image": "ui/details_2.png",
+      "image_pressed": null,
+      "image_checked": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+      "image_selected": "common/ui/button/bt_base_red_p_56.png",
+      "image_focused": "common/ui/button/bt_base_red_p_56.png",
+      "w": 35,
+      "h": 36,
+      "x": 50,
+      "y": 141
+     }
+    }
+   ]
+  }
+ ],
+ "name": "GachaRankigDialogLayout",
+ "type": "component"
+}

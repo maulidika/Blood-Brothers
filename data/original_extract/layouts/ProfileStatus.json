@@ -1,0 +1,466 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "status",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "status",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 480
+   },
+   "children": [
+    {
+     "name": "back000",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "back000",
+      "mock_image": null,
+      "image": "common/ui/profile_status01.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 171,
+      "y": 75,
+      "w": 120,
+      "h": 31
+     }
+    },
+    {
+     "name": "back001",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "back001",
+      "mock_image": null,
+      "image": "common/ui/profile_status02.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 171,
+      "y": 115,
+      "w": 120,
+      "h": 110
+     }
+    },
+    {
+     "name": "level",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "level",
+      "mock_image": null,
+      "text_color_key": "#FFEBDA",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": "14",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 185,
+      "y": 83,
+      "w": 48,
+      "h": 20
+     }
+    },
+    {
+     "name": "paramLevel",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "paramLevel",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "14",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 212,
+      "y": 83,
+      "w": 60,
+      "h": 20
+     }
+    },
+    {
+     "name": "hp",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "hp",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 180,
+      "y": 125,
+      "w": 16,
+      "h": 16
+     },
+     "children": [
+      {
+       "name": "textHp",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "textHp",
+        "mock_image": null,
+        "text_color_key": "#0A0A0A",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text_size": "14",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 10,
+        "y": -2,
+        "w": 80,
+        "h": 20
+       }
+      }
+     ]
+    },
+    {
+     "name": "atk",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "atk",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 180,
+      "y": 146,
+      "w": 16,
+      "h": 16
+     },
+     "children": [
+      {
+       "name": "textAtk",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "textAtk",
+        "mock_image": null,
+        "text_color_key": "#0A0A0A",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text_size": "14",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 10,
+        "y": -2,
+        "w": 80,
+        "h": 18
+       }
+      }
+     ]
+    },
+    {
+     "name": "def",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "def",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 180,
+      "y": 166,
+      "w": 16,
+      "h": 16
+     },
+     "children": [
+      {
+       "name": "textDef",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "textDef",
+        "mock_image": null,
+        "text_color_key": "#0A0A0A",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text_size": "14",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 10,
+        "y": -2,
+        "w": 80,
+        "h": 20
+       }
+      }
+     ]
+    },
+    {
+     "name": "int",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "int",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 180,
+      "y": 186,
+      "w": 16,
+      "h": 16
+     },
+     "children": [
+      {
+       "name": "textInt",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "textInt",
+        "mock_image": null,
+        "text_color_key": "#0A0A0A",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text_size": "14",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 10,
+        "y": -2,
+        "w": 80,
+        "h": 20
+       }
+      }
+     ]
+    },
+    {
+     "name": "agi",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "agi",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 180,
+      "y": 206,
+      "w": 16,
+      "h": 16
+     },
+     "children": [
+      {
+       "name": "textQuik",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "textQuik",
+        "mock_image": null,
+        "text_color_key": "#0A0A0A",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text_size": "14",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 10,
+        "y": -2,
+        "w": 80,
+        "h": 20
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "button",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "button",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "deck",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "deck",
+      "mock_image": null,
+      "action": "ProfileDeck",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/ui/button/bt_base_red_n_56L.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+      "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 167,
+      "y": 235,
+      "w": 128,
+      "h": 28
+     }
+    }
+   ]
+  }
+ ],
+ "name": "ProfileStatus",
+ "type": "component"
+}

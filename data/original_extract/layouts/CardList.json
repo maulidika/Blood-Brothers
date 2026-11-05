@@ -1,0 +1,98 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "bg",
+   "type": "sprite",
+   "attrs": {
+    "visible": true,
+    "tag": "bg",
+    "mock_image": null,
+    "image": "common/ui/background.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image_color": "FFFFFF",
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 480
+   }
+  },
+  {
+   "name": "textWarn",
+   "type": "text",
+   "attrs": {
+    "visible": false,
+    "tag": "textWarn",
+    "mock_image": null,
+    "text_color_key": "#000000",
+    "text": "",
+    "text_wrap": true,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text_size": 18,
+    "rotate": 0,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 48,
+    "y": 128,
+    "w": 224,
+    "h": 169
+   }
+  },
+  {
+   "name": "cardListCont",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "cardListCont",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 480
+   }
+  }
+ ],
+ "name": "CardList",
+ "type": "component"
+}

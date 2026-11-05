@@ -1,0 +1,3951 @@
+{
+ "layouts": [
+  {
+   "name": "AddExpLayout",
+   "file": "layouts/AddExpLayout.json",
+   "bytes": 2634,
+   "sha256": "47603c91646367a73bff3dcf2389aba65af89b067f1be6e1bac5feced46ed047",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 2,
+    "text": 3,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "AddSkillLayout",
+   "file": "layouts/AddSkillLayout.json",
+   "bytes": 12870,
+   "sha256": "35f86be018e54e369f271f159ba53cdf343d09ef722a9e4a9e529cacf4626051",
+   "distinct_image_refs": 8,
+   "ref_classes": {
+    "sprite_table_exact": 8
+   },
+   "node_types": {
+    "component": 8,
+    "sprite": 15,
+    "text": 5
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "AllyLayout",
+   "file": "layouts/AllyLayout.json",
+   "bytes": 15801,
+   "sha256": "b117c3a43dbce75eb329bbb05eb9ef7057d6b2ae2563212f84f7700945cd2f5b",
+   "distinct_image_refs": 11,
+   "ref_classes": {
+    "sprite_table_exact": 10,
+    "standalone_file_in_apk": 1
+   },
+   "node_types": {
+    "component": 12,
+    "sprite": 7,
+    "button": 6,
+    "text": 7
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "AllyListCellLayout",
+   "file": "layouts/AllyListCellLayout.json",
+   "bytes": 6299,
+   "sha256": "9b1f82bc13e550bf65c66b162f69fcb2efe12d34a676c0b079881135529807a8",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 4,
+    "text": 8,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ArenaBonus",
+   "file": "layouts/ArenaBonus.json",
+   "bytes": 6638,
+   "sha256": "e62df7c5063a30c3e2a7d354b87fcfc3f6b8dae80c05c814a778495c565a54a2",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 3,
+    "text": 6,
+    "sprite": 2,
+    "button": 1,
+    "node": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ArenaChallengeDialog",
+   "file": "layouts/ArenaChallengeDialog.json",
+   "bytes": 24260,
+   "sha256": "397a96c6534d127a095e0d8f17223f3736bb04cb16c3315d099c4ed66f1093f6",
+   "distinct_image_refs": 6,
+   "ref_classes": {
+    "sprite_table_exact": 6
+   },
+   "node_types": {
+    "component": 3,
+    "view": 9,
+    "button": 6,
+    "text": 23,
+    "sprite": 6,
+    "node": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "BPOutLayout",
+   "file": "layouts/BPOutLayout.json",
+   "bytes": 15587,
+   "sha256": "024a6d515a44fadfcc007928c22963b7d091714a31bc20ffd13089d7cca68c1f",
+   "distinct_image_refs": 6,
+   "ref_classes": {
+    "sprite_table_exact": 6
+   },
+   "node_types": {
+    "component": 10,
+    "text": 8,
+    "sprite": 7,
+    "button": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "BPWBOutLayout",
+   "file": "layouts/BPWBOutLayout.json",
+   "bytes": 15808,
+   "sha256": "629a9ebc5c724cb7509694016dc8cf1d9c00736a6bd35116cfcde5859b2cc6d6",
+   "distinct_image_refs": 6,
+   "ref_classes": {
+    "sprite_table_exact": 6
+   },
+   "node_types": {
+    "component": 10,
+    "text": 8,
+    "sprite": 7,
+    "button": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "BaseDialog",
+   "file": "layouts/BaseDialog.json",
+   "bytes": 2481,
+   "sha256": "4c80bb8a34f4d4d947033177469f541a8d5b2513793e0228abb8ab9a593eb820",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "standalone_file_in_apk": 1
+   },
+   "node_types": {
+    "component": 3,
+    "touch_target": 3,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "BattleDebug",
+   "file": "layouts/BattleDebug.json",
+   "bytes": 11597,
+   "sha256": "7d3604ff0bbcf5a7bc4e53c13efb4cf9542b1b212384f98f60b27a4dc008a126",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 3,
+    "text": 6,
+    "button": 12
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "BoardGameGachaDialogLayout",
+   "file": "layouts/BoardGameGachaDialogLayout.json",
+   "bytes": 9098,
+   "sha256": "68a901a26ff01ad7d74ae0209adcbc46f0c42e589a3e44147a321f942ed925e6",
+   "distinct_image_refs": 5,
+   "ref_classes": {
+    "sprite_table_exact": 5
+   },
+   "node_types": {
+    "component": 4,
+    "node": 2,
+    "text": 8,
+    "button": 2,
+    "sprite": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "BoardGameLayout",
+   "file": "layouts/BoardGameLayout.json",
+   "bytes": 15735,
+   "sha256": "eb2cf8b0e093d3b57e700d16c322145bf015b9c67e155f9bb0d280491496c174",
+   "distinct_image_refs": 9,
+   "ref_classes": {
+    "sprite_table_exact": 8,
+    "standalone_file_in_apk": 1
+   },
+   "node_types": {
+    "component": 1,
+    "node": 17,
+    "sprite": 3,
+    "text": 6,
+    "image": 4,
+    "button": 4
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "BoardGameSquareDialogLayout",
+   "file": "layouts/BoardGameSquareDialogLayout.json",
+   "bytes": 3666,
+   "sha256": "c0eb52e00851cb4cd641549693413051b2631646a73737bcfb5ded61d7746dd4",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 1,
+    "text": 2,
+    "node": 1,
+    "button": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "BoostCardDetail",
+   "file": "layouts/BoostCardDetail.json",
+   "bytes": 19595,
+   "sha256": "fb9f0d9fa09e7ecfdbabca86cb3156b9c1c51a45e195af74bf86bded7232cb21",
+   "distinct_image_refs": 6,
+   "ref_classes": {
+    "sprite_table_exact": 6
+   },
+   "node_types": {
+    "component": 11,
+    "node": 3,
+    "image": 2,
+    "text": 16,
+    "sprite": 3,
+    "button": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "BoxGachaLayout",
+   "file": "layouts/BoxGachaLayout.json",
+   "bytes": 1029,
+   "sha256": "4d37e756cd0e06eff31f77421ea9aafd060265e80505e654e9fcfb8525298b2c",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 1,
+    "sprite": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "BoxGachaListCell",
+   "file": "layouts/BoxGachaListCell.json",
+   "bytes": 2531,
+   "sha256": "6d3375ecdf14c55ae7cc186dca24a4022733d84cbc3a3b3ded4871cdaa55c31a",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 1,
+    "sprite": 3,
+    "text": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "BrigadeDialogLayout",
+   "file": "layouts/BrigadeDialogLayout.json",
+   "bytes": 1353,
+   "sha256": "6716a6ee1dd3da6010f26d5b09b5b6d6e749dca6ada0fb7f2d02ea99b9a8fa2d",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 2,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "CaptureDialogLayout",
+   "file": "layouts/CaptureDialogLayout.json",
+   "bytes": 17056,
+   "sha256": "04b3332b8dfb145b8dafcc5d8c4554d2a9814190099b90c6988e37c4c7dc6b14",
+   "distinct_image_refs": 8,
+   "ref_classes": {
+    "sprite_table_exact": 8
+   },
+   "node_types": {
+    "component": 9,
+    "text": 9,
+    "sprite": 10,
+    "button": 4
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "Card",
+   "file": "layouts/Card.json",
+   "bytes": 8030,
+   "sha256": "a5b8d9faec25c6762708767d6cc778413e682ed4d5dfa393d767936b39cd4795",
+   "distinct_image_refs": 5,
+   "ref_classes": {
+    "sprite_table_exact": 5
+   },
+   "node_types": {
+    "component": 8,
+    "sprite": 5,
+    "text": 6
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "CardCustomPanel",
+   "file": "layouts/CardCustomPanel.json",
+   "bytes": 2339,
+   "sha256": "d50315be31b98285ec9ba87fd47e71ccd23b1bbade32ed9873bac94c79837698",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 3,
+    "button": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "CardDetailBase",
+   "file": "layouts/CardDetailBase.json",
+   "bytes": 18730,
+   "sha256": "18eb9ab79a7e139c67df3f5648a92855db8f6b14c5a5fe162e81439e13a380b3",
+   "distinct_image_refs": 5,
+   "ref_classes": {
+    "sprite_table_exact": 5
+   },
+   "node_types": {
+    "component": 13,
+    "node": 3,
+    "sprite": 3,
+    "text": 16,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "CardDetailBaseCell",
+   "file": "layouts/CardDetailBaseCell.json",
+   "bytes": 7891,
+   "sha256": "3a25ea4db48677e0cc9c74cc148fd69e0a2d6220fe14c7f22f23d2718970a600",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 6,
+    "sprite": 3,
+    "text": 8
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "CardDetailBaseDefaultCell",
+   "file": "layouts/CardDetailBaseDefaultCell.json",
+   "bytes": 2542,
+   "sha256": "6a70e29150c020f7ba4f3f6f57b0b8037aad6f7c7b647e0affe1a87dc5e5e874",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 1,
+    "node": 2,
+    "sprite": 1,
+    "text": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "CardDetailBasePassiveCell",
+   "file": "layouts/CardDetailBasePassiveCell.json",
+   "bytes": 8131,
+   "sha256": "8f9d62f47ccf27cd4093210f6ff69188ab27a7111c72d79031b2b739de5ed2cb",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "server_download_marker": 1,
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 6,
+    "sprite": 3,
+    "text": 8
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "CardDetailLayout",
+   "file": "layouts/CardDetailLayout.json",
+   "bytes": 1350,
+   "sha256": "a55488220d9dab0c7e97a06caa152bf4f295528dbeaa7e01d4aff30ea6f7130c",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 2,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "CardGetDialog",
+   "file": "layouts/CardGetDialog.json",
+   "bytes": 2675,
+   "sha256": "b117b3631748dcacdb1151ac9cdaad619b8956a0e402c9ac3a5305ed5d3e89fa",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 2,
+    "text": 1,
+    "button": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "CardHorizontalViewLayout",
+   "file": "layouts/CardHorizontalViewLayout.json",
+   "bytes": 1798,
+   "sha256": "99840e9d0124e32f4b52768e128b306cd8bf59eb205f87be8da21bd38710dace",
+   "distinct_image_refs": 0,
+   "ref_classes": {},
+   "node_types": {
+    "component": 3,
+    "text": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "CardList",
+   "file": "layouts/CardList.json",
+   "bytes": 1307,
+   "sha256": "8ebdb6dec942a992b1f85dff0f662628ea2f8c899e13411be89edb566b142eb7",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 2,
+    "sprite": 1,
+    "text": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "CardPreviewLayout",
+   "file": "layouts/CardPreviewLayout.json",
+   "bytes": 45775,
+   "sha256": "c67798dc98a295f9b1ac01748413da0911e6ac1d9533defc0e9e452b6bf33280",
+   "distinct_image_refs": 47,
+   "ref_classes": {
+    "sprite_table_exact": 45,
+    "unresolved": 2
+   },
+   "node_types": {
+    "component": 8,
+    "node": 3,
+    "touch_target": 1,
+    "image": 7,
+    "button": 14,
+    "sprite": 8,
+    "text": 39
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "CardSlotDialog",
+   "file": "layouts/CardSlotDialog.json",
+   "bytes": 4881,
+   "sha256": "2239b13d50cf13d8ab1487e7645960a003f9893bfd2ee0d85fa517c02f4747c2",
+   "distinct_image_refs": 5,
+   "ref_classes": {
+    "sprite_table_exact": 5
+   },
+   "node_types": {
+    "component": 6,
+    "sprite": 2,
+    "text": 2,
+    "button": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "CardViewLayout",
+   "file": "layouts/CardViewLayout.json",
+   "bytes": 1179,
+   "sha256": "813ee48ee24b893bd54bcad5660b895f5dd5aca5970ee22440b942114f7e5349",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 1,
+    "sprite": 1,
+    "text": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "CommentLayout",
+   "file": "layouts/CommentLayout.json",
+   "bytes": 2420,
+   "sha256": "f3dd08e04b332be48a4b6502d872495f5e89dd1bf8f6a5f65d74f1389fe35c8f",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 2,
+    "text": 3,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "CostDialogLayout",
+   "file": "layouts/CostDialogLayout.json",
+   "bytes": 7343,
+   "sha256": "2ebd720855488a11a016772c6786dcad5e4efe6553706b710da3bdd62fabfe4c",
+   "distinct_image_refs": 7,
+   "ref_classes": {
+    "sprite_table_exact": 7
+   },
+   "node_types": {
+    "component": 4,
+    "text": 7,
+    "sprite": 1,
+    "button": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "CutinLeft",
+   "file": "layouts/CutinLeft.json",
+   "bytes": 1872,
+   "sha256": "2acba984f661d1fe77da1907468c127eab463459b66d1aec709516385cee643e",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 3,
+    "sprite": 1,
+    "text": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "CutinRight",
+   "file": "layouts/CutinRight.json",
+   "bytes": 1872,
+   "sha256": "6a21a94a61e82eb4efaebc33599eff6500e4bb3db2cad969599414d3550dbbba",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 3,
+    "sprite": 1,
+    "text": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "CutinSystem",
+   "file": "layouts/CutinSystem.json",
+   "bytes": 1525,
+   "sha256": "c8f955fefeb7f77df41237028efdc63daf13bdd9881ef2c2e12c168a0cb444e9",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 2,
+    "sprite": 1,
+    "text": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "DamageRankingCellLayout",
+   "file": "layouts/DamageRankingCellLayout.json",
+   "bytes": 3946,
+   "sha256": "9b9bebbb4e74e7a2329b1be06168a5d43f22455a46939b0afbeca2311750af68",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 2,
+    "text": 5,
+    "sprite": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "DebugDynamicLayout",
+   "file": "layouts/DebugDynamicLayout.json",
+   "bytes": 2560,
+   "sha256": "a1d26750645fd66f0188c47b75eec3168a19ce34de87670eddcc3b04a1534849",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 1,
+    "text": 1,
+    "button": 1,
+    "card_image": 1,
+    "gift_image": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "Deck",
+   "file": "layouts/Deck.json",
+   "bytes": 1931,
+   "sha256": "9a46f598b77ba49e7c61fa38324fb9008145cc7f182e55322209b2126ac8f0f4",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 2,
+    "button": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "DeckOutLayout",
+   "file": "layouts/DeckOutLayout.json",
+   "bytes": 1896,
+   "sha256": "2fb889380d5874117ff27f1df2db869c5dda96e65e2b97998b6a1fba51b1ac45",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 2,
+    "button": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "DeckSelect",
+   "file": "layouts/DeckSelect.json",
+   "bytes": 4470,
+   "sha256": "c08c85a1ddb9584e81bc4ca53d64c4ed1f8d250f94c2b36339d9924e86e35977",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 2,
+    "text": 4,
+    "button": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "DeckSetLayout",
+   "file": "layouts/DeckSetLayout.json",
+   "bytes": 1896,
+   "sha256": "cb8e8a82b2aac672ffb0c4cbddf85391c8bc70674100f8eeabe944d8a70dbb9a",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 2,
+    "button": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "DismissPresentDialog",
+   "file": "layouts/DismissPresentDialog.json",
+   "bytes": 8449,
+   "sha256": "976a33e5b71d7bd65ea5c17e6193c097242b92458ce00b4be5504832124078bf",
+   "distinct_image_refs": 7,
+   "ref_classes": {
+    "sprite_table_exact": 7
+   },
+   "node_types": {
+    "component": 5,
+    "text": 6,
+    "sprite": 4,
+    "button": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "Effect/Effect41",
+   "file": "layouts/Effect/Effect41.json",
+   "bytes": 4212,
+   "sha256": "f6ad5fb18befa70e4e491fcf61c2d5e7de6a3ffd794e3a3570957c0e8a1586e5",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "unresolved": 3
+   },
+   "node_types": {
+    "component": 3,
+    "sprite": 7
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "Effect/Effect42",
+   "file": "layouts/Effect/Effect42.json",
+   "bytes": 4527,
+   "sha256": "507f75a076073919385acfc6b6f3c7036866a1000802d7d92b9c924d50179617",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "unresolved": 4
+   },
+   "node_types": {
+    "component": 2,
+    "sprite": 8
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "Effect/Effect43",
+   "file": "layouts/Effect/Effect43.json",
+   "bytes": 4557,
+   "sha256": "e53545fe6dc0c5b792db0432ae4b6b151479ff052641a4411cbc4656e4891856",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "unresolved": 4
+   },
+   "node_types": {
+    "component": 2,
+    "sprite": 8
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "EmpowerLayout",
+   "file": "layouts/EmpowerLayout.json",
+   "bytes": 5134,
+   "sha256": "151d77b1959d960fbe69d1ab049c72c8a2d3dad1ff19f874b48df51d86fd2dec",
+   "distinct_image_refs": 5,
+   "ref_classes": {
+    "sprite_table_exact": 5
+   },
+   "node_types": {
+    "component": 4,
+    "sprite": 2,
+    "button": 1,
+    "text": 4
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "EnergyOutLayout",
+   "file": "layouts/EnergyOutLayout.json",
+   "bytes": 14051,
+   "sha256": "06ed4292b2f6208c8fbc1ab18f953cfed56616e6805c291f42b3cc0d9a66932e",
+   "distinct_image_refs": 8,
+   "ref_classes": {
+    "sprite_table_exact": 8
+   },
+   "node_types": {
+    "component": 5,
+    "text": 8,
+    "button": 4,
+    "node": 3,
+    "sprite": 9
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "EventAllyListCellLayout",
+   "file": "layouts/EventAllyListCellLayout.json",
+   "bytes": 5954,
+   "sha256": "ef2a59f3261024730c83b6c7c7ab1b6e3f251a78ccb180542fad8745a47caa38",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 4,
+    "text": 7,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "EventMissionCell",
+   "file": "layouts/EventMissionCell.json",
+   "bytes": 5236,
+   "sha256": "13381f7c215df3bf82f2cd70502dc53ed823363db94b3daa40b02b9361b86bbc",
+   "distinct_image_refs": 6,
+   "ref_classes": {
+    "sprite_table_exact": 5,
+    "standalone_file_in_apk": 1
+   },
+   "node_types": {
+    "view": 2,
+    "gift_image": 1,
+    "bar_meter_object": 1,
+    "text": 2,
+    "button": 1,
+    "sprite": 4
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "EventMissionLayout1",
+   "file": "layouts/EventMissionLayout1.json",
+   "bytes": 15679,
+   "sha256": "57d20339b7b35044cccb368c73d625bfb79e6452e25161ba96b503b56b19bb80",
+   "distinct_image_refs": 8,
+   "ref_classes": {
+    "sprite_table_exact": 8
+   },
+   "node_types": {
+    "component": 1,
+    "sprite": 5,
+    "node": 7,
+    "gift_image": 3,
+    "text": 10,
+    "mission_cond_image": 3,
+    "card_image": 1,
+    "button": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "EventPointFrenzyPanel",
+   "file": "layouts/EventPointFrenzyPanel.json",
+   "bytes": 15539,
+   "sha256": "0cc83bda6ae744d061565967cf98dea2b56f102d21599261059da823b850ae13",
+   "distinct_image_refs": 5,
+   "ref_classes": {
+    "sprite_table_exact": 5
+   },
+   "node_types": {
+    "component": 1,
+    "sprite": 3,
+    "node": 7,
+    "button": 2,
+    "text": 16
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "EventPointPanel",
+   "file": "layouts/EventPointPanel.json",
+   "bytes": 13650,
+   "sha256": "146a279d35e85abde4648e21cc5a1ca9df8ef7e07c53a5261ee5df5683df906b",
+   "distinct_image_refs": 5,
+   "ref_classes": {
+    "sprite_table_exact": 5
+   },
+   "node_types": {
+    "component": 1,
+    "sprite": 3,
+    "node": 7,
+    "button": 2,
+    "text": 13
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "EventPrizeListCellLayout",
+   "file": "layouts/EventPrizeListCellLayout.json",
+   "bytes": 4387,
+   "sha256": "36bcb134f1b1e840e765d35987c73865afd72b4d6173a03bc2af75c4e96128bc",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 4,
+    "sprite": 3,
+    "text": 4
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "EventRankingCellLayout",
+   "file": "layouts/EventRankingCellLayout.json",
+   "bytes": 2886,
+   "sha256": "b85ff135fd6fb6f38aa8a43fa99dec84bd407cfdebe8fc2572b4ccc91bf3eab9",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 2,
+    "text": 4,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "EvolveLayout",
+   "file": "layouts/EvolveLayout.json",
+   "bytes": 6421,
+   "sha256": "60f4f7448e5fb21bead1444740d182839e3d3b1733e92bedd26a5e51eb675579",
+   "distinct_image_refs": 7,
+   "ref_classes": {
+    "sprite_table_exact": 7
+   },
+   "node_types": {
+    "component": 6,
+    "sprite": 7,
+    "text": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ExchangeShopBaseLayout",
+   "file": "layouts/ExchangeShopBaseLayout.json",
+   "bytes": 2296,
+   "sha256": "1e57f0f32301747930fc96d4926fd13e68d3ce353f6fbe172cd423797fe7a147",
+   "distinct_image_refs": 0,
+   "ref_classes": {},
+   "node_types": {
+    "component": 4,
+    "text": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ExchangeShopCoin",
+   "file": "layouts/ExchangeShopCoin.json",
+   "bytes": 1800,
+   "sha256": "5752cb4412ef0b6ac7156e2817f8a0fbee1049d4d1949c27e6bd0bfb00b9f4b2",
+   "distinct_image_refs": 0,
+   "ref_classes": {},
+   "node_types": {
+    "component": 3,
+    "text": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ExchangeShopConfirmLayout",
+   "file": "layouts/ExchangeShopConfirmLayout.json",
+   "bytes": 4187,
+   "sha256": "a9fc8157d4a5a1e09bd52c66e8820b572dc48d5f63a51812a2492a481710e4b4",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 4,
+    "text": 4,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ExchangeShopLayout",
+   "file": "layouts/ExchangeShopLayout.json",
+   "bytes": 5712,
+   "sha256": "e5450ce690743c66a4f60c5e7b58847363c7eddab5e64710acfee6d4e4946959",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 4,
+    "sprite": 4,
+    "text": 6
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ExchangeShopLayout2",
+   "file": "layouts/ExchangeShopLayout2.json",
+   "bytes": 2827,
+   "sha256": "24c0295cbaca2928e85092ae3872f31228003274bd3f23a179657f10e86f2794",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 1,
+    "sprite": 2,
+    "text": 3,
+    "view": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ExchangeShopListCellLayout",
+   "file": "layouts/ExchangeShopListCellLayout.json",
+   "bytes": 5032,
+   "sha256": "c56de0ebafdbc93b77661f8118205b45f245ef12527d8910915dc669c0397a4c",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 6,
+    "text": 5,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ExchangeShopResultLayout",
+   "file": "layouts/ExchangeShopResultLayout.json",
+   "bytes": 1904,
+   "sha256": "6d34481a72737b8998b5eb48bde1ec0369e72e415db60d964bf93b28a90f4e2a",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 2,
+    "button": 1,
+    "text": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ExpansionGetLayout",
+   "file": "layouts/ExpansionGetLayout.json",
+   "bytes": 2969,
+   "sha256": "7ebe4d13751d1563aa96a7d923b4851e51d04f10aa795513256f596a1afb971f",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 3,
+    "text": 3,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "Feed",
+   "file": "layouts/Feed.json",
+   "bytes": 6164,
+   "sha256": "61a971a89e9900b87c1c8874fa40c2fb76a4d2a31c1f9c7cfa47ce7afbf38685",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 6,
+    "sprite": 6,
+    "text": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "FloorClearLayout",
+   "file": "layouts/FloorClearLayout.json",
+   "bytes": 3307,
+   "sha256": "14a8c6ba41f522d25264ddb0bed8377a10ec5c51dba639089b40d83c8c2dfafe",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 3,
+    "text": 3,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "FloorClearStatusDialogLayout",
+   "file": "layouts/FloorClearStatusDialogLayout.json",
+   "bytes": 47438,
+   "sha256": "5c00dd5ae24969443828786c91c67fd166d08aed3117d0c44ca3f24284f11f7b",
+   "distinct_image_refs": 16,
+   "ref_classes": {
+    "sprite_table_exact": 16
+   },
+   "node_types": {
+    "component": 16,
+    "text": 19,
+    "view": 3,
+    "image": 57
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "FormationGetLayout",
+   "file": "layouts/FormationGetLayout.json",
+   "bytes": 3409,
+   "sha256": "549e12bb2637e1e28c5e9803918d92efd7ed2c1d01aa152450299715fd699198",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 3,
+    "text": 4,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "FriendEncounterLayout",
+   "file": "layouts/FriendEncounterLayout.json",
+   "bytes": 8389,
+   "sha256": "455d5bd3c90b649bf661a619a11a757348e6992199e0ade5cf5cec95bca68e7c",
+   "distinct_image_refs": 8,
+   "ref_classes": {
+    "sprite_table_exact": 8
+   },
+   "node_types": {
+    "component": 3,
+    "text": 8,
+    "sprite": 4,
+    "button": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "Gacha",
+   "file": "layouts/Gacha.json",
+   "bytes": 83797,
+   "sha256": "d503c052b243769584b29f10abf11778bbf6bf8b351b5687a0f8a1eb4532f2c7",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "unresolved": 1
+   },
+   "node_types": {
+    "component": 61,
+    "sprite": 93
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "GachaCardDesc",
+   "file": "layouts/GachaCardDesc.json",
+   "bytes": 10687,
+   "sha256": "fa3d131bf1e341d516191e0bc01a7a49884a95fe6e1c1c4ad089836b877e9e88",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 2,
+    "server_download_marker": 1
+   },
+   "node_types": {
+    "component": 6,
+    "sprite": 4,
+    "text": 12
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "GachaDialogLayout",
+   "file": "layouts/GachaDialogLayout.json",
+   "bytes": 3881,
+   "sha256": "c934c980b74cc74fb142b182c59030c473af8698ba2442e964e412382edb7814",
+   "distinct_image_refs": 0,
+   "ref_classes": {},
+   "node_types": {
+    "component": 5,
+    "text": 4
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "GachaFreeCell",
+   "file": "layouts/GachaFreeCell.json",
+   "bytes": 2836,
+   "sha256": "1d49217d45ad69c344f7e64af15d7a010945e26b900ab06247637f16eea4bb67",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 1,
+    "sprite": 3,
+    "text": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "GachaListCell",
+   "file": "layouts/GachaListCell.json",
+   "bytes": 3405,
+   "sha256": "6300f77a2673ab53d3dd22f23733f8b4870bc7fc154bf9cc8cffd43fba050fa9",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 1,
+    "sprite": 4,
+    "text": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "GachaListCellLarge",
+   "file": "layouts/GachaListCellLarge.json",
+   "bytes": 3411,
+   "sha256": "4cd3fc19206d9dc224711971dccd4ad81eaf5697bab7144eb15c2d8a90c20c6f",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 1,
+    "sprite": 4,
+    "text": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "GachaListCellSuperLarge",
+   "file": "layouts/GachaListCellSuperLarge.json",
+   "bytes": 3416,
+   "sha256": "6bbe8dc48834749dfb5d0d8a1de577be40d86a4cf700e6ffe05c84fb8209819b",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 1,
+    "sprite": 4,
+    "text": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "GachaRankigDialogLayout",
+   "file": "layouts/GachaRankigDialogLayout.json",
+   "bytes": 10336,
+   "sha256": "22eec402eaa85429649deea73999970709378190d75f68d9f5226baa8e841f49",
+   "distinct_image_refs": 9,
+   "ref_classes": {
+    "sprite_table_exact": 9
+   },
+   "node_types": {
+    "component": 1,
+    "node": 6,
+    "sprite": 5,
+    "text": 7,
+    "button": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "GachaRankingResultDialogLayout",
+   "file": "layouts/GachaRankingResultDialogLayout.json",
+   "bytes": 8061,
+   "sha256": "c09e43b52c0dc172c7e2b6eccd3d0a66e7b956d44e2b9b7f54df7c88a6e2bde9",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 1,
+    "node": 1,
+    "sprite": 3,
+    "text": 7,
+    "button": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "GachaRetryDialogLayout",
+   "file": "layouts/GachaRetryDialogLayout.json",
+   "bytes": 3692,
+   "sha256": "f5c33eaa78616a1ce07097b168f43cb07b1f684dffb88b600753a5cff49829f4",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 3,
+    "text": 3,
+    "button": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "GachaShowcase",
+   "file": "layouts/GachaShowcase.json",
+   "bytes": 238,
+   "sha256": "e88c282230ac032f90caa97c9d5c04dd0a5eeb5aa21004fcc46bf46e869fa4af",
+   "distinct_image_refs": 0,
+   "ref_classes": {},
+   "node_types": {
+    "component": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "GachaSugorokuCell",
+   "file": "layouts/GachaSugorokuCell.json",
+   "bytes": 2842,
+   "sha256": "d85188a80404ccd83aa6341a9d4a81f841c8e0a073724d982f0d63c155e2c615",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 1,
+    "sprite": 3,
+    "text": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "GachaSugorokuCellLarge",
+   "file": "layouts/GachaSugorokuCellLarge.json",
+   "bytes": 2848,
+   "sha256": "27f16baa47c1fdf2b555668a7f278c8ead451d32dff82a334682076bf3c1d583",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 1,
+    "sprite": 3,
+    "text": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "GachaTab",
+   "file": "layouts/GachaTab.json",
+   "bytes": 6302,
+   "sha256": "2d61c806895f333ad408856cfc05b627b34e180281c605256d495323e0719ae5",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 6,
+    "sprite": 2,
+    "button": 2,
+    "text": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "GameOverLayout",
+   "file": "layouts/GameOverLayout.json",
+   "bytes": 10510,
+   "sha256": "d47f0d854003b277b0e9d5bcb8369692cb83f8f1cc3f12e3fa13aa531722deb1",
+   "distinct_image_refs": 6,
+   "ref_classes": {
+    "sprite_table_exact": 6
+   },
+   "node_types": {
+    "component": 6,
+    "text": 6,
+    "sprite": 5,
+    "button": 4
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "GiftConditionLayout",
+   "file": "layouts/GiftConditionLayout.json",
+   "bytes": 4741,
+   "sha256": "a7ad0efaf967be62658326cd70bf99a10d431df5897cd3197726b1b2434f1996",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 4,
+    "text": 5,
+    "button": 1,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "GrowlLayout",
+   "file": "layouts/GrowlLayout.json",
+   "bytes": 3238,
+   "sha256": "eccb370b349b1dc103c2b570a41282bc7e5a1c7612ce7b5337109289604a4379",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 2,
+    "sprite": 2,
+    "text": 4
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "GrowlWarningLayout",
+   "file": "layouts/GrowlWarningLayout.json",
+   "bytes": 1534,
+   "sha256": "d766361c0655cb3f2aec31f226d3a7845a3f1d9f77d1dc162e5240a8d13ec46c",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 1,
+    "sprite": 2,
+    "text": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "HeaderLayout",
+   "file": "layouts/HeaderLayout.json",
+   "bytes": 2514,
+   "sha256": "fd8fea6ebd3b90fa34d7f6762aa273719a7308a2b32808bcf2cc4a9e376f9ed8",
+   "distinct_image_refs": 5,
+   "ref_classes": {
+    "sprite_table_exact": 5
+   },
+   "node_types": {
+    "component": 2,
+    "sprite": 2,
+    "button": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "HomeLayout",
+   "file": "layouts/HomeLayout.json",
+   "bytes": 8202,
+   "sha256": "fed6b9c5d460eb0916ffa49cbfba1f29f0c49966b8485ffdb97f167f037de1e4",
+   "distinct_image_refs": 5,
+   "ref_classes": {
+    "sprite_table_exact": 5
+   },
+   "node_types": {
+    "component": 10,
+    "sprite": 4,
+    "text": 6,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ItemConfirmInfo",
+   "file": "layouts/ItemConfirmInfo.json",
+   "bytes": 7862,
+   "sha256": "3aac5882c4d50c48e61d35b65a687f5b7293ccd46a097f767ead56ffd1bb9b40",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 8,
+    "text": 7,
+    "sprite": 2,
+    "node": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ItemDialogLayout",
+   "file": "layouts/ItemDialogLayout.json",
+   "bytes": 12702,
+   "sha256": "2cc07fcefa27e7dfc968370baed75d28366fcb2353222095856e9dceb53a4ad4",
+   "distinct_image_refs": 6,
+   "ref_classes": {
+    "sprite_table_exact": 6
+   },
+   "node_types": {
+    "component": 10,
+    "text": 12,
+    "sprite": 6
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ItemGetLayout",
+   "file": "layouts/ItemGetLayout.json",
+   "bytes": 4884,
+   "sha256": "f773b360aae70ac223b1dfb77aeba8edacd18e2906f29ab612309e8e735468e8",
+   "distinct_image_refs": 5,
+   "ref_classes": {
+    "sprite_table_exact": 5
+   },
+   "node_types": {
+    "component": 3,
+    "button": 4,
+    "text": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ItemListCellLayout",
+   "file": "layouts/ItemListCellLayout.json",
+   "bytes": 2096,
+   "sha256": "7831214d8b252163a14d8a8ee0703e25b186e14a45a00baf7cd28e76ac4209bc",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 2,
+    "text": 2,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ItemUseLayout",
+   "file": "layouts/ItemUseLayout.json",
+   "bytes": 2668,
+   "sha256": "8a85026dd2060f6d14132841a51f5d144c0cf89598fc8121915057cb12bbaf5b",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 3,
+    "text": 1,
+    "button": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ListCellLayout",
+   "file": "layouts/ListCellLayout.json",
+   "bytes": 4732,
+   "sha256": "f1c85fba3817169599d75bea12a8285efd5cc637e287ecd28d47db565a465364",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 4,
+    "text": 6,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "LoginBase",
+   "file": "layouts/LoginBase.json",
+   "bytes": 17852,
+   "sha256": "72877c170d696750d6702718224f0623c8ef9409371c8283bc223f581b1cbcea",
+   "distinct_image_refs": 19,
+   "ref_classes": {
+    "unresolved": 13,
+    "sprite_table_exact": 6
+   },
+   "node_types": {
+    "component": 1,
+    "node": 4,
+    "text": 8,
+    "sprite": 11,
+    "button": 8
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "LootDialogLayout",
+   "file": "layouts/LootDialogLayout.json",
+   "bytes": 7077,
+   "sha256": "2a9a23393e213a494020d13eeee5d6e777e5f59a6efcbf7f59dc520660b6de0b",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 16,
+    "text": 1,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "LuckyGoblinLayout",
+   "file": "layouts/LuckyGoblinLayout.json",
+   "bytes": 4297,
+   "sha256": "35b594f6921f1a096734902a3aa87c6d8107fabfaf6bd308444c86727434eaaf",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 1,
+    "sprite": 2,
+    "text": 3,
+    "view": 2,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "MoneyGetLayout",
+   "file": "layouts/MoneyGetLayout.json",
+   "bytes": 3253,
+   "sha256": "8bfe33e000c16a1100670193180eb056e9181b5ed038992ca0056aa313250323",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 4,
+    "text": 3,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "MoreMenuDecoration",
+   "file": "layouts/MoreMenuDecoration.json",
+   "bytes": 670,
+   "sha256": "4df21db902b9670770144f74ff5f995ff4af8530601ab28fa652113201c514bb",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "server_download_marker": 1
+   },
+   "node_types": {
+    "component": 1,
+    "image": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "MyCardLayout",
+   "file": "layouts/MyCardLayout.json",
+   "bytes": 12434,
+   "sha256": "c4d98f50e0ee15543b1599086638226d3d288f84a3f4f896408c02389f0d3096",
+   "distinct_image_refs": 7,
+   "ref_classes": {
+    "sprite_table_exact": 7
+   },
+   "node_types": {
+    "component": 8,
+    "text": 10,
+    "sprite": 8
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "NewEventDungeon",
+   "file": "layouts/NewEventDungeon.json",
+   "bytes": 1115,
+   "sha256": "d7ca72eb8a9157646db0dea4edf498bb8d75de10f29888a986cf2fa506aacd68",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "standalone_file_in_apk": 1
+   },
+   "node_types": {
+    "view": 2,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "NewEventFloorReward",
+   "file": "layouts/NewEventFloorReward.json",
+   "bytes": 867,
+   "sha256": "b831537e3a7672bf11efdd9bac40088c6add7dd51ad0fd4bd040533c0c2383d0",
+   "distinct_image_refs": 0,
+   "ref_classes": {},
+   "node_types": {
+    "view": 1,
+    "component": 1,
+    "scroll_view": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "NewEventFloorSelect",
+   "file": "layouts/NewEventFloorSelect.json",
+   "bytes": 4597,
+   "sha256": "bc056b0e135f6bc22e892b939e1e1d2f6f63a0d108d9410677caf21425ce1bd7",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 3,
+    "text": 3,
+    "button": 2,
+    "image": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "NewEventRegionReward",
+   "file": "layouts/NewEventRegionReward.json",
+   "bytes": 987,
+   "sha256": "b93315d5d61fe6813845922b1f57aa3f298de6952540d4772d2e54e194e42ce2",
+   "distinct_image_refs": 0,
+   "ref_classes": {},
+   "node_types": {
+    "view": 1,
+    "text": 1,
+    "component": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "NextBoxGachaLayout",
+   "file": "layouts/NextBoxGachaLayout.json",
+   "bytes": 991,
+   "sha256": "d097b812f49859748714a5f0683522facdc71886634287f398b6b9fa4e18bc83",
+   "distinct_image_refs": 0,
+   "ref_classes": {},
+   "node_types": {
+    "component": 1,
+    "sprite": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "NoticeLayout",
+   "file": "layouts/NoticeLayout.json",
+   "bytes": 10350,
+   "sha256": "35329016ae5ae3317bbd162236fc040314330f920dcc94ac0d045f47d3f9e59a",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 8,
+    "node": 2,
+    "text": 6,
+    "sprite": 2,
+    "button": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "NoticeLayoutTab",
+   "file": "layouts/NoticeLayoutTab.json",
+   "bytes": 5456,
+   "sha256": "0c2ac8da5bc4bdf8937d743ab23371dc235aebf4d3b6a4224b6feee4a75f0590",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 6,
+    "sprite": 1,
+    "button": 2,
+    "text": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "Opening",
+   "file": "layouts/Opening.json",
+   "bytes": 5640,
+   "sha256": "305d2df3c420d63283e23d34d5cfbc5286c0e5c2a501542e1983a9ea0ea7de03",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "standalone_file_in_apk": 1
+   },
+   "node_types": {
+    "component": 4,
+    "sprite": 7
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "PopUpCellLayout",
+   "file": "layouts/PopUpCellLayout.json",
+   "bytes": 4286,
+   "sha256": "3b2e15e75d11f34a77dd214c535f6aaa7084f0df2c4ecde032e19940a7fd3e8c",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 2,
+    "node": 1,
+    "sprite": 1,
+    "text": 4,
+    "image": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "PororiLayout",
+   "file": "layouts/PororiLayout.json",
+   "bytes": 12610,
+   "sha256": "8c39c64e7587d858e1d14f5508f7e084b2a65881d1567578584713cdafba4b1c",
+   "distinct_image_refs": 9,
+   "ref_classes": {
+    "sprite_table_exact": 8,
+    "standalone_file_in_apk": 1
+   },
+   "node_types": {
+    "component": 1,
+    "node": 6,
+    "sprite": 7,
+    "text": 10,
+    "button": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "PreSignUp",
+   "file": "layouts/PreSignUp.json",
+   "bytes": 4781,
+   "sha256": "4797b97e72dfe91bccc3b6b2b2a6265f41cf632c2272c853aaa9030f087cb143",
+   "distinct_image_refs": 9,
+   "ref_classes": {
+    "sprite_table_exact": 9
+   },
+   "node_types": {
+    "component": 2,
+    "sprite": 9
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "PreparationLayout",
+   "file": "layouts/PreparationLayout.json",
+   "bytes": 7920,
+   "sha256": "a6fac916d4aefcc5282fdf85073313ee330245ff82ee9a481173866a36132f93",
+   "distinct_image_refs": 9,
+   "ref_classes": {
+    "sprite_table_exact": 9
+   },
+   "node_types": {
+    "component": 6,
+    "sprite": 3,
+    "text": 5,
+    "button": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "Present",
+   "file": "layouts/Present.json",
+   "bytes": 13928,
+   "sha256": "5d63e3e57c919ab6493e3bef72fdff4bf2adcfe9a2343fcd22a226ec769111f1",
+   "distinct_image_refs": 10,
+   "ref_classes": {
+    "sprite_table_exact": 10
+   },
+   "node_types": {
+    "component": 5,
+    "sprite": 7,
+    "text": 9,
+    "button": 5
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ProcessedCard",
+   "file": "layouts/ProcessedCard.json",
+   "bytes": 3351,
+   "sha256": "53f83153b1db14ce80937c7ee0f27a1642d06944fa802328af45c5dfcf85169a",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 3,
+    "button": 3,
+    "text": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "Profile",
+   "file": "layouts/Profile.json",
+   "bytes": 8789,
+   "sha256": "1ef51d37a9d78b568140c30d699ba2116751b9acfa47e437d0710781be0c1b92",
+   "distinct_image_refs": 9,
+   "ref_classes": {
+    "sprite_table_exact": 9
+   },
+   "node_types": {
+    "component": 4,
+    "sprite": 3,
+    "text": 3,
+    "button": 5
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ProfileStatus",
+   "file": "layouts/ProfileStatus.json",
+   "bytes": 7736,
+   "sha256": "37a1cc411c88207a1dc2f3731e4a10bd35a57ecbd16d041325626250b473f6be",
+   "distinct_image_refs": 5,
+   "ref_classes": {
+    "sprite_table_exact": 5
+   },
+   "node_types": {
+    "component": 8,
+    "sprite": 2,
+    "text": 7,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "Prologue",
+   "file": "layouts/Prologue.json",
+   "bytes": 2015,
+   "sha256": "de95f8d9e357f89f45d8994db0cf9ec9053a6b1aa5824731dfade2ac136f171c",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "unresolved": 2
+   },
+   "node_types": {
+    "component": 2,
+    "sprite": 1,
+    "text": 1,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "PromotionLayout",
+   "file": "layouts/PromotionLayout.json",
+   "bytes": 6466,
+   "sha256": "24badf455346bffb5a204aa74c31078256ad1cb2b233185927122c4d247607ab",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 2,
+    "text": 8,
+    "sprite": 2,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "PvpBattleResult",
+   "file": "layouts/PvpBattleResult.json",
+   "bytes": 8253,
+   "sha256": "8f2cf3f735a25ef8c6ab494e18eda64ec22dba3470139d5a07780cb46b09b7b7",
+   "distinct_image_refs": 8,
+   "ref_classes": {
+    "sprite_table_exact": 8
+   },
+   "node_types": {
+    "view": 1,
+    "node": 1,
+    "button": 3,
+    "text": 6,
+    "image": 5,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "PvpBonus",
+   "file": "layouts/PvpBonus.json",
+   "bytes": 3277,
+   "sha256": "1af3ab67fb10b57d660894ab29f32b2493d61b390eba1db323bb34c7aee03059",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 2,
+    "text": 3,
+    "sprite": 1,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "PvpChallengeLayout",
+   "file": "layouts/PvpChallengeLayout.json",
+   "bytes": 24769,
+   "sha256": "9032de0008508f438766be04a9a1870f405460dcdb556956f35e7a3512eada33",
+   "distinct_image_refs": 7,
+   "ref_classes": {
+    "sprite_table_exact": 7
+   },
+   "node_types": {
+    "component": 14,
+    "text": 18,
+    "button": 4,
+    "sprite": 9,
+    "view": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "PvpEnemyListCellLayout",
+   "file": "layouts/PvpEnemyListCellLayout.json",
+   "bytes": 7158,
+   "sha256": "c334a92e93fffc4fe30348812969f8a106e361cfd33e94bbbd7ffaf93fa832ea",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 7,
+    "text": 6,
+    "sprite": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "PvpGroup",
+   "file": "layouts/PvpGroup.json",
+   "bytes": 9662,
+   "sha256": "74195b5b68a9b75f10cd5994b0648366e34f407a5d0b4111607b2f22a46aa266",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 7,
+    "sprite": 1,
+    "text": 9,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "PvpHistoryCell",
+   "file": "layouts/PvpHistoryCell.json",
+   "bytes": 6714,
+   "sha256": "707c40370ce656a0d9666fc1e3f661f429fd5f74529195cbc1ec73eb0f8997b3",
+   "distinct_image_refs": 8,
+   "ref_classes": {
+    "sprite_table_exact": 8
+   },
+   "node_types": {
+    "view": 1,
+    "image": 6,
+    "text": 3,
+    "node": 4,
+    "sprite": 4
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "PvpHomeHistoryCell",
+   "file": "layouts/PvpHomeHistoryCell.json",
+   "bytes": 3166,
+   "sha256": "a946506638452dad03bb7d99c060f26a0b91c5525dc73c513276df713a4e700b",
+   "distinct_image_refs": 5,
+   "ref_classes": {
+    "sprite_table_exact": 5
+   },
+   "node_types": {
+    "view": 1,
+    "text": 1,
+    "node": 2,
+    "image": 1,
+    "sprite": 4
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "PvpLayout",
+   "file": "layouts/PvpLayout.json",
+   "bytes": 24761,
+   "sha256": "c74fe4bc0f3d4e6d8fe4efd163f012ec3896dd1c5cfc892ec41ef9eeb304fa1a",
+   "distinct_image_refs": 7,
+   "ref_classes": {
+    "sprite_table_exact": 7
+   },
+   "node_types": {
+    "component": 14,
+    "text": 18,
+    "button": 4,
+    "sprite": 9,
+    "view": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "RaidBoss/DailyMissionRewardDialog",
+   "file": "layouts/RaidBoss/DailyMissionRewardDialog.json",
+   "bytes": 6334,
+   "sha256": "97cc73a986e9f9454de7b3245a9627382313f354b0940df1ff61e3dbbe598674",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "view": 1,
+    "button": 2,
+    "text": 6,
+    "node": 2,
+    "sprite": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "RaidBoss/ParticipantsListCellLayout",
+   "file": "layouts/RaidBoss/ParticipantsListCellLayout.json",
+   "bytes": 5316,
+   "sha256": "c4fbbdf652dd457d7c728caaf27ae8327be5893bcc24990c36968618fa378df7",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 4,
+    "text": 5,
+    "sprite": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "RaidBoss/RaidBossBonus",
+   "file": "layouts/RaidBoss/RaidBossBonus.json",
+   "bytes": 6336,
+   "sha256": "65982e59922933aaa670df8d1607b0b4237e25d24fe6f2de0471c5ad2c61eb43",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 3,
+    "text": 7,
+    "sprite": 2,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "RaidBoss/RaidBossDamageInfo",
+   "file": "layouts/RaidBoss/RaidBossDamageInfo.json",
+   "bytes": 4514,
+   "sha256": "dacce0bf0a9e631e9271203338cbe0852ee92820726776a270b32fed16edad1e",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 5,
+    "text": 3,
+    "sprite": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "RaidBoss/RaidBossInfo",
+   "file": "layouts/RaidBoss/RaidBossInfo.json",
+   "bytes": 18471,
+   "sha256": "a8652c0f05842d1cf7e21c15f4fb28d3a9d5c7a0b4deb7c6f633bea0edb2c5d9",
+   "distinct_image_refs": 7,
+   "ref_classes": {
+    "sprite_table_exact": 7
+   },
+   "node_types": {
+    "component": 6,
+    "node": 3,
+    "sprite": 9,
+    "text": 14,
+    "button": 1,
+    "image": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "RaidBoss/RaidBossNextRewardDialog",
+   "file": "layouts/RaidBoss/RaidBossNextRewardDialog.json",
+   "bytes": 2939,
+   "sha256": "9a5050789cf186966d5b9da3b95db4dd0ed38979cc22bf4b5e99d576a35aa2e5",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 3,
+    "text": 3,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "RaidBoss/RaidbossCell",
+   "file": "layouts/RaidBoss/RaidbossCell.json",
+   "bytes": 9006,
+   "sha256": "74e8f4c2a0cbba03096a75b326a26c76b689ae2764f0dfc68cbd5ae27e9e110f",
+   "distinct_image_refs": 12,
+   "ref_classes": {
+    "sprite_table_exact": 12
+   },
+   "node_types": {
+    "component": 1,
+    "node": 3,
+    "sprite": 5,
+    "text": 5,
+    "image": 1,
+    "button": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "RaidBoss/RequestSentCell",
+   "file": "layouts/RaidBoss/RequestSentCell.json",
+   "bytes": 2788,
+   "sha256": "ccd23daa9eaef05094419db6103f8c0dec9209ec90d939fc9d7763a4c99ad4d8",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 2,
+    "text": 3,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "RaidBoss/RequestSentLayout",
+   "file": "layouts/RaidBoss/RequestSentLayout.json",
+   "bytes": 2520,
+   "sha256": "b5088d3ce9b0df289b6ecd96d89555677c5f45290c8f5c1b030a4e0b87a8f05c",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 3,
+    "text": 2,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "RaidBoss/RewardListCellLayout",
+   "file": "layouts/RaidBoss/RewardListCellLayout.json",
+   "bytes": 4902,
+   "sha256": "284e4044e0b746103cf20532a6c96b646836fc42ca5418b4ad917f2dba6e62c2",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 4,
+    "sprite": 4,
+    "text": 4
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "RaidBoss/RewardListCellLayout2",
+   "file": "layouts/RaidBoss/RewardListCellLayout2.json",
+   "bytes": 2415,
+   "sha256": "20e6d25a0708f99609d52c81774766341c063938df4681700551bfadb09fd054",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 3,
+    "text": 2,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "RaidBoss/SpecialMissionProgressDialog",
+   "file": "layouts/RaidBoss/SpecialMissionProgressDialog.json",
+   "bytes": 5429,
+   "sha256": "4189d3fd0849dc9fe5c25d622da9e8d43059402c4581c188dd00145c6f254456",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 1,
+    "node": 2,
+    "sprite": 4,
+    "button": 1,
+    "text": 4
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "RaidBoss/WorldBossDamageInfo",
+   "file": "layouts/RaidBoss/WorldBossDamageInfo.json",
+   "bytes": 4596,
+   "sha256": "fd889ba611ba3e7d4a9596735abd1ff0078853d08fcf8353c415861df8ef1d9d",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 5,
+    "text": 3,
+    "sprite": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "RaidBoss/WorldBossInfo",
+   "file": "layouts/RaidBoss/WorldBossInfo.json",
+   "bytes": 21947,
+   "sha256": "e240542cdd5a47d0ca38e27518c280c21ae5a3d97f50a236f28c512130b57aa2",
+   "distinct_image_refs": 8,
+   "ref_classes": {
+    "sprite_table_exact": 8
+   },
+   "node_types": {
+    "component": 7,
+    "image": 3,
+    "node": 3,
+    "bar_meter_object": 1,
+    "card_sprite": 1,
+    "sprite": 9,
+    "text": 14,
+    "button": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "RegionSelect",
+   "file": "layouts/RegionSelect.json",
+   "bytes": 1739,
+   "sha256": "ce23d470f07d8a9d6ff4ebb894c8020b62e843369ba2199fbaab3d73cad965bc",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 3,
+    "sprite": 1,
+    "text": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "RegionSelector",
+   "file": "layouts/RegionSelector.json",
+   "bytes": 2510,
+   "sha256": "2238a62bbdeffe4f6912419daee1a2652f228a1d810df6c109b147725612aad4",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "unresolved": 2,
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 3,
+    "sprite": 1,
+    "button": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ResultCutIn",
+   "file": "layouts/ResultCutIn.json",
+   "bytes": 1028,
+   "sha256": "2274d65ead3f58f209011771e643ccf787c73f7e8a69a9aaf82d8dc2e9b666c4",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 1,
+    "sprite": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "SeedGetDialog",
+   "file": "layouts/SeedGetDialog.json",
+   "bytes": 3173,
+   "sha256": "402a55a0d6665bdb90eb488e1eee5dadc7ca99fdf4dd96af2446a908d22b7a99",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 4,
+    "text": 3,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "SellLayout",
+   "file": "layouts/SellLayout.json",
+   "bytes": 1600,
+   "sha256": "b30c6b44e49ebdbeb2b39b716875c4b4b22b393a7b960c942e7216885e6deea3",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 1,
+    "sprite": 1,
+    "text": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "SettingListCellLayout",
+   "file": "layouts/SettingListCellLayout.json",
+   "bytes": 1872,
+   "sha256": "c9aa51e1395a96e5c589ad2907b29fcfb2ebfbbe524190d2827efd129a1fe7f0",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 3,
+    "text": 1,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ShopBaseLayout",
+   "file": "layouts/ShopBaseLayout.json",
+   "bytes": 3470,
+   "sha256": "7bbff645f62492d49456f2b4b743381ddfb8ad90cec527f68d9fbcbb8ce2717e",
+   "distinct_image_refs": 0,
+   "ref_classes": {},
+   "node_types": {
+    "component": 4,
+    "text": 4
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ShopConfirmLayout",
+   "file": "layouts/ShopConfirmLayout.json",
+   "bytes": 1891,
+   "sha256": "7320c25550dbf198f0e545791d5848be09d137807020cab6c1f843fcbf9bbe35",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 2,
+    "text": 1,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ShopListCellLayout",
+   "file": "layouts/ShopListCellLayout.json",
+   "bytes": 4910,
+   "sha256": "0ad1e71fdeb6e13a97f4ce5e08e70227f03a8874c50b1a68e7c4d9f52f102364",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 4,
+    "text": 6,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ShopResultLayout",
+   "file": "layouts/ShopResultLayout.json",
+   "bytes": 3253,
+   "sha256": "3037b2395634fc368bb4f2965b7066ceac3cfebc9f8aa7a10a25fef02185cf62",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 4,
+    "text": 3,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "SkillDebug",
+   "file": "layouts/SkillDebug.json",
+   "bytes": 30493,
+   "sha256": "f535866467b6003927758219255eee523c3b99c0b076ee055f8d3e1cb270f668",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 1,
+    "tile": 4,
+    "ui_editarea": 13,
+    "text": 16,
+    "button": 18,
+    "view": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ThreeRowDialogLayout",
+   "file": "layouts/ThreeRowDialogLayout.json",
+   "bytes": 2315,
+   "sha256": "224334d368a764f4cb213bdfd222fc024f98cef86d5d962be5c534765f71333f",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 6,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ThreeRowDialogWorldBossLayout",
+   "file": "layouts/ThreeRowDialogWorldBossLayout.json",
+   "bytes": 2479,
+   "sha256": "7e8f87065621bb8a61fb24f7b19c36011496f84812f8fc1c13dd4a36e0ef6c28",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 6,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "TowerClearStatusDialogLayout",
+   "file": "layouts/TowerClearStatusDialogLayout.json",
+   "bytes": 41669,
+   "sha256": "d0d4e6592f47b62ec62d0f7635767a62f0584dc3f91eebc7ecd6d13da3764fcd",
+   "distinct_image_refs": 11,
+   "ref_classes": {
+    "sprite_table_exact": 11
+   },
+   "node_types": {
+    "component": 17,
+    "image": 44,
+    "text": 14
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "TreasureBoxOpen",
+   "file": "layouts/TreasureBoxOpen.json",
+   "bytes": 11212,
+   "sha256": "e7ec7281e5006fdb8898665c9fd953b8198cf45d2610bdad3e62cb5f6b56ea80",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "unresolved": 1
+   },
+   "node_types": {
+    "component": 8,
+    "sprite": 15
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "TreasureHuntLayout",
+   "file": "layouts/TreasureHuntLayout.json",
+   "bytes": 13847,
+   "sha256": "7d665a1639bdfd65620dcee50aefc2668ef8e2ff096faec5474af3a4886fd6ee",
+   "distinct_image_refs": 8,
+   "ref_classes": {
+    "sprite_table_exact": 7,
+    "standalone_file_in_apk": 1
+   },
+   "node_types": {
+    "component": 2,
+    "node": 5,
+    "sprite": 5,
+    "text": 14,
+    "button": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "UIDebug",
+   "file": "layouts/UIDebug.json",
+   "bytes": 3067,
+   "sha256": "bb467e7b0c5420d65a4975aff39a7fd2cb26743aa57010828e85dfe92afb1e06",
+   "distinct_image_refs": 6,
+   "ref_classes": {
+    "standalone_file_in_apk": 3,
+    "unresolved": 3
+   },
+   "node_types": {
+    "view": 1,
+    "ui_image": 1,
+    "ui_label": 1,
+    "ui_button": 1,
+    "ui_edit": 1,
+    "ui_web_view": 1,
+    "ui_editarea": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "UpdatingContents",
+   "file": "layouts/UpdatingContents.json",
+   "bytes": 972,
+   "sha256": "e5bc7129d5efbbb5001e2760c0628051bcf3dada506546efa002f59d2446525d",
+   "distinct_image_refs": 0,
+   "ref_classes": {},
+   "node_types": {
+    "component": 1,
+    "node": 1,
+    "ui_label": 1
+   },
+   "in_A_2_5_2_9_2": true,
+   "identical_in_A": true
+  },
+  {
+   "name": "WallPostCell",
+   "file": "layouts/WallPostCell.json",
+   "bytes": 3089,
+   "sha256": "819e6aa049c22a35872fca8a3d3e11a67f3bb86d2e44ef2ce74da87bf091ad99",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "view": 1,
+    "text": 4,
+    "image": 1,
+    "node": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "WallTopicCell",
+   "file": "layouts/WallTopicCell.json",
+   "bytes": 2926,
+   "sha256": "01df5713f97859228c5abdce9d3ef11ec682a523fb2f54858ff2ea4bbc1e6ce5",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "view": 1,
+    "text": 4,
+    "image": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "WarAreaLayout",
+   "file": "layouts/WarAreaLayout.json",
+   "bytes": 8150,
+   "sha256": "01c1a2e27fd7e5cd25457311a19f15ad83c825a1be70fc5712f7e2e0c6272e3a",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 1,
+    "node": 4,
+    "sprite": 12,
+    "text": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "WarAreaSelectLayout",
+   "file": "layouts/WarAreaSelectLayout.json",
+   "bytes": 8893,
+   "sha256": "c2cecca528316da69976eed0e717d6b56b4d32eaea169a785770d30741d7d14b",
+   "distinct_image_refs": 6,
+   "ref_classes": {
+    "sprite_table_exact": 6
+   },
+   "node_types": {
+    "component": 7,
+    "text": 8,
+    "button": 1,
+    "sprite": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "WarAreaTeamPoint",
+   "file": "layouts/WarAreaTeamPoint.json",
+   "bytes": 6911,
+   "sha256": "e04e62efc8bc1dfd95efc27b5a851ba9b65cfaa1a16d7acb27135b831badb51a",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 1,
+    "sprite": 3,
+    "node": 4,
+    "text": 9
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "WarClanRankingCellLayout",
+   "file": "layouts/WarClanRankingCellLayout.json",
+   "bytes": 2724,
+   "sha256": "d6188338d625108eea985cb6628711c152ef3f334c94733c5ddb306fb94d6ac6",
+   "distinct_image_refs": 0,
+   "ref_classes": {},
+   "node_types": {
+    "component": 3,
+    "text": 4
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "WarDamageInfo",
+   "file": "layouts/WarDamageInfo.json",
+   "bytes": 2612,
+   "sha256": "d6e4f93172f1ee25dc624ce11e37d59040fac116d69281b0238a453a66f3a031",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 3,
+    "text": 3,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "WarEventPanelLayout",
+   "file": "layouts/WarEventPanelLayout.json",
+   "bytes": 36674,
+   "sha256": "b5b09de7009e0afb366e39009960582ed42a68efb3cd9932fa4bcf9c164f3df9",
+   "distinct_image_refs": 22,
+   "ref_classes": {
+    "sprite_table_exact": 22
+   },
+   "node_types": {
+    "component": 21,
+    "sprite": 16,
+    "text": 24,
+    "button": 5,
+    "node": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "WarPvpResultDialog",
+   "file": "layouts/WarPvpResultDialog.json",
+   "bytes": 8664,
+   "sha256": "d377af4f94ba48b45bfa3446b385cb164c56dc56396e5afdd3f206900dc8183d",
+   "distinct_image_refs": 5,
+   "ref_classes": {
+    "sprite_table_exact": 5
+   },
+   "node_types": {
+    "component": 7,
+    "text": 6,
+    "sprite": 3,
+    "button": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "WebviewEmptyLayout",
+   "file": "layouts/WebviewEmptyLayout.json",
+   "bytes": 1462,
+   "sha256": "aa2e1d41f429210c574b033a63693d2125450e6bd4855dc1f23ed2780b2fe9ba",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "standalone_file_in_apk": 3
+   },
+   "node_types": {
+    "view": 1,
+    "ui_image": 1,
+    "ui_web_view": 1,
+    "ui_button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "WebviewEventLayout",
+   "file": "layouts/WebviewEventLayout.json",
+   "bytes": 1139,
+   "sha256": "6c3248aabdb1f23686cfe25662bd5d46d958f302935e8871e092a53182b7d11b",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "standalone_file_in_apk": 2
+   },
+   "node_types": {
+    "view": 1,
+    "ui_web_view": 1,
+    "ui_button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "WebviewHelpLayout",
+   "file": "layouts/WebviewHelpLayout.json",
+   "bytes": 1774,
+   "sha256": "f45cd608c23f0577fb2d0378a10f5ee2dc9ed7c9f5e138a8c4bd3df523471465",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "standalone_file_in_apk": 4
+   },
+   "node_types": {
+    "view": 1,
+    "ui_image": 2,
+    "ui_web_view": 1,
+    "ui_button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "WebviewInviteLayout",
+   "file": "layouts/WebviewInviteLayout.json",
+   "bytes": 2094,
+   "sha256": "29983717b25d724375fee76a372be21b13ebba2a36f87c78800bed2659a3a7e8",
+   "distinct_image_refs": 5,
+   "ref_classes": {
+    "standalone_file_in_apk": 5
+   },
+   "node_types": {
+    "view": 1,
+    "ui_web_view": 1,
+    "ui_button": 2,
+    "ui_image": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "WebviewNoticeLayout",
+   "file": "layouts/WebviewNoticeLayout.json",
+   "bytes": 1452,
+   "sha256": "e33d3c740e7b029dbf167d6486bdb492df3ac3e63e64c5f61d5a8e35b7d53763",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "standalone_file_in_apk": 3
+   },
+   "node_types": {
+    "view": 1,
+    "ui_image": 1,
+    "ui_web_view": 1,
+    "ui_button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "WebviewShareLayout",
+   "file": "layouts/WebviewShareLayout.json",
+   "bytes": 2089,
+   "sha256": "1b39feb7a6f9f3deebbc14983c6e579c654b4e0adcc5c69ce59a22d8abcd90ab",
+   "distinct_image_refs": 5,
+   "ref_classes": {
+    "standalone_file_in_apk": 5
+   },
+   "node_types": {
+    "view": 1,
+    "ui_web_view": 1,
+    "ui_button": 2,
+    "ui_image": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "WebviewSmsInviteLayout",
+   "file": "layouts/WebviewSmsInviteLayout.json",
+   "bytes": 1458,
+   "sha256": "0950bc5fb8fe33f149dba9da0a57c9214f38f8e1f1c021f8e5bb2d0cf5ef042a",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "standalone_file_in_apk": 3
+   },
+   "node_types": {
+    "view": 1,
+    "ui_web_view": 1,
+    "ui_image": 1,
+    "ui_button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "WizardQuizLayout",
+   "file": "layouts/WizardQuizLayout.json",
+   "bytes": 5412,
+   "sha256": "deabe2ecb6d87a0ff3b2d1f0b065776d46cba4f813f33da9c1f94ddcacd3673e",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 1,
+    "text": 5,
+    "sprite": 2,
+    "button": 1,
+    "view": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "WizardQuizResultLayout",
+   "file": "layouts/WizardQuizResultLayout.json",
+   "bytes": 10172,
+   "sha256": "2bd0eb878e9b0f60f7b25fe48003cf91df80c0d5d82b15606e27f8162627b7cf",
+   "distinct_image_refs": 6,
+   "ref_classes": {
+    "sprite_table_exact": 6
+   },
+   "node_types": {
+    "component": 1,
+    "sprite": 4,
+    "text": 11,
+    "view": 2,
+    "button": 1,
+    "node": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ZoneClearLayout",
+   "file": "layouts/ZoneClearLayout.json",
+   "bytes": 6579,
+   "sha256": "afa050567f000f107f0aaa7687992d47e04dfa22c3db0a2da1d20bcde71bc4ce",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 8,
+    "text": 7,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ZoneFooterLayout",
+   "file": "layouts/ZoneFooterLayout.json",
+   "bytes": 40596,
+   "sha256": "ad7df18565122cba434045f4f2ea6025fd1e38b26795fd776079db0118a260b4",
+   "distinct_image_refs": 44,
+   "ref_classes": {
+    "sprite_table_exact": 44
+   },
+   "node_types": {
+    "component": 10,
+    "button": 20,
+    "sprite": 18,
+    "text": 18
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ZoneFooterPanelLayout",
+   "file": "layouts/ZoneFooterPanelLayout.json",
+   "bytes": 95717,
+   "sha256": "77c33304ddfd713e1d501635b2a087fd55b67f5f29507940888cc9d67a613f25",
+   "distinct_image_refs": 45,
+   "ref_classes": {
+    "sprite_table_exact": 45
+   },
+   "node_types": {
+    "component": 41,
+    "sprite": 19,
+    "text": 77,
+    "button": 15,
+    "node": 1,
+    "image": 11
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ZoneHeader",
+   "file": "layouts/ZoneHeader.json",
+   "bytes": 3522,
+   "sha256": "2bea520387b174b5366ac210840ec207a8c52431e1d3dc2e30fa4243073db7f6",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 3,
+    "sprite": 1,
+    "text": 4
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ZoneNotice",
+   "file": "layouts/ZoneNotice.json",
+   "bytes": 2171,
+   "sha256": "665a97d1082744dc926a93956495b115dbe8a256d5ca8c9d9e55a89c592bbcc3",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "sprite_table_exact": 1
+   },
+   "node_types": {
+    "component": 2,
+    "sprite": 1,
+    "text": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ZoneSelect",
+   "file": "layouts/ZoneSelect.json",
+   "bytes": 3512,
+   "sha256": "d9970a7e048146d2db2ddf59fab48c0817e3480705aa23db1402c86c77bd6fd9",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 3,
+    "text": 4,
+    "button": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "ZoneWorldBoss",
+   "file": "layouts/ZoneWorldBoss.json",
+   "bytes": 4440,
+   "sha256": "372031ee651ebb698f997399c7e91a7b1a1f56bd5281b27b29a80e825c6cec3e",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "sprite_table_exact": 2
+   },
+   "node_types": {
+    "component": 4,
+    "text": 2,
+    "button": 1,
+    "bar_meter_object": 1,
+    "image": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "loginbonus/FinalReward_m",
+   "file": "layouts/loginbonus/FinalReward_m.json",
+   "bytes": 3040,
+   "sha256": "b3226be5561bda9b56fbd7586baaba794a9b6fcd8c971a571189b572fe4a4d03",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 2,
+    "image": 5,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "loginbonus/FinalReward_s",
+   "file": "layouts/loginbonus/FinalReward_s.json",
+   "bytes": 3040,
+   "sha256": "03330798e94570d0c35b6b8dcec826d19a5f54407f2b2baeef59972aa59fe90e",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 2,
+    "image": 5,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "loginbonus/GettingReward_l",
+   "file": "layouts/loginbonus/GettingReward_l.json",
+   "bytes": 3895,
+   "sha256": "33bf2585b697c58820105407f70b3a073795b1654c49a3f72d07dbb8a32ee0df",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 2,
+    "image": 7,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "loginbonus/GettingReward_m",
+   "file": "layouts/loginbonus/GettingReward_m.json",
+   "bytes": 3074,
+   "sha256": "261d70d334ef0397a1a4d250029072125d183583bf65551e8c752ebe47350636",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 2,
+    "image": 5,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "loginbonus/GettingReward_s",
+   "file": "layouts/loginbonus/GettingReward_s.json",
+   "bytes": 3073,
+   "sha256": "be45d7a3d45571c8577c3c98b5a9b3a1b5f35817e8b8564cf0565758609dd43f",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 2,
+    "image": 5,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "loginbonus/GotReward_m",
+   "file": "layouts/loginbonus/GotReward_m.json",
+   "bytes": 3040,
+   "sha256": "47da9bf22980f6a1619d218cbc3c571d5a701e527613b131f3f736ac703b3ff3",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 2,
+    "image": 5,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "loginbonus/GotReward_s",
+   "file": "layouts/loginbonus/GotReward_s.json",
+   "bytes": 3040,
+   "sha256": "e332b52c1aed9190c03c294a9ad157bde06c56fd9c4c842435441dd4e8ab9668",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 2,
+    "image": 5,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "loginbonus/LoginBonusBase",
+   "file": "layouts/loginbonus/LoginBonusBase.json",
+   "bytes": 2142,
+   "sha256": "14f7f3bab883300858e500a9dbaa474ec1b889cd39aa9ecd8d91f13cf79cf357",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "component": 2,
+    "button": 2
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "loginbonus/LoginBonusList",
+   "file": "layouts/loginbonus/LoginBonusList.json",
+   "bytes": 6865,
+   "sha256": "5cd55b6a0dc0f38d877e3c8805a658ce992532588cbc853b62eb6a2068fff381",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 4,
+    "text": 5,
+    "sprite": 2,
+    "image": 3
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "loginbonus/NextReward_s",
+   "file": "layouts/loginbonus/NextReward_s.json",
+   "bytes": 3044,
+   "sha256": "9241888dcafa677f2787276ae95e32f0d3b8659142b74f4512b945f9fdcd4e46",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "sprite_table_exact": 4
+   },
+   "node_types": {
+    "component": 2,
+    "image": 5,
+    "sprite": 1
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  },
+  {
+   "name": "pactAnimation",
+   "file": "layouts/pactAnimation.json",
+   "bytes": 84681,
+   "sha256": "e7e5607242464b13f19aa26cad8a9d986fa2c4ab560884a8e8c18d71e7211e9d",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "unresolved": 4
+   },
+   "node_types": {
+    "component": 61,
+    "sprite": 93
+   },
+   "in_A_2_5_2_9_2": false,
+   "identical_in_A": null
+  }
+ ],
+ "animations": [
+  {
+   "name": "ArenaBossAppear",
+   "file": "animations/ArenaBossAppear.json",
+   "bytes": 21529,
+   "sha256": "0432aa74efd1178f90aa92c53d59e3b704816d38eb7c81a3620ea6e5fa3b4b73",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "standalone_file_in_apk": 2
+   },
+   "node_types": {
+    "null": 9,
+    "image": 2
+   },
+   "fps": 30,
+   "screen": {
+    "h": 480,
+    "w": 320
+   },
+   "runtime": "cocos2d-x",
+   "kind": "animation"
+  },
+  {
+   "name": "CutInFrozenRealm",
+   "file": "animations/CutInFrozenRealm.json",
+   "bytes": 135117,
+   "sha256": "6efddd6a143a4abda70690ae48db386db1d9c2627898a17ba669ee7ce398687e",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "server_download_marker": 2,
+    "standalone_file_in_apk": 1
+   },
+   "node_types": {
+    "null": 16,
+    "image": 65
+   },
+   "fps": 30,
+   "screen": {
+    "h": 480,
+    "w": 320
+   },
+   "runtime": "cocos2d-x",
+   "kind": "animation"
+  },
+  {
+   "name": "CutInHalloweenBoss",
+   "file": "animations/CutInHalloweenBoss.json",
+   "bytes": 16726,
+   "sha256": "3795d91e0f9ad116ef0b4e0d275f6d65bc08d523d6911289d8d02d90e6ff75df",
+   "distinct_image_refs": 10,
+   "ref_classes": {
+    "unresolved": 10
+   },
+   "node_types": {
+    "null": 2,
+    "image": 12
+   },
+   "fps": 30,
+   "screen": {
+    "h": 480,
+    "w": 320
+   },
+   "runtime": "cocos2d-x",
+   "kind": "animation"
+  },
+  {
+   "name": "CutInNightFall",
+   "file": "animations/CutInNightFall.json",
+   "bytes": 17084,
+   "sha256": "f252c34a6b277384d2246319247b93a4c3d10d5712896e59b201afa1570c406b",
+   "distinct_image_refs": 10,
+   "ref_classes": {
+    "server_download_marker": 7,
+    "unresolved": 3
+   },
+   "node_types": {
+    "null": 2,
+    "image": 12
+   },
+   "fps": 30,
+   "screen": {
+    "h": 480,
+    "w": 320
+   },
+   "runtime": "cocos2d-x",
+   "kind": "animation"
+  },
+  {
+   "name": "CutInPointFrenzy",
+   "file": "animations/CutInPointFrenzy.json",
+   "bytes": 21059,
+   "sha256": "4d2769e8576fa6aa275aebb6c575a05e8342fb5f39c588cceb6f8a706715c68d",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "server_download_marker": 2
+   },
+   "node_types": {
+    "null": 2,
+    "image": 6
+   },
+   "fps": 30,
+   "screen": {
+    "h": 480,
+    "w": 320
+   },
+   "runtime": "cocos2d-x",
+   "kind": "animation"
+  },
+  {
+   "name": "CutInTrickOrTreat",
+   "file": "animations/CutInTrickOrTreat.json",
+   "bytes": 15070,
+   "sha256": "161f772ee8ae4c88ee2881a38ab4121b0d31d5b5c10a6dbb462f735af2ada98e",
+   "distinct_image_refs": 9,
+   "ref_classes": {
+    "unresolved": 9
+   },
+   "node_types": {
+    "null": 2,
+    "image": 11
+   },
+   "fps": 30,
+   "screen": {
+    "h": 480,
+    "w": 320
+   },
+   "runtime": "cocos2d-x",
+   "kind": "animation"
+  },
+  {
+   "name": "CutInWhiteOut",
+   "file": "animations/CutInWhiteOut.json",
+   "bytes": 6252,
+   "sha256": "63b348d4d616fee6f7692acbe3dc80fa139bf96d2355b2d7d284e3cd2ea81371",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "server_download_marker": 2
+   },
+   "node_types": {
+    "null": 2,
+    "image": 2
+   },
+   "fps": 30,
+   "screen": {
+    "h": 480,
+    "w": 320
+   },
+   "runtime": "cocos2d-x",
+   "kind": "animation"
+  },
+  {
+   "name": "CutInWinterBoss",
+   "file": "animations/CutInWinterBoss.json",
+   "bytes": 68067,
+   "sha256": "aaab7987fe3e6538564ba069d9048a508ca2d3c794434563bab91149caf8b96d",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "standalone_file_in_apk": 2,
+    "server_download_marker": 1
+   },
+   "node_types": {
+    "null": 8,
+    "image": 32
+   },
+   "fps": 30,
+   "screen": {
+    "h": 480,
+    "w": 320
+   },
+   "runtime": "cocos2d-x",
+   "kind": "animation"
+  },
+  {
+   "name": "CutInWorldBossAppear",
+   "file": "animations/CutInWorldBossAppear.json",
+   "bytes": 48934,
+   "sha256": "c1e082b5e8e3f6798374d27affb08354fd19a2b1b4d048aafe52e8a95123c52e",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "standalone_file_in_apk": 2,
+    "server_download_marker": 2
+   },
+   "node_types": {
+    "null": 4,
+    "image": 19
+   },
+   "fps": 30,
+   "screen": {
+    "h": 480,
+    "w": 320
+   },
+   "runtime": "cocos2d-x",
+   "kind": "animation"
+  },
+  {
+   "name": "Downloadables",
+   "file": "animations/Downloadables.json",
+   "bytes": 707,
+   "sha256": "55f5713b1faed74bbe8360a4b584c4bc3dffb4eefafff197209b37624bb51bbe",
+   "distinct_image_refs": 7,
+   "ref_classes": {
+    "server_download_marker": 7
+   },
+   "node_types": {},
+   "fps": null,
+   "screen": null,
+   "runtime": null,
+   "kind": "download_list"
+  },
+  {
+   "name": "Halloween1",
+   "file": "animations/Halloween1.json",
+   "bytes": 136266,
+   "sha256": "9ce53a1f7228848fb1445170635f6268ecfa80d82ab74692c5043fcd2aa60d98",
+   "distinct_image_refs": 2,
+   "ref_classes": {
+    "standalone_file_in_apk": 2
+   },
+   "node_types": {
+    "null": 23,
+    "image": 44
+   },
+   "fps": 30,
+   "screen": {
+    "h": 480,
+    "w": 320
+   },
+   "runtime": "cocos2d-x",
+   "kind": "animation"
+  },
+  {
+   "name": "MysteryEncounter",
+   "file": "animations/MysteryEncounter.json",
+   "bytes": 13305,
+   "sha256": "b7f2c964b106a0ac9ed4cab03f7adc6410791b81ca1f154b541d3486e5642c4b",
+   "distinct_image_refs": 1,
+   "ref_classes": {
+    "server_download_marker": 1
+   },
+   "node_types": {
+    "null": 1,
+    "particle": 1,
+    "emitter": 2
+   },
+   "fps": 30,
+   "screen": {
+    "h": 480,
+    "w": 320
+   },
+   "runtime": "cocos2d-x",
+   "kind": "animation"
+  },
+  {
+   "name": "SnowCutIn",
+   "file": "animations/SnowCutIn.json",
+   "bytes": 167032,
+   "sha256": "7fb4568228bf0eb8b53082d194381bd62c8c1f25545aeaf7ef852f016bab3d64",
+   "distinct_image_refs": 3,
+   "ref_classes": {
+    "server_download_marker": 2,
+    "standalone_file_in_apk": 1
+   },
+   "node_types": {
+    "null": 15,
+    "image": 52
+   },
+   "fps": 30,
+   "screen": {
+    "h": 480,
+    "w": 320
+   },
+   "runtime": "cocos2d-x",
+   "kind": "animation"
+  },
+  {
+   "name": "SnowTest",
+   "file": "animations/SnowTest.json",
+   "bytes": 176754,
+   "sha256": "14243b5fe1b02cf8f9dab26667630c1d4941b79c91d8e1b0d1a9f3198d33fc5c",
+   "distinct_image_refs": 4,
+   "ref_classes": {
+    "server_download_marker": 2,
+    "unresolved": 1,
+    "standalone_file_in_apk": 1
+   },
+   "node_types": {
+    "null": 15,
+    "image": 52,
+    "particle": 1,
+    "emitter": 1
+   },
+   "fps": 30,
+   "screen": {
+    "h": 480,
+    "w": 320
+   },
+   "runtime": "cocos2d-x",
+   "kind": "animation"
+  },
+  {
+   "name": "Treasure2_1",
+   "file": "animations/Treasure2_1.json",
+   "bytes": 32172,
+   "sha256": "135b287b8d61608d7be85d0f739451813760256fd09eb4c17dff763272a56e01",
+   "distinct_image_refs": 5,
+   "ref_classes": {
+    "sprite_table_exact": 3,
+    "standalone_file_in_apk": 2
+   },
+   "node_types": {
+    "null": 4,
+    "image": 10
+   },
+   "fps": 30,
+   "screen": {
+    "h": 480,
+    "w": 320
+   },
+   "runtime": "cocos2d-x",
+   "kind": "animation"
+  },
+  {
+   "name": "Treasure2_2",
+   "file": "animations/Treasure2_2.json",
+   "bytes": 37081,
+   "sha256": "30ba6e0a19b1f0d67a1fc85969b457877f24b999d409076e70f942c11c2ab30e",
+   "distinct_image_refs": 5,
+   "ref_classes": {
+    "sprite_table_exact": 3,
+    "standalone_file_in_apk": 2
+   },
+   "node_types": {
+    "null": 4,
+    "image": 12
+   },
+   "fps": 30,
+   "screen": {
+    "h": 480,
+    "w": 320
+   },
+   "runtime": "cocos2d-x",
+   "kind": "animation"
+  },
+  {
+   "name": "Treasure2_3",
+   "file": "animations/Treasure2_3.json",
+   "bytes": 38752,
+   "sha256": "86a929cce400923cc4fc4e10b9536741f06466b8dfa84c0c20b67120e9808ef0",
+   "distinct_image_refs": 5,
+   "ref_classes": {
+    "standalone_file_in_apk": 2,
+    "sprite_table_exact": 3
+   },
+   "node_types": {
+    "null": 4,
+    "image": 13
+   },
+   "fps": 30,
+   "screen": {
+    "h": 480,
+    "w": 320
+   },
+   "runtime": "cocos2d-x",
+   "kind": "animation"
+  }
+ ],
+ "notes": {
+  "source_apk": "B (2.5.3.1.0)",
+  "A_embedded_layouts": 1,
+  "A_embedded_animations": 0,
+  "ref_totals_distinct_per_file": {
+   "sprite_table_exact": 798,
+   "standalone_file_in_apk": 53,
+   "server_download_marker": 31,
+   "unresolved": 62
+  },
+  "unresolved_refs": {
+   "/DownloadContent/lang/cutscene/cutin_frozen.png": [
+    "SnowTest"
+   ],
+   "battle/blood_1.png": [
+    "CutInHalloweenBoss",
+    "CutInTrickOrTreat"
+   ],
+   "battle/blood_2.png": [
+    "CutInHalloweenBoss",
+    "CutInTrickOrTreat"
+   ],
+   "battle/blood_3.png": [
+    "CutInHalloweenBoss",
+    "CutInTrickOrTreat"
+   ],
+   "battle/cutin_bg1.png": [
+    "CutInHalloweenBoss",
+    "CutInTrickOrTreat"
+   ],
+   "battle/cutin_bg3.png": [
+    "CutInHalloweenBoss",
+    "CutInTrickOrTreat"
+   ],
+   "battle/cutin_bg4.png": [
+    "CutInHalloweenBoss",
+    "CutInTrickOrTreat"
+   ],
+   "battle/cutin_bg5.png": [
+    "CutInHalloweenBoss",
+    "CutInTrickOrTreat"
+   ],
+   "battle/cutin_pumpkin_1.png": [
+    "CutInHalloweenBoss",
+    "CutInNightFall"
+   ],
+   "battle/cutin_pumpkin_2.png": [
+    "CutInHalloweenBoss",
+    "CutInNightFall",
+    "CutInTrickOrTreat"
+   ],
+   "battle/halloween_boss.png": [
+    "CutInHalloweenBoss"
+   ],
+   "battle/nightfall.png": [
+    "CutInNightFall"
+   ],
+   "battle/trick_or_treat.png": [
+    "CutInTrickOrTreat"
+   ],
+   "card/bb_mergexp_btn_n.png": [
+    "CardPreviewLayout"
+   ],
+   "card/bb_mergexp_btn_p.png": [
+    "CardPreviewLayout"
+   ],
+   "common/coreui_d.png": [
+    "UIDebug"
+   ],
+   "common/coreui_n.png": [
+    "UIDebug"
+   ],
+   "common/coreui_p.png": [
+    "UIDebug"
+   ],
+   "common/cutscene/effect/bg.png": [
+    "Effect/Effect42",
+    "Effect/Effect43"
+   ],
+   "common/cutscene/effect/chara.png": [
+    "Effect/Effect42",
+    "Effect/Effect43"
+   ],
+   "common/cutscene/effect/hug_01.png": [
+    "Effect/Effect42",
+    "Effect/Effect43"
+   ],
+   "common/cutscene/effect/hug_02.png": [
+    "Effect/Effect42",
+    "Effect/Effect43"
+   ],
+   "common/cutscene/effect/raid_elite.png": [
+    "Effect/Effect41"
+   ],
+   "common/cutscene/raidboss/battle_bg.png": [
+    "Effect/Effect41"
+   ],
+   "common/cutscene/raidboss/chara_size.png": [
+    "Effect/Effect41"
+   ],
+   "common/cutscene/zone/treasure_box_image.png": [
+    "TreasureBoxOpen"
+   ],
+   "common/pact/coffin_image_01_1.png": [
+    "Gacha"
+   ],
+   "common/ui/black.png": [
+    "Prologue"
+   ],
+   "common/ui/guide_left_off.png": [
+    "RegionSelector"
+   ],
+   "common/ui/guide_right_off.png": [
+    "Prologue",
+    "RegionSelector"
+   ],
+   "easylogin/bg.png": [
+    "LoginBase"
+   ],
+   "easylogin/birthday.png": [
+    "LoginBase"
+   ],
+   "easylogin/day.png": [
+    "LoginBase"
+   ],
+   "easylogin/lada.png": [
+    "LoginBase"
+   ],
+   "easylogin/man.png": [
+    "LoginBase"
+   ],
+   "easylogin/man_tap.png": [
+    "LoginBase"
+   ],
+   "easylogin/month.png": [
+    "LoginBase"
+   ],
+   "easylogin/nick_name.png": [
+    "LoginBase"
+   ],
+   "easylogin/nick_name_box.png": [
+    "LoginBase"
+   ],
+   "easylogin/woman.png": [
+    "LoginBase"
+   ],
+   "easylogin/woman_tap.png": [
+    "LoginBase"
+   ],
+   "easylogin/word_dialog1.png": [
+    "LoginBase"
+   ],
+   "easylogin/year.png": [
+    "LoginBase"
+   ],
+   "lang/iamges/common/pact/coffin_image_01.png": [
+    "pactAnimation"
+   ],
+   "lang/iamges/common/pact/coffin_image_02.png": [
+    "pactAnimation"
+   ],
+   "lang/iamges/common/pact/coffin_image_03.png": [
+    "pactAnimation"
+   ],
+   "lang/iamges/common/pact/treasure_box_image.png": [
+    "pactAnimation"
+   ]
+  }
+ }
+}

@@ -1,0 +1,472 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "sprite",
+   "name": "team_point_bg",
+   "attrs": {
+    "tag": "area_panel_bg",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/region/wbc_teampt_base.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 316,
+    "h": 56,
+    "x": 2,
+    "y": 422
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "battle_icon",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/region/area_battle_icon.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 30,
+    "h": 30,
+    "x": 146,
+    "y": 440
+   }
+  },
+  {
+   "type": "node",
+   "name": "your_team",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 20,
+    "h": 20,
+    "x": 1,
+    "y": 423
+   }
+  },
+  {
+   "type": "node",
+   "name": "enemy_team",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 20,
+    "h": 20,
+    "x": 300,
+    "y": 423
+   }
+  },
+  {
+   "type": "text",
+   "name": "your_team_name",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 12,
+    "horizontal_align": 0,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "background_color_key": null,
+    "font_family": "",
+    "w": 90,
+    "h": 16,
+    "x": 22,
+    "y": 425
+   }
+  },
+  {
+   "type": "text",
+   "name": "your_team_point",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 12,
+    "horizontal_align": 2,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "background_color_key": null,
+    "font_family": "",
+    "w": 110,
+    "h": 16,
+    "x": 42,
+    "y": 425
+   }
+  },
+  {
+   "type": "text",
+   "name": "enemy_team_name",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 12,
+    "horizontal_align": 0,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "background_color_key": null,
+    "font_family": "",
+    "w": 100,
+    "h": 16,
+    "x": 171,
+    "y": 425
+   }
+  },
+  {
+   "type": "text",
+   "name": "enemy_team_point",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 12,
+    "horizontal_align": 2,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "background_color_key": null,
+    "font_family": "",
+    "w": 100,
+    "h": 16,
+    "x": 200,
+    "y": 425
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "tab",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/region/wbc_teampt_tab.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 142,
+    "h": 16,
+    "x": 0,
+    "y": 407
+   }
+  },
+  {
+   "type": "text",
+   "name": "tab_label",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "background_color_key": null,
+    "font_family": "",
+    "w": 142,
+    "h": 16,
+    "x": 0,
+    "y": 407
+   }
+  },
+  {
+   "type": "text",
+   "name": "your_team_mvp",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "background_color_key": null,
+    "font_family": "",
+    "w": 141,
+    "h": 20,
+    "x": 3,
+    "y": 441
+   }
+  },
+  {
+   "type": "text",
+   "name": "enemy_team_mvp",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "background_color_key": null,
+    "font_family": "",
+    "w": 141,
+    "h": 20,
+    "x": 175,
+    "y": 441
+   }
+  },
+  {
+   "type": "node",
+   "name": "your_team_mvp_icon",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 20,
+    "h": 20,
+    "x": 1,
+    "y": 460
+   }
+  },
+  {
+   "type": "node",
+   "name": "enemy_team_mvp_icon",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 20,
+    "h": 20,
+    "x": 177,
+    "y": 460
+   }
+  },
+  {
+   "type": "text",
+   "name": "your_team_mvp_name",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 12,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "background_color_key": null,
+    "font_family": "",
+    "w": 118,
+    "h": 18,
+    "x": 25,
+    "y": 461
+   }
+  },
+  {
+   "type": "text",
+   "name": "enemy_team_mvp_name",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 12,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "background_color_key": null,
+    "font_family": "",
+    "w": 117,
+    "h": 18,
+    "x": 201,
+    "y": 461
+   }
+  }
+ ],
+ "name": "WarAreaTeamPoint",
+ "type": "component"
+}

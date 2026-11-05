@@ -1,0 +1,595 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "sprite",
+   "name": "bg_long",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/dialog/profile_back.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 286,
+    "h": 144,
+    "x": 18,
+    "y": 239
+   }
+  },
+  {
+   "type": "text",
+   "name": "txt_title",
+   "attrs": {
+    "tag": "txt_title",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 18,
+    "horizontal_align": 1,
+    "vertical_align": 0,
+    "text": "Wizard Quiz Result",
+    "text_wrap": true,
+    "text_color_key": "#800000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 320,
+    "h": 47,
+    "x": 0,
+    "y": 55
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "aquired_bonus_base",
+   "attrs": {
+    "tag": "aquired_bonus_base",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/arena/bg_text_2.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 165,
+    "h": 25,
+    "x": 113,
+    "y": 351
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "aquired_bonus_txt",
+     "attrs": {
+      "tag": "aquired_bonus_txt",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 16,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "Attack 10%",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 165,
+      "h": 30,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "aquired_bonus_title",
+     "attrs": {
+      "tag": "aquired_bonus_title",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "Gain:",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 46,
+      "h": 30,
+      "x": -38,
+      "y": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "name": "txt_arena_lv",
+   "attrs": {
+    "tag": "txt_arena_lv",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 15,
+    "horizontal_align": 2,
+    "vertical_align": 1,
+    "text": "10 >> 11",
+    "text_wrap": true,
+    "text_color_key": "#800000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 75,
+    "h": 30,
+    "x": 170,
+    "y": 321
+   }
+  },
+  {
+   "type": "text",
+   "name": "aquired_bonus_title0",
+   "attrs": {
+    "tag": "txt_arena_lv_label",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 15,
+    "horizontal_align": 0,
+    "vertical_align": 1,
+    "text": "Arena LV:",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 78,
+    "h": 30,
+    "x": 75,
+    "y": 321
+   }
+  },
+  {
+   "type": "view",
+   "name": "boss_container",
+   "attrs": {
+    "tag": "boss_container",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "w": 120,
+    "h": 172,
+    "x": 34,
+    "y": 74
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "sprite1",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       -1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/arena/ui/dialog_bubble.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 150,
+      "h": 117,
+      "x": 255,
+      "y": 20
+     }
+    },
+    {
+     "type": "text",
+     "name": "boss_text",
+     "attrs": {
+      "tag": "boss_text",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "Sample boss text here.",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 118,
+      "h": 117,
+      "x": 132,
+      "y": 20
+     }
+    }
+   ]
+  },
+  {
+   "type": "button",
+   "name": "btn_ok",
+   "attrs": {
+    "tag": "btn_ok",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 14,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "OK",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "NewEventType_Component_QuizResultOK",
+    "image_color": null,
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": "common/ui/button/bt_base_red_p_56.png",
+    "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+    "image_selected": "common/ui/button/bt_base_red_p_56.png",
+    "image_focused": "common/ui/button/bt_base_red_p_56.png",
+    "w": 105,
+    "h": 30,
+    "x": 108,
+    "y": 395
+   }
+  },
+  {
+   "type": "node",
+   "name": "txt_bonus_group",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 320,
+    "h": 55,
+    "x": 0,
+    "y": 246
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "txt_bonus_title1",
+     "attrs": {
+      "tag": "txt_bonus_title1",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "Boost EXP",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 100,
+      "h": 30,
+      "x": 75,
+      "y": 6
+     }
+    },
+    {
+     "type": "text",
+     "name": "txt_bonus_title2",
+     "attrs": {
+      "tag": "txt_bonus_title2",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "Event Point",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 100,
+      "h": 30,
+      "x": 75,
+      "y": 30
+     }
+    },
+    {
+     "type": "text",
+     "name": "txt_bonus_value1",
+     "attrs": {
+      "tag": "txt_bonus_value1",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 2,
+      "vertical_align": 0,
+      "text": "+1000",
+      "text_wrap": true,
+      "text_color_key": "#800000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 100,
+      "h": 30,
+      "x": 145,
+      "y": 6
+     }
+    },
+    {
+     "type": "text",
+     "name": "txt_bonus_value2",
+     "attrs": {
+      "tag": "txt_bonus_value2",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 2,
+      "vertical_align": 0,
+      "text": "+1000",
+      "text_wrap": true,
+      "text_color_key": "#800000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 100,
+      "h": 30,
+      "x": 145,
+      "y": 30
+     }
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "name": "boost_bar_group",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 320,
+    "h": 30,
+    "x": 0,
+    "y": 300
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "txt_boost_level",
+     "attrs": {
+      "tag": "txt_boost_level",
+      "mock_image": null,
+      "visible": false,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 13,
+      "horizontal_align": 2,
+      "vertical_align": 1,
+      "text": "Level 20",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 100,
+      "h": 30,
+      "x": 33,
+      "y": 0
+     }
+    },
+    {
+     "type": "view",
+     "name": "boost_bar",
+     "attrs": {
+      "tag": "boost_bar",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "w": 161,
+      "h": 16,
+      "x": 96,
+      "y": 7
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "icon_boost_level",
+     "attrs": {
+      "tag": "icon_boost_level",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/arena/ui/icon_arena_lv.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 20,
+      "h": 20,
+      "x": 73,
+      "y": 5
+     }
+    }
+   ]
+  }
+ ],
+ "name": "WizardQuizResultLayout",
+ "type": "component"
+}

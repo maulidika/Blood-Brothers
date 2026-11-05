@@ -1,0 +1,828 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "text",
+   "name": "title",
+   "attrs": {
+    "tag": "title",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 22,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#81120E",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 234,
+    "h": 48,
+    "x": 42,
+    "y": 48
+   }
+  },
+  {
+   "type": "text",
+   "name": "warning",
+   "attrs": {
+    "tag": "warning",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 16,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 235,
+    "h": 84,
+    "x": 41,
+    "y": 81
+   }
+  },
+  {
+   "type": "component",
+   "name": "buttons",
+   "attrs": {
+    "tag": "buttons",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 320,
+    "h": 28,
+    "x": 0,
+    "y": 403
+   },
+   "children": [
+    {
+     "type": "button",
+     "name": "cancel_button",
+     "attrs": {
+      "tag": "cancel_button",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "cancel",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 84,
+      "h": 28,
+      "x": 118,
+      "y": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "name": "item1",
+   "attrs": {
+    "tag": "item1",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 234,
+    "h": 83,
+    "x": 42,
+    "y": 165
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "recover_box_full",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/full.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 56,
+      "h": 38,
+      "x": 180,
+      "y": 0
+     }
+    },
+    {
+     "type": "button",
+     "name": "ok_button",
+     "attrs": {
+      "tag": "ok_button",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "ok",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 84,
+      "h": 28,
+      "x": 150,
+      "y": 41
+     }
+    },
+    {
+     "type": "component",
+     "name": "potion",
+     "attrs": {
+      "tag": "potion",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 5
+     }
+    },
+    {
+     "type": "text",
+     "name": "item_name",
+     "attrs": {
+      "tag": "item_name",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 162,
+      "h": 28,
+      "x": 69,
+      "y": 5
+     }
+    },
+    {
+     "type": "text",
+     "name": "potion_num",
+     "attrs": {
+      "tag": "potion_num",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 97,
+      "h": 31,
+      "x": 117,
+      "y": 20
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "potion_multi",
+     "attrs": {
+      "tag": "potion_multi",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "ui/icon/icon_multiply.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 10,
+      "h": 10,
+      "x": 100,
+      "y": 31
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "potion_icon",
+     "attrs": {
+      "tag": "potion_icon",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "ui/icon/icon_possession.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 16,
+      "h": 16,
+      "x": 75,
+      "y": 28
+     }
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "name": "item2",
+   "attrs": {
+    "tag": "item2",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 234,
+    "h": 83,
+    "x": 42,
+    "y": 235
+   },
+   "children": [
+    {
+     "type": "button",
+     "name": "ok_button2",
+     "attrs": {
+      "tag": "ok_button2",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "ok2",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 84,
+      "h": 28,
+      "x": 150,
+      "y": 41
+     }
+    },
+    {
+     "type": "component",
+     "name": "potion2",
+     "attrs": {
+      "tag": "potion2",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 5
+     }
+    },
+    {
+     "type": "text",
+     "name": "item_name2",
+     "attrs": {
+      "tag": "item_name2",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 16,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 192,
+      "h": 28,
+      "x": 69,
+      "y": 5
+     }
+    },
+    {
+     "type": "text",
+     "name": "potion_num2",
+     "attrs": {
+      "tag": "potion_num2",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 97,
+      "h": 31,
+      "x": 117,
+      "y": 20
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "potion_multi2",
+     "attrs": {
+      "tag": "potion_multi2",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "ui/icon/icon_multiply.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 10,
+      "h": 10,
+      "x": 100,
+      "y": 31
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "potion_icon2",
+     "attrs": {
+      "tag": "potion_icon2",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "ui/icon/icon_possession.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 16,
+      "h": 16,
+      "x": 75,
+      "y": 28
+     }
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "name": "item3",
+   "attrs": {
+    "tag": "item3",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 234,
+    "h": 83,
+    "x": 42,
+    "y": 319
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "recover_box_5",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/plus5.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 56,
+      "h": 38,
+      "x": 180,
+      "y": 0
+     }
+    },
+    {
+     "type": "button",
+     "name": "ok_button3",
+     "attrs": {
+      "tag": "ok_button3",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "ok3",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 84,
+      "h": 28,
+      "x": 150,
+      "y": 41
+     }
+    },
+    {
+     "type": "component",
+     "name": "potion3",
+     "attrs": {
+      "tag": "potion3",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 5
+     }
+    },
+    {
+     "type": "text",
+     "name": "item_name3",
+     "attrs": {
+      "tag": "item_name3",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 162,
+      "h": 28,
+      "x": 69,
+      "y": 5
+     }
+    },
+    {
+     "type": "text",
+     "name": "potion_num3",
+     "attrs": {
+      "tag": "potion_num3",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 97,
+      "h": 31,
+      "x": 117,
+      "y": 20
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "potion_multi3",
+     "attrs": {
+      "tag": "potion_multi3",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "ui/icon/icon_multiply.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 10,
+      "h": 10,
+      "x": 100,
+      "y": 31
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "potion_icon3",
+     "attrs": {
+      "tag": "potion_icon3",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "ui/icon/icon_possession.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 16,
+      "h": 16,
+      "x": 75,
+      "y": 28
+     }
+    }
+   ]
+  },
+  {
+   "type": "sprite",
+   "name": "line",
+   "attrs": {
+    "tag": "line",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/line_gray.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": "FFFFFF",
+    "w": 234,
+    "h": 4,
+    "x": 42,
+    "y": 312
+   }
+  }
+ ],
+ "name": "EnergyOutLayout",
+ "type": "component"
+}

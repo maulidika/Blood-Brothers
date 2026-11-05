@@ -1,0 +1,309 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "text",
+   "name": "txt_title",
+   "attrs": {
+    "tag": "txt_title",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 18,
+    "horizontal_align": 1,
+    "vertical_align": 0,
+    "text": "Wizard Quiz",
+    "text_wrap": true,
+    "text_color_key": "#800000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 320,
+    "h": 47,
+    "x": 0,
+    "y": 55
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "bg_long",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/dialog/profile_back.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 285,
+    "h": 184,
+    "x": 18,
+    "y": 190
+   }
+  },
+  {
+   "type": "button",
+   "name": "btn_cheat",
+   "attrs": {
+    "tag": "btn_cheat",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 14,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "Cheat",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "NewEventType_Component_CheatQuiz",
+    "image_color": null,
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": "common/ui/button/bt_base_red_p_56.png",
+    "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+    "image_selected": "common/ui/button/bt_base_red_p_56.png",
+    "image_focused": "common/ui/button/bt_base_red_p_56.png",
+    "w": 100,
+    "h": 30,
+    "x": 110,
+    "y": 400
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "txt_cheat_hint",
+     "attrs": {
+      "tag": "txt_cheat_hint",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "Use cheat item to see the cheat mark of the card",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 299,
+      "h": 40,
+      "x": -99,
+      "y": -40
+     }
+    }
+   ]
+  },
+  {
+   "type": "view",
+   "name": "boss_container",
+   "attrs": {
+    "tag": "boss_container",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "w": 110,
+    "h": 146,
+    "x": 192,
+    "y": 56
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "sprite0",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/arena/ui/dialog_bubble.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 164,
+      "h": 60,
+      "x": -154,
+      "y": 28
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "boss_words",
+       "attrs": {
+        "tag": "boss_words",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "Let's play a game! Find me and I will give the good gift or fight with my pet",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 150,
+        "h": 58,
+        "x": 2,
+        "y": 0
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "name": "txt_reward_2",
+   "attrs": {
+    "tag": "txt_reward_2",
+    "mock_image": null,
+    "visible": false,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 2,
+    "text": "+1 boost level for find XXX",
+    "text_wrap": true,
+    "text_color_key": "#800000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 160,
+    "h": 63,
+    "x": 32,
+    "y": 126
+   }
+  },
+  {
+   "type": "text",
+   "name": "txt_reward_1",
+   "attrs": {
+    "tag": "txt_reward_1",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 2,
+    "text": "30000 pts for find XXX",
+    "text_wrap": true,
+    "text_color_key": "#800000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 160,
+    "h": 55,
+    "x": 32,
+    "y": 136
+   }
+  },
+  {
+   "type": "view",
+   "name": "card_container",
+   "attrs": {
+    "tag": "card_container",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "w": 320,
+    "h": 180,
+    "x": 0,
+    "y": 193
+   }
+  }
+ ],
+ "name": "WizardQuizLayout",
+ "type": "component"
+}

@@ -1,0 +1,252 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "root",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 320,
+    "h": 480,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "area",
+     "attrs": {
+      "tag": "area",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 22,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 234,
+      "h": 32,
+      "x": 43,
+      "y": 55
+     }
+    },
+    {
+     "type": "component",
+     "name": "still",
+     "attrs": {
+      "tag": "still",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 248,
+      "h": 112,
+      "x": 36,
+      "y": 90
+     }
+    },
+    {
+     "type": "text",
+     "name": "descShadow",
+     "attrs": {
+      "tag": "descShadow",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "The great dwarf craftsmen",
+      "text_wrap": true,
+      "text_color_key": "#1A1A1A",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 238,
+      "h": 112,
+      "x": 41,
+      "y": 90
+     }
+    },
+    {
+     "type": "text",
+     "name": "desc",
+     "attrs": {
+      "tag": "desc",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "The great dwarf craftsmen",
+      "text_wrap": true,
+      "text_color_key": "#E7DFD4",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 238,
+      "h": 112,
+      "x": 41,
+      "y": 90
+     }
+    },
+    {
+     "type": "button",
+     "name": "ok",
+     "attrs": {
+      "tag": "ok",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "Decide_Zone",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56L.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 84,
+      "h": 28,
+      "x": 70,
+      "y": 400
+     }
+    },
+    {
+     "type": "button",
+     "name": "details",
+     "attrs": {
+      "tag": "details",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "On_Floor_Details",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56L.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 84,
+      "h": 28,
+      "x": 166,
+      "y": 400
+     }
+    },
+    {
+     "type": "image",
+     "name": "rep_icon",
+     "attrs": {
+      "tag": "rep_icon",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/arena/ui/icon_glory.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 17,
+      "h": 21,
+      "x": 45,
+      "y": 233
+     }
+    }
+   ]
+  }
+ ],
+ "name": "NewEventFloorSelect",
+ "type": "component"
+}

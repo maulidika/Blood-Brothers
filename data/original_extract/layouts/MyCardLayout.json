@@ -1,0 +1,695 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "name",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "name",
+      "mock_image": null,
+      "text_color_key": "#010101",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text_size": "22",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 30,
+      "y": 77,
+      "w": 260,
+      "h": 32
+     }
+    },
+    {
+     "name": "effect",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "effect",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 48,
+      "y": 105,
+      "w": 141.5,
+      "h": 202
+     }
+    },
+    {
+     "name": "img",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "img",
+      "mock_image": null,
+      "rotate": 0,
+      "image_color_key": "#FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 42,
+      "y": 105,
+      "w": 141.5,
+      "h": 202
+     }
+    },
+    {
+     "name": "skillName",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "skillName",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text_size": "18",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 42,
+      "y": 315,
+      "w": 236,
+      "h": 32
+     }
+    },
+    {
+     "name": "skillComment",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "skillComment",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text_size": "14",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 42,
+      "y": 335,
+      "w": 236,
+      "h": 44
+     }
+    },
+    {
+     "name": "message",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "message",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": 18,
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 42,
+      "y": 368,
+      "w": 236,
+      "h": 32
+     }
+    },
+    {
+     "name": "status",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "status",
+      "mock_image": null,
+      "image": "common/ui/profile_status02.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color_key": "#FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 192,
+      "y": 180,
+      "w": 90,
+      "h": 110
+     },
+     "children": [
+      {
+       "name": "hp",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "hp",
+        "mock_image": null,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 12,
+        "y": 4,
+        "w": 16,
+        "h": 16
+       },
+       "children": [
+        {
+         "name": "iconHp",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "iconHp",
+          "mock_image": null,
+          "image": "ui/icon/character_detail_icon2.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image_color_key": "#FFFFFF",
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16
+         }
+        },
+        {
+         "name": "textHp",
+         "type": "text",
+         "attrs": {
+          "visible": true,
+          "tag": "textHp",
+          "mock_image": null,
+          "text_color_key": "#0A0A0A",
+          "text": "",
+          "text_wrap": true,
+          "horizontal_align": 2,
+          "vertical_align": 1,
+          "text_size": "14",
+          "rotate": 0,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": -26,
+          "y": -2,
+          "w": 80,
+          "h": 20
+         }
+        }
+       ]
+      },
+      {
+       "name": "atk",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "atk",
+        "mock_image": null,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 12,
+        "y": 26,
+        "w": 16,
+        "h": 16
+       },
+       "children": [
+        {
+         "name": "iconAtk",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "iconAtk",
+          "mock_image": null,
+          "image": "ui/icon/character_detail_icon3.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image_color_key": "#FFFFFF",
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16
+         }
+        },
+        {
+         "name": "textAtk",
+         "type": "text",
+         "attrs": {
+          "visible": true,
+          "tag": "textAtk",
+          "mock_image": null,
+          "text_color_key": "#0A0A0A",
+          "text": "",
+          "text_wrap": true,
+          "horizontal_align": 2,
+          "vertical_align": 1,
+          "text_size": "14",
+          "rotate": 0,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": -26,
+          "y": -2,
+          "w": 80,
+          "h": 18
+         }
+        }
+       ]
+      },
+      {
+       "name": "def",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "def",
+        "mock_image": null,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 12,
+        "y": 47,
+        "w": 16,
+        "h": 16
+       },
+       "children": [
+        {
+         "name": "iconDef",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "iconDef",
+          "mock_image": null,
+          "image": "ui/icon/character_detail_icon4.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image_color_key": "#FFFFFF",
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16
+         }
+        },
+        {
+         "name": "textDef",
+         "type": "text",
+         "attrs": {
+          "visible": true,
+          "tag": "textDef",
+          "mock_image": null,
+          "text_color_key": "#0A0A0A",
+          "text": "",
+          "text_wrap": true,
+          "horizontal_align": 2,
+          "vertical_align": 1,
+          "text_size": "14",
+          "rotate": 0,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": -26,
+          "y": -2,
+          "w": 80,
+          "h": 20
+         }
+        }
+       ]
+      },
+      {
+       "name": "wis",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "wis",
+        "mock_image": null,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 12,
+        "y": 69,
+        "w": 16,
+        "h": 16
+       },
+       "children": [
+        {
+         "name": "iconWis",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "iconWis",
+          "mock_image": null,
+          "image": "ui/icon/character_detail_icon6.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image_color_key": "#FFFFFF",
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16
+         }
+        },
+        {
+         "name": "textWis",
+         "type": "text",
+         "attrs": {
+          "visible": true,
+          "tag": "textWis",
+          "mock_image": null,
+          "text_color_key": "#0A0A0A",
+          "text": "",
+          "text_wrap": true,
+          "horizontal_align": 2,
+          "vertical_align": 1,
+          "text_size": "14",
+          "rotate": 0,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": -26,
+          "y": -2,
+          "w": 80,
+          "h": 20
+         }
+        }
+       ]
+      },
+      {
+       "name": "agi",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "agi",
+        "mock_image": null,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 12,
+        "y": 91,
+        "w": 16,
+        "h": 16
+       },
+       "children": [
+        {
+         "name": "iconAgi",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "iconAgi",
+          "mock_image": null,
+          "image": "ui/icon/character_detail_icon5.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image_color_key": "#FFFFFF",
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16
+         }
+        },
+        {
+         "name": "textAgi",
+         "type": "text",
+         "attrs": {
+          "visible": true,
+          "tag": "textAgi",
+          "mock_image": null,
+          "text_color_key": "#0A0A0A",
+          "text": "",
+          "text_wrap": true,
+          "horizontal_align": 2,
+          "vertical_align": 1,
+          "text_size": "14",
+          "rotate": 0,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": -26,
+          "y": -2,
+          "w": 80,
+          "h": 20
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "fog",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "fog",
+      "mock_image": null,
+      "image": "common/signup/fog_base.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color_key": "#FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 182,
+      "w": 320,
+      "h": 128
+     },
+     "children": [
+      {
+       "name": "desc",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "desc",
+        "mock_image": null,
+        "text_color_key": "#000000",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text_size": "18",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 60,
+        "y": 24,
+        "w": 200,
+        "h": 80
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "MyCardLayout",
+ "type": "component"
+}

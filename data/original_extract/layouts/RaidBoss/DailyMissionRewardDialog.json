@@ -1,0 +1,372 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "enabled": true,
+  "h": 480,
+  "mock_image": null,
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "button",
+   "name": "detail",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "font_family": "",
+    "action": "",
+    "image_color": null,
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": "common/ui/button/bt_base_red_p_56.png",
+    "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+    "image_selected": "common/ui/button/bt_base_red_p_56.png",
+    "image_focused": "common/ui/button/bt_base_red_p_56.png",
+    "w": 84,
+    "h": 28,
+    "x": 64,
+    "y": 397
+   }
+  },
+  {
+   "type": "button",
+   "name": "ok",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 18,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "font_family": "",
+    "action": "",
+    "image_color": null,
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": "common/ui/button/bt_base_red_p_56.png",
+    "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+    "image_selected": "common/ui/button/bt_base_red_p_56.png",
+    "image_focused": "common/ui/button/bt_base_red_p_56.png",
+    "w": 84,
+    "h": 28,
+    "x": 172,
+    "y": 397
+   }
+  },
+  {
+   "type": "text",
+   "name": "message",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 14,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 240,
+    "h": 27,
+    "x": 40,
+    "y": 368
+   }
+  },
+  {
+   "type": "node",
+   "name": "reward",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 240,
+    "h": 210,
+    "x": 40,
+    "y": 148
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "comment",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 240,
+      "h": 35,
+      "x": 0,
+      "y": 186
+     }
+    },
+    {
+     "type": "node",
+     "name": "image",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 128,
+      "h": 128,
+      "x": 56,
+      "y": 56
+     }
+    },
+    {
+     "type": "text",
+     "name": "name",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 240,
+      "h": 28,
+      "x": 0,
+      "y": 28
+     }
+    },
+    {
+     "type": "text",
+     "name": "reward_label",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 22,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 240,
+      "h": 32,
+      "x": 0,
+      "y": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "sprite",
+   "name": "complete",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/raidboss/dialog/dailymission_complete.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 117,
+    "h": 48,
+    "x": 172,
+    "y": 114
+   }
+  },
+  {
+   "type": "text",
+   "name": "mission",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 22,
+    "horizontal_align": 0,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 230,
+    "h": 32,
+    "x": 84,
+    "y": 95
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "check",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/raidboss/dialog/dailymission_check.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 31,
+    "h": 34,
+    "x": 48,
+    "y": 88
+   }
+  },
+  {
+   "type": "text",
+   "name": "title",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 22,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 240,
+    "h": 32,
+    "x": 40,
+    "y": 56
+   }
+  }
+ ],
+ "name": "DailyMissionRewardDialog",
+ "type": "view"
+}

@@ -1,0 +1,1929 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "base",
+   "attrs": {
+    "tag": "base",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 320,
+    "h": 292,
+    "x": 4,
+    "y": 96
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "corner_upper_l",
+     "attrs": {
+      "tag": "corner_upper_l",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_corner_upper_l.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 6,
+      "h": 6,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "corner_below_l",
+     "attrs": {
+      "tag": "corner_below_l",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_corner_below_l.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 6,
+      "h": 6,
+      "x": 0,
+      "y": 287
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "corner_upper_r",
+     "attrs": {
+      "tag": "corner_upper_r",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_corner_upper_r.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 6,
+      "h": 6,
+      "x": 307,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "corner_below_r",
+     "attrs": {
+      "tag": "corner_below_r",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_corner_below_r.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 6,
+      "h": 6,
+      "x": 307,
+      "y": 287
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "line_upper",
+     "attrs": {
+      "tag": "line_upper",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_list_upper.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 301,
+      "h": 6,
+      "x": 6,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "line_right",
+     "attrs": {
+      "tag": "line_right",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_list_r.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 6,
+      "h": 281,
+      "x": 307,
+      "y": 6
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "line_left",
+     "attrs": {
+      "tag": "line_left",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_list_l.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 6,
+      "h": 281,
+      "x": 0,
+      "y": 6
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "line_below",
+     "attrs": {
+      "tag": "line_below",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_list_below.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 301,
+      "h": 6,
+      "x": 6,
+      "y": 287
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "bg_base",
+     "attrs": {
+      "tag": "bg_base",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_list_base.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 301,
+      "h": 281,
+      "x": 6,
+      "y": 6
+     }
+    },
+    {
+     "type": "sprite",
+     "name": " line_h",
+     "attrs": {
+      "tag": " line_h",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_list_line_h.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 309,
+      "h": 8,
+      "x": 2,
+      "y": 18
+     }
+    },
+    {
+     "type": "sprite",
+     "name": " line_v",
+     "attrs": {
+      "tag": " line_v",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/zone/header/boss_list_line_v.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 4,
+      "h": 269,
+      "x": 226,
+      "y": 22
+     }
+    },
+    {
+     "type": "text",
+     "name": "title",
+     "attrs": {
+      "tag": "title",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 313,
+      "h": 20,
+      "x": 0,
+      "y": 2
+     }
+    },
+    {
+     "type": "component",
+     "name": "content",
+     "attrs": {
+      "tag": "content",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 2,
+      "y": 24
+     }
+    },
+    {
+     "type": "button",
+     "name": "bgBlack",
+     "attrs": {
+      "tag": "bgBlack",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "Clicked_Bg",
+      "image_color": null,
+      "image": null,
+      "image_pressed": null,
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 320,
+      "h": 292,
+      "x": -3,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "message",
+     "attrs": {
+      "tag": "message",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "test",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 220,
+      "h": 224,
+      "x": 2,
+      "y": 24
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "button",
+   "attrs": {
+    "tag": "button",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "war_history_button",
+     "attrs": {
+      "tag": "war_history_button",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "war_history_button_text",
+       "attrs": {
+        "tag": "war_history_button_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 64,
+        "h": 22,
+        "x": 0,
+        "y": 4
+       }
+      },
+      {
+       "type": "button",
+       "name": "war_history_button_icon",
+       "attrs": {
+        "tag": "war_history_button_icon",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "WarHistory_Clicked",
+        "image_color": null,
+        "image": "common/ui/zone_histroy_icon_n.png",
+        "image_pressed": "common/ui/zone_histroy_icon_p.png",
+        "image_checked": null,
+        "image_disabled": "common/ui/zone_histroy_icon_p.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 56,
+        "h": 56,
+        "x": 4,
+        "y": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "war_status_button",
+     "attrs": {
+      "tag": "war_status_button",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "war_status_button_text",
+       "attrs": {
+        "tag": "war_status_button_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 64,
+        "h": 22,
+        "x": 0,
+        "y": 0
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "war_status_button_time",
+         "attrs": {
+          "tag": "war_status_button_time",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 12,
+          "horizontal_align": 1,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FF0000",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 64,
+          "h": 22,
+          "x": 0,
+          "y": 12
+         }
+        }
+       ]
+      },
+      {
+       "type": "button",
+       "name": "war_status_button_icon",
+       "attrs": {
+        "tag": "war_status_button_icon",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "WarStatus_Clicked",
+        "image_color": null,
+        "image": "common/ui/zone_status_icon_n.png",
+        "image_pressed": "common/ui/zone_status_icon_p.png",
+        "image_checked": null,
+        "image_disabled": "common/ui/zone_status_icon_p.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 65,
+        "h": 65,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "war_battle_button",
+     "attrs": {
+      "tag": "war_battle_button",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "war_battle_button_text",
+       "attrs": {
+        "tag": "war_battle_button_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 64,
+        "h": 22,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "war_battle_button_time",
+       "attrs": {
+        "tag": "war_battle_button_time",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FF0000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 64,
+        "h": 22,
+        "x": 0,
+        "y": 12
+       }
+      },
+      {
+       "type": "button",
+       "name": "war_battle_button_icon",
+       "attrs": {
+        "tag": "war_battle_button_icon",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "WarBattle_Clicked",
+        "image_color": null,
+        "image": "zone/zone_battle_battle_icon_n.png",
+        "image_pressed": "zone/zone_battle_battle_icon_p.png",
+        "image_checked": null,
+        "image_disabled": "zone/zone_battle_battle_icon_p.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 64,
+        "h": 64,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "war_rank_button",
+     "attrs": {
+      "tag": "war_rank_button",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "war_rank_button_text",
+       "attrs": {
+        "tag": "war_rank_button_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FAFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 80,
+        "h": 22,
+        "x": -5,
+        "y": 4
+       }
+      },
+      {
+       "type": "button",
+       "name": "war_rank_button_icon",
+       "attrs": {
+        "tag": "war_rank_button_icon",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "WarRank_Clicked",
+        "image_color": null,
+        "image": "common/ui/zone_battle_rank_icon_n.png",
+        "image_pressed": "common/ui/zone_battle_rank_icon_p.png",
+        "image_checked": null,
+        "image_disabled": "common/ui/zone_battle_rank_icon_p.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 65,
+        "h": 65,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "war_panel",
+   "attrs": {
+    "tag": "war_panel",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "war_status_column",
+     "attrs": {
+      "tag": "war_status_column",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 223,
+      "h": 80,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "war_status_column_time",
+       "attrs": {
+        "tag": "war_status_column_time",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 2,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#7F0000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 40,
+        "h": 18,
+        "x": 155,
+        "y": 24
+       },
+       "children": [
+        {
+         "type": "sprite",
+         "name": "clock_image",
+         "attrs": {
+          "tag": "",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image": "common/ui/bar/clock_icon.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 18,
+          "h": 18,
+          "x": -7,
+          "y": 0
+         }
+        }
+       ]
+      },
+      {
+       "type": "text",
+       "name": "war_status_column_status",
+       "attrs": {
+        "tag": "war_status_column_status",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#7F0000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 145,
+        "h": 18,
+        "x": 70,
+        "y": 24
+       }
+      },
+      {
+       "type": "text",
+       "name": "war_status_column_hp",
+       "attrs": {
+        "tag": "war_status_column_hp",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#26211C",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 200,
+        "h": 18,
+        "x": 70,
+        "y": 39
+       },
+       "children": [
+        {
+         "type": "node",
+         "name": "defense_icon",
+         "attrs": {
+          "tag": "defense_icon",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "w": 24,
+          "h": 24,
+          "x": -63,
+          "y": 16
+         }
+        },
+        {
+         "type": "node",
+         "name": "invading_icon",
+         "attrs": {
+          "tag": "",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "w": 24,
+          "h": 24,
+          "x": 127,
+          "y": 16
+         }
+        }
+       ]
+      },
+      {
+       "type": "text",
+       "name": "war_status_column_area_name",
+       "attrs": {
+        "tag": "war_status_column_area_name",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 200,
+        "h": 22,
+        "x": 70,
+        "y": 9
+       }
+      },
+      {
+       "type": "text",
+       "name": "war_status_column_team_num",
+       "attrs": {
+        "tag": "war_status_column_team_num",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 200,
+        "h": 18,
+        "x": 70,
+        "y": 40
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "war_status_column_next_view",
+       "attrs": {
+        "tag": "war_status_column_next_view",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/next_view.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 14,
+        "h": 24,
+        "x": 205,
+        "y": 25
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "war_rank_column",
+     "attrs": {
+      "tag": "war_rank_column",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 223,
+      "h": 90,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "war_rank_column_point",
+       "attrs": {
+        "tag": "war_rank_column_point",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 16,
+        "horizontal_align": 2,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 150,
+        "h": 22,
+        "x": 70,
+        "y": 33
+       }
+      },
+      {
+       "type": "component",
+       "name": "war_rank_column_icon",
+       "attrs": {
+        "tag": "war_rank_column_icon",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 42,
+        "h": 42,
+        "x": 22,
+        "y": 23
+       }
+      },
+      {
+       "type": "text",
+       "name": "war_rank_column_rank_text",
+       "attrs": {
+        "tag": "war_rank_column_rank_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 30,
+        "h": 26,
+        "x": 2,
+        "y": 30
+       }
+      },
+      {
+       "type": "text",
+       "name": "war_rank_column_team_name",
+       "attrs": {
+        "tag": "war_rank_column_team_name",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 150,
+        "h": 26,
+        "x": 70,
+        "y": 5
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "war_hp_bar_panel",
+     "attrs": {
+      "tag": "war_hp_bar_panel",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "war_hp_bar_panel_bg",
+       "attrs": {
+        "tag": "war_hp_bar_panel_bg",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/zone/header/zone_superraidboss_textback.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 320,
+        "h": 60,
+        "x": 0,
+        "y": 0
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "war_hp_bar_panel_defense_team",
+         "attrs": {
+          "tag": "war_hp_bar_panel_defense_team",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 11,
+          "horizontal_align": 0,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": null,
+          "background_color_key": null,
+          "font_family": "",
+          "w": 130,
+          "h": 20,
+          "x": 0,
+          "y": 43
+         }
+        },
+        {
+         "type": "node",
+         "name": "war_hp_bar_panel_point_icon",
+         "attrs": {
+          "tag": "war_hp_bar_panel_point_icon",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "w": 26,
+          "h": 26,
+          "x": 34,
+          "y": 0
+         }
+        },
+        {
+         "type": "text",
+         "name": "point_boost",
+         "attrs": {
+          "tag": "",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 12,
+          "horizontal_align": 1,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": null,
+          "background_color_key": null,
+          "font_family": "",
+          "w": 150,
+          "h": 20,
+          "x": 90,
+          "y": 2
+         }
+        }
+       ]
+      },
+      {
+       "type": "component",
+       "name": "war_hp_bar_panel_icon",
+       "attrs": {
+        "tag": "war_hp_bar_panel_icon",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 34,
+        "h": 34,
+        "x": 4,
+        "y": 12
+       }
+      },
+      {
+       "type": "text",
+       "name": "war_hp_bar_panel_point",
+       "attrs": {
+        "tag": "war_hp_bar_panel_point",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 54,
+        "h": 20,
+        "x": 56,
+        "y": 2
+       }
+      },
+      {
+       "type": "component",
+       "name": "war_hp_bar_panel_team_icon",
+       "attrs": {
+        "tag": "war_hp_bar_panel_team_icon",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 28,
+        "h": 28,
+        "x": 285,
+        "y": 19
+       }
+      },
+      {
+       "type": "text",
+       "name": "war_hp_bar_panel_invading_team",
+       "attrs": {
+        "tag": "war_hp_bar_panel_invading_team",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 11,
+        "horizontal_align": 2,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#E9DCCB",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 130,
+        "h": 20,
+        "x": 189,
+        "y": 43
+       }
+      },
+      {
+       "type": "component",
+       "name": "war_hp_bar_panel_bar",
+       "attrs": {
+        "tag": "war_hp_bar_panel_bar",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 250,
+        "h": 18,
+        "x": 36,
+        "y": 24
+       }
+      },
+      {
+       "type": "text",
+       "name": "war_hp_bar_panel_time",
+       "attrs": {
+        "tag": "war_hp_bar_panel_time",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 55,
+        "h": 20,
+        "x": 141,
+        "y": 40
+       },
+       "children": [
+        {
+         "type": "sprite",
+         "name": "bar_clock_image",
+         "attrs": {
+          "tag": "",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image": "common/ui/bar/clock_icon.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 18,
+          "h": 18,
+          "x": -8,
+          "y": 0
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "war_history_column",
+     "attrs": {
+      "tag": "war_history_column",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 223,
+      "h": 75,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "war_history_column_result",
+       "attrs": {
+        "tag": "war_history_column_result",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 11,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 90,
+        "h": 22,
+        "x": 70,
+        "y": 50
+       }
+      },
+      {
+       "type": "component",
+       "name": "war_history_column_icon",
+       "attrs": {
+        "tag": "war_history_column_icon",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 48,
+        "h": 48,
+        "x": 12,
+        "y": 14
+       }
+      },
+      {
+       "type": "component",
+       "name": "war_history_column_bar",
+       "attrs": {
+        "tag": "war_history_column_bar",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 90,
+        "h": 15,
+        "x": 70,
+        "y": 30
+       }
+      },
+      {
+       "type": "text",
+       "name": "war_history_column_area_name",
+       "attrs": {
+        "tag": "war_history_column_area_name",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 200,
+        "h": 28,
+        "x": 70,
+        "y": 2
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "war_panel_clan_icon",
+     "attrs": {
+      "tag": "war_panel_clan_icon",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "war_panel_clan_icon_text",
+       "attrs": {
+        "tag": "war_panel_clan_icon_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 16,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 220,
+        "h": 22,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "component",
+       "name": "war_panel_clan_icon_image",
+       "attrs": {
+        "tag": "war_panel_clan_icon_image",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 36,
+        "h": 36,
+        "x": 100,
+        "y": 20
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "war_panel_clan_icon_line",
+       "attrs": {
+        "tag": "war_panel_clan_icon_line",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/zone/header/boss_list_line_h.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 220,
+        "h": 4,
+        "x": 2,
+        "y": 56
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "WarEventPanelLayout",
+ "type": "component"
+}

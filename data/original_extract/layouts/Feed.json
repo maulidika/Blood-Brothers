@@ -1,0 +1,368 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "cell",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "cell",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "bg",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "bg",
+      "mock_image": null,
+      "image": "common/present/list_wagon_title_back.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 12,
+      "y": 74,
+      "w": 296,
+      "h": 45
+     }
+    },
+    {
+     "name": "icon",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "icon",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 23,
+      "y": 84,
+      "w": 26,
+      "h": 25
+     }
+    },
+    {
+     "name": "message",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "message",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": "14",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 53,
+      "y": 74,
+      "w": 250,
+      "h": 45
+     }
+    }
+   ]
+  },
+  {
+   "name": "comment",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "comment",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 67,
+    "w": 0,
+    "h": 0
+   },
+   "children": [
+    {
+     "name": "comment_bg",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "comment_bg",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 15,
+      "y": 0,
+      "w": 289,
+      "h": 55
+     },
+     "children": [
+      {
+       "name": "comment_bg_base",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "comment_bg_base",
+        "mock_image": null,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 8,
+        "w": 0,
+        "h": 0
+       },
+       "children": [
+        {
+         "name": "comment_r_bg_left",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "comment_r_bg_left",
+          "mock_image": null,
+          "image": "common/ui/hukidashi01.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 22,
+          "h": 64
+         }
+        },
+        {
+         "name": "comment_r_bg_center",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "comment_r_bg_center",
+          "mock_image": null,
+          "image": "common/ui/hukidashi02.png",
+          "uvs": [
+           0.125,
+           0,
+           0.625,
+           1
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 22,
+          "y": 0,
+          "w": 245,
+          "h": 64
+         }
+        },
+        {
+         "name": "comment_r_bg_right",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "comment_r_bg_right",
+          "mock_image": null,
+          "image": "common/ui/hukidashi01.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           -1,
+           1
+          ],
+          "x": 289,
+          "y": 0,
+          "w": 22,
+          "h": 64
+         }
+        }
+       ]
+      },
+      {
+       "name": "comment_bg_arrow_l",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "comment_bg_arrow_l",
+        "mock_image": null,
+        "image": "common/ui/hukidashi03.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 14,
+        "y": 0,
+        "w": 19,
+        "h": 12
+       }
+      },
+      {
+       "name": "comment_bg_arrow_r",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "comment_bg_arrow_r",
+        "mock_image": null,
+        "image": "common/ui/hukidashi03.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 212,
+        "y": 0,
+        "w": 19,
+        "h": 12
+       }
+      }
+     ]
+    },
+    {
+     "name": "comment_text",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "comment_text",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": "14",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 33,
+      "y": 14,
+      "w": 255,
+      "h": 60
+     }
+    }
+   ]
+  }
+ ],
+ "name": "Feed",
+ "type": "component"
+}

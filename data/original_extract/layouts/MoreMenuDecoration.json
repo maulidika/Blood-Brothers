@@ -1,0 +1,50 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "image",
+   "name": "icon_laurel",
+   "attrs": {
+    "tag": "icon_laurel",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "image": "[DOWNLOAD_CONTENT]/DownloadContent/lang/ui/icon_laurel.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 64,
+    "h": 64,
+    "x": 30,
+    "y": 370
+   }
+  }
+ ],
+ "name": "MoreMenuDecoration",
+ "type": "component"
+}

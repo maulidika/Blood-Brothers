@@ -1,0 +1,441 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "profile",
+   "attrs": {
+    "tag": "profile",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "bg",
+     "attrs": {
+      "tag": "bg",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ally/profile_back.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 320,
+      "h": 119,
+      "x": 0,
+      "y": 267
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "avatar",
+       "attrs": {
+        "tag": "avatar",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 64,
+        "h": 64,
+        "x": 21,
+        "y": 10
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "levelBg",
+       "attrs": {
+        "tag": "levelBg",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/level_back.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 107,
+        "h": 22,
+        "x": 122,
+        "y": 12
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "lvLabel",
+         "attrs": {
+          "tag": "lvLabel",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 12,
+          "horizontal_align": 0,
+          "vertical_align": 0,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 100,
+          "h": 18,
+          "x": 4,
+          "y": 2
+         }
+        }
+       ]
+      },
+      {
+       "type": "text",
+       "name": "nickname",
+       "attrs": {
+        "tag": "nickname",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 16,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#060606",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 200,
+        "h": 25,
+        "x": 70,
+        "y": 38
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "commentBg",
+       "attrs": {
+        "tag": "commentBg",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/profile_mycomment_back_512.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 290,
+        "h": 54,
+        "x": 15,
+        "y": 54
+       }
+      },
+      {
+       "type": "text",
+       "name": "commentText",
+       "attrs": {
+        "tag": "commentText",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 255,
+        "h": 60,
+        "x": 33,
+        "y": 62
+       }
+      },
+      {
+       "type": "button",
+       "name": "edit",
+       "attrs": {
+        "tag": "edit",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "Edit",
+        "image_color": "FFFFFF",
+        "image": "common/ui/button/bt_base_red_n_40.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_40.png",
+        "image_checked": null,
+        "image_disabled": "common/ui/button/bt_base_gray_40.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 84,
+        "h": 28,
+        "x": 221,
+        "y": 31
+       }
+      },
+      {
+       "type": "component",
+       "name": "rank",
+       "attrs": {
+        "tag": "rank",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 64,
+        "h": 28,
+        "x": 84,
+        "y": 21
+       }
+      }
+     ]
+    },
+    {
+     "type": "button",
+     "name": "send",
+     "attrs": {
+      "tag": "send",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56L.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 128,
+      "h": 28,
+      "x": 21,
+      "y": 396
+     }
+    },
+    {
+     "type": "button",
+     "name": "request",
+     "attrs": {
+      "tag": "request",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "Request",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56L.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 128,
+      "h": 28,
+      "x": 171,
+      "y": 396
+     }
+    },
+    {
+     "type": "button",
+     "name": "board",
+     "attrs": {
+      "tag": "board",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "Board",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56L.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 128,
+      "h": 28,
+      "x": 21,
+      "y": 435
+     }
+    },
+    {
+     "type": "button",
+     "name": "warlord",
+     "attrs": {
+      "tag": "warlord",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "Warlord",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56L.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 128,
+      "h": 28,
+      "x": 171,
+      "y": 435
+     }
+    }
+   ]
+  }
+ ],
+ "name": "Profile",
+ "type": "component"
+}

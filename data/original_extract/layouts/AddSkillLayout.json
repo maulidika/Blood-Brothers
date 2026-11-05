@@ -1,0 +1,788 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "skill_list_cell",
+   "attrs": {
+    "tag": "skill_list_cell",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 320,
+    "h": 60,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "list_top_right_bg",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/text_base03_1.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 3,
+      "h": 35,
+      "x": 205,
+      "y": 14
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "list_top_left_bg",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/text_base03_1.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 3,
+      "h": 35,
+      "x": 18,
+      "y": 14
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "list_top_bg",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/text_base03_2.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 184,
+      "h": 35,
+      "x": 21,
+      "y": 14
+     }
+    },
+    {
+     "type": "text",
+     "name": "skill_list_cell_level",
+     "attrs": {
+      "tag": "skill_list_cell_level",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "w": 165,
+      "h": 17,
+      "x": 40,
+      "y": 30
+     }
+    },
+    {
+     "type": "text",
+     "name": "skill_list_cell_name",
+     "attrs": {
+      "tag": "skill_list_cell_name",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 2,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "w": 165,
+      "h": 19,
+      "x": 40,
+      "y": 12
+     }
+    },
+    {
+     "type": "component",
+     "name": "cell_list_frame",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": false,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 42,
+      "x": 15,
+      "y": 13
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "cell_list_frame_center",
+       "attrs": {
+        "tag": "cell_list_frame_center",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/add_select02.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 193,
+        "h": 39,
+        "x": 2,
+        "y": 0
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "cell_list_frame_left",
+       "attrs": {
+        "tag": "cell_list_frame_left",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/add_select01.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 2,
+        "h": 39,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "cell_list_frame_right",
+       "attrs": {
+        "tag": "cell_list_frame_right",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         -1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/add_select01.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 2,
+        "h": 39,
+        "x": 195,
+        "y": 0
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "select_button",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 84,
+      "h": 28,
+      "x": 216,
+      "y": 16
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "list",
+   "attrs": {
+    "tag": "list",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 320,
+    "h": 188,
+    "x": 0,
+    "y": 295
+   }
+  },
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "root",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "remove_skill_bg_left",
+     "attrs": {
+      "tag": "remove_skill_bg_left",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/removed_base01.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 7,
+      "h": 46,
+      "x": 179,
+      "y": 96
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "remove_skill_bg_center",
+     "attrs": {
+      "tag": "remove_skill_bg_center",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/removed_base02.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 122,
+      "h": 46,
+      "x": 186,
+      "y": 96
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "remove_skill_bg_right",
+     "attrs": {
+      "tag": "remove_skill_bg_right",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       -1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/removed_base01.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 7,
+      "h": 46,
+      "x": 315,
+      "y": 96
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "skill_bg_left",
+     "attrs": {
+      "tag": "skill_bg_left",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/text_base01.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 7,
+      "h": 102,
+      "x": 179,
+      "y": 150
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "skill_bg_center",
+     "attrs": {
+      "tag": "skill_bg_center",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/text_base02.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 122,
+      "h": 102,
+      "x": 186,
+      "y": 150
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "skill_bg_right",
+     "attrs": {
+      "tag": "skill_bg_right",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       -1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/text_base01.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 7,
+      "h": 102,
+      "x": 315,
+      "y": 150
+     }
+    },
+    {
+     "type": "text",
+     "name": "remove_text",
+     "attrs": {
+      "tag": "remove_text",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 11,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#030303",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 133,
+      "h": 16,
+      "x": 180,
+      "y": 98
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "skill_cell",
+   "attrs": {
+    "tag": "skill_cell",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0.5,
+     0.5
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 165,
+    "h": 34,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "skill_name",
+     "attrs": {
+      "tag": "skill_name",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 125,
+      "h": 20,
+      "x": 3,
+      "y": 3
+     }
+    },
+    {
+     "type": "text",
+     "name": "skill_level",
+     "attrs": {
+      "tag": "skill_level",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 125,
+      "h": 20,
+      "x": 2,
+      "y": 17
+     }
+    },
+    {
+     "type": "component",
+     "name": "cell_frame",
+     "attrs": {
+      "tag": "cell_frame",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 2
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "cell_frame_left",
+       "attrs": {
+        "tag": "cell_frame_left",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/add_select01.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 2,
+        "h": 33,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "cell_frame_center",
+       "attrs": {
+        "tag": "cell_frame_center",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/add_select02.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 126,
+        "h": 33,
+        "x": 2,
+        "y": 0
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "cell_frame_right",
+       "attrs": {
+        "tag": "cell_frame_right",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         -1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/add_select01.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 2,
+        "h": 33,
+        "x": 128,
+        "y": 0
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "AddSkillLayout",
+ "type": "component"
+}

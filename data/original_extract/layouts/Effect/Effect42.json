@@ -1,0 +1,282 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "bg",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "bg",
+      "mock_image": null,
+      "image": "common/cutscene/effect/bg.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 512,
+      "h": 512
+     }
+    },
+    {
+     "name": "chara",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "chara",
+      "mock_image": null,
+      "image": "common/cutscene/effect/chara.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 256,
+      "h": 256
+     }
+    },
+    {
+     "name": "hug_glow",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "hug_glow",
+      "mock_image": null,
+      "image": "common/cutscene/effect/hug_02.png",
+      "uvs": [
+       0.0078125,
+       0.0078125,
+       0.484375,
+       0.484375
+      ],
+      "rotate": 0,
+      "image_color": "9E0F3A",
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 256,
+      "h": 256
+     }
+    },
+    {
+     "name": "smoke_a",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "smoke_a",
+      "mock_image": null,
+      "image": "common/cutscene/effect/hug_02.png",
+      "uvs": [
+       0.0078125,
+       0.5078125,
+       0.484375,
+       0.484375
+      ],
+      "rotate": -45,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       0.46734148884366133,
+       0.46734148884366133
+      ],
+      "x": 30,
+      "y": 0,
+      "w": 256,
+      "h": 256
+     }
+    },
+    {
+     "name": "smoke_b",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "smoke_b",
+      "mock_image": null,
+      "image": "common/cutscene/effect/hug_02.png",
+      "uvs": [
+       0.0078125,
+       0.5078125,
+       0.484375,
+       0.484375
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       0.5190673812883166,
+       0.5190673812883166
+      ],
+      "x": -30,
+      "y": -40,
+      "w": 256,
+      "h": 256
+     }
+    },
+    {
+     "name": "hug_bone",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "hug_bone",
+      "mock_image": null,
+      "image": "common/cutscene/effect/hug_01.png",
+      "uvs": [
+       0.00390625,
+       0.00390625,
+       0.9921875,
+       0.9921875
+      ],
+      "rotate": 0,
+      "image_color": "FFDAE5",
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       0.75,
+       0.75
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 256,
+      "h": 256
+     }
+    },
+    {
+     "name": "flare",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "flare",
+      "mock_image": null,
+      "image": "common/cutscene/effect/hug_02.png",
+      "uvs": [
+       0.5078125,
+       0.5078125,
+       0.484375,
+       0.484375
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       0.1,
+       0.1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 256,
+      "h": 256
+     }
+    },
+    {
+     "name": "hug_glow_loop",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "hug_glow_loop",
+      "mock_image": null,
+      "image": "common/cutscene/effect/hug_02.png",
+      "uvs": [
+       0,
+       0,
+       0.5,
+       0.5
+      ],
+      "rotate": 0,
+      "image_color": "9E0F3A",
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 256,
+      "h": 256
+     }
+    }
+   ]
+  }
+ ],
+ "name": "Effect42",
+ "type": "component"
+}

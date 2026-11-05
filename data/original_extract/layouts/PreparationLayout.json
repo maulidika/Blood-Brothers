@@ -1,0 +1,448 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "root",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 320,
+    "h": 480,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "zoneBack",
+     "attrs": {
+      "tag": "zoneBack",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/comnemt_text_back.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FAFAFA",
+      "w": 244,
+      "h": 33,
+      "x": 38,
+      "y": 52
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "zone",
+       "attrs": {
+        "tag": "zone",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FAFAFA",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 244,
+        "h": 32,
+        "x": 0,
+        "y": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "button",
+     "name": "arrange",
+     "attrs": {
+      "tag": "arrange",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FAFAFA",
+      "font_family": "",
+      "action": "onArrangeDeck",
+      "image_color": "FAFAFA",
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 84,
+      "h": 28,
+      "x": 190,
+      "y": 95
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "deckBg",
+     "attrs": {
+      "tag": "deckBg",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/dialog/profile_back.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FAFAFA",
+      "w": 320,
+      "h": 208,
+      "x": 0,
+      "y": 130
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "deck",
+       "attrs": {
+        "tag": "deck",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 320,
+        "h": 150,
+        "x": 0,
+        "y": 8
+       }
+      },
+      {
+       "type": "component",
+       "name": "updateFormation",
+       "attrs": {
+        "tag": "updateFormation",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 40,
+        "h": 40,
+        "x": 280,
+        "y": 160
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "pact",
+     "attrs": {
+      "tag": "pact",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 114,
+      "h": 43,
+      "x": 35,
+      "y": 356
+     }
+    },
+    {
+     "type": "component",
+     "name": "combine",
+     "attrs": {
+      "tag": "combine",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 114,
+      "h": 43,
+      "x": 171,
+      "y": 356
+     }
+    },
+    {
+     "type": "button",
+     "name": "start",
+     "attrs": {
+      "tag": "start",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FAFAFA",
+      "font_family": "",
+      "action": "onGoAhead",
+      "image_color": "FAFAFA",
+      "image": "deck/btn_deck_n.png",
+      "image_pressed": "deck/btn_deck_p.png",
+      "image_checked": null,
+      "image_disabled": "common/deck/btn_deck_grey.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 188,
+      "h": 55,
+      "x": 66,
+      "y": 412
+     }
+    },
+    {
+     "type": "text",
+     "name": "titleText",
+     "attrs": {
+      "tag": "titleText",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#1A1A1A",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 114,
+      "h": 24,
+      "x": 35,
+      "y": 318
+     }
+    },
+    {
+     "type": "text",
+     "name": "pactTime",
+     "attrs": {
+      "tag": "pactTime",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#1A1A1A",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 114,
+      "h": 24,
+      "x": 35,
+      "y": 332
+     }
+    },
+    {
+     "type": "text",
+     "name": "warningMsg",
+     "attrs": {
+      "tag": "warningMsg",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#800000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 290,
+      "h": 43,
+      "x": 15,
+      "y": 115
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "themeBonusImg",
+     "attrs": {
+      "tag": null,
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "ui/icon/icon_theme.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 40,
+      "h": 40,
+      "x": 7,
+      "y": 291
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "themeBonusText",
+       "attrs": {
+        "tag": null,
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 13,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "Have special familiars in your brigade to get up to XXX% Bonus!",
+        "text_wrap": true,
+        "text_color_key": null,
+        "background_color_key": null,
+        "font_family": null,
+        "w": 221,
+        "h": 36,
+        "x": 36,
+        "y": 0
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "PreparationLayout",
+ "type": "component"
+}

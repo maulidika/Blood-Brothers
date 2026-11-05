@@ -1,0 +1,207 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 480
+   },
+   "children": [
+    {
+     "name": "base",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "base",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 39,
+      "y": 0,
+      "w": 242,
+      "h": 36
+     },
+     "children": [
+      {
+       "name": "bg",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "bg",
+        "mock_image": null,
+        "image": "common/ui/zone/header/base.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 244,
+        "h": 45
+       }
+      },
+      {
+       "name": "rare_treasure",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "rare_treasure",
+        "mock_image": null,
+        "text_color_key": "#FFFFFF",
+        "text": "00",
+        "text_wrap": true,
+        "horizontal_align": 2,
+        "vertical_align": 0,
+        "text_size": "12",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 167,
+        "y": 20,
+        "w": 20,
+        "h": 16
+       }
+      },
+      {
+       "name": "very_rare_treasure",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "very_rare_treasure",
+        "mock_image": null,
+        "text_color_key": "#FFFFFF",
+        "text": "00",
+        "text_wrap": true,
+        "horizontal_align": 2,
+        "vertical_align": 0,
+        "text_size": "12",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 210,
+        "y": 20,
+        "w": 24,
+        "h": 16
+       }
+      },
+      {
+       "name": "lv",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "lv",
+        "mock_image": null,
+        "text_color_key": "#FFFFFF",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text_size": "16",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 96.5,
+        "y": 23,
+        "w": 56,
+        "h": 24
+       }
+      },
+      {
+       "name": "money",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "money",
+        "mock_image": null,
+        "text_color_key": "#FFFFFF",
+        "text": "112",
+        "text_wrap": true,
+        "horizontal_align": 2,
+        "vertical_align": 0,
+        "text_size": "12",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 20,
+        "y": 20,
+        "w": 58,
+        "h": 16
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "ZoneHeader",
+ "type": "component"
+}

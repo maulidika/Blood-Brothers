@@ -1,0 +1,1073 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "node",
+   "name": "root",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 360,
+    "h": 490,
+    "x": 0,
+    "y": -10
+   },
+   "children": [
+    {
+     "type": "image",
+     "name": "bg002",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/boost/detail_bg.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 180,
+      "h": 142,
+      "x": 134,
+      "y": 92
+     }
+    },
+    {
+     "type": "image",
+     "name": "bg001",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/boost/cost_bg.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 248,
+      "h": 22,
+      "x": 16,
+      "y": 60
+     }
+    },
+    {
+     "type": "component",
+     "name": "hp",
+     "attrs": {
+      "tag": "hp",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 16,
+      "h": 16,
+      "x": 140,
+      "y": 96
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "textHp",
+       "attrs": {
+        "tag": "textHp",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#0A0A0A",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 48,
+        "h": 20,
+        "x": 22,
+        "y": -2
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "atk",
+     "attrs": {
+      "tag": "atk",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 16,
+      "h": 16,
+      "x": 140,
+      "y": 116
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "textAtk",
+       "attrs": {
+        "tag": "textAtk",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#0A0A0A",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 48,
+        "h": 18,
+        "x": 22,
+        "y": -2
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "def",
+     "attrs": {
+      "tag": "def",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 16,
+      "h": 16,
+      "x": 140,
+      "y": 136
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "textDef",
+       "attrs": {
+        "tag": "textDef",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#0A0A0A",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 48,
+        "h": 20,
+        "x": 22,
+        "y": -2
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "int",
+     "attrs": {
+      "tag": "int",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 16,
+      "h": 16,
+      "x": 140,
+      "y": 156
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "textInt",
+       "attrs": {
+        "tag": "textInt",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#0A0A0A",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 48,
+        "h": 20,
+        "x": 22,
+        "y": -2
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "agi",
+     "attrs": {
+      "tag": "agi",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 16,
+      "h": 16,
+      "x": 140,
+      "y": 176
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "textQuik",
+       "attrs": {
+        "tag": "textQuik",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#0A0A0A",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 48,
+        "h": 20,
+        "x": 22,
+        "y": -2
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "gold",
+     "attrs": {
+      "tag": "gold",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 16,
+      "h": 16,
+      "x": 26,
+      "y": 64
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "textGold",
+       "attrs": {
+        "tag": "textGold",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#0A0A0A",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 80,
+        "h": 20,
+        "x": 18,
+        "y": -3
+       }
+      },
+      {
+       "type": "text",
+       "name": "textCostGold",
+       "attrs": {
+        "tag": "textCostGold",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 2,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#0A0A0A",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 60,
+        "h": 20,
+        "x": 72,
+        "y": -2
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "item",
+     "attrs": {
+      "tag": "item",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 16,
+      "h": 16,
+      "x": 168,
+      "y": 63
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "textItem",
+       "attrs": {
+        "tag": "textItem",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#0A0A0A",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 48,
+        "h": 20,
+        "x": 18,
+        "y": -2
+       }
+      },
+      {
+       "type": "text",
+       "name": "textCostItem",
+       "attrs": {
+        "tag": "textCostItem",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 2,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#0A0A0A",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 48,
+        "h": 20,
+        "x": 40,
+        "y": -2
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "skill1",
+     "attrs": {
+      "tag": "skill1",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 16,
+      "h": 16,
+      "x": 216,
+      "y": 96
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "textSkill1",
+       "attrs": {
+        "tag": "textSkill1",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 11,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#0A0A0A",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 100,
+        "h": 36,
+        "x": 0,
+        "y": 2
+       }
+      },
+      {
+       "type": "text",
+       "name": "skillLv1",
+       "attrs": {
+        "tag": "skillLv1",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#0A0A0A",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 98,
+        "h": 18,
+        "x": 0,
+        "y": 30
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "icon1",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/collection_skill.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 20,
+        "h": 20,
+        "x": 0,
+        "y": -2
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "skill2",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 16,
+      "h": 16,
+      "x": 216,
+      "y": 146
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "textSkill2",
+       "attrs": {
+        "tag": "textSkill2",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 11,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#0A0A0A",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 96,
+        "h": 36,
+        "x": 0,
+        "y": 2
+       }
+      },
+      {
+       "type": "text",
+       "name": "skillLv2",
+       "attrs": {
+        "tag": "skillLv2",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#0A0A0A",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 98,
+        "h": 18,
+        "x": 0,
+        "y": 30
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "icon2",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/collection_skill.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 20,
+        "h": 20,
+        "x": 0,
+        "y": -2
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "boost",
+     "attrs": {
+      "tag": "boost",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 16,
+      "h": 16,
+      "x": 140,
+      "y": 200
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "msg",
+       "attrs": {
+        "tag": "msg",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 11,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#0A0A0A",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 168,
+        "h": 46,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "button",
+       "name": "boostBtn",
+       "attrs": {
+        "tag": "boostBtn",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "",
+        "image_color": "FFFFFF",
+        "image": "common/ui/button/bt_base_red_n_56.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+        "image_checked": null,
+        "image_disabled": "common/ui/button/bt_base_gray_56.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 96,
+        "h": 28,
+        "x": 76,
+        "y": 36
+       }
+      },
+      {
+       "type": "button",
+       "name": "unBoostBtn",
+       "attrs": {
+        "tag": "unBoostBtn",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "",
+        "image_color": "FFFFFF",
+        "image": "common/ui/button/bt_base_red_n_56.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+        "image_checked": null,
+        "image_disabled": "common/ui/button/bt_base_gray_56.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 96,
+        "h": 28,
+        "x": 76,
+        "y": 36
+       }
+      },
+      {
+       "type": "button",
+       "name": "retryBtn",
+       "attrs": {
+        "tag": "retryBtn",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "",
+        "image_color": "FFFFFF",
+        "image": "common/ui/button/bt_base_red_n_56.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+        "image_checked": null,
+        "image_disabled": "common/ui/button/bt_base_gray_56.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 74,
+        "h": 28,
+        "x": -4,
+        "y": 36
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "name": "skillCell",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 166,
+    "h": 46,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "image_newItem",
+     "attrs": {
+      "tag": "image_newItem",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/collection_skill.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 20,
+      "h": 20,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "skillName",
+     "attrs": {
+      "tag": "skillName",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#010101",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 146,
+      "h": 18,
+      "x": 20,
+      "y": 0
+     }
+    },
+    {
+     "type": "node",
+     "name": "clipDesc",
+     "attrs": {
+      "tag": "clipDesc",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 166,
+      "h": 22,
+      "x": 1,
+      "y": 18
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "skillDesc",
+       "attrs": {
+        "tag": "skillDesc",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 166,
+        "h": 22,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "BoostCardDetail",
+ "type": "component"
+}

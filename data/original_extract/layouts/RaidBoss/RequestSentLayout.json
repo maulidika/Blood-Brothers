@@ -1,0 +1,149 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 480
+   },
+   "children": [
+    {
+     "name": "container",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "container",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 40,
+      "y": 121,
+      "w": 240,
+      "h": 264
+     }
+    },
+    {
+     "name": "title",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "title",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "22",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 40,
+      "y": 55,
+      "w": 240,
+      "h": 32
+     }
+    },
+    {
+     "name": "desc",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "desc",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "Request were sent to the following allies",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text_size": "12",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 40,
+      "y": 88,
+      "w": 240,
+      "h": 40
+     }
+    },
+    {
+     "name": "okBtn",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "okBtn",
+      "mock_image": null,
+      "action": "okClicked",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/ui/button/bt_base_red_n_56L.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+      "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 96,
+      "y": 397,
+      "w": 128,
+      "h": 28
+     }
+    }
+   ]
+  }
+ ],
+ "name": "RequestSentLayout",
+ "type": "component"
+}

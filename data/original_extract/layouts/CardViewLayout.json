@@ -1,0 +1,84 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "sprite",
+   "name": "name_bg",
+   "attrs": {
+    "tag": "name_bg",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/comnemt_text_back.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": "FFFFFF",
+    "w": 320,
+    "h": 55,
+    "x": 0,
+    "y": 425
+   }
+  },
+  {
+   "type": "text",
+   "name": "name_text",
+   "attrs": {
+    "tag": "name_text",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 22,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "Sir Galahad, Road Knight",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 320,
+    "h": 45,
+    "x": 0,
+    "y": 425
+   }
+  }
+ ],
+ "name": "CardViewLayout",
+ "type": "component"
+}

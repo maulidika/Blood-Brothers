@@ -1,0 +1,284 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "description",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "description",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "18",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 290,
+      "w": 320,
+      "h": 26
+     }
+    },
+    {
+     "name": "confirmation",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "confirmation",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": 18,
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 300,
+      "w": 320,
+      "h": 70
+     }
+    },
+    {
+     "name": "send_button",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "send_button",
+      "mock_image": null,
+      "action": "SendClicked",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/ui/button/bt_base_red_n_56L.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+      "image_disabled": "common/ui/button/bt_base_red_p_56L.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 96,
+      "y": 440,
+      "w": 128,
+      "h": 28
+     }
+    },
+    {
+     "name": "profileBack",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "profileBack",
+      "mock_image": null,
+      "image": "common/ui/dialog/profile_back.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 358,
+      "w": 320,
+      "h": 74
+     }
+    },
+    {
+     "name": "title",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "title",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "16",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 358,
+      "w": 320,
+      "h": 22
+     }
+    },
+    {
+     "name": "userIcon",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "userIcon",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 50,
+      "y": 380,
+      "w": 46,
+      "h": 46
+     }
+    },
+    {
+     "name": "avatar",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "avatar",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 24,
+      "y": 384,
+      "w": 36,
+      "h": 36
+     }
+    },
+    {
+     "name": "name",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "name",
+      "mock_image": null,
+      "text_color_key": "#0A0A0A",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 100,
+      "y": 380,
+      "w": 200,
+      "h": 25
+     }
+    },
+    {
+     "name": "level",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "level",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": "16",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 100,
+      "y": 405,
+      "w": 200,
+      "h": 24
+     }
+    }
+   ]
+  }
+ ],
+ "name": "GiftConditionLayout",
+ "type": "component"
+}

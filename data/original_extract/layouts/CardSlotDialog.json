@@ -1,0 +1,299 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "cardPanel",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "cardPanel",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "line",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "line",
+      "mock_image": null,
+      "image": "common/card_list/line.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 112,
+      "w": 234,
+      "h": 5
+     }
+    },
+    {
+     "name": "cardCont",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "cardCont",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 8,
+      "y": 3,
+      "w": 65,
+      "h": 92
+     }
+    },
+    {
+     "name": "nameTxt",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "nameTxt",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": "14",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 90,
+      "y": 3,
+      "w": 106,
+      "h": 36
+     }
+    },
+    {
+     "name": "levelTxt",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "levelTxt",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": "12",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 90,
+      "y": 39,
+      "w": 106,
+      "h": 16
+     }
+    },
+    {
+     "name": "setBtn",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "setBtn",
+      "mock_image": null,
+      "action": "onSelect",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": "common/ui/button/bt_base_gray_56.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 152,
+      "y": 78,
+      "w": 84,
+      "h": 28
+     }
+    },
+    {
+     "name": "hpBarCont",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "hpBarCont",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 16,
+      "y": 92,
+      "w": 48,
+      "h": 11
+     }
+    },
+    {
+     "name": "memberIcon",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "memberIcon",
+      "mock_image": null,
+      "image": "ui/icon_partymember.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 1,
+      "y": 44,
+      "w": 79,
+      "h": 53
+     }
+    },
+    {
+     "name": "expIcon",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "expIcon",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 90,
+      "y": 57,
+      "w": 14,
+      "h": 14
+     }
+    },
+    {
+     "name": "expBarCont",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "expBarCont",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 110,
+      "y": 59,
+      "w": 88,
+      "h": 11
+     }
+    },
+    {
+     "name": "allRangeButton",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "allRangeButton",
+      "mock_image": null,
+      "action": "onSelect",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 240,
+      "h": 112
+     }
+    }
+   ]
+  }
+ ],
+ "name": "CardSlotDialog",
+ "type": "component"
+}

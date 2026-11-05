@@ -1,0 +1,208 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "root",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 320,
+    "h": 480,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "image",
+     "name": "frame",
+     "attrs": {
+      "tag": "frame",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/login/frame_nextbonus_s.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 106,
+      "h": 207,
+      "x": 0,
+      "y": 12
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "reward",
+     "attrs": {
+      "tag": "reward",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": null,
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 0,
+      "h": 0,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "image",
+     "name": "pin1",
+     "attrs": {
+      "tag": "pin1",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/login/detail.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 12,
+      "h": 34,
+      "x": 26,
+      "y": 0
+     }
+    },
+    {
+     "type": "image",
+     "name": "pin2",
+     "attrs": {
+      "tag": "pin2",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/login/detail.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 12,
+      "h": 34,
+      "x": 64,
+      "y": 0
+     }
+    },
+    {
+     "type": "image",
+     "name": "text_bg",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "common/login/bg_text.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 85,
+      "h": 22,
+      "x": 11,
+      "y": 33
+     }
+    },
+    {
+     "type": "image",
+     "name": "text",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "image": "login/text_nextbonus.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 73,
+      "h": 12,
+      "x": 16,
+      "y": 37
+     }
+    }
+   ]
+  }
+ ],
+ "name": "NextReward_s",
+ "type": "component"
+}

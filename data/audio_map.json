@@ -1,0 +1,12 @@
+{
+ "bgm": {"mainTheme":"bgm_001","opening":"bgm_002","home":"bgm_003","battle":"bgm_004","bossBattle":"bgm_005",
+         "cutSceneHappy":"bgm_006","gacha":"bgm_012","zoneResult":"bgm_013","battle_win":"bgm_015","boss_win":"bgm_016"},
+ "sfx": {"sys_click":"se_000","sys_cancel":"se_001","sys_page":"se_002","open_coffin":"se_200","lot":"se_201",
+         "combine":"se_300","combine_finish":"se_303","combine_crash":"se_304","forge_pact":"se_805","forge_pact_blood":"se_806",
+         "sell":"se_903","skill_power":"se_731","encount":"se_401","get_treasure_box":"se_404",
+         "hit_small":"se_703","hit_midium":"se_704","hit_large":"se_705","magic_small":"se_706","magic_midium":"se_707",
+         "increase_attack":"se_709","increase_quard":"se_710","decrease_attack":"se_713","decrease_quard":"se_714",
+         "skill_cure":"se_729","skill_critical_hit":"se_730","battle_start":"se_800","damage_small":"se_801",
+         "damage_middle":"se_802","damage_large":"se_803","get_exp":"se_804",
+         "get_treasure":"jingle_001","battle_lose":"jingle_002","game_over":"jingle_003","player_levelup":"jingle_004"}
+}

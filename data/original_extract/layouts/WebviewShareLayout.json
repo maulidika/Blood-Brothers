@@ -1,0 +1,121 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "enabled": true,
+  "h": 480,
+  "mock_image": null,
+  "tag": "base_view",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "ui_web_view",
+   "name": "webview",
+   "attrs": {
+    "tag": "webview",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "url": null,
+    "w": 320,
+    "h": 434,
+    "x": 0,
+    "y": 46
+   }
+  },
+  {
+   "type": "ui_button",
+   "name": "backButton",
+   "attrs": {
+    "tag": "backButton",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 0,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "action": "EVENT_BACK_BUTTON",
+    "image": "ui/snsshare/btn_back_n.png",
+    "image_pressed": "ui/snsshare/btn_back_p.png",
+    "image_checked": null,
+    "image_disabled": null,
+    "image_selected": null,
+    "image_focused": null,
+    "w": 40,
+    "h": 32,
+    "x": 3,
+    "y": 5
+   }
+  },
+  {
+   "type": "ui_image",
+   "name": "title",
+   "attrs": {
+    "tag": "title",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "image": "ui/snsshare/title_share.png",
+    "fitmode": "Stretch",
+    "w": 189,
+    "h": 31,
+    "x": 66,
+    "y": 4
+   }
+  },
+  {
+   "type": "ui_button",
+   "name": "close",
+   "attrs": {
+    "tag": "close",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 0,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "action": "EVENT_CLOSE_BUTTON",
+    "image": "common/ui/uiview/close_n.png",
+    "image_pressed": "common/ui/uiview/close_p.png",
+    "image_checked": null,
+    "image_disabled": null,
+    "image_selected": null,
+    "image_focused": null,
+    "w": 36,
+    "h": 36,
+    "x": 282,
+    "y": 5
+   }
+  }
+ ],
+ "name": "WebviewShareLayout",
+ "type": "view"
+}

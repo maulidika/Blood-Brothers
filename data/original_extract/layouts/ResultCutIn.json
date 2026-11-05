@@ -1,0 +1,79 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "bg",
+   "type": "sprite",
+   "attrs": {
+    "visible": true,
+    "tag": "bg",
+    "mock_image": null,
+    "image": "common/battle/cut_in_bg.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image_color": "FFFFFF",
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": -320,
+    "y": 33.333333333333314,
+    "w": 320,
+    "h": 155
+   }
+  },
+  {
+   "name": "win",
+   "type": "sprite",
+   "attrs": {
+    "visible": true,
+    "tag": "win",
+    "mock_image": null,
+    "image": "battle/win.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image_color": "FFFFFF",
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": -1.7543859649122737,
+    "y": 0,
+    "w": 320,
+    "h": 155
+   }
+  }
+ ],
+ "name": "ResultCutIn",
+ "type": "component"
+}

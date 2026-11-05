@@ -1,0 +1,427 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 1,
+    "h": 1,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "title",
+     "attrs": {
+      "tag": "title",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 22,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "Loot",
+      "text_wrap": true,
+      "text_color_key": "#FF0000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 220,
+      "h": 30,
+      "x": 50,
+      "y": 167
+     }
+    },
+    {
+     "type": "component",
+     "name": "layout3",
+     "attrs": {
+      "tag": "layout3",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 0,
+      "h": 0,
+      "x": 160,
+      "y": 242
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "layout3_item1",
+       "attrs": {
+        "tag": "layout3_item1",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 1,
+        "h": 0,
+        "x": -78,
+        "y": 0
+       }
+      },
+      {
+       "type": "component",
+       "name": "layout3_item3",
+       "attrs": {
+        "tag": "layout3_item3",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 1,
+        "h": 0,
+        "x": 78,
+        "y": 0
+       }
+      },
+      {
+       "type": "component",
+       "name": "layout3_item2",
+       "attrs": {
+        "tag": "layout3_item2",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 1,
+        "h": 0,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ]
+    },
+    {
+     "type": "button",
+     "name": "cancel",
+     "attrs": {
+      "tag": "ok",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "ok",
+      "image_color": null,
+      "image": "common/ui/button/bt_base_red_n_56L.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 128,
+      "h": 28,
+      "x": 96,
+      "y": 286
+     }
+    },
+    {
+     "type": "component",
+     "name": "layout4",
+     "attrs": {
+      "tag": "layout4",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 1,
+      "h": 0,
+      "x": 160,
+      "y": 242
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "layout4_item3",
+       "attrs": {
+        "tag": "layout4_item3",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 1,
+        "h": 0,
+        "x": 34,
+        "y": 0
+       }
+      },
+      {
+       "type": "component",
+       "name": "layout4_item2",
+       "attrs": {
+        "tag": "layout4_item2",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 0,
+        "h": 0,
+        "x": -34,
+        "y": 0
+       }
+      },
+      {
+       "type": "component",
+       "name": "layout4_item1",
+       "attrs": {
+        "tag": "layout4_item1",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 1,
+        "h": 0,
+        "x": -102,
+        "y": 0
+       }
+      },
+      {
+       "type": "component",
+       "name": "layout4_item4",
+       "attrs": {
+        "tag": "layout4_item4",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 1,
+        "h": 0,
+        "x": 102,
+        "y": 0
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "layout2",
+     "attrs": {
+      "tag": "layout2",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 0,
+      "h": 0,
+      "x": 160,
+      "y": 242
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "layout2_item1",
+       "attrs": {
+        "tag": "layout2_item1",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 1,
+        "h": 0,
+        "x": -64,
+        "y": 0
+       }
+      },
+      {
+       "type": "component",
+       "name": "layout2_item2",
+       "attrs": {
+        "tag": "layout2_item2",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 1,
+        "h": 0,
+        "x": 64,
+        "y": 0
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "layout1",
+     "attrs": {
+      "tag": "layout1",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 0,
+      "h": 0,
+      "x": 160,
+      "y": 242
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "layout1_item1",
+       "attrs": {
+        "tag": "layout1_item1",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 1,
+        "h": 0,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "LootDialogLayout",
+ "type": "component"
+}

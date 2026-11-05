@@ -1,0 +1,67 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "enabled": true,
+  "h": 480,
+  "mock_image": null,
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 100,
+    "h": 100,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "scroll_view",
+     "name": "scroll_view",
+     "attrs": {
+      "contentSize": [
+       0,
+       0
+      ],
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "containerMode": "verticalScrollView",
+      "w": 240,
+      "h": 320,
+      "x": 39,
+      "y": 80
+     }
+    }
+   ]
+  }
+ ],
+ "name": "NewEventFloorReward",
+ "type": "view"
+}

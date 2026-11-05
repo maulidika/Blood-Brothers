@@ -1,0 +1,184 @@
+{
+ "png_size": [
+  128,
+  128
+ ],
+ "json_space": {
+  "w": 512,
+  "h": 512
+ },
+ "scale_json_to_png": 0.25,
+ "line_height": 24,
+ "glyphs": [
+  {
+   "char": "0",
+   "code": 48,
+   "x": 17,
+   "y": 24,
+   "w": 17,
+   "h": 23,
+   "json_rect": [
+    67,
+    94,
+    68,
+    93
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "1",
+   "code": 49,
+   "x": 0,
+   "y": 0,
+   "w": 13,
+   "h": 24,
+   "json_rect": [
+    0,
+    0,
+    51,
+    97
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "2",
+   "code": 50,
+   "x": 27,
+   "y": 0,
+   "w": 18,
+   "h": 23,
+   "json_rect": [
+    109,
+    0,
+    72,
+    93
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "3",
+   "code": 51,
+   "x": 17,
+   "y": 71,
+   "w": 16,
+   "h": 23,
+   "json_rect": [
+    67,
+    285,
+    64,
+    91
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "4",
+   "code": 52,
+   "x": 0,
+   "y": 24,
+   "w": 17,
+   "h": 24,
+   "json_rect": [
+    0,
+    97,
+    67,
+    94
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "5",
+   "code": 53,
+   "x": 0,
+   "y": 71,
+   "w": 17,
+   "h": 23,
+   "json_rect": [
+    0,
+    285,
+    67,
+    93
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "6",
+   "code": 54,
+   "x": 0,
+   "y": 94,
+   "w": 15,
+   "h": 23,
+   "json_rect": [
+    0,
+    378,
+    60,
+    93
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "7",
+   "code": 55,
+   "x": 15,
+   "y": 94,
+   "w": 16,
+   "h": 23,
+   "json_rect": [
+    60,
+    378,
+    64,
+    93
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "8",
+   "code": 56,
+   "x": 13,
+   "y": 0,
+   "w": 14,
+   "h": 24,
+   "json_rect": [
+    51,
+    0,
+    58,
+    94
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "9",
+   "code": 57,
+   "x": 13,
+   "y": 48,
+   "w": 14,
+   "h": 24,
+   "json_rect": [
+    51,
+    191,
+    57,
+    94
+   ],
+   "rotated": false,
+   "trimmed": false
+  }
+ ],
+ "meta": {
+  "app": "ImagePacker",
+  "version": "1.0.11",
+  "image": "imagefont.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 512,
+   "h": 512
+  }
+ }
+}

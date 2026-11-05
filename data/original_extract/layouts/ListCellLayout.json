@@ -1,0 +1,286 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "list",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "list",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "nickname",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "nickname",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "test",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": "20",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 116,
+      "y": 27,
+      "w": 200,
+      "h": 26
+     }
+    },
+    {
+     "name": "common",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "common",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+     },
+     "children": [
+      {
+       "name": "chara",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "chara",
+        "mock_image": null,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 46,
+        "y": 5,
+        "w": 60,
+        "h": 60
+       }
+      },
+      {
+       "name": "info_bg",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "info_bg",
+        "mock_image": null,
+        "image": "common/ui/level_back.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 112,
+        "y": 5,
+        "w": 107,
+        "h": 22
+       },
+       "children": [
+        {
+         "name": "lv_label",
+         "type": "text",
+         "attrs": {
+          "visible": true,
+          "tag": "lv_label",
+          "mock_image": null,
+          "text_color_key": "#FFFFFF",
+          "text": "LV.",
+          "text_wrap": true,
+          "horizontal_align": 0,
+          "vertical_align": 1,
+          "text_size": "12",
+          "rotate": 0,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 4,
+          "y": 2,
+          "w": 103,
+          "h": 18
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "day",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "day",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": "12",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 116,
+      "y": 56,
+      "w": 120,
+      "h": 32
+     }
+    },
+    {
+     "name": "point",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "point",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 2,
+      "vertical_align": 0,
+      "text_size": "12",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 116,
+      "y": 56,
+      "w": 90,
+      "h": 32
+     }
+    },
+    {
+     "name": "login_time",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "login_time",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": "12",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 116,
+      "y": 53,
+      "w": 120,
+      "h": 20
+     }
+    },
+    {
+     "name": "rank",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "rank",
+      "mock_image": null,
+      "text_color_key": "#800000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": "14",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 224,
+      "y": 7,
+      "w": 94,
+      "h": 18
+     }
+    }
+   ]
+  }
+ ],
+ "name": "ListCellLayout",
+ "type": "component"
+}

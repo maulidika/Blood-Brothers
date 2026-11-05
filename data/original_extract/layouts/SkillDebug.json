@@ -1,0 +1,1594 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "tile",
+   "name": "enemyGroup",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "vertex_colors": [
+     "CCCCFF",
+     "CCCCFF",
+     "CCCCFF",
+     "CCCCFF"
+    ],
+    "w": 220,
+    "h": 55,
+    "x": 0,
+    "y": 50
+   }
+  },
+  {
+   "type": "tile",
+   "name": "playerGroup",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "vertex_colors": [
+     "CCFFCC",
+     "CCFFCC",
+     "CCFFCC",
+     "CCFFCC"
+    ],
+    "w": 220,
+    "h": 55,
+    "x": 0,
+    "y": 104
+   }
+  },
+  {
+   "type": "tile",
+   "name": "battleGroup",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "vertex_colors": [
+     "FFCCCC",
+     "FFCCCC",
+     "FFCCCC",
+     "FFCCCC"
+    ],
+    "w": 100,
+    "h": 110,
+    "x": 220,
+    "y": 48
+   }
+  },
+  {
+   "type": "tile",
+   "name": "skillGroup",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "vertex_colors": [
+     "FFFFCC",
+     "FFFFCC",
+     "FFFFCC",
+     "FFFFCC"
+    ],
+    "w": 320,
+    "h": 110,
+    "x": 0,
+    "y": 158
+   }
+  },
+  {
+   "type": "ui_editarea",
+   "name": "arg11",
+   "attrs": {
+    "tag": "arg11",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "placeholder": null,
+    "placeholder_color_key": null,
+    "background_color_key": null,
+    "editmode": "Text",
+    "w": 50,
+    "h": 22,
+    "x": 271,
+    "y": 246
+   }
+  },
+  {
+   "type": "ui_editarea",
+   "name": "arg10",
+   "attrs": {
+    "tag": "arg10",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "placeholder": null,
+    "placeholder_color_key": null,
+    "background_color_key": null,
+    "editmode": "Text",
+    "w": 50,
+    "h": 22,
+    "x": 271,
+    "y": 266
+   }
+  },
+  {
+   "type": "ui_editarea",
+   "name": "arg9",
+   "attrs": {
+    "tag": "arg9",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "placeholder": null,
+    "placeholder_color_key": null,
+    "background_color_key": null,
+    "editmode": "Text",
+    "w": 50,
+    "h": 22,
+    "x": 219,
+    "y": 266
+   }
+  },
+  {
+   "type": "ui_editarea",
+   "name": "arg8",
+   "attrs": {
+    "tag": "arg8",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "placeholder": null,
+    "placeholder_color_key": null,
+    "background_color_key": null,
+    "editmode": "Text",
+    "w": 50,
+    "h": 22,
+    "x": 167,
+    "y": 266
+   }
+  },
+  {
+   "type": "ui_editarea",
+   "name": "arg7",
+   "attrs": {
+    "tag": "arg7",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "placeholder": null,
+    "placeholder_color_key": null,
+    "background_color_key": null,
+    "editmode": "Text",
+    "w": 50,
+    "h": 22,
+    "x": 115,
+    "y": 266
+   }
+  },
+  {
+   "type": "ui_editarea",
+   "name": "arg6",
+   "attrs": {
+    "tag": "arg6",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "placeholder": null,
+    "placeholder_color_key": null,
+    "background_color_key": null,
+    "editmode": "Text",
+    "w": 50,
+    "h": 22,
+    "x": 63,
+    "y": 266
+   }
+  },
+  {
+   "type": "ui_editarea",
+   "name": "arg5",
+   "attrs": {
+    "tag": "arg5",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "placeholder": null,
+    "placeholder_color_key": null,
+    "background_color_key": null,
+    "editmode": "Text",
+    "w": 50,
+    "h": 22,
+    "x": 271,
+    "y": 246
+   }
+  },
+  {
+   "type": "ui_editarea",
+   "name": "arg4",
+   "attrs": {
+    "tag": "arg4",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 10,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "placeholder": null,
+    "placeholder_color_key": null,
+    "background_color_key": null,
+    "editmode": "Text",
+    "w": 50,
+    "h": 22,
+    "x": 219,
+    "y": 246
+   }
+  },
+  {
+   "type": "ui_editarea",
+   "name": "arg3",
+   "attrs": {
+    "tag": "arg3",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 10,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "placeholder": null,
+    "placeholder_color_key": null,
+    "background_color_key": null,
+    "editmode": "Text",
+    "w": 50,
+    "h": 22,
+    "x": 167,
+    "y": 246
+   }
+  },
+  {
+   "type": "ui_editarea",
+   "name": "arg2",
+   "attrs": {
+    "tag": "arg2",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 10,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "placeholder": null,
+    "placeholder_color_key": null,
+    "background_color_key": null,
+    "editmode": "Text",
+    "w": 50,
+    "h": 22,
+    "x": 115,
+    "y": 246
+   }
+  },
+  {
+   "type": "ui_editarea",
+   "name": "arg1",
+   "attrs": {
+    "tag": "arg1",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 10,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "placeholder": null,
+    "placeholder_color_key": null,
+    "background_color_key": null,
+    "editmode": "Text",
+    "w": 50,
+    "h": 22,
+    "x": 63,
+    "y": 246
+   }
+  },
+  {
+   "type": "text",
+   "name": "skillArg",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 16,
+    "horizontal_align": 0,
+    "vertical_align": 1,
+    "text": "Skill Args",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 80,
+    "h": 22,
+    "x": 0,
+    "y": 246
+   }
+  },
+  {
+   "type": "text",
+   "name": "skillRangeTxt",
+   "attrs": {
+    "tag": "skillRangeTxt",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 16,
+    "horizontal_align": 0,
+    "vertical_align": 1,
+    "text": "1",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 50,
+    "h": 28,
+    "x": 260,
+    "y": 215
+   }
+  },
+  {
+   "type": "button",
+   "name": "skillRange",
+   "attrs": {
+    "tag": "skillRangeBtn",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "Skill Range\n\n",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "onSkillRange",
+    "image_color": "FFFFFF",
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": "common/ui/button/bt_base_red_n_56.png",
+    "image_disabled": null,
+    "image_selected": null,
+    "image_focused": null,
+    "w": 80,
+    "h": 28,
+    "x": 178,
+    "y": 215
+   }
+  },
+  {
+   "type": "text",
+   "name": "calTypeTxt",
+   "attrs": {
+    "tag": "calTypeTxt",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 16,
+    "horizontal_align": 0,
+    "vertical_align": 1,
+    "text": "1",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 50,
+    "h": 28,
+    "x": 81,
+    "y": 216
+   }
+  },
+  {
+   "type": "button",
+   "name": "calType",
+   "attrs": {
+    "tag": "calTypeBtn",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "Cal Type\n",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "onCalType",
+    "image_color": "FFFFFF",
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": "common/ui/button/bt_base_red_n_56.png",
+    "image_disabled": null,
+    "image_selected": null,
+    "image_focused": null,
+    "w": 80,
+    "h": 28,
+    "x": 0,
+    "y": 216
+   }
+  },
+  {
+   "type": "text",
+   "name": "skillFunTxt",
+   "attrs": {
+    "tag": "skillFuncTxt",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 16,
+    "horizontal_align": 0,
+    "vertical_align": 1,
+    "text": "1",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 50,
+    "h": 28,
+    "x": 260,
+    "y": 186
+   }
+  },
+  {
+   "type": "button",
+   "name": "skillFunc",
+   "attrs": {
+    "tag": "skillFuncBtn",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "Skill Func\n",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "onSkillFunc",
+    "image_color": "FFFFFF",
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": "common/ui/button/bt_base_red_n_56.png",
+    "image_disabled": null,
+    "image_selected": null,
+    "image_focused": null,
+    "w": 80,
+    "h": 28,
+    "x": 178,
+    "y": 186
+   }
+  },
+  {
+   "type": "text",
+   "name": "skillTypeTxt",
+   "attrs": {
+    "tag": "skillTypeTxt",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 16,
+    "horizontal_align": 0,
+    "vertical_align": 1,
+    "text": "1",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 50,
+    "h": 28,
+    "x": 81,
+    "y": 187
+   }
+  },
+  {
+   "type": "button",
+   "name": "skillType",
+   "attrs": {
+    "tag": "skillTypeBtn",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "Skill Type\n",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "onSkillType",
+    "image_color": "FFFFFF",
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": "common/ui/button/bt_base_red_n_56.png",
+    "image_disabled": null,
+    "image_selected": null,
+    "image_focused": null,
+    "w": 80,
+    "h": 28,
+    "x": 0,
+    "y": 187
+   }
+  },
+  {
+   "type": "text",
+   "name": "skillTxt",
+   "attrs": {
+    "tag": "skillTxt",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 16,
+    "horizontal_align": 0,
+    "vertical_align": 1,
+    "text": "1",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 170,
+    "h": 28,
+    "x": 136,
+    "y": 158
+   }
+  },
+  {
+   "type": "ui_editarea",
+   "name": "skillId",
+   "attrs": {
+    "tag": "skillId",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 10,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "placeholder": null,
+    "placeholder_color_key": null,
+    "background_color_key": null,
+    "editmode": "Numeric",
+    "w": 55,
+    "h": 30,
+    "x": 83,
+    "y": 160
+   }
+  },
+  {
+   "type": "button",
+   "name": "skill",
+   "attrs": {
+    "tag": "skillBtn",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "Skill",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "onSkill",
+    "image_color": "FFFFFF",
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": "common/ui/button/bt_base_red_n_56.png",
+    "image_disabled": null,
+    "image_selected": null,
+    "image_focused": null,
+    "w": 80,
+    "h": 28,
+    "x": 0,
+    "y": 158
+   }
+  },
+  {
+   "type": "text",
+   "name": "formationTxt2",
+   "attrs": {
+    "tag": "myFormationTxt",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 16,
+    "horizontal_align": 0,
+    "vertical_align": 1,
+    "text": "1",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 140,
+    "h": 28,
+    "x": 80,
+    "y": 129
+   }
+  },
+  {
+   "type": "button",
+   "name": "formationBtn2",
+   "attrs": {
+    "tag": "myFormationBtn",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "My Formation",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "onMyFormation",
+    "image_color": "FFFFFF",
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": "common/ui/button/bt_base_red_n_56.png",
+    "image_disabled": null,
+    "image_selected": null,
+    "image_focused": null,
+    "w": 80,
+    "h": 28,
+    "x": 0,
+    "y": 129
+   }
+  },
+  {
+   "type": "text",
+   "name": "my",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 16,
+    "horizontal_align": 0,
+    "vertical_align": 1,
+    "text": "My Party",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 80,
+    "h": 22,
+    "x": 0,
+    "y": 106
+   }
+  },
+  {
+   "type": "button",
+   "name": "rarityBtn",
+   "attrs": {
+    "tag": "rarityBtn",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "Rarity-1",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "onRarity",
+    "image_color": "FFFFFF",
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": "common/ui/button/bt_base_red_n_56.png",
+    "image_disabled": null,
+    "image_selected": null,
+    "image_focused": null,
+    "w": 60,
+    "h": 25,
+    "x": 140,
+    "y": 52
+   }
+  },
+  {
+   "type": "text",
+   "name": "formationTxt1",
+   "attrs": {
+    "tag": "enemyFormationTxt",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 16,
+    "horizontal_align": 0,
+    "vertical_align": 1,
+    "text": "1: 3-Skein",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 135,
+    "h": 28,
+    "x": 85,
+    "y": 77
+   }
+  },
+  {
+   "type": "button",
+   "name": "formationBtn1",
+   "attrs": {
+    "tag": "enemyFormation",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "Enemy Form.",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "onEnemyFormation",
+    "image_color": "FFFFFF",
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": "common/ui/button/bt_base_red_n_56.png",
+    "image_disabled": null,
+    "image_selected": null,
+    "image_focused": null,
+    "w": 80,
+    "h": 28,
+    "x": 0,
+    "y": 77
+   }
+  },
+  {
+   "type": "text",
+   "name": "enemy",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 16,
+    "horizontal_align": 0,
+    "vertical_align": 1,
+    "text": "Enemy",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 80,
+    "h": 22,
+    "x": 0,
+    "y": 54
+   }
+  },
+  {
+   "type": "button",
+   "name": "skillDebugBtn",
+   "attrs": {
+    "tag": "skillDebugBtn",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "Skill:1",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "onSkillDebug",
+    "image_color": "FFFFFF",
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": "common/ui/button/bt_base_red_n_56.png",
+    "image_disabled": null,
+    "image_selected": null,
+    "image_focused": null,
+    "w": 50,
+    "h": 25,
+    "x": 220,
+    "y": 79
+   }
+  },
+  {
+   "type": "button",
+   "name": "bossBattleBtn",
+   "attrs": {
+    "tag": "bossBattleBtn",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "Boss:1",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "onBossBattle",
+    "image_color": "FFFFFF",
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": "common/ui/button/bt_base_red_n_56.png",
+    "image_disabled": null,
+    "image_selected": null,
+    "image_focused": null,
+    "w": 50,
+    "h": 25,
+    "x": 270,
+    "y": 79
+   }
+  },
+  {
+   "type": "button",
+   "name": "battleSpeedBtn",
+   "attrs": {
+    "tag": "battleSpeedBtn",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "Speed:0.25",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "onBattleSpeed",
+    "image_color": "FFFFFF",
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": "common/ui/button/bt_base_red_n_56.png",
+    "image_disabled": null,
+    "image_selected": null,
+    "image_focused": null,
+    "w": 80,
+    "h": 25,
+    "x": 230,
+    "y": 106
+   }
+  },
+  {
+   "type": "button",
+   "name": "playerRefreshBtn",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "Refresh",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "onPlayerRefresh",
+    "image_color": "FFFFFF",
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": "common/ui/button/bt_base_red_n_56.png",
+    "image_disabled": null,
+    "image_selected": null,
+    "image_focused": null,
+    "w": 60,
+    "h": 25,
+    "x": 76,
+    "y": 105
+   }
+  },
+  {
+   "type": "button",
+   "name": "enemyRefreshBtn",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "Refresh",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "onEnemyRefresh",
+    "image_color": "FFFFFF",
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": "common/ui/button/bt_base_red_n_56.png",
+    "image_disabled": null,
+    "image_selected": null,
+    "image_focused": null,
+    "w": 60,
+    "h": 25,
+    "x": 77,
+    "y": 52
+   }
+  },
+  {
+   "type": "button",
+   "name": "battleBtn",
+   "attrs": {
+    "tag": "battleBtn",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 18,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "Battle",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "onBattle",
+    "image_color": "FFFFFF",
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": null,
+    "image_disabled": null,
+    "image_selected": null,
+    "image_focused": null,
+    "w": 100,
+    "h": 30,
+    "x": 220,
+    "y": 47
+   }
+  },
+  {
+   "type": "ui_editarea",
+   "name": "levelIdTE",
+   "attrs": {
+    "tag": "levelTE",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 10,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "placeholder": null,
+    "placeholder_color_key": null,
+    "background_color_key": null,
+    "editmode": "Numeric",
+    "w": 55,
+    "h": 30,
+    "x": 175,
+    "y": 105
+   }
+  },
+  {
+   "type": "text",
+   "name": "level",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 16,
+    "horizontal_align": 0,
+    "vertical_align": 1,
+    "text": "Level",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 40,
+    "h": 22,
+    "x": 137,
+    "y": 106
+   }
+  },
+  {
+   "type": "view",
+   "name": "cardComponent",
+   "attrs": {
+    "tag": "cardComponent",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "w": 320,
+    "h": 100,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "cardIndex",
+     "attrs": {
+      "tag": "cardIndexTxt",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 16,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "Card # 1",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 100,
+      "h": 22,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "cardLevelTxt",
+     "attrs": {
+      "tag": "cardLevelTxt",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "99",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 30,
+      "h": 22,
+      "x": 290,
+      "y": 22
+     }
+    },
+    {
+     "type": "text",
+     "name": "cardIdTxt",
+     "attrs": {
+      "tag": "cardIdTxt",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "cardId:",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 180,
+      "h": 38,
+      "x": 50,
+      "y": 22
+     }
+    },
+    {
+     "type": "button",
+     "name": "cardIdBtn",
+     "attrs": {
+      "tag": "cardIdBtn",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "CardId",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "onCardId",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": "common/ui/button/bt_base_red_n_56.png",
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 50,
+      "h": 22,
+      "x": 0,
+      "y": 22
+     }
+    },
+    {
+     "type": "button",
+     "name": "levelBtn",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "Level",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "onCardLevel",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": "common/ui/button/bt_base_red_n_56.png",
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 50,
+      "h": 22,
+      "x": 239,
+      "y": 22
+     }
+    },
+    {
+     "type": "text",
+     "name": "skillLevelTxt",
+     "attrs": {
+      "tag": "skillLevelTxt",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "99",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 30,
+      "h": 22,
+      "x": 290,
+      "y": 62
+     }
+    },
+    {
+     "type": "text",
+     "name": "skillIdTxt",
+     "attrs": {
+      "tag": "skillIdTxt",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "cardId:",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 180,
+      "h": 38,
+      "x": 50,
+      "y": 62
+     }
+    },
+    {
+     "type": "button",
+     "name": "skillIdBtn",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "SkillId",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "onCardSkillId",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": "common/ui/button/bt_base_red_n_56.png",
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 50,
+      "h": 22,
+      "x": 0,
+      "y": 62
+     }
+    },
+    {
+     "type": "button",
+     "name": "skillLevelBtn",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "Skill Lv.",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "onCardSkillLevel",
+      "image_color": "FFFFFF",
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": "common/ui/button/bt_base_red_n_56.png",
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 50,
+      "h": 22,
+      "x": 239,
+      "y": 62
+     }
+    }
+   ]
+  }
+ ],
+ "name": "SkillDebug",
+ "type": "component"
+}

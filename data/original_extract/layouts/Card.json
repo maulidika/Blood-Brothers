@@ -1,0 +1,516 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "sprite",
+   "name": "bg",
+   "attrs": {
+    "tag": "bg",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/background.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": "FFFFFF",
+    "w": 320,
+    "h": 480,
+    "x": 0,
+    "y": 0
+   }
+  },
+  {
+   "type": "component",
+   "name": "cardList",
+   "attrs": {
+    "tag": "cardList",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 320,
+    "h": 225,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "cardBack",
+     "attrs": {
+      "tag": "cardBack",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 320,
+      "h": 188,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "component",
+     "name": "cardListCont",
+     "attrs": {
+      "tag": "cardListCont",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 294,
+      "h": 147,
+      "x": 13,
+      "y": 17
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "bottomBg",
+     "attrs": {
+      "tag": "bottomBg",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/combine/bb_bottom_bg.png",
+      "uvs": [
+       0.25,
+       0,
+       0.5,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 320,
+      "h": 65,
+      "x": 0,
+      "y": 160
+     }
+    }
+   ]
+  },
+  {
+   "type": "sprite",
+   "name": "money",
+   "attrs": {
+    "tag": "money",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/combine/bb_money.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": "FFFFFF",
+    "w": 122,
+    "h": 24,
+    "x": 13,
+    "y": 455
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "moneyTxt",
+     "attrs": {
+      "tag": "moneyTxt",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 2,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 72,
+      "h": 23,
+      "x": 27,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "unit",
+     "attrs": {
+      "tag": "unit",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "G",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 20,
+      "h": 23,
+      "x": 98,
+      "y": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "resultList",
+   "attrs": {
+    "tag": "resultList",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 320,
+    "h": 218,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "resultBack",
+     "attrs": {
+      "tag": "resultBack",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 320,
+      "h": 128,
+      "x": 0,
+      "y": 30
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "topBg",
+     "attrs": {
+      "tag": "topBg",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/card/list_top_bg.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 320,
+      "h": 30,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "component",
+     "name": "listContent",
+     "attrs": {
+      "tag": "listContent",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 320,
+      "h": 150,
+      "x": 0,
+      "y": 20
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "resultListCell",
+   "attrs": {
+    "tag": "resultListCell",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 320,
+    "h": 50,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "skillname",
+     "attrs": {
+      "tag": "skillname",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 16,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "Boon of Blade & Shield",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 170,
+      "h": 25,
+      "x": 15,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "level",
+     "attrs": {
+      "tag": "level",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 2,
+      "text": "Level:00",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 60,
+      "h": 20,
+      "x": 15,
+      "y": 25
+     }
+    },
+    {
+     "type": "text",
+     "name": "slash",
+     "attrs": {
+      "tag": "slash",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 2,
+      "text": "/",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 10,
+      "h": 20,
+      "x": 68,
+      "y": 25
+     }
+    },
+    {
+     "type": "text",
+     "name": "maxExp",
+     "attrs": {
+      "tag": "maxExp",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 2,
+      "text": "0000",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 35,
+      "h": 20,
+      "x": 77,
+      "y": 25
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "line",
+     "attrs": {
+      "tag": "line",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/line_white.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 308,
+      "h": 4,
+      "x": 6,
+      "y": 45
+     }
+    }
+   ]
+  }
+ ],
+ "name": "Card",
+ "type": "component"
+}

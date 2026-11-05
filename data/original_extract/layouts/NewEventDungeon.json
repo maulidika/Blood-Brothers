@@ -1,0 +1,71 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "enabled": true,
+  "h": 480,
+  "mock_image": null,
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "view",
+   "name": "bg_view",
+   "attrs": {
+    "tag": "bg_view",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "w": 320,
+    "h": 480,
+    "x": 0,
+    "y": 0
+   }
+  },
+  {
+   "type": "button",
+   "name": "step_npc_boss",
+   "attrs": {
+    "tag": "step_npc_boss",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "font_family": "",
+    "action": "",
+    "image_color": null,
+    "image": null,
+    "image_pressed": null,
+    "image_checked": null,
+    "image_disabled": "common/ui/blank0.png",
+    "image_selected": null,
+    "image_focused": null,
+    "w": 232,
+    "h": 192,
+    "x": 44,
+    "y": 80
+   }
+  }
+ ],
+ "name": "NewEventDungeon",
+ "type": "view"
+}

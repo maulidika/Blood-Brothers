@@ -1,0 +1,244 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "damageRow",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "damageRow",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 128
+   },
+   "children": [
+    {
+     "name": "rank",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "rank",
+      "mock_image": null,
+      "text_color_key": "#1E1E1E",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": "20",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 100,
+      "y": 2,
+      "w": 212,
+      "h": 26
+     }
+    },
+    {
+     "name": "textback",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "textback",
+      "mock_image": null,
+      "image": "common/ui/level_back.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 98,
+      "y": 26,
+      "w": 107,
+      "h": 22
+     }
+    },
+    {
+     "name": "warlord",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "warlord",
+      "mock_image": null,
+      "text_color_key": "#F9F9F9",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": "12",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 102,
+      "y": 26,
+      "w": 118,
+      "h": 22
+     }
+    },
+    {
+     "name": "name",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "name",
+      "mock_image": null,
+      "text_color_key": "#0D0D0D",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": "18",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 100,
+      "y": 46,
+      "w": 212,
+      "h": 24
+     }
+    },
+    {
+     "name": "total",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "total",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": "16",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 100,
+      "y": 73,
+      "w": 200,
+      "h": 22
+     }
+    },
+    {
+     "name": "damageBg",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "damageBg",
+      "mock_image": null,
+      "image": "common/ui/raidboss/dialog/challenger_box.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 90,
+      "y": 94,
+      "w": 120,
+      "h": 22
+     },
+     "children": [
+      {
+       "name": "damage",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "damage",
+        "mock_image": null,
+        "text_color_key": "#FFFFFF",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text_size": "16",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 120,
+        "h": 22
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "DamageRankingCellLayout",
+ "type": "component"
+}

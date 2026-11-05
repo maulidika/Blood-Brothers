@@ -1,0 +1,4177 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "gacha_01_nul",
+   "type": "component",
+   "attrs": {
+    "visible": false,
+    "tag": "gacha_01_nul",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "gacha_01_base_img",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_01_base_img",
+      "mock_image": null,
+      "image": "lang/iamges/common/pact/coffin_image_03.png",
+      "uvs": [
+       0,
+       0,
+       0.3125,
+       0.46875
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 480
+     }
+    },
+    {
+     "name": "gacha_01_wood_nul",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_01_wood_nul",
+      "mock_image": null,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 160,
+      "y": 900,
+      "w": 64,
+      "h": 64
+     },
+     "children": [
+      {
+       "name": "image_newItem_9",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "image_newItem_9",
+        "mock_image": null,
+        "image": "lang/iamges/common/pact/coffin_image_01.png",
+        "uvs": [
+         0,
+         0,
+         0.3125,
+         0.76171875
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 780
+       }
+      },
+      {
+       "name": "image_newItem",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "image_newItem",
+        "mock_image": null,
+        "image": "lang/iamges/common/pact/coffin_image_03.png",
+        "uvs": [
+         0.2548828125,
+         0.470703125,
+         0.30859375,
+         0.36328125
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.8,
+         0.8
+        ],
+        "x": 0,
+        "y": -180,
+        "w": 316,
+        "h": 372
+       }
+      },
+      {
+       "name": "image_newItem_4",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "image_newItem_4",
+        "mock_image": null,
+        "image": "lang/iamges/common/pact/coffin_image_03.png",
+        "uvs": [
+         0.2548828125,
+         0.470703125,
+         0.30859375,
+         0.36328125
+        ],
+        "rotate": 80,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.8,
+         0.8
+        ],
+        "x": 0,
+        "y": -180,
+        "w": 316,
+        "h": 372
+       }
+      },
+      {
+       "name": "image_newItem_9_1",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "image_newItem_9_1",
+        "mock_image": null,
+        "image": "lang/iamges/common/pact/coffin_image_02.png",
+        "uvs": [
+         0.62890625,
+         0,
+         0.3125,
+         0.76171875
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 780
+       }
+      }
+     ]
+    },
+    {
+     "name": "gacha_01_eye_nul",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_01_eye_nul",
+      "mock_image": null,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 160,
+      "y": 220,
+      "w": 64,
+      "h": 64
+     },
+     "children": [
+      {
+       "name": "null_newItem_3",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "null_newItem_3",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         1
+        ],
+        "scale": [
+         1,
+         0.4
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0,
+           0.904296875,
+           0.189453125,
+           0.091796875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": -12,
+          "w": 194,
+          "h": 94
+         }
+        },
+        {
+         "name": "null_newItem_4",
+         "type": "component",
+         "attrs": {
+          "visible": true,
+          "tag": "null_newItem_4",
+          "mock_image": null,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": -32,
+          "y": -4,
+          "w": 64,
+          "h": 64
+         },
+         "children": [
+          {
+           "name": "image_newItem_2",
+           "type": "sprite",
+           "attrs": {
+            "visible": true,
+            "tag": "image_newItem_2",
+            "mock_image": null,
+            "image": "lang/iamges/common/pact/coffin_image_01.png",
+            "uvs": [
+             0,
+             0.763671875,
+             0.15625,
+             0.138671875
+            ],
+            "rotate": 0,
+            "image_color": "FFFFFF",
+            "anchor": [
+             0.5,
+             0.5
+            ],
+            "scale": [
+             1,
+             1
+            ],
+            "x": -10,
+            "y": -8,
+            "w": 160,
+            "h": 142
+           }
+          },
+          {
+           "name": "image_newItem_3",
+           "type": "sprite",
+           "attrs": {
+            "visible": true,
+            "tag": "image_newItem_3",
+            "mock_image": null,
+            "image": "lang/iamges/common/pact/treasure_box_image.png",
+            "uvs": [
+             0,
+             0,
+             0.484375,
+             0.4912109375
+            ],
+            "rotate": 0,
+            "image_color": "BC00FF",
+            "anchor": [
+             0.5,
+             0.5
+            ],
+            "scale": [
+             0.2,
+             0.2
+            ],
+            "x": 6,
+            "y": 0,
+            "w": 496,
+            "h": 503
+           }
+          }
+         ]
+        },
+        {
+         "name": "null_newItem_4_1",
+         "type": "component",
+         "attrs": {
+          "visible": true,
+          "tag": "null_newItem_4_1",
+          "mock_image": null,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 32,
+          "y": -4,
+          "w": 64,
+          "h": 64
+         },
+         "children": [
+          {
+           "name": "image_newItem_2_1",
+           "type": "sprite",
+           "attrs": {
+            "visible": true,
+            "tag": "image_newItem_2_1",
+            "mock_image": null,
+            "image": "lang/iamges/common/pact/coffin_image_01.png",
+            "uvs": [
+             0,
+             0.763671875,
+             0.15625,
+             0.138671875
+            ],
+            "rotate": 0,
+            "image_color": "FFFFFF",
+            "anchor": [
+             0.5,
+             0.5
+            ],
+            "scale": [
+             -1,
+             1
+            ],
+            "x": 10,
+            "y": -8,
+            "w": 160,
+            "h": 142
+           }
+          },
+          {
+           "name": "image_newItem_3_1",
+           "type": "sprite",
+           "attrs": {
+            "visible": true,
+            "tag": "image_newItem_3_1",
+            "mock_image": null,
+            "image": "lang/iamges/common/pact/treasure_box_image.png",
+            "uvs": [
+             0,
+             0,
+             0.484375,
+             0.4912109375
+            ],
+            "rotate": -120,
+            "image_color": "BC00FF",
+            "anchor": [
+             0.5,
+             0.5
+            ],
+            "scale": [
+             0.2,
+             0.2
+            ],
+            "x": 12,
+            "y": -16,
+            "w": 496,
+            "h": 503
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "gacha_01_stone_img",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_01_stone_img",
+      "mock_image": null,
+      "image": "lang/iamges/common/pact/coffin_image_03.png",
+      "uvs": [
+       0.314453125,
+       0,
+       0.2373046875,
+       0.2763671875
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": -40,
+      "w": 243,
+      "h": 283
+     }
+    },
+    {
+     "name": "gacha_01_black_img",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_01_black_img",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 400,
+      "h": 500
+     }
+    }
+   ]
+  },
+  {
+   "name": "gacha_02_nul",
+   "type": "component",
+   "attrs": {
+    "visible": false,
+    "tag": "gacha_02_nul",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "gacha_02_base_img",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_02_base_img",
+      "mock_image": null,
+      "image": "lang/iamges/common/pact/coffin_image_03.png",
+      "uvs": [
+       0,
+       0,
+       0.3125,
+       0.46875
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 480
+     }
+    },
+    {
+     "name": "gacha_02_silver_nul",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_02_silver_nul",
+      "mock_image": null,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 160,
+      "y": 900,
+      "w": 64,
+      "h": 64
+     },
+     "children": [
+      {
+       "name": "image_newItem_9_2",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "image_newItem_9_2",
+        "mock_image": null,
+        "image": "lang/iamges/common/pact/coffin_image_02.png",
+        "uvs": [
+         0.314453125,
+         0,
+         0.3125,
+         0.76171875
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 780
+       }
+      },
+      {
+       "name": "image_newItem_5",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "image_newItem_5",
+        "mock_image": null,
+        "image": "lang/iamges/common/pact/coffin_image_03.png",
+        "uvs": [
+         0.2548828125,
+         0.470703125,
+         0.30859375,
+         0.36328125
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.8,
+         0.8
+        ],
+        "x": 0,
+        "y": -180,
+        "w": 316,
+        "h": 372
+       }
+      },
+      {
+       "name": "image_newItem_4_1",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "image_newItem_4_1",
+        "mock_image": null,
+        "image": "lang/iamges/common/pact/coffin_image_03.png",
+        "uvs": [
+         0.2548828125,
+         0.470703125,
+         0.30859375,
+         0.36328125
+        ],
+        "rotate": 80,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.8,
+         0.8
+        ],
+        "x": 0,
+        "y": -180,
+        "w": 316,
+        "h": 372
+       }
+      },
+      {
+       "name": "image_newItem_9_1_1",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "image_newItem_9_1_1",
+        "mock_image": null,
+        "image": "lang/iamges/common/pact/coffin_image_02.png",
+        "uvs": [
+         0,
+         0,
+         0.3125,
+         0.76171875
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 780
+       }
+      }
+     ]
+    },
+    {
+     "name": "gacha_02_eye_nul",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_02_eye_nul",
+      "mock_image": null,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 160,
+      "y": 220,
+      "w": 64,
+      "h": 64
+     },
+     "children": [
+      {
+       "name": "null_newItem_3_1",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "null_newItem_3_1",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         1
+        ],
+        "scale": [
+         1,
+         0.4
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_1_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_1_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0,
+           0.904296875,
+           0.189453125,
+           0.091796875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": -12,
+          "w": 194,
+          "h": 94
+         }
+        },
+        {
+         "name": "null_newItem_4_2",
+         "type": "component",
+         "attrs": {
+          "visible": true,
+          "tag": "null_newItem_4_2",
+          "mock_image": null,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": -32,
+          "y": -4,
+          "w": 64,
+          "h": 64
+         },
+         "children": [
+          {
+           "name": "image_newItem_2_2",
+           "type": "sprite",
+           "attrs": {
+            "visible": true,
+            "tag": "image_newItem_2_2",
+            "mock_image": null,
+            "image": "lang/iamges/common/pact/coffin_image_01.png",
+            "uvs": [
+             0,
+             0.763671875,
+             0.15625,
+             0.138671875
+            ],
+            "rotate": 0,
+            "image_color": "FFFFFF",
+            "anchor": [
+             0.5,
+             0.5
+            ],
+            "scale": [
+             1,
+             1
+            ],
+            "x": -10,
+            "y": -8,
+            "w": 160,
+            "h": 142
+           }
+          },
+          {
+           "name": "image_newItem_3_2",
+           "type": "sprite",
+           "attrs": {
+            "visible": true,
+            "tag": "image_newItem_3_2",
+            "mock_image": null,
+            "image": "lang/iamges/common/pact/treasure_box_image.png",
+            "uvs": [
+             0,
+             0,
+             0.484375,
+             0.4912109375
+            ],
+            "rotate": 0,
+            "image_color": "BC00FF",
+            "anchor": [
+             0.5,
+             0.5
+            ],
+            "scale": [
+             0.2,
+             0.2
+            ],
+            "x": 6,
+            "y": 0,
+            "w": 496,
+            "h": 503
+           }
+          }
+         ]
+        },
+        {
+         "name": "null_newItem_4_1_1",
+         "type": "component",
+         "attrs": {
+          "visible": true,
+          "tag": "null_newItem_4_1_1",
+          "mock_image": null,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 32,
+          "y": -4,
+          "w": 64,
+          "h": 64
+         },
+         "children": [
+          {
+           "name": "image_newItem_2_1_1",
+           "type": "sprite",
+           "attrs": {
+            "visible": true,
+            "tag": "image_newItem_2_1_1",
+            "mock_image": null,
+            "image": "lang/iamges/common/pact/coffin_image_01.png",
+            "uvs": [
+             0,
+             0.763671875,
+             0.15625,
+             0.138671875
+            ],
+            "rotate": 0,
+            "image_color": "FFFFFF",
+            "anchor": [
+             0.5,
+             0.5
+            ],
+            "scale": [
+             -1,
+             1
+            ],
+            "x": 10,
+            "y": -8,
+            "w": 160,
+            "h": 142
+           }
+          },
+          {
+           "name": "image_newItem_3_1_1",
+           "type": "sprite",
+           "attrs": {
+            "visible": true,
+            "tag": "image_newItem_3_1_1",
+            "mock_image": null,
+            "image": "lang/iamges/common/pact/treasure_box_image.png",
+            "uvs": [
+             0,
+             0,
+             0.484375,
+             0.4912109375
+            ],
+            "rotate": -120,
+            "image_color": "BC00FF",
+            "anchor": [
+             0.5,
+             0.5
+            ],
+            "scale": [
+             0.2,
+             0.2
+            ],
+            "x": 12,
+            "y": -16,
+            "w": 496,
+            "h": 503
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "gacha_02_stone_img",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_02_stone_img",
+      "mock_image": null,
+      "image": "lang/iamges/common/pact/coffin_image_03.png",
+      "uvs": [
+       0.314453125,
+       0,
+       0.2373046875,
+       0.2763671875
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": -40,
+      "w": 243,
+      "h": 283
+     }
+    },
+    {
+     "name": "gacha_02_black_img",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_02_black_img",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 400,
+      "h": 500
+     }
+    }
+   ]
+  },
+  {
+   "name": "gacha_03_nul",
+   "type": "component",
+   "attrs": {
+    "visible": false,
+    "tag": "gacha_03_nul",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "gacha_03_base_img",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_03_base_img",
+      "mock_image": null,
+      "image": "lang/iamges/common/pact/coffin_image_03.png",
+      "uvs": [
+       0,
+       0,
+       0.3125,
+       0.46875
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 480
+     }
+    },
+    {
+     "name": "gacha_03_gold_nul",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_03_gold_nul",
+      "mock_image": null,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 160,
+      "y": 900,
+      "w": 64,
+      "h": 64
+     },
+     "children": [
+      {
+       "name": "image_newItem_9_3",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "image_newItem_9_3",
+        "mock_image": null,
+        "image": "lang/iamges/common/pact/coffin_image_01.png",
+        "uvs": [
+         0.62890625,
+         0,
+         0.3125,
+         0.76171875
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 780
+       }
+      },
+      {
+       "name": "image_newItem_6",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "image_newItem_6",
+        "mock_image": null,
+        "image": "lang/iamges/common/pact/coffin_image_03.png",
+        "uvs": [
+         0.2548828125,
+         0.470703125,
+         0.30859375,
+         0.36328125
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.8,
+         0.8
+        ],
+        "x": 0,
+        "y": -180,
+        "w": 316,
+        "h": 372
+       }
+      },
+      {
+       "name": "image_newItem_4_2",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "image_newItem_4_2",
+        "mock_image": null,
+        "image": "lang/iamges/common/pact/coffin_image_03.png",
+        "uvs": [
+         0.2548828125,
+         0.470703125,
+         0.30859375,
+         0.36328125
+        ],
+        "rotate": 80,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.8,
+         0.8
+        ],
+        "x": 0,
+        "y": -180,
+        "w": 316,
+        "h": 372
+       }
+      },
+      {
+       "name": "image_newItem_9_1_2",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "image_newItem_9_1_2",
+        "mock_image": null,
+        "image": "lang/iamges/common/pact/coffin_image_01.png",
+        "uvs": [
+         0.314453125,
+         0,
+         0.3125,
+         0.76171875
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 780
+       }
+      }
+     ]
+    },
+    {
+     "name": "gacha_03_eye_nul",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_03_eye_nul",
+      "mock_image": null,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 160,
+      "y": 220,
+      "w": 64,
+      "h": 64
+     },
+     "children": [
+      {
+       "name": "null_newItem_3_2",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "null_newItem_3_2",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         1
+        ],
+        "scale": [
+         1,
+         0.4
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_1_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_1_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0,
+           0.904296875,
+           0.189453125,
+           0.091796875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": -12,
+          "w": 194,
+          "h": 94
+         }
+        },
+        {
+         "name": "null_newItem_4_3",
+         "type": "component",
+         "attrs": {
+          "visible": true,
+          "tag": "null_newItem_4_3",
+          "mock_image": null,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": -32,
+          "y": -4,
+          "w": 64,
+          "h": 64
+         },
+         "children": [
+          {
+           "name": "image_newItem_2_3",
+           "type": "sprite",
+           "attrs": {
+            "visible": true,
+            "tag": "image_newItem_2_3",
+            "mock_image": null,
+            "image": "lang/iamges/common/pact/coffin_image_01.png",
+            "uvs": [
+             0,
+             0.763671875,
+             0.15625,
+             0.138671875
+            ],
+            "rotate": 0,
+            "image_color": "FFFFFF",
+            "anchor": [
+             0.5,
+             0.5
+            ],
+            "scale": [
+             1,
+             1
+            ],
+            "x": -10,
+            "y": -8,
+            "w": 160,
+            "h": 142
+           }
+          },
+          {
+           "name": "image_newItem_3_3",
+           "type": "sprite",
+           "attrs": {
+            "visible": true,
+            "tag": "image_newItem_3_3",
+            "mock_image": null,
+            "image": "lang/iamges/common/pact/treasure_box_image.png",
+            "uvs": [
+             0,
+             0,
+             0.484375,
+             0.4912109375
+            ],
+            "rotate": 0,
+            "image_color": "BC00FF",
+            "anchor": [
+             0.5,
+             0.5
+            ],
+            "scale": [
+             0.2,
+             0.2
+            ],
+            "x": 6,
+            "y": 0,
+            "w": 496,
+            "h": 503
+           }
+          }
+         ]
+        },
+        {
+         "name": "null_newItem_4_1_2",
+         "type": "component",
+         "attrs": {
+          "visible": true,
+          "tag": "null_newItem_4_1_2",
+          "mock_image": null,
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 32,
+          "y": -4,
+          "w": 64,
+          "h": 64
+         },
+         "children": [
+          {
+           "name": "image_newItem_2_1_2",
+           "type": "sprite",
+           "attrs": {
+            "visible": true,
+            "tag": "image_newItem_2_1_2",
+            "mock_image": null,
+            "image": "lang/iamges/common/pact/coffin_image_01.png",
+            "uvs": [
+             0,
+             0.763671875,
+             0.15625,
+             0.138671875
+            ],
+            "rotate": 0,
+            "image_color": "FFFFFF",
+            "anchor": [
+             0.5,
+             0.5
+            ],
+            "scale": [
+             -1,
+             1
+            ],
+            "x": 10,
+            "y": -8,
+            "w": 160,
+            "h": 142
+           }
+          },
+          {
+           "name": "image_newItem_3_1_2",
+           "type": "sprite",
+           "attrs": {
+            "visible": true,
+            "tag": "image_newItem_3_1_2",
+            "mock_image": null,
+            "image": "lang/iamges/common/pact/treasure_box_image.png",
+            "uvs": [
+             0,
+             0,
+             0.484375,
+             0.4912109375
+            ],
+            "rotate": -120,
+            "image_color": "BC00FF",
+            "anchor": [
+             0.5,
+             0.5
+            ],
+            "scale": [
+             0.2,
+             0.2
+            ],
+            "x": 12,
+            "y": -16,
+            "w": 496,
+            "h": 503
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "gacha_03_stone_img",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_03_stone_img",
+      "mock_image": null,
+      "image": "lang/iamges/common/pact/coffin_image_03.png",
+      "uvs": [
+       0.314453125,
+       0,
+       0.2373046875,
+       0.2763671875
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": -40,
+      "w": 243,
+      "h": 283
+     }
+    },
+    {
+     "name": "gacha_03_black_img",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_03_black_img",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 400,
+      "h": 500
+     }
+    }
+   ]
+  },
+  {
+   "name": "gacha_01_10_nul",
+   "type": "component",
+   "attrs": {
+    "visible": false,
+    "tag": "gacha_01_10_nul",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "gacha_01_black_img_1_1",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_01_black_img_1_1",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 400,
+      "h": 500
+     }
+    },
+    {
+     "name": "gacha_01_wood_nul_1",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_01_wood_nul_1",
+      "mock_image": null,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 160,
+      "y": 240,
+      "w": 64,
+      "h": 64
+     },
+     "children": [
+      {
+       "name": "gacha_01_wood_nul_1_2",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 200,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_1",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_1",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 400,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_2",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_2",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 600,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_3",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_3",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 800,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_3",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_3",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_3",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_3",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_3_1",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_3_1",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 1000,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_3_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_3_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_3_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_3_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_3_2",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_3_2",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 1200,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_3_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_3_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_3_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_3_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_3_3",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_3_3",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 1400,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_3_3",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_3_3",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_3_3",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_3_3",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_3_4",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_3_4",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 1600,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_3_4",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_3_4",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_3_4",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_3_4",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_3_5",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_3_5",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 1800,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_3_5",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_3_5",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_3_5",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_3_5",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "gacha_02_10_nul",
+   "type": "component",
+   "attrs": {
+    "visible": false,
+    "tag": "gacha_02_10_nul",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "gacha_01_black_img_1_1_1",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_01_black_img_1_1_1",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 400,
+      "h": 500
+     }
+    },
+    {
+     "name": "gacha_01_wood_nul_1_1",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_01_wood_nul_1_1",
+      "mock_image": null,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 160,
+      "y": 240,
+      "w": 64,
+      "h": 64
+     },
+     "children": [
+      {
+       "name": "gacha_01_wood_nul_1_2_2",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_2",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_4",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_4",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 200,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_4",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_4",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_4",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_4",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_1_1",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_1_1",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 400,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_1_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_1_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_1_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_1_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_2_1",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_2_1",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 600,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_2_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_2_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_2_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_2_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_3_6",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_3_6",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 800,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_3_6",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_3_6",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_3_6",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_3_6",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_3_1_1",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_3_1_1",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 1000,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_3_1_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_3_1_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_3_1_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_3_1_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_3_2_1",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_3_2_1",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 1200,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_3_2_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_3_2_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_3_2_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_3_2_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_3_3_1",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_3_3_1",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 1400,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_3_3_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_3_3_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_3_3_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_3_3_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_3_4_1",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_3_4_1",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 1600,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_3_4_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_3_4_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_3_4_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_3_4_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_3_5_1",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_3_5_1",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 1800,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_3_5_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_3_5_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_3_5_1",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_3_5_1",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_02.png",
+          "uvs": [
+           0,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "gacha_03_10_nul",
+   "type": "component",
+   "attrs": {
+    "visible": false,
+    "tag": "gacha_03_10_nul",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "gacha_01_black_img_1_1_2",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_01_black_img_1_1_2",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 400,
+      "h": 500
+     }
+    },
+    {
+     "name": "gacha_01_wood_nul_1_3",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "gacha_01_wood_nul_1_3",
+      "mock_image": null,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 160,
+      "y": 240,
+      "w": 64,
+      "h": 64
+     },
+     "children": [
+      {
+       "name": "gacha_01_wood_nul_1_2_3",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_3",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_3",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_3",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_3",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_3",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_5",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_5",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 200,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_5",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_5",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_5",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_5",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_1_2",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_1_2",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 400,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_1_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_1_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_1_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_1_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_2_2",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_2_2",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 600,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_2_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_2_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_2_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_2_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_3_7",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_3_7",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 800,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_3_7",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_3_7",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_3_7",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_3_7",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_3_1_2",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_3_1_2",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 1000,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_3_1_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_3_1_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_3_1_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_3_1_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_3_2_2",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_3_2_2",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 1200,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_3_2_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_3_2_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_3_2_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_3_2_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_3_3_2",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_3_3_2",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 1400,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_3_3_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_3_3_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_3_3_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_3_3_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_3_4_2",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_3_4_2",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 1600,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_3_4_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_3_4_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_3_4_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_3_4_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      },
+      {
+       "name": "gacha_01_wood_nul_1_2_1_3_5_2",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "gacha_01_wood_nul_1_2_1_3_5_2",
+        "mock_image": null,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         0.6,
+         0.6
+        ],
+        "x": 1800,
+        "y": 0,
+        "w": 64,
+        "h": 64
+       },
+       "children": [
+        {
+         "name": "image_newItem_9_4_2_1_3_5_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_4_2_1_3_5_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.62890625,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        },
+        {
+         "name": "image_newItem_9_1_3_2_1_3_5_2",
+         "type": "sprite",
+         "attrs": {
+          "visible": true,
+          "tag": "image_newItem_9_1_3_2_1_3_5_2",
+          "mock_image": null,
+          "image": "lang/iamges/common/pact/coffin_image_01.png",
+          "uvs": [
+           0.314453125,
+           0,
+           0.3125,
+           0.76171875
+          ],
+          "rotate": 0,
+          "image_color": "FFFFFF",
+          "anchor": [
+           0.5,
+           0.5
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 780
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "pactAnimation",
+ "type": "component"
+}

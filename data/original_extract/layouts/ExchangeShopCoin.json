@@ -1,0 +1,128 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 26,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "text",
+   "name": "coinNum",
+   "attrs": {
+    "tag": "coinNum",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 18,
+    "horizontal_align": 0,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 78,
+    "h": 24,
+    "x": 200,
+    "y": 0
+   }
+  },
+  {
+   "type": "text",
+   "name": "coinName",
+   "attrs": {
+    "tag": "coinName",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 14,
+    "horizontal_align": 2,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 100,
+    "h": 18,
+    "x": 52,
+    "y": 4
+   }
+  },
+  {
+   "type": "component",
+   "name": "coinMulti",
+   "attrs": {
+    "tag": "coinMulti",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 12,
+    "h": 12,
+    "x": 182,
+    "y": 7
+   }
+  },
+  {
+   "type": "component",
+   "name": "coinIcon",
+   "attrs": {
+    "tag": "coinIcon",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0.2,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 24,
+    "h": 24,
+    "x": 157,
+    "y": 1
+   }
+  }
+ ],
+ "name": "ExchangeShopItem",
+ "type": "component"
+}

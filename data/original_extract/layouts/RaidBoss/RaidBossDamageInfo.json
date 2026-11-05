@@ -1,0 +1,268 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "root",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 280,
+    "h": 56,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "info",
+     "attrs": {
+      "tag": "info",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 32,
+      "h": 32,
+      "x": 10,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "username",
+       "attrs": {
+        "tag": "username",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "UsernameyHyyaaaaaaaaa",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 142,
+        "h": 30,
+        "x": 63,
+        "y": 2
+       }
+      },
+      {
+       "type": "text",
+       "name": "total_damage_label",
+       "attrs": {
+        "tag": "total_damage_label",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "Total damages",
+        "text_wrap": true,
+        "text_color_key": "#A80000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 140,
+        "h": 24,
+        "x": 123,
+        "y": 5
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "total_damage_bg",
+       "attrs": {
+        "tag": "total_damage_bg",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/raidboss/dialog/point.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 89,
+        "h": 23,
+        "x": 143,
+        "y": 27
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "total_damage_value",
+         "attrs": {
+          "tag": "total_damage_value",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 18,
+          "horizontal_align": 0,
+          "vertical_align": 1,
+          "text": "1213113",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 116,
+          "h": 23,
+          "x": 13,
+          "y": -2
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "chara_image",
+     "attrs": {
+      "tag": "chara_image",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 44,
+      "h": 44,
+      "x": 26,
+      "y": 4
+     }
+    },
+    {
+     "type": "component",
+     "name": "avatar_image",
+     "attrs": {
+      "tag": "avatar_image",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 30,
+      "h": 30,
+      "x": 4,
+      "y": 12
+     }
+    }
+   ]
+  },
+  {
+   "type": "sprite",
+   "name": "sprite0",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/line_gray.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 280,
+    "h": 4,
+    "x": 0,
+    "y": 50
+   }
+  }
+ ],
+ "name": "RaidBossDamageInfo",
+ "type": "component"
+}

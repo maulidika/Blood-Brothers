@@ -1,0 +1,204 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 480
+   },
+   "children": [
+    {
+     "name": "title",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "title",
+      "mock_image": null,
+      "text_color_key": "#9F820F",
+      "text": "Lorem",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "22",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 43,
+      "y": 58,
+      "w": 234,
+      "h": 32
+     }
+    },
+    {
+     "name": "formation_name",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "formation_name",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "Lorem",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "18",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 43,
+      "y": 96,
+      "w": 234,
+      "h": 30
+     }
+    },
+    {
+     "name": "image",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "image",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 96,
+      "y": 125,
+      "w": 128,
+      "h": 128
+     }
+    },
+    {
+     "name": "number",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "number",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "Lorem",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "14",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 43,
+      "y": 267,
+      "w": 234,
+      "h": 24
+     }
+    },
+    {
+     "name": "description",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "description",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "Lorem.",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text_size": "14",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 43,
+      "y": 295,
+      "w": 234,
+      "h": 96
+     }
+    },
+    {
+     "name": "ok",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "ok",
+      "mock_image": null,
+      "action": "ok",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/ui/button/bt_base_red_n_56L.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 96,
+      "y": 397,
+      "w": 128,
+      "h": 28
+     }
+    }
+   ]
+  }
+ ],
+ "name": "FormationGetLayout",
+ "type": "component"
+}

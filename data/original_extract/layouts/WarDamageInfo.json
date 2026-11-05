@@ -1,0 +1,177 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "username",
+   "type": "text",
+   "attrs": {
+    "visible": true,
+    "tag": "username",
+    "mock_image": null,
+    "text_color_key": "#000000",
+    "text": "",
+    "text_wrap": true,
+    "horizontal_align": 0,
+    "vertical_align": 1,
+    "text_size": "20",
+    "rotate": 0,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 115,
+    "y": 20,
+    "w": 125,
+    "h": 30
+   }
+  },
+  {
+   "name": "total_damage_bg",
+   "type": "sprite",
+   "attrs": {
+    "visible": true,
+    "tag": "total_damage_bg",
+    "mock_image": null,
+    "image": "common/ui/raidboss/dialog/total_damage_box.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image_color": "FFFFFF",
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 115,
+    "y": 60,
+    "w": 120,
+    "h": 22
+   },
+   "children": [
+    {
+     "name": "total_damage_value",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "total_damage_value",
+      "mock_image": null,
+      "text_color_key": "#FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "18",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 120,
+      "h": 24
+     }
+    }
+   ]
+  },
+  {
+   "name": "total_damage_label",
+   "type": "text",
+   "attrs": {
+    "visible": true,
+    "tag": "total_damage_label",
+    "mock_image": null,
+    "text_color_key": "#A80000",
+    "text": "",
+    "text_wrap": true,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text_size": "12",
+    "rotate": 0,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 115,
+    "y": 45,
+    "w": 140,
+    "h": 24
+   }
+  },
+  {
+   "name": "chara_image",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "chara_image",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 40,
+    "y": 25,
+    "w": 48,
+    "h": 48
+   }
+  },
+  {
+   "name": "avatar_image",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "avatar_image",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 10,
+    "y": 33,
+    "w": 32,
+    "h": 32
+   }
+  }
+ ],
+ "name": "WarDamageInfo",
+ "type": "component"
+}

@@ -1,0 +1,1360 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "view",
+   "name": "footer",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "w": 320,
+    "h": 128,
+    "x": 0,
+    "y": 312
+   },
+   "children": [
+    {
+     "type": "button",
+     "name": "btn_right",
+     "attrs": {
+      "tag": "btn_right",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 15,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "Right",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "",
+      "image_color": null,
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 84,
+      "h": 28,
+      "x": 168,
+      "y": 92
+     }
+    },
+    {
+     "type": "button",
+     "name": "btn_left",
+     "attrs": {
+      "tag": "btn_left",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 15,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "Left",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "",
+      "image_color": null,
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 84,
+      "h": 28,
+      "x": 68,
+      "y": 92
+     }
+    },
+    {
+     "type": "button",
+     "name": "btn_center",
+     "attrs": {
+      "tag": "btn_center",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 15,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "Center",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "",
+      "image_color": null,
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 84,
+      "h": 28,
+      "x": 118,
+      "y": 92
+     }
+    },
+    {
+     "type": "view",
+     "name": "buff_area",
+     "attrs": {
+      "tag": "buff_area",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "w": 320,
+      "h": 40,
+      "x": 0,
+      "y": 56
+     }
+    },
+    {
+     "type": "view",
+     "name": "bp_bar",
+     "attrs": {
+      "tag": "bp_bar",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "w": 320,
+      "h": 12,
+      "x": 0,
+      "y": 34
+     }
+    },
+    {
+     "type": "text",
+     "name": "txt_pts_bonus",
+     "attrs": {
+      "tag": "txt_pts_bonus",
+      "mock_image": null,
+      "visible": false,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "20000 Points for a Win!",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 320,
+      "h": 30,
+      "x": 0,
+      "y": 15
+     }
+    },
+    {
+     "type": "text",
+     "name": "txt_rep_bonus",
+     "attrs": {
+      "tag": "txt_rep_bonus",
+      "mock_image": null,
+      "visible": false,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "100 Reputations for a Win!",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 320,
+      "h": 30,
+      "x": 0,
+      "y": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "sprite",
+   "name": "bg_long",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/dialog/profile_back.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 285,
+    "h": 184,
+    "x": 18,
+    "y": 126
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "cell_message_result",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "message",
+      "text_wrap": true,
+      "text_color_key": "#FFE9D6",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 224,
+      "h": 22,
+      "x": 31,
+      "y": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "view",
+   "name": "group_pvp",
+   "attrs": {
+    "tag": "group_pvp",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "w": 320,
+    "h": 190,
+    "x": 0,
+    "y": 110
+   }
+  },
+  {
+   "type": "view",
+   "name": "group_boss",
+   "attrs": {
+    "tag": "group_boss",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "w": 320,
+    "h": 190,
+    "x": 0,
+    "y": 120
+   },
+   "children": [
+    {
+     "type": "view",
+     "name": "boss_figure",
+     "attrs": {
+      "tag": "boss_figure",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "w": 96,
+      "h": 137,
+      "x": 115,
+      "y": 8
+     }
+    },
+    {
+     "type": "view",
+     "name": "boss_figure_large",
+     "attrs": {
+      "tag": "boss_figure_large",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "w": 150,
+      "h": 125,
+      "x": 78,
+      "y": 9
+     }
+    },
+    {
+     "type": "node",
+     "name": "txt",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 320,
+      "h": 48,
+      "x": 0,
+      "y": 135
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "txt_boss_description2",
+       "attrs": {
+        "tag": "txt_boss_description2",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 320,
+        "h": 30,
+        "x": 0,
+        "y": 41
+       }
+      },
+      {
+       "type": "text",
+       "name": "txt_boss_description",
+       "attrs": {
+        "tag": "txt_boss_description",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "Guardian of the level 1",
+        "text_wrap": true,
+        "text_color_key": "#294D84",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 320,
+        "h": 30,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "txt_boss_level",
+       "attrs": {
+        "tag": "txt_boss_level",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "Level: 20",
+        "text_wrap": true,
+        "text_color_key": null,
+        "background_color_key": null,
+        "font_family": "",
+        "w": 320,
+        "h": 30,
+        "x": 0,
+        "y": 29
+       }
+      },
+      {
+       "type": "text",
+       "name": "txt_boss_title",
+       "attrs": {
+        "tag": "txt_boss_title",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 15,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "Lucifer, the Doom Bringer",
+        "text_wrap": true,
+        "text_color_key": "#800000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 320,
+        "h": 30,
+        "x": 0,
+        "y": 15
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "view",
+   "name": "bonus_info_container",
+   "attrs": {
+    "tag": "bonus_info_container",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "w": 320,
+    "h": 24,
+    "x": 0,
+    "y": 316
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "icon_bonus_pts",
+     "attrs": {
+      "tag": "icon_bonus_pts",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "arena/icon_pts.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 24,
+      "h": 24,
+      "x": 202,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "txt_bonus_pts",
+     "attrs": {
+      "tag": "txt_bonus_pts",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "1000000",
+      "text_wrap": true,
+      "text_color_key": "#294D84",
+      "background_color_key": "#8A040B",
+      "font_family": "",
+      "w": 72,
+      "h": 24,
+      "x": 130,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "icon_bonus_rep",
+     "attrs": {
+      "tag": "icon_bonus_rep",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/arena/ui/icon_glory.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 24,
+      "h": 24,
+      "x": 78,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "txt_bonus_and",
+     "attrs": {
+      "tag": "txt_bonus_and",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "and",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": "#FF0000",
+      "font_family": "",
+      "w": 28,
+      "h": 24,
+      "x": 102,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "txt_bonus_rep",
+     "attrs": {
+      "tag": "txt_bonus_rep",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "10000",
+      "text_wrap": true,
+      "text_color_key": "#294D84",
+      "background_color_key": "#8A040B",
+      "font_family": "",
+      "w": 53,
+      "h": 24,
+      "x": 25,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "txt_bonus_awin",
+     "attrs": {
+      "tag": "txt_bonus_awin",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "for a Win",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": "#FF0000",
+      "font_family": "",
+      "w": 54,
+      "h": 24,
+      "x": 226,
+      "y": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "name": "win_streak_area",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 320,
+    "h": 48,
+    "x": 0,
+    "y": 78
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "txt_win_streak",
+     "attrs": {
+      "tag": "txt_win_streak",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "XX - Win Streak!",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 320,
+      "h": 40,
+      "x": 0,
+      "y": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "name": "txt_title",
+   "attrs": {
+    "tag": "txt_title",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 18,
+    "horizontal_align": 1,
+    "vertical_align": 0,
+    "text": "Special Challenge",
+    "text_wrap": true,
+    "text_color_key": "#800000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 320,
+    "h": 47,
+    "x": 0,
+    "y": 55
+   }
+  },
+  {
+   "type": "view",
+   "name": "bonus_info_container2",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "w": 320,
+    "h": 24,
+    "x": 0,
+    "y": 96
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "icon_wt_bonus_pts",
+     "attrs": {
+      "tag": "icon_wt_bonus_pts",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "arena/icon_pts.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 24,
+      "h": 24,
+      "x": 259,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "txt_wt_bonus_pts",
+     "attrs": {
+      "tag": "txt_wt_bonus_pts",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "1000000",
+      "text_wrap": true,
+      "text_color_key": "#294D84",
+      "background_color_key": "#8A040B",
+      "font_family": "",
+      "w": 56,
+      "h": 24,
+      "x": 202,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "icon_wt_bonus_rep",
+     "attrs": {
+      "tag": "icon_wt_bonus_rep",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/arena/ui/icon_glory.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 24,
+      "h": 24,
+      "x": 144,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "txt_wt_bonus_and",
+     "attrs": {
+      "tag": "txt_wt_bonus_and",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "and",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": "#FF0000",
+      "font_family": "",
+      "w": 32,
+      "h": 24,
+      "x": 169,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "txt_wt_bonus_extra",
+     "attrs": {
+      "tag": "txt_wt_bonus_extra",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "Extra\n",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": "#FF0000",
+      "font_family": "",
+      "w": 33,
+      "h": 24,
+      "x": 66,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "txt_wt_bonus_rep",
+     "attrs": {
+      "tag": "txt_wt_bonus_rep",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "10000",
+      "text_wrap": true,
+      "text_color_key": "#294D84",
+      "background_color_key": "#8A040B",
+      "font_family": "",
+      "w": 45,
+      "h": 24,
+      "x": 99,
+      "y": 0
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "name": "txt_note",
+   "attrs": {
+    "tag": "txt_note",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 320,
+    "h": 30,
+    "x": 0,
+    "y": 91
+   }
+  },
+  {
+   "type": "text",
+   "name": "txt_note2",
+   "attrs": {
+    "tag": "txt_note2",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 0,
+    "text": "+5 Energy",
+    "text_wrap": true,
+    "text_color_key": "#800000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 320,
+    "h": 30,
+    "x": 0,
+    "y": 115
+   }
+  },
+  {
+   "type": "component",
+   "name": "bannar",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": false,
+    "anchor": [
+     0.5,
+     0.5
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 0,
+    "h": 0,
+    "x": 160,
+    "y": 316
+   }
+  },
+  {
+   "type": "text",
+   "name": "bannar_comment",
+   "attrs": {
+    "tag": "bannar_comment",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0.5,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 0,
+    "text": "message",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 260,
+    "h": 48,
+    "x": 160,
+    "y": 375
+   }
+  },
+  {
+   "type": "text",
+   "name": "result_message",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0.5,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 14,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "message",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 260,
+    "h": 48,
+    "x": 160,
+    "y": 342
+   }
+  },
+  {
+   "type": "text",
+   "name": "friend_request_message",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0.5,
+     0.5
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 12,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 320,
+    "h": 16,
+    "x": 160,
+    "y": 384
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "friend_board",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/my_id.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 216,
+    "h": 74,
+    "x": 212,
+    "y": 448
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "friends_count_label",
+     "attrs": {
+      "tag": "friends_count_label",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 80,
+      "h": 16,
+      "x": 16,
+      "y": 10
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "defeat_buttons",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 0,
+    "h": 0,
+    "x": 0,
+    "y": 402
+   },
+   "children": [
+    {
+     "type": "button",
+     "name": "button_left",
+     "attrs": {
+      "tag": "button_left",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "PushLeftButton",
+      "image_color": null,
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 84,
+      "h": 28,
+      "x": 68,
+      "y": 0
+     }
+    },
+    {
+     "type": "button",
+     "name": "button_right",
+     "attrs": {
+      "tag": "button_right",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "PushRightButton",
+      "image_color": null,
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 84,
+      "h": 28,
+      "x": 168,
+      "y": 0
+     }
+    },
+    {
+     "type": "button",
+     "name": "button_center",
+     "attrs": {
+      "tag": "button_center",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "PushCenterButton",
+      "image_color": null,
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 84,
+      "h": 28,
+      "x": 118,
+      "y": 0
+     }
+    }
+   ]
+  }
+ ],
+ "name": "ArenaChallengeDialog",
+ "type": "component"
+}

@@ -1,0 +1,102 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 480
+   },
+   "children": [
+    {
+     "name": "cancel",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "cancel",
+      "mock_image": null,
+      "action": "onCancel",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": "common/ui/button/bt_base_gray_56.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 68,
+      "y": 397,
+      "w": 84,
+      "h": 28
+     }
+    },
+    {
+     "name": "set",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "set",
+      "mock_image": null,
+      "action": "onSet",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/ui/button/bt_base_red_n_56.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": "common/ui/button/bt_base_gray_56.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 168,
+      "y": 397,
+      "w": 84,
+      "h": 28
+     }
+    }
+   ]
+  }
+ ],
+ "name": "DeckSetLayout",
+ "type": "component"
+}

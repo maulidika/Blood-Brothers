@@ -1,0 +1,343 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "list",
+   "attrs": {
+    "tag": "list",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "rank",
+     "attrs": {
+      "tag": "rank",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#7F0000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 200,
+      "h": 24,
+      "x": 28,
+      "y": 6
+     }
+    },
+    {
+     "type": "text",
+     "name": "prev_rank",
+     "attrs": {
+      "tag": "prev_rank",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#7F0000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 200,
+      "h": 20,
+      "x": 140,
+      "y": 10
+     }
+    },
+    {
+     "type": "component",
+     "name": "common",
+     "attrs": {
+      "tag": "common",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "chara",
+       "attrs": {
+        "tag": "chara",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 60,
+        "h": 60,
+        "x": 46,
+        "y": 44
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "info_bg",
+       "attrs": {
+        "tag": "info_bg",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/level_back.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 107,
+        "h": 22,
+        "x": 112,
+        "y": 32
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "lv_label",
+         "attrs": {
+          "tag": "lv_label",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 12,
+          "horizontal_align": 0,
+          "vertical_align": 1,
+          "text": "LV.",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "is_bold": false,
+          "w": 103,
+          "h": 18,
+          "x": 4,
+          "y": 2
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "name": "nickname",
+     "attrs": {
+      "tag": "nickname",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "test",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 200,
+      "h": 24,
+      "x": 116,
+      "y": 54
+     }
+    },
+    {
+     "type": "text",
+     "name": "login_time",
+     "attrs": {
+      "tag": "login_time",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 128,
+      "h": 20,
+      "x": 116,
+      "y": 80
+     }
+    },
+    {
+     "type": "text",
+     "name": "count",
+     "attrs": {
+      "tag": "count",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 16,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#7F0000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 120,
+      "h": 23,
+      "x": 116,
+      "y": 94
+     }
+    },
+    {
+     "type": "text",
+     "name": "request_time",
+     "attrs": {
+      "tag": "request_time",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#800000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 120,
+      "h": 20,
+      "x": 228,
+      "y": 80
+     }
+    }
+   ]
+  }
+ ],
+ "name": "EventAllyListCellLayout",
+ "type": "component"
+}

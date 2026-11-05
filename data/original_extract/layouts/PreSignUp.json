@@ -1,0 +1,312 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "node",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "node",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "character0",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "character0",
+      "mock_image": null,
+      "image": "common/signup/character_2.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 36,
+      "y": 0,
+      "w": 145.5,
+      "h": 241
+     }
+    },
+    {
+     "name": "character1",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "character1",
+      "mock_image": null,
+      "image": "common/signup/character_4.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 161.5,
+      "y": 64.5,
+      "w": 159.5,
+      "h": 175.5
+     }
+    },
+    {
+     "name": "character2",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "character2",
+      "mock_image": null,
+      "image": "common/signup/character_1.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 118,
+      "h": 241
+     }
+    },
+    {
+     "name": "character3",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "character3",
+      "mock_image": null,
+      "image": "common/signup/character_3.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 133,
+      "y": 0,
+      "w": 187.5,
+      "h": 145
+     }
+    },
+    {
+     "name": "character4",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "character4",
+      "mock_image": null,
+      "image": "common/signup/character_5.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 239.5,
+      "w": 125,
+      "h": 241
+     }
+    },
+    {
+     "name": "character5",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "character5",
+      "mock_image": null,
+      "image": "common/signup/character_6.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 89.5,
+      "y": 239.5,
+      "w": 132,
+      "h": 241
+     }
+    },
+    {
+     "name": "character6",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "character6",
+      "mock_image": null,
+      "image": "common/signup/character_8.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 135,
+      "y": 313.5,
+      "w": 186,
+      "h": 167
+     }
+    },
+    {
+     "name": "character7",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "character7",
+      "mock_image": null,
+      "image": "common/signup/character_7.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 99,
+      "y": 239,
+      "w": 222.5,
+      "h": 135.5
+     }
+    },
+    {
+     "name": "redLine",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "redLine",
+      "mock_image": null,
+      "image": "signup/character_choose.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 480
+     }
+    }
+   ]
+  }
+ ],
+ "name": "PreSignUp",
+ "type": "component"
+}

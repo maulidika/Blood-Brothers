@@ -1,0 +1,286 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   }
+  },
+  {
+   "name": "cell",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "cell",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 83
+   },
+   "children": [
+    {
+     "name": "imgContent",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "imgContent",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 20,
+      "y": 0,
+      "w": 64,
+      "h": 64
+     }
+    },
+    {
+     "name": "imgBg",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "imgBg",
+      "mock_image": null,
+      "image": "common/present/list_wagon_title_back.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 90,
+      "y": 0,
+      "w": 210,
+      "h": 24
+     }
+    },
+    {
+     "name": "name",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "name",
+      "mock_image": null,
+      "text_color_key": "#0E0E0E",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 15,
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 96,
+      "y": 2,
+      "w": 176,
+      "h": 30
+     }
+    },
+    {
+     "name": "cross",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "cross",
+      "mock_image": null,
+      "image": "common/present/multiply_red.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 270,
+      "y": 7,
+      "w": 10,
+      "h": 10
+     }
+    },
+    {
+     "name": "num",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "num",
+      "mock_image": null,
+      "text_color_key": "#A80000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": "18",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 281,
+      "y": 0,
+      "w": 25,
+      "h": 30
+     }
+    },
+    {
+     "name": "point",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "point",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 2,
+      "text_size": "14",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 96,
+      "y": 25,
+      "w": 150,
+      "h": 25
+     }
+    },
+    {
+     "name": "line",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "line",
+      "mock_image": null,
+      "image": "common/ui/line_gray.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 16,
+      "y": 79,
+      "w": 288,
+      "h": 4
+     }
+    },
+    {
+     "name": "pointToGo",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "pointToGo",
+      "mock_image": null,
+      "text_color_key": "#A80000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 2,
+      "text_size": "14",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 96,
+      "y": 45,
+      "w": 150,
+      "h": 25
+     }
+    }
+   ]
+  }
+ ],
+ "name": "EventPrizeListCellLayout",
+ "type": "component"
+}

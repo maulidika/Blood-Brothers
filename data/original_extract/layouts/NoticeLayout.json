@@ -1,0 +1,571 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "node",
+   "name": "list",
+   "attrs": {
+    "tag": "list",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "day",
+     "attrs": {
+      "tag": "day",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 100,
+      "h": 25,
+      "x": 12,
+      "y": 33
+     }
+    },
+    {
+     "type": "text",
+     "name": "message",
+     "attrs": {
+      "tag": "message",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 294,
+      "h": 25,
+      "x": 12,
+      "y": 3
+     }
+    },
+    {
+     "type": "node",
+     "name": "button_default",
+     "attrs": {
+      "tag": "button_default",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 100,
+      "h": 100,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "new_message",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 270,
+      "h": 25,
+      "x": 37,
+      "y": 3
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "new_icon",
+     "attrs": {
+      "tag": "new_icon",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "home/new1.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 25,
+      "h": 10,
+      "x": 10,
+      "y": 9
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "top_buttons",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 0,
+    "h": 0,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "top_buttons_bg",
+     "attrs": {
+      "tag": "top_buttons_bg",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ally/ally_menu_p.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 320,
+      "h": 36,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "component",
+     "name": "tab1",
+     "attrs": {
+      "tag": "tab1",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "button",
+       "name": "tab1_button",
+       "attrs": {
+        "tag": "tab1_button",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "Tab_1",
+        "image_color": "FFFFFF",
+        "image": "common/ally/ally_menu_n.png",
+        "image_pressed": "common/ally/ally_menu_p.png",
+        "image_checked": null,
+        "image_disabled": "common/ally/ally_menu_off.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 106,
+        "h": 36,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "tab1_button_text",
+       "attrs": {
+        "tag": "tab1_button_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 18,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "test",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 106,
+        "h": 36,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "component",
+       "name": "tab1_button_bullet",
+       "attrs": {
+        "tag": "tab1_button_bullet",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 16,
+        "h": 16,
+        "x": 90,
+        "y": -4
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "tab2",
+     "attrs": {
+      "tag": "tab2",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 106,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "button",
+       "name": "tab2_button",
+       "attrs": {
+        "tag": "tab2_button",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "Tab_2",
+        "image_color": "FFFFFF",
+        "image": "common/ally/ally_menu_n.png",
+        "image_pressed": "common/ally/ally_menu_p.png",
+        "image_checked": null,
+        "image_disabled": "common/ally/ally_menu_off.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 108,
+        "h": 36,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "tab2_button_text",
+       "attrs": {
+        "tag": "tab2_button_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 18,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "test",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 108,
+        "h": 36,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "component",
+       "name": "tab2_button_bullet",
+       "attrs": {
+        "tag": "tab2_button_bullet",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 16,
+        "h": 16,
+        "x": 92,
+        "y": -4
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "tab3",
+     "attrs": {
+      "tag": "tab3",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 214,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "button",
+       "name": "tab3_button",
+       "attrs": {
+        "tag": "tab3_button",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "Tab_3",
+        "image_color": "FFFFFF",
+        "image": "common/ally/ally_menu_n.png",
+        "image_pressed": "common/ally/ally_menu_p.png",
+        "image_checked": null,
+        "image_disabled": "common/ally/ally_menu_off.png",
+        "image_selected": null,
+        "image_focused": null,
+        "w": 106,
+        "h": 36,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "tab3_button_text",
+       "attrs": {
+        "tag": "tab3_button_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 18,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "test",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 106,
+        "h": 36,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "component",
+       "name": "tab3_button_bullet",
+       "attrs": {
+        "tag": "tab3_button_bullet",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 16,
+        "h": 16,
+        "x": 90,
+        "y": -4
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "NoticeLayout",
+ "type": "component"
+}

@@ -1,0 +1,885 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "sprite",
+   "name": "reward_group",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/raidboss/dialog/list_back.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": "FFFFFF",
+    "w": 319,
+    "h": 125,
+    "x": 0,
+    "y": 274
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "reward_frame",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/dialog/mission_frame.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 271,
+      "h": 87,
+      "x": 25,
+      "y": 30
+     },
+     "children": [
+      {
+       "type": "node",
+       "name": "gift_3",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 80,
+        "h": 80,
+        "x": 184,
+        "y": 4
+       },
+       "children": [
+        {
+         "type": "gift_image",
+         "name": "gift_image3",
+         "attrs": {
+          "tag": "",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "showFrame": false,
+          "w": 70,
+          "h": 70,
+          "x": 5,
+          "y": 0
+         }
+        },
+        {
+         "type": "text",
+         "name": "gift_text3",
+         "attrs": {
+          "tag": "",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 14,
+          "horizontal_align": 1,
+          "vertical_align": 0,
+          "text": "x100",
+          "text_wrap": true,
+          "text_color_key": "#000000",
+          "background_color_key": null,
+          "font_family": "",
+          "is_bold": false,
+          "w": 80,
+          "h": 20,
+          "x": 0,
+          "y": 64
+         }
+        }
+       ]
+      },
+      {
+       "type": "node",
+       "name": "gift_2",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 80,
+        "h": 80,
+        "x": 98,
+        "y": 4
+       },
+       "children": [
+        {
+         "type": "gift_image",
+         "name": "gift_image2",
+         "attrs": {
+          "tag": "",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "showFrame": false,
+          "w": 70,
+          "h": 70,
+          "x": 5,
+          "y": 0
+         }
+        },
+        {
+         "type": "text",
+         "name": "gift_text2",
+         "attrs": {
+          "tag": "",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 14,
+          "horizontal_align": 1,
+          "vertical_align": 0,
+          "text": "x100",
+          "text_wrap": true,
+          "text_color_key": "#000000",
+          "background_color_key": null,
+          "font_family": "",
+          "is_bold": false,
+          "w": 80,
+          "h": 20,
+          "x": 0,
+          "y": 64
+         }
+        }
+       ]
+      },
+      {
+       "type": "node",
+       "name": "gift_1",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 80,
+        "h": 80,
+        "x": 12,
+        "y": 4
+       },
+       "children": [
+        {
+         "type": "gift_image",
+         "name": "gift_image1",
+         "attrs": {
+          "tag": "",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "showFrame": false,
+          "w": 70,
+          "h": 70,
+          "x": 5,
+          "y": 0
+         }
+        },
+        {
+         "type": "text",
+         "name": "gift_text1",
+         "attrs": {
+          "tag": "",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 14,
+          "horizontal_align": 1,
+          "vertical_align": 0,
+          "text": "x100",
+          "text_wrap": true,
+          "text_color_key": "#000000",
+          "background_color_key": null,
+          "font_family": "",
+          "is_bold": false,
+          "w": 80,
+          "h": 20,
+          "x": 0,
+          "y": 64
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "name": "reward_title",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 20,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "Rewards",
+      "text_wrap": true,
+      "text_color_key": "#800000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 240,
+      "h": 26,
+      "x": 40,
+      "y": 2
+     }
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "name": "condition_group",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 320,
+    "h": 60,
+    "x": 0,
+    "y": 209
+   },
+   "children": [
+    {
+     "type": "node",
+     "name": "condition_3",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 60,
+      "h": 60,
+      "x": 221,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "mission_cond_image",
+       "name": "condition_image3",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 50,
+        "h": 50,
+        "x": 5,
+        "y": 1
+       }
+      },
+      {
+       "type": "text",
+       "name": "condition_text3",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "99/100",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 60,
+        "h": 20,
+        "x": 0,
+        "y": 49
+       }
+      }
+     ]
+    },
+    {
+     "type": "node",
+     "name": "condition_2",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 60,
+      "h": 60,
+      "x": 129,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "mission_cond_image",
+       "name": "condition_image2",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 50,
+        "h": 50,
+        "x": 5,
+        "y": 1
+       }
+      },
+      {
+       "type": "text",
+       "name": "condition_text2",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "99/100",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 60,
+        "h": 20,
+        "x": 0,
+        "y": 49
+       }
+      }
+     ]
+    },
+    {
+     "type": "node",
+     "name": "condition_1",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 60,
+      "h": 60,
+      "x": 39,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "mission_cond_image",
+       "name": "condition_image1",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 50,
+        "h": 50,
+        "x": 5,
+        "y": 1
+       }
+      },
+      {
+       "type": "text",
+       "name": "condition_text1",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "99/100",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 60,
+        "h": 20,
+        "x": 0,
+        "y": 49
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "name": "description",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 14,
+    "horizontal_align": 1,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "is_bold": false,
+    "w": 239,
+    "h": 36,
+    "x": 40,
+    "y": 174
+   }
+  },
+  {
+   "type": "text",
+   "name": "title",
+   "attrs": {
+    "tag": "title",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 20,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "Sample Mission Name",
+    "text_wrap": true,
+    "text_color_key": "#800000",
+    "background_color_key": null,
+    "font_family": "",
+    "is_bold": false,
+    "w": 240,
+    "h": 26,
+    "x": 40,
+    "y": 152
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "bubble",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/arena/ui/dialog_bubble.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 177,
+    "h": 72,
+    "x": 26,
+    "y": 78
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "quote",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "Hello~\nI bring some good staff to you.\nDon't tell the tower owner here.\nThis is our secret.",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 151,
+      "h": 61,
+      "x": 9,
+      "y": 4
+     }
+    }
+   ]
+  },
+  {
+   "type": "sprite",
+   "name": "wanted_image",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/dialog/icon_wanted.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 232,
+    "h": 57,
+    "x": 13,
+    "y": 27
+   }
+  },
+  {
+   "type": "card_image",
+   "name": "figure",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "displayType": "figure",
+    "showRarity": false,
+    "showEvolution": false,
+    "iconRatio": 0.3,
+    "w": 75,
+    "h": 100,
+    "x": 196,
+    "y": 57
+   }
+  },
+  {
+   "type": "sprite",
+   "name": "completed_label",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": false,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/dialog/mission_completed.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 300,
+    "h": 208,
+    "x": 10,
+    "y": 132
+   }
+  },
+  {
+   "type": "button",
+   "name": "btn_claim",
+   "attrs": {
+    "tag": "btn_claim",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 16,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "Claim Rewards",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "",
+    "image_color": null,
+    "image": "common/ui/button/bt_base_red_n_56L.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+    "image_checked": "common/ui/button/bt_base_red_p_56.png",
+    "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+    "image_selected": "common/ui/button/bt_base_red_p_56.png",
+    "image_focused": "common/ui/button/bt_base_red_p_56.png",
+    "w": 128,
+    "h": 28,
+    "x": 30,
+    "y": 402
+   }
+  },
+  {
+   "type": "button",
+   "name": "btn_refuse",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 16,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "Refuse",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "",
+    "image_color": null,
+    "image": "common/ui/button/bt_base_red_n_56L.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+    "image_checked": "common/ui/button/bt_base_red_p_56.png",
+    "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+    "image_selected": "common/ui/button/bt_base_red_p_56.png",
+    "image_focused": "common/ui/button/bt_base_red_p_56.png",
+    "w": 128,
+    "h": 28,
+    "x": 164,
+    "y": 402
+   }
+  }
+ ],
+ "name": "EventMissionLayout1",
+ "type": "component"
+}

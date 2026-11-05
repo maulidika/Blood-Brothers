@@ -1,0 +1,956 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "node",
+   "name": "birthday",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 100,
+    "h": 100,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "birthday_notice2",
+     "attrs": {
+      "tag": "birthday_notice2",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#E9DCCB",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 230,
+      "h": 20,
+      "x": 44,
+      "y": 359
+     }
+    },
+    {
+     "type": "text",
+     "name": "birthday_notice1",
+     "attrs": {
+      "tag": "birthday_notice1",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#E9DCCB",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 230,
+      "h": 20,
+      "x": 44,
+      "y": 339
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "year",
+     "attrs": {
+      "tag": "year_unit",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "easylogin/year.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 17,
+      "h": 22,
+      "x": 130,
+      "y": 273
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "month",
+     "attrs": {
+      "tag": "month_unit",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "easylogin/month.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 17,
+      "h": 22,
+      "x": 212,
+      "y": 273
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "day",
+     "attrs": {
+      "tag": "day_unit",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "easylogin/day.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 13,
+      "h": 22,
+      "x": 294,
+      "y": 273
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "title_birthday",
+     "attrs": {
+      "tag": "title_birthday",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "easylogin/birthday.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 151,
+      "h": 26,
+      "x": 42,
+      "y": 203
+     }
+    },
+    {
+     "type": "button",
+     "name": "ok_complete",
+     "attrs": {
+      "tag": "ok_complete",
+      "mock_image": null,
+      "visible": true,
+      "enabled": false,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 26,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "okComplete",
+      "image_color": null,
+      "image": "common/ui/btn_home_n.png",
+      "image_pressed": "common/ui/btn_home_p.png",
+      "image_checked": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+      "image_selected": "common/ui/button/bt_base_red_p_56.png",
+      "image_focused": "common/ui/button/bt_base_red_p_56.png",
+      "w": 114,
+      "h": 43,
+      "x": 103,
+      "y": 384
+     }
+    },
+    {
+     "type": "button",
+     "name": "back_to_gender",
+     "attrs": {
+      "tag": "back_to_gender",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "font_family": "",
+      "action": "backToGender",
+      "image_color": null,
+      "image": "common/ui/bt_gp_back_n.png",
+      "image_pressed": "common/ui/bt_gp_back_p.png",
+      "image_checked": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+      "image_selected": "common/ui/button/bt_base_red_p_56.png",
+      "image_focused": "common/ui/button/bt_base_red_p_56.png",
+      "w": 40,
+      "h": 40,
+      "x": 4,
+      "y": 1
+     }
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "name": "gender",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 100,
+    "h": 100,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "gender_notice2",
+     "attrs": {
+      "tag": "gender_notice2",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#E9DCCB",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 230,
+      "h": 20,
+      "x": 44,
+      "y": 359
+     }
+    },
+    {
+     "type": "text",
+     "name": "gender_notice1",
+     "attrs": {
+      "tag": "gender_notice1",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#E9DCCB",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 230,
+      "h": 20,
+      "x": 44,
+      "y": 339
+     }
+    },
+    {
+     "type": "button",
+     "name": "ok_gender",
+     "attrs": {
+      "tag": "ok_gender",
+      "mock_image": null,
+      "visible": true,
+      "enabled": false,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 26,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "okGender",
+      "image_color": null,
+      "image": "common/ui/btn_home_n.png",
+      "image_pressed": "common/ui/btn_home_p.png",
+      "image_checked": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+      "image_selected": "common/ui/button/bt_base_red_p_56.png",
+      "image_focused": "common/ui/button/bt_base_red_p_56.png",
+      "w": 114,
+      "h": 43,
+      "x": 103,
+      "y": 384
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "woman_tap",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": false,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "easylogin/woman_tap.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 123,
+      "h": 129,
+      "x": 170,
+      "y": 200
+     }
+    },
+    {
+     "type": "button",
+     "name": "woman",
+     "attrs": {
+      "tag": "woman",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "font_family": "",
+      "action": "touchWoman",
+      "image_color": null,
+      "image": "easylogin/woman.png",
+      "image_pressed": null,
+      "image_checked": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+      "image_selected": "common/ui/button/bt_base_red_p_56.png",
+      "image_focused": "common/ui/button/bt_base_red_p_56.png",
+      "w": 123,
+      "h": 129,
+      "x": 170,
+      "y": 200
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "man_tap",
+     "attrs": {
+      "tag": "man_tap",
+      "mock_image": null,
+      "visible": false,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "easylogin/man_tap.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 123,
+      "h": 129,
+      "x": 32,
+      "y": 199
+     }
+    },
+    {
+     "type": "button",
+     "name": "man",
+     "attrs": {
+      "tag": "man",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "font_family": "",
+      "action": "touchMan",
+      "image_color": null,
+      "image": "easylogin/man.png",
+      "image_pressed": null,
+      "image_checked": "easylogin/man_tap.png",
+      "image_disabled": null,
+      "image_selected": "common/ui/button/bt_base_red_p_56.png",
+      "image_focused": "common/ui/button/bt_base_red_p_56.png",
+      "w": 123,
+      "h": 129,
+      "x": 32,
+      "y": 200
+     }
+    },
+    {
+     "type": "button",
+     "name": "back_to_nickname",
+     "attrs": {
+      "tag": "back_to_nickname",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "font_family": "",
+      "action": "backToNickName",
+      "image_color": null,
+      "image": "common/ui/bt_gp_back_n.png",
+      "image_pressed": "common/ui/bt_gp_back_p.png",
+      "image_checked": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+      "image_selected": "common/ui/button/bt_base_red_p_56.png",
+      "image_focused": "common/ui/button/bt_base_red_p_56.png",
+      "w": 40,
+      "h": 40,
+      "x": 4,
+      "y": 1
+     }
+    },
+    {
+     "type": "text",
+     "name": "text_select",
+     "attrs": {
+      "tag": "text_select",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#E9DCCB",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 230,
+      "h": 20,
+      "x": 44,
+      "y": 174
+     }
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "name": "nickname",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 100,
+    "h": 100,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "nick_name_notice1",
+     "attrs": {
+      "tag": "nick_name_notice1",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#E9DCCB",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 233,
+      "h": 20,
+      "x": 54,
+      "y": 302
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "title_nick_name",
+     "attrs": {
+      "tag": "title_nick_name",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "easylogin/nick_name.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 151,
+      "h": 24,
+      "x": 44,
+      "y": 205
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "nick_name_text_box",
+     "attrs": {
+      "tag": "nick_name_text_box",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "easylogin/nick_name_box.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 253,
+      "h": 35,
+      "x": 44,
+      "y": 259
+     }
+    },
+    {
+     "type": "button",
+     "name": "ok_nick_name",
+     "attrs": {
+      "tag": "ok_nick_name",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 26,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "okNickName",
+      "image_color": "FFFFFF",
+      "image": "common/ui/btn_home_n.png",
+      "image_pressed": "common/ui/btn_home_p.png",
+      "image_checked": null,
+      "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+      "image_selected": null,
+      "image_focused": null,
+      "w": 114,
+      "h": 43,
+      "x": 103,
+      "y": 385
+     }
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "name": "common",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 100,
+    "h": 100,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "bg",
+     "attrs": {
+      "tag": "bg",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "easylogin/bg.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 320,
+      "h": 480,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "lada_bg",
+     "attrs": {
+      "tag": "lada_bg",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "easylogin/word_dialog1.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 253,
+      "h": 90,
+      "x": 52,
+      "y": 76
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "text",
+       "attrs": {
+        "tag": "lada_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 16,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 174,
+        "h": 59,
+        "x": 56,
+        "y": 10
+       }
+      }
+     ]
+    },
+    {
+     "type": "sprite",
+     "name": "lada",
+     "attrs": {
+      "tag": "lada",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "easylogin/lada.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 77,
+      "h": 78,
+      "x": 27,
+      "y": 76
+     }
+    },
+    {
+     "type": "button",
+     "name": "ok_end",
+     "attrs": {
+      "tag": "ok_end",
+      "mock_image": null,
+      "visible": false,
+      "enabled": false,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 26,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "okEnd",
+      "image_color": null,
+      "image": "common/ui/btn_home_n.png",
+      "image_pressed": "common/ui/btn_home_p.png",
+      "image_checked": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+      "image_selected": "common/ui/button/bt_base_red_p_56.png",
+      "image_focused": "common/ui/button/bt_base_red_p_56.png",
+      "w": 114,
+      "h": 43,
+      "x": 106,
+      "y": 325
+     }
+    },
+    {
+     "type": "text",
+     "name": "error_message",
+     "attrs": {
+      "tag": "error_message",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FF0000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 255,
+      "h": 21,
+      "x": 44,
+      "y": 234
+     }
+    }
+   ]
+  }
+ ],
+ "name": "LoginBase",
+ "type": "component"
+}

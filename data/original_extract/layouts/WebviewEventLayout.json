@@ -1,0 +1,70 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "enabled": true,
+  "h": 480,
+  "mock_image": null,
+  "tag": "base_view",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "ui_web_view",
+   "name": "webview",
+   "attrs": {
+    "tag": "webview",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "url": null,
+    "w": 320,
+    "h": 480,
+    "x": 0,
+    "y": 0
+   }
+  },
+  {
+   "type": "ui_button",
+   "name": "close",
+   "attrs": {
+    "tag": "close",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 0,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "action": "EVENT_CLOSE_BUTTON",
+    "image": "common/ui/uiview/close_n.png",
+    "image_pressed": "common/ui/uiview/close_p.png",
+    "image_checked": null,
+    "image_disabled": null,
+    "image_selected": null,
+    "image_focused": null,
+    "w": 64,
+    "h": 64,
+    "x": 256,
+    "y": 0
+   }
+  }
+ ],
+ "name": "WebviewEventLayout",
+ "type": "view"
+}

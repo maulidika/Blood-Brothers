@@ -1,0 +1,922 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "node",
+   "name": "main",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 320,
+    "h": 480,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "background",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/bottom_red_bg.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "660000",
+      "w": 320,
+      "h": 125,
+      "x": 0,
+      "y": 355
+     }
+    },
+    {
+     "type": "node",
+     "name": "title",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 320,
+      "h": 48,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "description",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 13,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "background_color_key": null,
+      "font_family": "",
+      "w": 165,
+      "h": 42,
+      "x": 8,
+      "y": 433
+     }
+    },
+    {
+     "type": "node",
+     "name": "help_button_node",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 58,
+      "h": 17,
+      "x": 97,
+      "y": 459
+     }
+    },
+    {
+     "type": "node",
+     "name": "coins",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 100,
+      "h": 100,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "node",
+       "name": "coin_icon",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 22,
+        "h": 22,
+        "x": 3,
+        "y": 414
+       },
+       "children": [
+        {
+         "type": "image",
+         "name": "coin_icon_image",
+         "attrs": {
+          "tag": "",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": "ui/icon/icon_possession_white.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 12,
+          "h": 12,
+          "x": 28,
+          "y": 10
+         }
+        }
+       ]
+      },
+      {
+       "type": "text",
+       "name": "coin_num",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 17,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": null,
+        "background_color_key": null,
+        "font_family": "",
+        "w": 70,
+        "h": 24,
+        "x": 61,
+        "y": 417
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "cross",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/sugoroku/cross.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 10,
+        "h": 10,
+        "x": 48,
+        "y": 425
+       }
+      }
+     ]
+    },
+    {
+     "type": "button",
+     "name": "detail_button",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": null,
+      "font_family": "",
+      "action": "Details",
+      "image_color": null,
+      "image": "ui/details.png",
+      "image_pressed": null,
+      "image_checked": "common/ui/button/bt_base_red_p_56.png",
+      "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+      "image_selected": "common/ui/button/bt_base_red_p_56.png",
+      "image_focused": "common/ui/button/bt_base_red_p_56.png",
+      "w": 40,
+      "h": 40,
+      "x": 273,
+      "y": 4
+     }
+    },
+    {
+     "type": "text",
+     "name": "notice",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 320,
+      "h": 24,
+      "x": 0,
+      "y": 342
+     }
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "name": "dice_M",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 118,
+    "h": 52,
+    "x": 102,
+    "y": 368
+   },
+   "children": [
+    {
+     "type": "button",
+     "name": "button_M",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "L_Dice_Chosen",
+      "image_color": null,
+      "image": "common/sugoroku/sugoroku_button_2_n.png",
+      "image_pressed": "common/sugoroku/sugoroku_button_2_p.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 110,
+      "h": 28,
+      "x": 4,
+      "y": 22
+     }
+    },
+    {
+     "type": "node",
+     "name": "price_M",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 55,
+      "h": 17,
+      "x": 61,
+      "y": 2
+     }
+    },
+    {
+     "type": "node",
+     "name": "item_tag_M",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 38,
+      "h": 17,
+      "x": 5,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "image",
+       "name": "item_bg_M",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/sugoroku/mobacoin_base.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 55,
+        "h": 15,
+        "x": 0,
+        "y": 2
+       }
+      },
+      {
+       "type": "node",
+       "name": "item_icon_M",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 55,
+        "h": 17,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "item_price_M",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": null,
+        "background_color_key": null,
+        "font_family": "",
+        "w": 41,
+        "h": 21,
+        "x": 15,
+        "y": -1
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "name": "dice_R",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 118,
+    "h": 52,
+    "x": 172,
+    "y": 368
+   },
+   "children": [
+    {
+     "type": "button",
+     "name": "button_R",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "R_Dice_Chosen",
+      "image_color": null,
+      "image": "common/sugoroku/sugoroku_button_2_n.png",
+      "image_pressed": "common/sugoroku/sugoroku_button_2_p.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 110,
+      "h": 28,
+      "x": 4,
+      "y": 22
+     }
+    },
+    {
+     "type": "node",
+     "name": "price_R",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 55,
+      "h": 17,
+      "x": 61,
+      "y": 2
+     }
+    },
+    {
+     "type": "node",
+     "name": "item_tag_R",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 38,
+      "h": 17,
+      "x": 5,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "image",
+       "name": "item_bg_R",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/sugoroku/mobacoin_base.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 55,
+        "h": 15,
+        "x": 0,
+        "y": 2
+       }
+      },
+      {
+       "type": "node",
+       "name": "item_icon_R",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 55,
+        "h": 17,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "item_price_R",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": null,
+        "background_color_key": null,
+        "font_family": "",
+        "w": 41,
+        "h": 21,
+        "x": 15,
+        "y": -1
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "node",
+   "name": "dice_L",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 118,
+    "h": 52,
+    "x": 32,
+    "y": 368
+   },
+   "children": [
+    {
+     "type": "button",
+     "name": "button_L",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "L_Dice_Chosen",
+      "image_color": null,
+      "image": "common/sugoroku/sugoroku_button_2_n.png",
+      "image_pressed": "common/sugoroku/sugoroku_button_2_p.png",
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 110,
+      "h": 28,
+      "x": 4,
+      "y": 22
+     }
+    },
+    {
+     "type": "node",
+     "name": "price_L",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 55,
+      "h": 17,
+      "x": 61,
+      "y": 2
+     }
+    },
+    {
+     "type": "node",
+     "name": "item_tag_L",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 38,
+      "h": 17,
+      "x": 5,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "image",
+       "name": "item_bg_L",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/sugoroku/mobacoin_base.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 55,
+        "h": 15,
+        "x": 0,
+        "y": 2
+       }
+      },
+      {
+       "type": "node",
+       "name": "item_icon_L",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 55,
+        "h": 17,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "item_price_L",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": null,
+        "background_color_key": null,
+        "font_family": "",
+        "w": 41,
+        "h": 21,
+        "x": 15,
+        "y": -1
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "sprite",
+   "name": "shadow_bg",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": false,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/blackblank.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 320,
+    "h": 480,
+    "x": 0,
+    "y": 0
+   }
+  }
+ ],
+ "name": "BoardGameLayout",
+ "type": "component"
+}

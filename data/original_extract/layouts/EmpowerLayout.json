@@ -1,0 +1,294 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "seedList",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "seedList",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 225
+   },
+   "children": [
+    {
+     "name": "list",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "list",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 188
+     },
+     "children": [
+      {
+       "name": "bottomBg",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "bottomBg",
+        "mock_image": null,
+        "image": "common/combine/bb_bottom_bg.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 160,
+        "w": 320,
+        "h": 35
+       },
+       "children": [
+        {
+         "name": "ok",
+         "type": "button",
+         "attrs": {
+          "visible": true,
+          "tag": "ok",
+          "mock_image": null,
+          "action": "onExecRequest",
+          "enabled": true,
+          "text_color_key": "#FFFFFF",
+          "image_color": "FFFFFF",
+          "text": "",
+          "text_wrap": true,
+          "horizontal_align": 0,
+          "vertical_align": 0,
+          "text_size": 18,
+          "image": "common/seed/bb_empower-ok_n.png",
+          "image_pressed": "common/seed/bb_empower-ok_p.png",
+          "image_disabled": "common/seed/bb_enpower-ok_gray.png",
+          "anchor": null,
+          "scale": [
+           1,
+           1
+          ],
+          "x": 96.5,
+          "y": 10,
+          "w": 127,
+          "h": 25
+         }
+        }
+       ]
+      },
+      {
+       "name": "message",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "message",
+        "mock_image": null,
+        "text_color_key": "#FFFFFF",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text_size": "16",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 10,
+        "y": -16,
+        "w": 300,
+        "h": 40
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "cell",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "cell",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "numBg",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "numBg",
+      "mock_image": null,
+      "image": "common/seed/bb_empower-text_back.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 58,
+      "h": 27
+     },
+     "children": [
+      {
+       "name": "numCenter",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "numCenter",
+        "mock_image": null,
+        "text_color_key": "#000000",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text_size": "18",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 56,
+        "h": 32
+       }
+      },
+      {
+       "name": "numLeft",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "numLeft",
+        "mock_image": null,
+        "text_color_key": "#000000",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 2,
+        "vertical_align": 1,
+        "text_size": "18",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 20,
+        "h": 32
+       }
+      },
+      {
+       "name": "numRight",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "numRight",
+        "mock_image": null,
+        "text_color_key": "#000000",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text_size": "18",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 20,
+        "y": 0,
+        "w": 36,
+        "h": 32
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "EmpowerLayout",
+ "type": "component"
+}

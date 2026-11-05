@@ -1,0 +1,127 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "storyBoard",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "storyBoard",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "bg",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "bg",
+      "mock_image": null,
+      "image": "common/ui/black.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 480
+     }
+    },
+    {
+     "name": "sentence",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "sentence",
+      "mock_image": null,
+      "text_color_key": "#FFFFFF",
+      "text": "hogehodfasdfkajsdfkasjdflaskjfsldafkjsakldfja",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": 18,
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 20,
+      "y": 150,
+      "w": 280,
+      "h": 180
+     }
+    },
+    {
+     "name": "next",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "next",
+      "mock_image": null,
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/ui/guide_right_off.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 260,
+      "y": 330,
+      "w": 26,
+      "h": 40
+     }
+    }
+   ]
+  }
+ ],
+ "name": "Prologue",
+ "type": "component"
+}

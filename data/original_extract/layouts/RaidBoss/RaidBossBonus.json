@@ -1,0 +1,356 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "main",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "main",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "title",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "title",
+      "mock_image": null,
+      "text_color_key": "#FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "22",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 43,
+      "y": 58,
+      "w": 234,
+      "h": 32
+     }
+    },
+    {
+     "name": "total_bar",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "total_bar",
+      "mock_image": null,
+      "image": "common/ui/dialog/text_back.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 39,
+      "y": 304,
+      "w": 240,
+      "h": 52
+     },
+     "children": [
+      {
+       "name": "total_text",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "total_text",
+        "mock_image": null,
+        "text_color_key": "#A80000",
+        "text": "Total",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text_size": "20",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 5,
+        "y": 3,
+        "w": 64,
+        "h": 30
+       }
+      },
+      {
+       "name": "total_points",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "total_points",
+        "mock_image": null,
+        "text_color_key": "#2E4F86",
+        "text": "5000Pts",
+        "text_wrap": true,
+        "horizontal_align": 2,
+        "vertical_align": 0,
+        "text_size": "22",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 5,
+        "y": 23,
+        "w": 230,
+        "h": 40
+       }
+      },
+      {
+       "name": "text_shared_points",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "text_shared_points",
+        "mock_image": null,
+        "text_color_key": "#5B402A",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text_size": "14",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 53,
+        "w": 240,
+        "h": 20
+       }
+      },
+      {
+       "name": "text_capture_shared_points",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "text_capture_shared_points",
+        "mock_image": null,
+        "text_color_key": "#5B402A",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text_size": "14",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 70,
+        "w": 240,
+        "h": 20
+       }
+      }
+     ]
+    },
+    {
+     "name": "ok",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "ok",
+      "mock_image": null,
+      "action": "exitBonusDialog",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/ui/button/bt_base_red_n_56L.png",
+      "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+      "image_disabled": "common/ui/button/bt_base_gray_56L.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 96,
+      "y": 397,
+      "w": 128,
+      "h": 28
+     }
+    }
+   ]
+  },
+  {
+   "name": "bonusBar_node",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "bonusBar_node",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 39,
+    "y": 121,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "bonus_bar",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "bonus_bar",
+      "mock_image": null,
+      "action": "useBonusPoints",
+      "image": "common/ui/dialog/text_back.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 240,
+      "h": 24
+     },
+     "children": [
+      {
+       "name": "type",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "type",
+        "mock_image": null,
+        "text_color_key": "#5B402A",
+        "text": "Damage Bonus",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text_size": "17",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 5,
+        "y": 3,
+        "w": 230,
+        "h": 24
+       }
+      },
+      {
+       "name": "points",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "points",
+        "mock_image": null,
+        "text_color_key": "#2E4F86",
+        "text": "5000Pts",
+        "text_wrap": true,
+        "horizontal_align": 2,
+        "vertical_align": 0,
+        "text_size": "17",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 5,
+        "y": 3,
+        "w": 230,
+        "h": 24
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "RaidBossBonus",
+ "type": "component"
+}

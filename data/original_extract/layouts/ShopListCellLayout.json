@@ -1,0 +1,302 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "row",
+   "attrs": {
+    "tag": "row",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 320,
+    "h": 102,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "comment",
+     "attrs": {
+      "tag": "comment",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 300,
+      "h": 20,
+      "x": 12,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "name",
+     "attrs": {
+      "tag": "name",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#1E1E1E",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 229,
+      "h": 50,
+      "x": 84,
+      "y": 6
+     }
+    },
+    {
+     "type": "text",
+     "name": "mobacoin",
+     "attrs": {
+      "tag": "mobacoin",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 16,
+      "horizontal_align": 0,
+      "vertical_align": 2,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 80,
+      "h": 24,
+      "x": 232,
+      "y": 42
+     }
+    },
+    {
+     "type": "text",
+     "name": "price",
+     "attrs": {
+      "tag": "price",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 22,
+      "horizontal_align": 2,
+      "vertical_align": 2,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#0D0D0D",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 60,
+      "h": 30,
+      "x": 168,
+      "y": 39
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "line",
+     "attrs": {
+      "tag": "line",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/line_gray.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 308,
+      "h": 4,
+      "x": 6,
+      "y": 96
+     }
+    },
+    {
+     "type": "component",
+     "name": "image",
+     "attrs": {
+      "tag": "image",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 64,
+      "h": 64,
+      "x": 12,
+      "y": 20
+     }
+    },
+    {
+     "type": "component",
+     "name": "icon",
+     "attrs": {
+      "tag": "icon",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 18,
+      "h": 18,
+      "x": 96,
+      "y": 67
+     }
+    },
+    {
+     "type": "text",
+     "name": "num",
+     "attrs": {
+      "tag": "num",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 64,
+      "h": 26,
+      "x": 122,
+      "y": 63
+     }
+    },
+    {
+     "type": "text",
+     "name": "time_limit",
+     "attrs": {
+      "tag": "time_limit",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 180,
+      "h": 20,
+      "x": 96,
+      "y": 70
+     }
+    }
+   ]
+  }
+ ],
+ "name": "ShopListCellLayout",
+ "type": "component"
+}

@@ -1,0 +1,280 @@
+{
+ "png_size": [
+  128,
+  128
+ ],
+ "json_space": {
+  "w": 128,
+  "h": 128
+ },
+ "scale_json_to_png": 1.0,
+ "line_height": 23,
+ "glyphs": [
+  {
+   "char": "#",
+   "code": 35,
+   "x": 2,
+   "y": 2,
+   "w": 26,
+   "h": 22,
+   "json_rect": [
+    2,
+    2,
+    26,
+    22
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "%",
+   "code": 37,
+   "x": 30,
+   "y": 2,
+   "w": 24,
+   "h": 22,
+   "json_rect": [
+    30,
+    2,
+    24,
+    22
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "*",
+   "code": 42,
+   "x": 98,
+   "y": 2,
+   "w": 18,
+   "h": 23,
+   "json_rect": [
+    98,
+    2,
+    18,
+    23
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "+",
+   "code": 43,
+   "x": 77,
+   "y": 2,
+   "w": 19,
+   "h": 22,
+   "json_rect": [
+    77,
+    2,
+    19,
+    22
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "-",
+   "code": 45,
+   "x": 56,
+   "y": 2,
+   "w": 19,
+   "h": 22,
+   "json_rect": [
+    56,
+    2,
+    19,
+    22
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": ".",
+   "code": 46,
+   "x": 21,
+   "y": 51,
+   "w": 9,
+   "h": 22,
+   "json_rect": [
+    21,
+    51,
+    9,
+    22
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "0",
+   "code": 48,
+   "x": 2,
+   "y": 98,
+   "w": 17,
+   "h": 22,
+   "json_rect": [
+    2,
+    98,
+    17,
+    22
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "1",
+   "code": 49,
+   "x": 89,
+   "y": 27,
+   "w": 14,
+   "h": 22,
+   "json_rect": [
+    89,
+    27,
+    14,
+    22
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "2",
+   "code": 50,
+   "x": 2,
+   "y": 74,
+   "w": 17,
+   "h": 22,
+   "json_rect": [
+    2,
+    74,
+    17,
+    22
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "3",
+   "code": 51,
+   "x": 73,
+   "y": 26,
+   "w": 14,
+   "h": 22,
+   "json_rect": [
+    73,
+    26,
+    14,
+    22
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "4",
+   "code": 52,
+   "x": 2,
+   "y": 50,
+   "w": 17,
+   "h": 22,
+   "json_rect": [
+    2,
+    50,
+    17,
+    22
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "5",
+   "code": 53,
+   "x": 105,
+   "y": 27,
+   "w": 14,
+   "h": 22,
+   "json_rect": [
+    105,
+    27,
+    14,
+    22
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "6",
+   "code": 54,
+   "x": 21,
+   "y": 26,
+   "w": 16,
+   "h": 22,
+   "json_rect": [
+    21,
+    26,
+    16,
+    22
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "7",
+   "code": 55,
+   "x": 39,
+   "y": 26,
+   "w": 16,
+   "h": 22,
+   "json_rect": [
+    39,
+    26,
+    16,
+    22
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "8",
+   "code": 56,
+   "x": 57,
+   "y": 26,
+   "w": 14,
+   "h": 22,
+   "json_rect": [
+    57,
+    26,
+    14,
+    22
+   ],
+   "rotated": false,
+   "trimmed": false
+  },
+  {
+   "char": "9",
+   "code": 57,
+   "x": 2,
+   "y": 26,
+   "w": 17,
+   "h": 22,
+   "json_rect": [
+    2,
+    26,
+    17,
+    22
+   ],
+   "rotated": false,
+   "trimmed": false
+  }
+ ],
+ "meta": {
+  "app": "ImagePacker",
+  "version": "1.0.22",
+  "image": "imagefont.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 128,
+   "h": 128
+  }
+ }
+}

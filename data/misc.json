@@ -1,0 +1,108 @@
+{
+ "gear": {
+  "rusted_blade": {
+   "name": "Rusted Blade",
+   "slot": "weapon",
+   "rarity": 1,
+   "stat": "atk",
+   "val": 8
+  },
+  "hunters_bow": {
+   "name": "Hunter's Bow",
+   "slot": "weapon",
+   "rarity": 2,
+   "stat": "atk",
+   "val": 16
+  },
+  "rune_staff": {
+   "name": "Rune Staff",
+   "slot": "weapon",
+   "rarity": 3,
+   "stat": "wis",
+   "val": 26
+  },
+  "leather_vest": {
+   "name": "Leather Vest",
+   "slot": "armor",
+   "rarity": 1,
+   "stat": "def",
+   "val": 8
+  },
+  "chain_mail": {
+   "name": "Chain Mail",
+   "slot": "armor",
+   "rarity": 2,
+   "stat": "def",
+   "val": 16
+  },
+  "dragonscale": {
+   "name": "Dragonscale Plate",
+   "slot": "armor",
+   "rarity": 4,
+   "stat": "hp",
+   "val": 140
+  },
+  "swift_charm": {
+   "name": "Swift Charm",
+   "slot": "charm",
+   "rarity": 2,
+   "stat": "agi",
+   "val": 12
+  },
+  "vital_charm": {
+   "name": "Vital Charm",
+   "slot": "charm",
+   "rarity": 3,
+   "stat": "hp",
+   "val": 90
+  }
+ },
+ "pact": {
+  "copper": {
+   "name": "Copper Cloister",
+   "currency": "gold",
+   "cost": 600,
+   "rates": {
+    "1": 60,
+    "2": 32,
+    "3": 7,
+    "4": 1
+   }
+  },
+  "silver": {
+   "name": "Silver Cloister",
+   "currency": "gold",
+   "cost": 4000,
+   "rates": {
+    "2": 45,
+    "3": 40,
+    "4": 13,
+    "5": 2
+   }
+  },
+  "gold": {
+   "name": "Gold Cloister",
+   "currency": "blood",
+   "cost": 5,
+   "rates": {
+    "3": 50,
+    "4": 38,
+    "5": 10,
+    "6": 2
+   }
+  }
+ },
+ "enhance_gold": [
+  0,
+  200,
+  300,
+  450,
+  650,
+  900,
+  1300,
+  1800,
+  2500,
+  3400,
+  4600
+ ]
+}

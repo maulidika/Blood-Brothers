@@ -1,0 +1,136 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "resultList",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 0,
+    "h": 0,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "container",
+     "attrs": {
+      "tag": "container",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 0,
+      "h": 0,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "button",
+     "name": "right_btn",
+     "attrs": {
+      "tag": "right_btn",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "moveToRight",
+      "image_color": "FFFFFF",
+      "image": "common/boost/right_btn.png",
+      "image_pressed": null,
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 18,
+      "h": 42,
+      "x": 302,
+      "y": 342
+     }
+    },
+    {
+     "type": "button",
+     "name": "left_btn",
+     "attrs": {
+      "tag": "left_btn",
+      "mock_image": null,
+      "visible": true,
+      "enabled": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "font_family": "",
+      "action": "moveToLeft",
+      "image_color": "FFFFFF",
+      "image": "common/boost/left_btn.png",
+      "image_pressed": null,
+      "image_checked": null,
+      "image_disabled": null,
+      "image_selected": null,
+      "image_focused": null,
+      "w": 18,
+      "h": 42,
+      "x": 0,
+      "y": 342
+     }
+    }
+   ]
+  }
+ ],
+ "name": "CardCustomPanel",
+ "type": "component"
+}

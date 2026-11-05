@@ -1,0 +1,1318 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "common",
+   "attrs": {
+    "tag": "common",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 0,
+    "h": 0,
+    "x": 0,
+    "y": -20
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "title",
+     "attrs": {
+      "tag": "title",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 22,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "Another Adventure!!",
+      "text_wrap": true,
+      "text_color_key": "#800000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 320,
+      "h": 40,
+      "x": 0,
+      "y": 58
+     }
+    },
+    {
+     "type": "component",
+     "name": "buttons",
+     "attrs": {
+      "tag": "buttons",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 0,
+      "y": 402
+     },
+     "children": [
+      {
+       "type": "button",
+       "name": "button_left",
+       "attrs": {
+        "tag": "button_left",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "PushLeftButton",
+        "image_color": null,
+        "image": "common/ui/button/bt_base_red_n_56.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+        "image_checked": null,
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 84,
+        "h": 28,
+        "x": 68,
+        "y": 0
+       }
+      },
+      {
+       "type": "button",
+       "name": "button_right",
+       "attrs": {
+        "tag": "button_right",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "PushRightButton",
+        "image_color": null,
+        "image": "common/ui/button/bt_base_red_n_56.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+        "image_checked": null,
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 84,
+        "h": 28,
+        "x": 168,
+        "y": 0
+       }
+      },
+      {
+       "type": "button",
+       "name": "button_center",
+       "attrs": {
+        "tag": "button_center",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "PushCenterButton",
+        "image_color": null,
+        "image": "common/ui/button/bt_base_red_n_56.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+        "image_checked": null,
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 84,
+        "h": 28,
+        "x": 118,
+        "y": 28
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "select",
+   "attrs": {
+    "tag": "select",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 0,
+    "h": 0,
+    "x": 0,
+    "y": -20
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "boostsstats",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#800000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 87,
+      "h": 34,
+      "x": 174,
+      "y": 386
+     }
+    },
+    {
+     "type": "component",
+     "name": "time",
+     "attrs": {
+      "tag": "time",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 120,
+      "y": 81
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "hour",
+       "attrs": {
+        "tag": "hour",
+        "mock_image": null,
+        "visible": false,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/pvp/dialog/time_box.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 33,
+        "h": 24,
+        "x": -43,
+        "y": 0
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "hour_value",
+         "attrs": {
+          "tag": "hour_value",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 21,
+          "horizontal_align": 1,
+          "vertical_align": 1,
+          "text": "00",
+          "text_wrap": true,
+          "text_color_key": "#A80000",
+          "background_color_key": null,
+          "font_family": "",
+          "is_bold": false,
+          "w": 30,
+          "h": 28,
+          "x": 2,
+          "y": -2
+         }
+        }
+       ]
+      },
+      {
+       "type": "text",
+       "name": "time_colon2",
+       "attrs": {
+        "tag": "time_colon2",
+        "mock_image": null,
+        "visible": false,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 21,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": ":",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 15,
+        "h": 28,
+        "x": -13,
+        "y": -2
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "min",
+       "attrs": {
+        "tag": "min",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/pvp/dialog/time_box.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 33,
+        "h": 24,
+        "x": 0,
+        "y": 0
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "min_value",
+         "attrs": {
+          "tag": "min_value",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 21,
+          "horizontal_align": 1,
+          "vertical_align": 1,
+          "text": "00",
+          "text_wrap": true,
+          "text_color_key": "#A80000",
+          "background_color_key": null,
+          "font_family": "",
+          "is_bold": false,
+          "w": 30,
+          "h": 28,
+          "x": 2,
+          "y": -2
+         }
+        }
+       ]
+      },
+      {
+       "type": "text",
+       "name": "time_colon",
+       "attrs": {
+        "tag": "time_colon",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 21,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": ":",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 15,
+        "h": 28,
+        "x": 30,
+        "y": -2
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "sec",
+       "attrs": {
+        "tag": "sec",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/pvp/dialog/time_box.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 33,
+        "h": 24,
+        "x": 43,
+        "y": 0
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "sec_value",
+         "attrs": {
+          "tag": "sec_value",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 21,
+          "horizontal_align": 1,
+          "vertical_align": 1,
+          "text": "00",
+          "text_wrap": true,
+          "text_color_key": "#A80000",
+          "background_color_key": null,
+          "font_family": "",
+          "is_bold": false,
+          "w": 30,
+          "h": 28,
+          "x": 2,
+          "y": -2
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "name": "current_win_count",
+     "attrs": {
+      "tag": "current_win_count",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0.5,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 16,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "Now 0 Wins !!",
+      "text_wrap": true,
+      "text_color_key": "#A80000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 240,
+      "h": 22,
+      "x": 160,
+      "y": 113
+     }
+    },
+    {
+     "type": "component",
+     "name": "brigade_button",
+     "attrs": {
+      "tag": "brigade_button",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 66,
+      "y": 332
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "plate",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/brigade_pvp_plate.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 91,
+        "h": 32,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "button",
+       "name": "change_btn",
+       "attrs": {
+        "tag": "change_btn",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": null,
+        "font_family": "",
+        "action": "ShowBrigadeDialog",
+        "image_color": null,
+        "image": "common/ui/button/bt_base_red_n_56.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+        "image_checked": "common/ui/button/bt_base_red_p_56.png",
+        "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+        "image_selected": "common/ui/button/bt_base_red_p_56.png",
+        "image_focused": "common/ui/button/bt_base_red_p_56.png",
+        "w": 84,
+        "h": 28,
+        "x": 102,
+        "y": 2
+       }
+      },
+      {
+       "type": "text",
+       "name": "brigade_text",
+       "attrs": {
+        "tag": "brigade_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 74,
+        "h": 24,
+        "x": 8,
+        "y": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "bp_bar",
+     "attrs": {
+      "tag": "bp_bar",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 160,
+      "y": 372
+     }
+    },
+    {
+     "type": "component",
+     "name": "enemy_list_long",
+     "attrs": {
+      "tag": "enemy_list_long",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0.5,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 160,
+      "y": 133
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "bg_long",
+       "attrs": {
+        "tag": "bg_long",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0.5,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/dialog/profile_back.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 285,
+        "h": 200,
+        "x": 0,
+        "y": -1
+       }
+      },
+      {
+       "type": "text",
+       "name": "cell_message_upper",
+       "attrs": {
+        "tag": "cell_message_upper",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0.5,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 15,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "message",
+        "text_wrap": true,
+        "text_color_key": "#FFE9D6",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 224,
+        "h": 22,
+        "x": 0,
+        "y": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "name": "theme_bonus",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFE9D6",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 295,
+      "h": 30,
+      "x": 13,
+      "y": 274
+     }
+    }
+   ]
+  },
+  {
+   "type": "component",
+   "name": "result",
+   "attrs": {
+    "tag": "result",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 0,
+    "h": 0,
+    "x": 0,
+    "y": -20
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "friend_request_message",
+     "attrs": {
+      "tag": "friend_request_message",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 320,
+      "h": 16,
+      "x": 160,
+      "y": 384
+     }
+    },
+    {
+     "type": "text",
+     "name": "theme_deck_bonus",
+     "attrs": {
+      "tag": "theme_deck_bonus",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 320,
+      "h": 16,
+      "x": 160,
+      "y": 370
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "friend_board",
+     "attrs": {
+      "tag": "friend_board",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/my_id.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 216,
+      "h": 74,
+      "x": 212,
+      "y": 468
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "friends_count_label",
+       "attrs": {
+        "tag": "friends_count_label",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 80,
+        "h": 16,
+        "x": 16,
+        "y": 10
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "win",
+     "attrs": {
+      "tag": "win",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "win_base",
+       "attrs": {
+        "tag": "win_base",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/pvp/dialog/pvp_ink_red.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 208,
+        "h": 60,
+        "x": 180,
+        "y": 312
+       }
+      },
+      {
+       "type": "text",
+       "name": "win_count",
+       "attrs": {
+        "tag": "win_count",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 24,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "2 Wins!!",
+        "text_wrap": true,
+        "text_color_key": "#FFE9D6",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 160,
+        "h": 32,
+        "x": 160,
+        "y": 312
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "lose",
+     "attrs": {
+      "tag": "lose",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 2,
+      "y": 37
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "bannar",
+       "attrs": {
+        "tag": "bannar",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 0,
+        "h": 0,
+        "x": 160,
+        "y": 284
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "enemy_list_result",
+     "attrs": {
+      "tag": "enemy_list_result",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 160,
+      "y": 102
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "enemy_list_bg_result",
+       "attrs": {
+        "tag": "enemy_list_bg_result",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0.5,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/dialog/profile_back.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 285,
+        "h": 180,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "cell_message_result",
+       "attrs": {
+        "tag": "cell_message_result",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0.5,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 15,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "message",
+        "text_wrap": true,
+        "text_color_key": "#FFE9D6",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 224,
+        "h": 22,
+        "x": 0,
+        "y": -4
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "enemy_list_result_long",
+     "attrs": {
+      "tag": "enemy_list_result_long",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 160,
+      "y": 82
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "enemy_list_bg_result_long",
+       "attrs": {
+        "tag": "enemy_list_bg_result_long",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0.5,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/dialog/profile_back.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 285,
+        "h": 210,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "cell_message_result_long",
+       "attrs": {
+        "tag": "cell_message_result_long",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0.5,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 15,
+        "horizontal_align": 1,
+        "vertical_align": 0,
+        "text": "message",
+        "text_wrap": true,
+        "text_color_key": "#FFE9D6",
+        "background_color_key": null,
+        "font_family": "",
+        "is_bold": false,
+        "w": 224,
+        "h": 22,
+        "x": 0,
+        "y": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "name": "result_message",
+     "attrs": {
+      "tag": "result_message",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0.5,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "message",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 260,
+      "h": 48,
+      "x": 160,
+      "y": 332
+     }
+    }
+   ]
+  },
+  {
+   "type": "view",
+   "name": "buff_container",
+   "attrs": {
+    "tag": "buff_container",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "w": 320,
+    "h": 40,
+    "x": 0,
+    "y": 298
+   }
+  }
+ ],
+ "name": "PvpLayout",
+ "type": "component"
+}

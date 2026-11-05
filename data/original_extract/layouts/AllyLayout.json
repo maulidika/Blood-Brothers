@@ -1,0 +1,850 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "top_buttons",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "top_buttons",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 50,
+    "w": 0,
+    "h": 0
+   },
+   "children": [
+    {
+     "name": "top_buttons_bg",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "top_buttons_bg",
+      "mock_image": null,
+      "image": "common/ally/ally_menu_p.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 36
+     }
+    },
+    {
+     "name": "friend_tab",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "friend_tab",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+     },
+     "children": [
+      {
+       "name": "friend_button",
+       "type": "button",
+       "attrs": {
+        "visible": true,
+        "tag": "friend_button",
+        "mock_image": null,
+        "action": "Friend",
+        "enabled": true,
+        "text_color_key": "#FFFFFF",
+        "image_color": "FFFFFF",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text_size": 18,
+        "image": "common/ally/ally_menu_n.png",
+        "image_pressed": "common/ally/ally_menu_p.png",
+        "image_disabled": "common/ally/ally_menu_off.png",
+        "anchor": null,
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 36
+       }
+      },
+      {
+       "name": "friend_button_text",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "friend_button_text",
+        "mock_image": null,
+        "text_color_key": "#000000",
+        "text": "sample",
+        "text_wrap": true,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text_size": "18",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 36
+       }
+      },
+      {
+       "name": "friend_button_bullet",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "friend_button_bullet",
+        "mock_image": null,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 64,
+        "y": -4,
+        "w": 16,
+        "h": 16
+       }
+      }
+     ]
+    },
+    {
+     "name": "requesting_tab",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "requesting_tab",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 80,
+      "y": 0,
+      "w": 0,
+      "h": 0
+     },
+     "children": [
+      {
+       "name": "requesting_button",
+       "type": "button",
+       "attrs": {
+        "visible": true,
+        "tag": "requesting_button",
+        "mock_image": null,
+        "action": "Requesting",
+        "enabled": true,
+        "text_color_key": "#FFFFFF",
+        "image_color": "FFFFFF",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text_size": 18,
+        "image": "common/ally/ally_menu_n.png",
+        "image_pressed": "common/ally/ally_menu_p.png",
+        "image_disabled": "common/ally/ally_menu_off.png",
+        "anchor": null,
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 36
+       }
+      },
+      {
+       "name": "requesting_button_text",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "requesting_button_text",
+        "mock_image": null,
+        "text_color_key": "#000000",
+        "text": "test",
+        "text_wrap": true,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text_size": 18,
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 36
+       }
+      },
+      {
+       "name": "requesting_button_bullet",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "requesting_button_bullet",
+        "mock_image": null,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 64,
+        "y": -4,
+        "w": 16,
+        "h": 16
+       }
+      }
+     ]
+    },
+    {
+     "name": "requested_tab",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "requested_tab",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 160,
+      "y": 0,
+      "w": 0,
+      "h": 0
+     },
+     "children": [
+      {
+       "name": "requested_button",
+       "type": "button",
+       "attrs": {
+        "visible": true,
+        "tag": "requested_button",
+        "mock_image": null,
+        "action": "Requested",
+        "enabled": true,
+        "text_color_key": "#FFFFFF",
+        "image_color": "FFFFFF",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text_size": 18,
+        "image": "common/ally/ally_menu_n.png",
+        "image_pressed": "common/ally/ally_menu_p.png",
+        "image_disabled": "common/ally/ally_menu_off.png",
+        "anchor": null,
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 36
+       }
+      },
+      {
+       "name": "requested_button_text",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "requested_button_text",
+        "mock_image": null,
+        "text_color_key": "#000000",
+        "text": "test",
+        "text_wrap": true,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text_size": 18,
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 36
+       }
+      },
+      {
+       "name": "requested_button_bullet",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "requested_button_bullet",
+        "mock_image": null,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 64,
+        "y": -4,
+        "w": 16,
+        "h": 16
+       }
+      }
+     ]
+    },
+    {
+     "name": "search_tab",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "search_tab",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 240,
+      "y": 0,
+      "w": 0,
+      "h": 0
+     },
+     "children": [
+      {
+       "name": "search_button",
+       "type": "button",
+       "attrs": {
+        "visible": true,
+        "tag": "search_button",
+        "mock_image": null,
+        "action": "Search",
+        "enabled": true,
+        "text_color_key": "#FFFFFF",
+        "image_color": "FFFFFF",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text_size": 18,
+        "image": "common/ally/ally_menu_n.png",
+        "image_pressed": "common/ally/ally_menu_p.png",
+        "image_disabled": "common/ally/ally_menu_off.png",
+        "anchor": null,
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 36
+       }
+      },
+      {
+       "name": "search_button_text",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "search_button_text",
+        "mock_image": null,
+        "text_color_key": "#000000",
+        "text": "test",
+        "text_wrap": true,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text_size": 18,
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 36
+       }
+      },
+      {
+       "name": "search_button_bullet",
+       "type": "component",
+       "attrs": {
+        "visible": true,
+        "tag": "search_button_bullet",
+        "mock_image": null,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 64,
+        "y": -4,
+        "w": 16,
+        "h": 16
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "search_window",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "search_window",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 85,
+    "w": 0,
+    "h": 0
+   },
+   "children": [
+    {
+     "name": "search_bg",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "search_bg",
+      "mock_image": null,
+      "image": "common/ui/black_alpha.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 395
+     }
+    },
+    {
+     "name": "search_text_box",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "search_text_box",
+      "mock_image": null,
+      "image": "common/trade/searchbar_base.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 40
+     },
+     "children": [
+      {
+       "name": "search_box_left",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "search_box_left",
+        "mock_image": null,
+        "image": "common/trade/name_search_l.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 9,
+        "y": 6,
+        "w": 25,
+        "h": 29
+       }
+      },
+      {
+       "name": "search_box_center",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "search_box_center",
+        "mock_image": null,
+        "image": "common/trade/name_search_m.png",
+        "uvs": [
+         0.125,
+         0,
+         0.75,
+         1
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 34,
+        "y": 6,
+        "w": 170,
+        "h": 29
+       }
+      },
+      {
+       "name": "search_box_right",
+       "type": "sprite",
+       "attrs": {
+        "visible": true,
+        "tag": "search_box_right",
+        "mock_image": null,
+        "image": "common/trade/name_search_r.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image_color": "FFFFFF",
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 204,
+        "y": 6,
+        "w": 25,
+        "h": 29
+       }
+      },
+      {
+       "name": "search_exec_button",
+       "type": "button",
+       "attrs": {
+        "visible": true,
+        "tag": "search_exec_button",
+        "mock_image": null,
+        "action": "SearchExec",
+        "enabled": true,
+        "text_color_key": "#FFFFFF",
+        "image_color": "FFFFFF",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text_size": 18,
+        "image": "common/ui/button/bt_base_red_n_56.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+        "anchor": null,
+        "scale": [
+         1,
+         1
+        ],
+        "x": 232,
+        "y": 6,
+        "w": 84,
+        "h": 28
+       }
+      },
+      {
+       "name": "search_clear_button",
+       "type": "button",
+       "attrs": {
+        "visible": true,
+        "tag": "search_clear_button",
+        "mock_image": null,
+        "action": "SearchClear",
+        "enabled": true,
+        "text_color_key": "#FFFFFF",
+        "image_color": "FFFFFF",
+        "text": "",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text_size": 18,
+        "anchor": null,
+        "scale": [
+         1,
+         1
+        ],
+        "x": 200,
+        "y": 4,
+        "w": 28,
+        "h": 32
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "info_board",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "info_board",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 212,
+    "y": 448,
+    "w": 0,
+    "h": 0
+   },
+   "children": [
+    {
+     "name": "board",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "board",
+      "mock_image": null,
+      "image": "common/ally/my_id.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 108,
+      "h": 37
+     },
+     "children": [
+      {
+       "name": "count_label_value",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "count_label_value",
+        "mock_image": null,
+        "text_color_key": "#FFFFFF",
+        "text": "test",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text_size": "12",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 10,
+        "y": 16,
+        "w": 100,
+        "h": 16
+       }
+      },
+      {
+       "name": "id_label",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "id_label",
+        "mock_image": null,
+        "text_color_key": "#FFFFFF",
+        "text": "test",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text_size": "12",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 10,
+        "y": 4,
+        "w": 64,
+        "h": 16
+       }
+      },
+      {
+       "name": "id_value",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "id_value",
+        "mock_image": null,
+        "text_color_key": "#FFFFFF",
+        "text": "test",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text_size": "12",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 52,
+        "y": 4,
+        "w": 60,
+        "h": 16
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "AllyLayout",
+ "type": "component"
+}

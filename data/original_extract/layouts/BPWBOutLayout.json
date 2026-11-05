@@ -1,0 +1,789 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "root",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 1,
+    "h": 1,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "title",
+     "attrs": {
+      "tag": "title",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 22,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FF0000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 220,
+      "h": 30,
+      "x": 50,
+      "y": 102
+     }
+    },
+    {
+     "type": "component",
+     "name": "banner",
+     "attrs": {
+      "tag": "banner",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0.5,
+       0.5
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 234,
+      "h": 32,
+      "x": 160,
+      "y": 140
+     }
+    },
+    {
+     "type": "text",
+     "name": "regain_msg",
+     "attrs": {
+      "tag": "regain_msg",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "is_bold": false,
+      "w": 240,
+      "h": 36,
+      "x": 40,
+      "y": 176
+     }
+    },
+    {
+     "type": "component",
+     "name": "items_node",
+     "attrs": {
+      "tag": "items_node",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 45,
+      "y": 226
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "items1",
+       "attrs": {
+        "tag": "items1",
+        "mock_image": null,
+        "visible": false,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 235,
+        "h": 48,
+        "x": 0,
+        "y": -6
+       },
+       "children": [
+        {
+         "type": "component",
+         "name": "item_icon1",
+         "attrs": {
+          "tag": "item_icon1",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": null,
+          "w": 48,
+          "h": 48,
+          "x": 0,
+          "y": 0
+         }
+        },
+        {
+         "type": "text",
+         "name": "name1",
+         "attrs": {
+          "tag": "name1",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 18,
+          "horizontal_align": 0,
+          "vertical_align": 0,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#000000",
+          "background_color_key": null,
+          "font_family": "",
+          "is_bold": false,
+          "w": 150,
+          "h": 25,
+          "x": 52,
+          "y": -1
+         }
+        },
+        {
+         "type": "sprite",
+         "name": "num_icon1",
+         "attrs": {
+          "tag": "num_icon1",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image": "ui/icon/icon_possession.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": "FFFFFF",
+          "w": 16,
+          "h": 16,
+          "x": 57,
+          "y": 27
+         }
+        },
+        {
+         "type": "sprite",
+         "name": "multiply1",
+         "attrs": {
+          "tag": "multiply1",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image": "ui/icon/icon_multiply.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": "FFFFFF",
+          "w": 10,
+          "h": 10,
+          "x": 76,
+          "y": 31
+         }
+        },
+        {
+         "type": "text",
+         "name": "num_item1",
+         "attrs": {
+          "tag": "num_item1",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 14,
+          "horizontal_align": 0,
+          "vertical_align": 0,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#000000",
+          "background_color_key": null,
+          "font_family": "",
+          "is_bold": false,
+          "w": 80,
+          "h": 20,
+          "x": 90,
+          "y": 27
+         }
+        },
+        {
+         "type": "button",
+         "name": "use_button1",
+         "attrs": {
+          "tag": "use_button1",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "text_size": 18,
+          "horizontal_align": 0,
+          "vertical_align": 0,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "font_family": "",
+          "action": "useItem1",
+          "image_color": "FFFFFF",
+          "image": "common/ui/button/bt_base_red_n_56.png",
+          "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+          "image_checked": null,
+          "image_disabled": "common/ui/button/bt_base_gray_56.png",
+          "image_selected": null,
+          "image_focused": null,
+          "w": 84,
+          "h": 28,
+          "x": 151,
+          "y": 21
+         }
+        }
+       ]
+      },
+      {
+       "type": "component",
+       "name": "items2",
+       "attrs": {
+        "tag": "items2",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 235,
+        "h": 48,
+        "x": 0,
+        "y": -6
+       },
+       "children": [
+        {
+         "type": "component",
+         "name": "item_icon2",
+         "attrs": {
+          "tag": "item_icon2",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": null,
+          "w": 48,
+          "h": 48,
+          "x": 0,
+          "y": 0
+         }
+        },
+        {
+         "type": "text",
+         "name": "name2",
+         "attrs": {
+          "tag": "name2",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 18,
+          "horizontal_align": 0,
+          "vertical_align": 0,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#000000",
+          "background_color_key": null,
+          "font_family": "",
+          "is_bold": false,
+          "w": 150,
+          "h": 25,
+          "x": 52,
+          "y": -1
+         }
+        },
+        {
+         "type": "sprite",
+         "name": "num_icon2",
+         "attrs": {
+          "tag": "num_icon2",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image": "ui/icon/icon_possession.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": "FFFFFF",
+          "w": 16,
+          "h": 16,
+          "x": 57,
+          "y": 27
+         }
+        },
+        {
+         "type": "sprite",
+         "name": "multiply2",
+         "attrs": {
+          "tag": "multiply2",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image": "ui/icon/icon_multiply.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": "FFFFFF",
+          "w": 10,
+          "h": 10,
+          "x": 76,
+          "y": 31
+         }
+        },
+        {
+         "type": "text",
+         "name": "num_item2",
+         "attrs": {
+          "tag": "num_item2",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 14,
+          "horizontal_align": 0,
+          "vertical_align": 0,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#000000",
+          "background_color_key": null,
+          "font_family": "",
+          "is_bold": false,
+          "w": 80,
+          "h": 20,
+          "x": 90,
+          "y": 27
+         }
+        },
+        {
+         "type": "button",
+         "name": "use_button2",
+         "attrs": {
+          "tag": "use_button2",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "text_size": 18,
+          "horizontal_align": 0,
+          "vertical_align": 0,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "font_family": "",
+          "action": "useItem2",
+          "image_color": "FFFFFF",
+          "image": "common/ui/button/bt_base_red_n_56.png",
+          "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+          "image_checked": null,
+          "image_disabled": "common/ui/button/bt_base_gray_56.png",
+          "image_selected": null,
+          "image_focused": null,
+          "w": 84,
+          "h": 28,
+          "x": 151,
+          "y": 21
+         }
+        }
+       ]
+      },
+      {
+       "type": "component",
+       "name": "items3",
+       "attrs": {
+        "tag": "items3",
+        "mock_image": null,
+        "visible": false,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 235,
+        "h": 48,
+        "x": 0,
+        "y": 108
+       },
+       "children": [
+        {
+         "type": "component",
+         "name": "item_icon3",
+         "attrs": {
+          "tag": "item_icon3",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": null,
+          "w": 48,
+          "h": 48,
+          "x": 0,
+          "y": 0
+         }
+        },
+        {
+         "type": "text",
+         "name": "name3",
+         "attrs": {
+          "tag": "name3",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 16,
+          "horizontal_align": 0,
+          "vertical_align": 0,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#000000",
+          "background_color_key": null,
+          "font_family": "",
+          "is_bold": false,
+          "w": 210,
+          "h": 25,
+          "x": 52,
+          "y": -1
+         }
+        },
+        {
+         "type": "sprite",
+         "name": "num_icon3",
+         "attrs": {
+          "tag": "num_icon3",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image": "ui/icon/icon_possession.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": "FFFFFF",
+          "w": 16,
+          "h": 16,
+          "x": 57,
+          "y": 27
+         }
+        },
+        {
+         "type": "sprite",
+         "name": "multiply3",
+         "attrs": {
+          "tag": "multiply3",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "image": "ui/icon/icon_multiply.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": "FFFFFF",
+          "w": 10,
+          "h": 10,
+          "x": 76,
+          "y": 31
+         }
+        },
+        {
+         "type": "text",
+         "name": "num_item3",
+         "attrs": {
+          "tag": "num_item3",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 14,
+          "horizontal_align": 0,
+          "vertical_align": 0,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#000000",
+          "background_color_key": null,
+          "font_family": "",
+          "is_bold": false,
+          "w": 80,
+          "h": 20,
+          "x": 90,
+          "y": 27
+         }
+        },
+        {
+         "type": "button",
+         "name": "use_button3",
+         "attrs": {
+          "tag": "use_button3",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "text_size": 18,
+          "horizontal_align": 0,
+          "vertical_align": 0,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "font_family": "",
+          "action": "useItem3",
+          "image_color": "FFFFFF",
+          "image": "common/ui/button/bt_base_red_n_56.png",
+          "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+          "image_checked": null,
+          "image_disabled": "common/ui/button/bt_base_gray_56.png",
+          "image_selected": null,
+          "image_focused": null,
+          "w": 84,
+          "h": 28,
+          "x": 151,
+          "y": 21
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "sprite",
+     "name": "line",
+     "attrs": {
+      "tag": "line",
+      "mock_image": null,
+      "visible": false,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/line_gray.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 234,
+      "h": 4,
+      "x": 43,
+      "y": 273
+     }
+    }
+   ]
+  }
+ ],
+ "name": "BPWBOutLayout",
+ "type": "component"
+}

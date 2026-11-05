@@ -1,0 +1,343 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "node",
+   "name": "bg_sp",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 320,
+    "h": 480,
+    "x": 0,
+    "y": 4
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "bg_sp_rb",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       -1,
+       -1
+      ],
+      "rotate": 0,
+      "image": "common/ui/raidboss/dialog/bg_deco.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 124,
+      "h": 194,
+      "x": 284,
+      "y": 431
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "bg_sp_lb",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       -1
+      ],
+      "rotate": 0,
+      "image": "common/ui/raidboss/dialog/bg_deco.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 124,
+      "h": 194,
+      "x": 36,
+      "y": 431
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "bg_sp_rt",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       -1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/raidboss/dialog/bg_deco.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 124,
+      "h": 194,
+      "x": 284,
+      "y": 43
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "bg_sp_lt",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/raidboss/dialog/bg_deco.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 124,
+      "h": 194,
+      "x": 36,
+      "y": 43
+     }
+    }
+   ]
+  },
+  {
+   "type": "button",
+   "name": "ok",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 18,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": null,
+    "font_family": "",
+    "action": "",
+    "image_color": null,
+    "image": "common/ui/button/bt_base_red_n_56L.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+    "image_checked": "common/ui/button/bt_base_red_p_56.png",
+    "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+    "image_selected": "common/ui/button/bt_base_red_p_56.png",
+    "image_focused": "common/ui/button/bt_base_red_p_56.png",
+    "w": 128,
+    "h": 28,
+    "x": 96,
+    "y": 397
+   }
+  },
+  {
+   "type": "text",
+   "name": "rest",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 18,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 240,
+    "h": 48,
+    "x": 40,
+    "y": 344
+   }
+  },
+  {
+   "type": "text",
+   "name": "progress",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 14,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 240,
+    "h": 22,
+    "x": 40,
+    "y": 320
+   }
+  },
+  {
+   "type": "node",
+   "name": "image",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0.5,
+     0.5
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 128,
+    "h": 183,
+    "x": 160,
+    "y": 224
+   }
+  },
+  {
+   "type": "text",
+   "name": "mission",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 22,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 240,
+    "h": 32,
+    "x": 40,
+    "y": 96
+   }
+  },
+  {
+   "type": "text",
+   "name": "title",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 22,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 240,
+    "h": 32,
+    "x": 40,
+    "y": 68
+   }
+  }
+ ],
+ "name": "SpecialMissionProgressDialog",
+ "type": "component"
+}

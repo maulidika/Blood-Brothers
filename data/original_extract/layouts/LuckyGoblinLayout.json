@@ -1,0 +1,247 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "sprite",
+   "name": "bg_long",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image": "common/ui/dialog/profile_back.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "image_color": null,
+    "w": 285,
+    "h": 145,
+    "x": 18,
+    "y": 243
+   }
+  },
+  {
+   "type": "text",
+   "name": "txt_title",
+   "attrs": {
+    "tag": "txt_title",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 18,
+    "horizontal_align": 1,
+    "vertical_align": 0,
+    "text": "Lucky Goblin",
+    "text_wrap": true,
+    "text_color_key": "#800000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 320,
+    "h": 47,
+    "x": 0,
+    "y": 55
+   }
+  },
+  {
+   "type": "text",
+   "name": "txt_goblin_description",
+   "attrs": {
+    "tag": "txt_goblin_description",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "text_size": 14,
+    "horizontal_align": 1,
+    "vertical_align": 0,
+    "text": "Please select a gift",
+    "text_wrap": true,
+    "text_color_key": "#000000",
+    "background_color_key": null,
+    "font_family": "",
+    "w": 320,
+    "h": 60,
+    "x": 0,
+    "y": 389
+   }
+  },
+  {
+   "type": "view",
+   "name": "boss_container",
+   "attrs": {
+    "tag": "boss_container",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "w": 120,
+    "h": 171,
+    "x": 173,
+    "y": 72
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "sprite0",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/arena/ui/dialog_bubble.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": null,
+      "w": 147,
+      "h": 132,
+      "x": -135,
+      "y": 7
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "boss_text",
+       "attrs": {
+        "tag": "boss_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "Hello~\nI bring you some good staffs to you. Don't tell the tower owner here.\nThis is our secret",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 119,
+        "h": 132,
+        "x": 3,
+        "y": 0
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "view",
+   "name": "reward_container",
+   "attrs": {
+    "tag": "reward_container",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "w": 320,
+    "h": 128,
+    "x": 0,
+    "y": 249
+   }
+  },
+  {
+   "type": "button",
+   "name": "btn_ok",
+   "attrs": {
+    "tag": "btn_ok",
+    "mock_image": null,
+    "visible": false,
+    "enabled": false,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 18,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": "OK",
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "font_family": "",
+    "action": "NewEventType_Component_GoblinOK",
+    "image_color": null,
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "image_checked": "common/ui/button/bt_base_red_p_56.png",
+    "image_disabled": "common/ui/button/bt_base_red_p_56.png",
+    "image_selected": "common/ui/button/bt_base_red_p_56.png",
+    "image_focused": "common/ui/button/bt_base_red_p_56.png",
+    "w": 105,
+    "h": 30,
+    "x": 108,
+    "y": 394
+   }
+  }
+ ],
+ "name": "LuckyGoblinLayout",
+ "type": "component"
+}

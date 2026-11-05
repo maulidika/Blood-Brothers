@@ -1,0 +1,522 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "bg",
+   "type": "sprite",
+   "attrs": {
+    "visible": true,
+    "tag": "bg",
+    "mock_image": null,
+    "image": "common/ui/background.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image_color": "FFFFFF",
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 341,
+    "h": 512
+   }
+  },
+  {
+   "name": "home",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "home",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "statusBg",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "statusBg",
+      "mock_image": null,
+      "image": "common/home/home_blackground.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 192,
+      "y": 50,
+      "w": 116,
+      "h": 188
+     }
+    },
+    {
+     "name": "profile",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "profile",
+      "mock_image": null,
+      "text_color_key": "#FFFFFF",
+      "text": "profile",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": "12",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 200,
+      "y": 50,
+      "w": 106.5,
+      "h": 24
+     }
+    },
+    {
+     "name": "profileBtn",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "profileBtn",
+      "mock_image": null,
+      "action": "User",
+      "enabled": true,
+      "text_color_key": "#FFFFFF",
+      "image_color": "FFFFFF",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/home/home_name_back_n.png",
+      "image_pressed": "common/home/home_name_back_p.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 195.5,
+      "y": 63,
+      "w": 109,
+      "h": 49
+     }
+    },
+    {
+     "name": "name",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "name",
+      "mock_image": null,
+      "text_color_key": "#FFFFFF",
+      "text": "Character",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "18",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 200,
+      "y": 64,
+      "w": 100,
+      "h": 50
+     }
+    },
+    {
+     "name": "levelLabel",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "levelLabel",
+      "mock_image": null,
+      "text_color_key": "#FFFFFF",
+      "text": "Level",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": "12",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 200,
+      "y": 109,
+      "w": 64,
+      "h": 25
+     }
+    },
+    {
+     "name": "level",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "level",
+      "mock_image": null,
+      "text_color_key": "#FFFFFF",
+      "text": "--",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": "14",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 235,
+      "y": 109,
+      "w": 50,
+      "h": 24
+     }
+    },
+    {
+     "name": "exp",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "exp",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 198,
+      "y": 131,
+      "w": 25,
+      "h": 25
+     }
+    },
+    {
+     "name": "eng",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "eng",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 198,
+      "y": 166,
+      "w": 25,
+      "h": 25
+     }
+    },
+    {
+     "name": "fullRecover",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "fullRecover",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 2,
+      "vertical_align": 0,
+      "text_size": "9",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 218,
+      "y": 184,
+      "w": 83,
+      "h": 25
+     }
+    },
+    {
+     "name": "quest",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "quest",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 192,
+      "y": 244,
+      "w": 113.5,
+      "h": 43
+     }
+    },
+    {
+     "name": "pact",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "pact",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 192,
+      "y": 291,
+      "w": 113.5,
+      "h": 43
+     }
+    },
+    {
+     "name": "combine",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "combine",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 192,
+      "y": 338,
+      "w": 113.5,
+      "h": 43
+     }
+    },
+    {
+     "name": "more",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "more",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 192,
+      "y": 385,
+      "w": 113.5,
+      "h": 30
+     }
+    },
+    {
+     "name": "chara",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "chara",
+      "mock_image": null,
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": -32.5,
+      "y": 62,
+      "w": 252,
+      "h": 359.5
+     }
+    },
+    {
+     "name": "bp",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "bp",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 198,
+      "y": 203,
+      "w": 25,
+      "h": 25
+     }
+    },
+    {
+     "name": "bp_full_recover",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "bp_full_recover",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 2,
+      "vertical_align": 0,
+      "text_size": "9",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 218,
+      "y": 220,
+      "w": 83,
+      "h": 25
+     }
+    }
+   ]
+  },
+  {
+   "name": "footer",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "footer",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   "children": [
+    {
+     "name": "footerBg",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "footerBg",
+      "mock_image": null,
+      "image": "common/ui/bottom_red_bg.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 419,
+      "w": 320,
+      "h": 153
+     }
+    }
+   ]
+  }
+ ],
+ "name": "HomeLayout",
+ "type": "component"
+}

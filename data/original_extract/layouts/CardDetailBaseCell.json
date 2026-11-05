@@ -1,0 +1,470 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "root",
+   "attrs": {
+    "tag": "root",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 240,
+    "h": 107,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "sprite",
+     "name": "back000",
+     "attrs": {
+      "tag": "back000",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/character_detail_bg3.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 240,
+      "h": 23,
+      "x": 0,
+      "y": 54
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "back001",
+     "attrs": {
+      "tag": "back001",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/character_detail_bg3.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 240,
+      "h": 23,
+      "x": 0,
+      "y": 78
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "image_newItem",
+     "attrs": {
+      "tag": "image_newItem",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/collection_skill.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 20,
+      "h": 20,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "skillName",
+     "attrs": {
+      "tag": "skillName",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 15,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#010101",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 210,
+      "h": 20,
+      "x": 24,
+      "y": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "skillLevel",
+     "attrs": {
+      "tag": "skillLevel",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#EBE1DA",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 40,
+      "h": 24,
+      "x": 7,
+      "y": 54
+     }
+    },
+    {
+     "type": "text",
+     "name": "maxLevel",
+     "attrs": {
+      "tag": "maxLevel",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#030303",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 32,
+      "h": 24,
+      "x": 69,
+      "y": 54
+     }
+    },
+    {
+     "type": "component",
+     "name": "currentLevelJoint",
+     "attrs": {
+      "tag": "currentLevelJoint",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 69,
+      "y": 66
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "currentLevel",
+       "attrs": {
+        "tag": "currentLevel",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         1,
+         0.5
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 2,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 22,
+        "h": 24,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "name": "skillFreq",
+     "attrs": {
+      "tag": "skillFreq",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#EBE1DA",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 40,
+      "h": 24,
+      "x": 7,
+      "y": 78
+     }
+    },
+    {
+     "type": "text",
+     "name": "skillFreqParam",
+     "attrs": {
+      "tag": "skillFreqParam",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#0B0B0B",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 40,
+      "h": 24,
+      "x": 47,
+      "y": 78
+     }
+    },
+    {
+     "type": "component",
+     "name": "skillFreqAddJoint",
+     "attrs": {
+      "tag": "skillFreqAddJoint",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 129,
+      "y": 90
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "skillFreqAdd",
+       "attrs": {
+        "tag": "skillFreqAdd",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#121212",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 64,
+        "h": 24,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "name": "skillDesc",
+     "attrs": {
+      "tag": "skillDesc",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 240,
+      "h": 35,
+      "x": 0,
+      "y": 22
+     }
+    },
+    {
+     "type": "component",
+     "name": "xp",
+     "attrs": {
+      "tag": "xp",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 16,
+      "h": 16,
+      "x": 131,
+      "y": 59
+     }
+    },
+    {
+     "type": "component",
+     "name": "xpBar",
+     "attrs": {
+      "tag": "xpBar",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 76,
+      "h": 12,
+      "x": 157,
+      "y": 61
+     }
+    }
+   ]
+  }
+ ],
+ "name": "CardDetailBaseCell",
+ "type": "component"
+}

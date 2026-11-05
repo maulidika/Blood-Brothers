@@ -1,0 +1,644 @@
+{
+ "zones": [
+  {
+   "id": "ashen_frontier",
+   "name": "Ashen Frontier",
+   "order": 1,
+   "unlock_rank": 1,
+   "stages": [
+    {
+     "id": "ashen_frontier_1",
+     "name": "Ashen Frontier 1-1",
+     "energy": 2,
+     "boss": false,
+     "level": 3,
+     "enemy_ids": [
+      "ember_pup",
+      "gate_guard",
+      "thorn_archer",
+      "bog_shaman"
+     ],
+     "count": 2,
+     "boss_id": null,
+     "stat_mult": 1.0,
+     "boss_mult": 1.25,
+     "exp": 36,
+     "gold": 60,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "ashen_frontier_2",
+     "name": "Ashen Frontier 1-2",
+     "energy": 2,
+     "boss": false,
+     "level": 4,
+     "enemy_ids": [
+      "ember_pup",
+      "gate_guard",
+      "thorn_archer",
+      "bog_shaman"
+     ],
+     "count": 2,
+     "boss_id": null,
+     "stat_mult": 1.04,
+     "boss_mult": 1.25,
+     "exp": 41,
+     "gold": 67,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "ashen_frontier_3",
+     "name": "Ashen Frontier 1-3",
+     "energy": 2,
+     "boss": false,
+     "level": 5,
+     "enemy_ids": [
+      "ember_pup",
+      "gate_guard",
+      "thorn_archer",
+      "bog_shaman"
+     ],
+     "count": 3,
+     "boss_id": null,
+     "stat_mult": 1.08,
+     "boss_mult": 1.25,
+     "exp": 47,
+     "gold": 74,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "ashen_frontier_4",
+     "name": "Ashen Frontier 1-4",
+     "energy": 3,
+     "boss": false,
+     "level": 6,
+     "enemy_ids": [
+      "ember_pup",
+      "gate_guard",
+      "thorn_archer",
+      "bog_shaman"
+     ],
+     "count": 3,
+     "boss_id": null,
+     "stat_mult": 1.12,
+     "boss_mult": 1.25,
+     "exp": 52,
+     "gold": 82,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "ashen_frontier_5",
+     "name": "Ashen Frontier 1-5",
+     "energy": 3,
+     "boss": false,
+     "level": 7,
+     "enemy_ids": [
+      "ember_pup",
+      "gate_guard",
+      "thorn_archer",
+      "bog_shaman"
+     ],
+     "count": 4,
+     "boss_id": null,
+     "stat_mult": 1.16,
+     "boss_mult": 1.25,
+     "exp": 58,
+     "gold": 89,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "ashen_frontier_6",
+     "name": "Ashen Frontier 1-6 (Boss)",
+     "energy": 4,
+     "boss": true,
+     "level": 10,
+     "enemy_ids": [
+      "ember_pup",
+      "gate_guard",
+      "thorn_archer",
+      "bog_shaman"
+     ],
+     "count": 4,
+     "boss_id": "ember_hound",
+     "stat_mult": 1.26,
+     "boss_mult": 1.25,
+     "exp": 63,
+     "gold": 288,
+     "drop_rate": 1.0
+    }
+   ]
+  },
+  {
+   "id": "mire_of_whispers",
+   "name": "Mire of Whispers",
+   "order": 2,
+   "unlock_rank": 5,
+   "stages": [
+    {
+     "id": "mire_of_whispers_1",
+     "name": "Mire of Whispers 2-1",
+     "energy": 3,
+     "boss": false,
+     "level": 7,
+     "enemy_ids": [
+      "bog_shaman",
+      "night_cutpurse",
+      "grave_whisper",
+      "field_medic"
+     ],
+     "count": 2,
+     "boss_id": null,
+     "stat_mult": 1.0,
+     "boss_mult": 1.25,
+     "exp": 68,
+     "gold": 126,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "mire_of_whispers_2",
+     "name": "Mire of Whispers 2-2",
+     "energy": 3,
+     "boss": false,
+     "level": 8,
+     "enemy_ids": [
+      "bog_shaman",
+      "night_cutpurse",
+      "grave_whisper",
+      "field_medic"
+     ],
+     "count": 2,
+     "boss_id": null,
+     "stat_mult": 1.04,
+     "boss_mult": 1.25,
+     "exp": 79,
+     "gold": 141,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "mire_of_whispers_3",
+     "name": "Mire of Whispers 2-3",
+     "energy": 3,
+     "boss": false,
+     "level": 9,
+     "enemy_ids": [
+      "bog_shaman",
+      "night_cutpurse",
+      "grave_whisper",
+      "field_medic"
+     ],
+     "count": 3,
+     "boss_id": null,
+     "stat_mult": 1.08,
+     "boss_mult": 1.25,
+     "exp": 89,
+     "gold": 156,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "mire_of_whispers_4",
+     "name": "Mire of Whispers 2-4",
+     "energy": 4,
+     "boss": false,
+     "level": 10,
+     "enemy_ids": [
+      "bog_shaman",
+      "night_cutpurse",
+      "grave_whisper",
+      "field_medic"
+     ],
+     "count": 3,
+     "boss_id": null,
+     "stat_mult": 1.12,
+     "boss_mult": 1.25,
+     "exp": 99,
+     "gold": 171,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "mire_of_whispers_5",
+     "name": "Mire of Whispers 2-5",
+     "energy": 4,
+     "boss": false,
+     "level": 11,
+     "enemy_ids": [
+      "bog_shaman",
+      "night_cutpurse",
+      "grave_whisper",
+      "field_medic"
+     ],
+     "count": 4,
+     "boss_id": null,
+     "stat_mult": 1.16,
+     "boss_mult": 1.25,
+     "exp": 109,
+     "gold": 186,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "mire_of_whispers_6",
+     "name": "Mire of Whispers 2-6 (Boss)",
+     "energy": 5,
+     "boss": true,
+     "level": 14,
+     "enemy_ids": [
+      "bog_shaman",
+      "night_cutpurse",
+      "grave_whisper",
+      "field_medic"
+     ],
+     "count": 4,
+     "boss_id": "mire_oracle",
+     "stat_mult": 1.26,
+     "boss_mult": 1.25,
+     "exp": 120,
+     "gold": 606,
+     "drop_rate": 1.0
+    }
+   ]
+  },
+  {
+   "id": "ironvale_pass",
+   "name": "Ironvale Pass",
+   "order": 3,
+   "unlock_rank": 10,
+   "stages": [
+    {
+     "id": "ironvale_pass_1",
+     "name": "Ironvale Pass 3-1",
+     "energy": 4,
+     "boss": false,
+     "level": 12,
+     "enemy_ids": [
+      "stone_brute",
+      "gate_guard",
+      "thorn_archer",
+      "night_cutpurse"
+     ],
+     "count": 2,
+     "boss_id": null,
+     "stat_mult": 1.0,
+     "boss_mult": 1.25,
+     "exp": 101,
+     "gold": 192,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "ironvale_pass_2",
+     "name": "Ironvale Pass 3-2",
+     "energy": 4,
+     "boss": false,
+     "level": 13,
+     "enemy_ids": [
+      "stone_brute",
+      "gate_guard",
+      "thorn_archer",
+      "night_cutpurse"
+     ],
+     "count": 2,
+     "boss_id": null,
+     "stat_mult": 1.04,
+     "boss_mult": 1.25,
+     "exp": 116,
+     "gold": 215,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "ironvale_pass_3",
+     "name": "Ironvale Pass 3-3",
+     "energy": 4,
+     "boss": false,
+     "level": 14,
+     "enemy_ids": [
+      "stone_brute",
+      "gate_guard",
+      "thorn_archer",
+      "night_cutpurse"
+     ],
+     "count": 3,
+     "boss_id": null,
+     "stat_mult": 1.08,
+     "boss_mult": 1.25,
+     "exp": 131,
+     "gold": 238,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "ironvale_pass_4",
+     "name": "Ironvale Pass 3-4",
+     "energy": 5,
+     "boss": false,
+     "level": 15,
+     "enemy_ids": [
+      "stone_brute",
+      "gate_guard",
+      "thorn_archer",
+      "night_cutpurse"
+     ],
+     "count": 3,
+     "boss_id": null,
+     "stat_mult": 1.12,
+     "boss_mult": 1.25,
+     "exp": 146,
+     "gold": 261,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "ironvale_pass_5",
+     "name": "Ironvale Pass 3-5",
+     "energy": 5,
+     "boss": false,
+     "level": 16,
+     "enemy_ids": [
+      "stone_brute",
+      "gate_guard",
+      "thorn_archer",
+      "night_cutpurse"
+     ],
+     "count": 4,
+     "boss_id": null,
+     "stat_mult": 1.16,
+     "boss_mult": 1.25,
+     "exp": 161,
+     "gold": 284,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "ironvale_pass_6",
+     "name": "Ironvale Pass 3-6 (Boss)",
+     "energy": 6,
+     "boss": true,
+     "level": 19,
+     "enemy_ids": [
+      "stone_brute",
+      "gate_guard",
+      "thorn_archer",
+      "night_cutpurse"
+     ],
+     "count": 4,
+     "boss_id": "forge_titan",
+     "stat_mult": 1.26,
+     "boss_mult": 1.25,
+     "exp": 176,
+     "gold": 921,
+     "drop_rate": 1.0
+    }
+   ]
+  },
+  {
+   "id": "crimson_wastes",
+   "name": "Crimson Wastes",
+   "order": 4,
+   "unlock_rank": 16,
+   "stages": [
+    {
+     "id": "crimson_wastes_1",
+     "name": "Crimson Wastes 4-1",
+     "energy": 5,
+     "boss": false,
+     "level": 18,
+     "enemy_ids": [
+      "dawn_knight",
+      "ash_witch",
+      "stone_brute",
+      "grave_whisper"
+     ],
+     "count": 2,
+     "boss_id": null,
+     "stat_mult": 1.0,
+     "boss_mult": 1.25,
+     "exp": 133,
+     "gold": 258,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "crimson_wastes_2",
+     "name": "Crimson Wastes 4-2",
+     "energy": 5,
+     "boss": false,
+     "level": 19,
+     "enemy_ids": [
+      "dawn_knight",
+      "ash_witch",
+      "stone_brute",
+      "grave_whisper"
+     ],
+     "count": 2,
+     "boss_id": null,
+     "stat_mult": 1.04,
+     "boss_mult": 1.25,
+     "exp": 153,
+     "gold": 289,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "crimson_wastes_3",
+     "name": "Crimson Wastes 4-3",
+     "energy": 5,
+     "boss": false,
+     "level": 20,
+     "enemy_ids": [
+      "dawn_knight",
+      "ash_witch",
+      "stone_brute",
+      "grave_whisper"
+     ],
+     "count": 3,
+     "boss_id": null,
+     "stat_mult": 1.08,
+     "boss_mult": 1.25,
+     "exp": 173,
+     "gold": 320,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "crimson_wastes_4",
+     "name": "Crimson Wastes 4-4",
+     "energy": 6,
+     "boss": false,
+     "level": 21,
+     "enemy_ids": [
+      "dawn_knight",
+      "ash_witch",
+      "stone_brute",
+      "grave_whisper"
+     ],
+     "count": 3,
+     "boss_id": null,
+     "stat_mult": 1.12,
+     "boss_mult": 1.25,
+     "exp": 193,
+     "gold": 351,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "crimson_wastes_5",
+     "name": "Crimson Wastes 4-5",
+     "energy": 6,
+     "boss": false,
+     "level": 22,
+     "enemy_ids": [
+      "dawn_knight",
+      "ash_witch",
+      "stone_brute",
+      "grave_whisper"
+     ],
+     "count": 4,
+     "boss_id": null,
+     "stat_mult": 1.16,
+     "boss_mult": 1.25,
+     "exp": 213,
+     "gold": 382,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "crimson_wastes_6",
+     "name": "Crimson Wastes 4-6 (Boss)",
+     "energy": 7,
+     "boss": true,
+     "level": 25,
+     "enemy_ids": [
+      "dawn_knight",
+      "ash_witch",
+      "stone_brute",
+      "grave_whisper"
+     ],
+     "count": 4,
+     "boss_id": "cinder_empress",
+     "stat_mult": 1.26,
+     "boss_mult": 1.25,
+     "exp": 233,
+     "gold": 1239,
+     "drop_rate": 1.0
+    }
+   ]
+  },
+  {
+   "id": "hollow_crown",
+   "name": "The Hollow Crown",
+   "order": 5,
+   "unlock_rank": 23,
+   "stages": [
+    {
+     "id": "hollow_crown_1",
+     "name": "The Hollow Crown 5-1",
+     "energy": 6,
+     "boss": false,
+     "level": 25,
+     "enemy_ids": [
+      "iron_marshal",
+      "crypt_lich",
+      "shade_assassin",
+      "solar_paladin"
+     ],
+     "count": 2,
+     "boss_id": null,
+     "stat_mult": 1.0,
+     "boss_mult": 1.25,
+     "exp": 166,
+     "gold": 324,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "hollow_crown_2",
+     "name": "The Hollow Crown 5-2",
+     "energy": 6,
+     "boss": false,
+     "level": 26,
+     "enemy_ids": [
+      "iron_marshal",
+      "crypt_lich",
+      "shade_assassin",
+      "solar_paladin"
+     ],
+     "count": 2,
+     "boss_id": null,
+     "stat_mult": 1.04,
+     "boss_mult": 1.25,
+     "exp": 190,
+     "gold": 363,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "hollow_crown_3",
+     "name": "The Hollow Crown 5-3",
+     "energy": 6,
+     "boss": false,
+     "level": 27,
+     "enemy_ids": [
+      "iron_marshal",
+      "crypt_lich",
+      "shade_assassin",
+      "solar_paladin"
+     ],
+     "count": 3,
+     "boss_id": null,
+     "stat_mult": 1.08,
+     "boss_mult": 1.25,
+     "exp": 215,
+     "gold": 402,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "hollow_crown_4",
+     "name": "The Hollow Crown 5-4",
+     "energy": 7,
+     "boss": false,
+     "level": 28,
+     "enemy_ids": [
+      "iron_marshal",
+      "crypt_lich",
+      "shade_assassin",
+      "solar_paladin"
+     ],
+     "count": 3,
+     "boss_id": null,
+     "stat_mult": 1.12,
+     "boss_mult": 1.25,
+     "exp": 240,
+     "gold": 441,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "hollow_crown_5",
+     "name": "The Hollow Crown 5-5",
+     "energy": 7,
+     "boss": false,
+     "level": 29,
+     "enemy_ids": [
+      "iron_marshal",
+      "crypt_lich",
+      "shade_assassin",
+      "solar_paladin"
+     ],
+     "count": 4,
+     "boss_id": null,
+     "stat_mult": 1.16,
+     "boss_mult": 1.25,
+     "exp": 265,
+     "gold": 480,
+     "drop_rate": 0.35
+    },
+    {
+     "id": "hollow_crown_6",
+     "name": "The Hollow Crown 5-6 (Boss)",
+     "energy": 8,
+     "boss": true,
+     "level": 32,
+     "enemy_ids": [
+      "iron_marshal",
+      "crypt_lich",
+      "shade_assassin",
+      "solar_paladin"
+     ],
+     "count": 4,
+     "boss_id": "hollow_crown_king",
+     "stat_mult": 1.26,
+     "boss_mult": 1.25,
+     "exp": 290,
+     "gold": 1554,
+     "drop_rate": 1.0
+    }
+   ]
+  }
+ ]
+}

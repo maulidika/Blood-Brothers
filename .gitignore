@@ -1,0 +1,4 @@
+assets/original/
+build/
+.godot/
+*.import

@@ -1,0 +1,308 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "list",
+   "attrs": {
+    "tag": "list",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "nickname",
+     "attrs": {
+      "tag": "nickname",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "test",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 200,
+      "h": 26,
+      "x": 112,
+      "y": 50
+     }
+    },
+    {
+     "type": "component",
+     "name": "common",
+     "attrs": {
+      "tag": "common",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "chara",
+       "attrs": {
+        "tag": "chara",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 60,
+        "h": 60,
+        "x": 46,
+        "y": 18
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "info_bg",
+       "attrs": {
+        "tag": "info_bg",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/level_back.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 107,
+        "h": 22,
+        "x": 110,
+        "y": 26
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "lv_label",
+         "attrs": {
+          "tag": "lv_label",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 12,
+          "horizontal_align": 0,
+          "vertical_align": 1,
+          "text": "LV.",
+          "text_wrap": true,
+          "text_color_key": "#FFE9D6",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 103,
+          "h": 18,
+          "x": 4,
+          "y": 2
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "name": "rank",
+     "attrs": {
+      "tag": "rank",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "Rank.100",
+      "text_wrap": true,
+      "text_color_key": "#A80000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 200,
+      "h": 24,
+      "x": 112,
+      "y": 6
+     }
+    },
+    {
+     "type": "text",
+     "name": "total_damage_label",
+     "attrs": {
+      "tag": "total_damage_label",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 12,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#7D6F5D",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 100,
+      "h": 20,
+      "x": 112,
+      "y": 77
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "total_damage_box",
+     "attrs": {
+      "tag": "total_damage_box",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/raidboss/dialog/point.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 120,
+      "h": 22,
+      "x": 188,
+      "y": 72
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "total_damage_text",
+       "attrs": {
+        "tag": "total_damage_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 16,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "111111",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 120,
+        "h": 22,
+        "x": 0,
+        "y": 0
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "ParticipantsListCellLayout",
+ "type": "component"
+}

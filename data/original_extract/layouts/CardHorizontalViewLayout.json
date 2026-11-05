@@ -1,0 +1,119 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 480
+   },
+   "children": [
+    {
+     "name": "title",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "title",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text_size": "18",
+      "rotate": 0,
+      "anchor": [
+       0.5,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 160,
+      "y": 58,
+      "w": 240,
+      "h": 48
+     }
+    },
+    {
+     "name": "sub_title",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "sub_title",
+      "mock_image": null,
+      "text_color_key": "#000000",
+      "text": "hogehogehoge",
+      "text_wrap": true,
+      "horizontal_align": 1,
+      "vertical_align": 0,
+      "text_size": "14",
+      "rotate": 0,
+      "anchor": [
+       0.5,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 160,
+      "y": 90,
+      "w": 240,
+      "h": 48
+     }
+    },
+    {
+     "name": "frame",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "frame",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 28,
+      "y": 97,
+      "w": 264,
+      "h": 300
+     }
+    }
+   ]
+  }
+ ],
+ "name": "CardHorizontalViewLayout",
+ "type": "component"
+}

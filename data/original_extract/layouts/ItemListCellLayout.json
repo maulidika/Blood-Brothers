@@ -1,0 +1,138 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "row",
+   "attrs": {
+    "tag": "row",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 0,
+    "h": 0,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "text",
+     "name": "name",
+     "attrs": {
+      "tag": "name",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 20,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text": "item name",
+      "text_wrap": true,
+      "text_color_key": "#1E1E1E",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 235,
+      "h": 30,
+      "x": 83,
+      "y": 10
+     }
+    },
+    {
+     "type": "text",
+     "name": "num",
+     "attrs": {
+      "tag": "num",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "00",
+      "text_wrap": true,
+      "text_color_key": "#030303",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 155,
+      "h": 25,
+      "x": 130,
+      "y": 53
+     }
+    },
+    {
+     "type": "sprite",
+     "name": "line",
+     "attrs": {
+      "tag": "line",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image": "common/ui/line_gray.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "image_color": "FFFFFF",
+      "w": 308,
+      "h": 4,
+      "x": 6,
+      "y": 80
+     }
+    }
+   ]
+  }
+ ],
+ "name": "ItemListCellLayout",
+ "type": "component"
+}

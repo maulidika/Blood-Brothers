@@ -1,0 +1,72 @@
+{
+ "common/login/sheet03.png": {
+  "sheet_size": [
+   256,
+   256
+  ],
+  "table_sprites_in_sheet": 1,
+  "regions": [
+   {
+    "id": 0,
+    "x": 120,
+    "y": 0,
+    "w": 112,
+    "h": 76,
+    "opaque_px": 8179
+   }
+  ]
+ },
+ "common/signup/sheet03.png": {
+  "sheet_size": [
+   1024,
+   1024
+  ],
+  "table_sprites_in_sheet": 0,
+  "regions": [
+   {
+    "id": 0,
+    "x": 0,
+    "y": 0,
+    "w": 1024,
+    "h": 1024,
+    "opaque_px": 372606,
+    "note": "sheet has no sprites in table; whole image is the asset"
+   }
+  ]
+ },
+ "common/ui/dialog/sheet01.png": {
+  "sheet_size": [
+   1024,
+   2048
+  ],
+  "table_sprites_in_sheet": 9,
+  "regions": [
+   {
+    "id": 0,
+    "x": 2,
+    "y": 964,
+    "w": 512,
+    "h": 178,
+    "opaque_px": 89032
+   }
+  ]
+ },
+ "common/ui/header/sheet01.png": {
+  "sheet_size": [
+   512,
+   512
+  ],
+  "table_sprites_in_sheet": 0,
+  "regions": [
+   {
+    "id": 0,
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 512,
+    "opaque_px": 165291,
+    "note": "sheet has no sprites in table; whole image is the asset"
+   }
+  ]
+ }
+}

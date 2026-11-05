@@ -1,0 +1,151 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "root",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "root",
+    "mock_image": null,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 60
+   },
+   "children": [
+    {
+     "name": "back",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "back",
+      "mock_image": null,
+      "image": "common/world/worldmap_regionselect_bg.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color": "FAFAFA",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 60
+     }
+    },
+    {
+     "name": "left",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "left",
+      "mock_image": null,
+      "action": "onLeft",
+      "enabled": true,
+      "text_color_key": "#FAFAFA",
+      "image_color": "FAFAFA",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/ui/guide_left_off.png",
+      "image_pressed": "common/ui/guide_left_off.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 48,
+      "y": 20,
+      "w": 13,
+      "h": 20
+     }
+    },
+    {
+     "name": "right",
+     "type": "button",
+     "attrs": {
+      "visible": true,
+      "tag": "right",
+      "mock_image": null,
+      "action": "onRight",
+      "enabled": true,
+      "text_color_key": "#FAFAFA",
+      "image_color": "FAFAFA",
+      "text": "",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 0,
+      "text_size": 18,
+      "image": "common/ui/guide_right_off.png",
+      "image_pressed": "common/ui/guide_right_off.png",
+      "anchor": null,
+      "scale": [
+       1,
+       1
+      ],
+      "x": 259,
+      "y": 20,
+      "w": 13,
+      "h": 20
+     }
+    },
+    {
+     "name": "label",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "label",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 69,
+      "y": 10,
+      "w": 182,
+      "h": 40
+     }
+    }
+   ]
+  }
+ ],
+ "name": "RegionSelector",
+ "type": "component"
+}

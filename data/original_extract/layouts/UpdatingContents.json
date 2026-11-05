@@ -1,0 +1,71 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "node",
+   "name": "indicator",
+   "attrs": {
+    "tag": "indicator",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 240,
+    "h": 24,
+    "x": 40,
+    "y": 372
+   }
+  },
+  {
+   "type": "ui_label",
+   "name": "label",
+   "attrs": {
+    "tag": "label",
+    "mock_image": null,
+    "visible": true,
+    "enabled": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "text_size": 14,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text": null,
+    "text_wrap": true,
+    "text_color_key": "#FFFFFF",
+    "background_color_key": null,
+    "w": 240,
+    "h": 24,
+    "x": 40,
+    "y": 344
+   }
+  }
+ ],
+ "name": "UpdatingContents",
+ "type": "component"
+}

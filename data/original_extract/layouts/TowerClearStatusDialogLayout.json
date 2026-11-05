@@ -1,0 +1,2036 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "component0",
+   "attrs": {
+    "tag": "",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 100,
+    "h": 100,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "bg",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 240,
+      "h": 270,
+      "x": 40,
+      "y": 160
+     },
+     "children": [
+      {
+       "type": "image",
+       "name": "1",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/ui/arena/frame_common.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 78,
+        "h": 270,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "image",
+       "name": "2",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/ui/arena/frame_common.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 78,
+        "h": 270,
+        "x": 82,
+        "y": 0
+       }
+      },
+      {
+       "type": "image",
+       "name": "3",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "common/ui/arena/frame_common.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 78,
+        "h": 270,
+        "x": 164,
+        "y": 0
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "reward_detail_silver_panel",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       0.9,
+       0.9
+      ],
+      "rotate": 0,
+      "w": 240,
+      "h": 83,
+      "x": 50,
+      "y": 268
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "silver_right",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 64,
+        "h": 87,
+        "x": 182,
+        "y": 0
+       },
+       "children": [
+        {
+         "type": "image",
+         "name": "silver_right_char",
+         "attrs": {
+          "tag": "silver_char_2",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": null,
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 58,
+          "h": 58,
+          "x": 4,
+          "y": 4
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "image001",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/ally_thumbnail_card.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 58,
+            "h": 58,
+            "x": 0,
+            "y": 0
+           }
+          }
+         ]
+        },
+        {
+         "type": "image",
+         "name": "silver_right_frame",
+         "attrs": {
+          "tag": "silver_frame_2",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": "common/ui/arena/silver_frame.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 64,
+          "h": 64,
+          "x": 0,
+          "y": 0
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "silver_bg_right",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/silver_text_base.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 62,
+            "h": 18,
+            "x": 0,
+            "y": 65
+           },
+           "children": [
+            {
+             "type": "text",
+             "name": "silver_num_2",
+             "attrs": {
+              "tag": "silver_num_2",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 1,
+              "vertical_align": 1,
+              "text": "",
+              "text_wrap": true,
+              "text_color_key": "#000000",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 62,
+              "h": 18,
+              "x": 0,
+              "y": 0
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "component",
+       "name": "silver_left",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 64,
+        "h": 87,
+        "x": 0,
+        "y": 0
+       },
+       "children": [
+        {
+         "type": "image",
+         "name": "silver_left_char",
+         "attrs": {
+          "tag": "silver_char_0",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": null,
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 58,
+          "h": 58,
+          "x": 4,
+          "y": 4
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "image000",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/ally_thumbnail_card.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 58,
+            "h": 58,
+            "x": 0,
+            "y": 0
+           }
+          }
+         ]
+        },
+        {
+         "type": "image",
+         "name": "silver_left_frame",
+         "attrs": {
+          "tag": "silver_frame_0",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": "common/ui/arena/silver_frame.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 64,
+          "h": 64,
+          "x": 0,
+          "y": 0
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "silver_bg_left",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/silver_text_base.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 62,
+            "h": 18,
+            "x": 0,
+            "y": 66
+           },
+           "children": [
+            {
+             "type": "text",
+             "name": "silver_num_0",
+             "attrs": {
+              "tag": "silver_num_0",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 1,
+              "vertical_align": 1,
+              "text": "",
+              "text_wrap": true,
+              "text_color_key": "#000000",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 62,
+              "h": 18,
+              "x": 0,
+              "y": 0
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "component",
+       "name": "silver_mid",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 64,
+        "h": 87,
+        "x": 92,
+        "y": 0
+       },
+       "children": [
+        {
+         "type": "image",
+         "name": "silver_mid_char",
+         "attrs": {
+          "tag": "silver_char_1",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": null,
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 58,
+          "h": 58,
+          "x": 4,
+          "y": 4
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "image00",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/ally_thumbnail_card.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 58,
+            "h": 58,
+            "x": 0,
+            "y": 0
+           }
+          }
+         ]
+        },
+        {
+         "type": "image",
+         "name": "silver_mid_frame",
+         "attrs": {
+          "tag": "silver_frame_1",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": "common/ui/arena/silver_frame.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 64,
+          "h": 64,
+          "x": 0,
+          "y": 0
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "silver_bg_mid",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/silver_text_base.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 62,
+            "h": 18,
+            "x": 0,
+            "y": 65
+           },
+           "children": [
+            {
+             "type": "text",
+             "name": "silver_num_1",
+             "attrs": {
+              "tag": "silver_num_1",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 1,
+              "vertical_align": 1,
+              "text": "",
+              "text_wrap": true,
+              "text_color_key": "#000000",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 62,
+              "h": 18,
+              "x": 0,
+              "y": 0
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "reward_detail_gold_panel",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       0.9,
+       0.9
+      ],
+      "rotate": 0,
+      "w": 240,
+      "h": 83,
+      "x": 50,
+      "y": 194
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "gold_right",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 64,
+        "h": 87,
+        "x": 182,
+        "y": 0
+       },
+       "children": [
+        {
+         "type": "image",
+         "name": "gold_right_char",
+         "attrs": {
+          "tag": "gold_char_2",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": null,
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 58,
+          "h": 58,
+          "x": 4,
+          "y": 4
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "image004",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/ally_thumbnail_card.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 58,
+            "h": 58,
+            "x": 0,
+            "y": 0
+           }
+          }
+         ]
+        },
+        {
+         "type": "image",
+         "name": "gold_right_frame",
+         "attrs": {
+          "tag": "gold_frame_2",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": "common/ui/arena/gold_frame.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 64,
+          "h": 64,
+          "x": 0,
+          "y": 0
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "gold_bg_right",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/gold_text_base.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 62,
+            "h": 18,
+            "x": 0,
+            "y": 65
+           },
+           "children": [
+            {
+             "type": "text",
+             "name": "gold_num_2",
+             "attrs": {
+              "tag": "gold_num_2",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 1,
+              "vertical_align": 1,
+              "text": "",
+              "text_wrap": true,
+              "text_color_key": "#000000",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 62,
+              "h": 18,
+              "x": 0,
+              "y": 0
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "component",
+       "name": "gold_left",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 64,
+        "h": 87,
+        "x": 0,
+        "y": 0
+       },
+       "children": [
+        {
+         "type": "image",
+         "name": "gold_left_char",
+         "attrs": {
+          "tag": "gold_char_0",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": null,
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 58,
+          "h": 58,
+          "x": 4,
+          "y": 4
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "image003",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/ally_thumbnail_card.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 58,
+            "h": 58,
+            "x": 0,
+            "y": 0
+           }
+          }
+         ]
+        },
+        {
+         "type": "image",
+         "name": "gold_left_frame",
+         "attrs": {
+          "tag": "gold_frame_0",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": "common/ui/arena/gold_frame.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 64,
+          "h": 64,
+          "x": 0,
+          "y": 0
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "gold_bg_left",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/gold_text_base.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 62,
+            "h": 18,
+            "x": 0,
+            "y": 65
+           },
+           "children": [
+            {
+             "type": "text",
+             "name": "gold_num_0",
+             "attrs": {
+              "tag": "gold_num_0",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 1,
+              "vertical_align": 1,
+              "text": "",
+              "text_wrap": true,
+              "text_color_key": "#000000",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 62,
+              "h": 18,
+              "x": 0,
+              "y": 0
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "component",
+       "name": "gold_mid",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 64,
+        "h": 87,
+        "x": 92,
+        "y": 0
+       },
+       "children": [
+        {
+         "type": "image",
+         "name": "gold_mid_char",
+         "attrs": {
+          "tag": "gold_char_1",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": null,
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 58,
+          "h": 58,
+          "x": 4,
+          "y": 4
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "image002",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/ally_thumbnail_card.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 58,
+            "h": 58,
+            "x": 0,
+            "y": 0
+           }
+          }
+         ]
+        },
+        {
+         "type": "image",
+         "name": "gold_mid_frame",
+         "attrs": {
+          "tag": "gold_frame_1",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": "common/ui/arena/gold_frame.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 64,
+          "h": 64,
+          "x": 0,
+          "y": 0
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "gold_bg_mid",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/gold_text_base.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 62,
+            "h": 18,
+            "x": 0,
+            "y": 65
+           },
+           "children": [
+            {
+             "type": "text",
+             "name": "gold_num_1",
+             "attrs": {
+              "tag": "gold_num_1",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 1,
+              "vertical_align": 1,
+              "text": "",
+              "text_wrap": true,
+              "text_color_key": "#000000",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 62,
+              "h": 18,
+              "x": 0,
+              "y": 0
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "reward_detail_bronze_panel",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       0.9,
+       0.9
+      ],
+      "rotate": 0,
+      "w": 240,
+      "h": 83,
+      "x": 50,
+      "y": 342
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "bronze_right",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 64,
+        "h": 87,
+        "x": 182,
+        "y": 0
+       },
+       "children": [
+        {
+         "type": "image",
+         "name": "bronze_right_char",
+         "attrs": {
+          "tag": "bronze_char_2",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": null,
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 58,
+          "h": 58,
+          "x": 4,
+          "y": 4
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "image00410",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/ally_thumbnail_card.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 58,
+            "h": 58,
+            "x": 0,
+            "y": 0
+           }
+          }
+         ]
+        },
+        {
+         "type": "image",
+         "name": "bronze_right_frame",
+         "attrs": {
+          "tag": "bronze_frame_2",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": "common/ui/arena/bronze_frame.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 64,
+          "h": 64,
+          "x": 0,
+          "y": 0
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "bronze_bg_right",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/bronze_text_base.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 62,
+            "h": 18,
+            "x": 0,
+            "y": 65
+           },
+           "children": [
+            {
+             "type": "text",
+             "name": "bronze_num_2",
+             "attrs": {
+              "tag": "bronze_num_2",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 1,
+              "vertical_align": 1,
+              "text": "",
+              "text_wrap": true,
+              "text_color_key": "#000000",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 62,
+              "h": 18,
+              "x": 0,
+              "y": 0
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "component",
+       "name": "bronze_left",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 64,
+        "h": 87,
+        "x": 0,
+        "y": 0
+       },
+       "children": [
+        {
+         "type": "image",
+         "name": "bronze_left_char",
+         "attrs": {
+          "tag": "bronze_char_0",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": null,
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 58,
+          "h": 58,
+          "x": 4,
+          "y": 4
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "image0041",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/ally_thumbnail_card.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 58,
+            "h": 58,
+            "x": 0,
+            "y": 0
+           }
+          }
+         ]
+        },
+        {
+         "type": "image",
+         "name": "bronze_left_frame",
+         "attrs": {
+          "tag": "bronze_frame_0",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": "common/ui/arena/bronze_frame.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 64,
+          "h": 64,
+          "x": 0,
+          "y": 0
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "bronze_bg_left",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/bronze_text_base.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 62,
+            "h": 18,
+            "x": 0,
+            "y": 65
+           },
+           "children": [
+            {
+             "type": "text",
+             "name": "bronze_num_0",
+             "attrs": {
+              "tag": "bronze_num_0",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 1,
+              "vertical_align": 1,
+              "text": "",
+              "text_wrap": true,
+              "text_color_key": "#000000",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 62,
+              "h": 18,
+              "x": 0,
+              "y": 0
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "component",
+       "name": "bronze_mid",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 64,
+        "h": 87,
+        "x": 92,
+        "y": 0
+       },
+       "children": [
+        {
+         "type": "image",
+         "name": "bronze_mid_char",
+         "attrs": {
+          "tag": "bronze_char_1",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": null,
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 58,
+          "h": 58,
+          "x": 4,
+          "y": 4
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "image0040",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/ally_thumbnail_card.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 58,
+            "h": 58,
+            "x": 0,
+            "y": 0
+           }
+          }
+         ]
+        },
+        {
+         "type": "image",
+         "name": "bronze_mid_frame",
+         "attrs": {
+          "tag": "bronze_frame_1",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": "common/ui/arena/bronze_frame.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 64,
+          "h": 64,
+          "x": 0,
+          "y": 0
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "bronze_bg_mid",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/bronze_text_base.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 62,
+            "h": 18,
+            "x": 0,
+            "y": 65
+           },
+           "children": [
+            {
+             "type": "text",
+             "name": "bronze_num_1",
+             "attrs": {
+              "tag": "bronze_num_1",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 1,
+              "vertical_align": 1,
+              "text": "",
+              "text_wrap": true,
+              "text_color_key": "#000000",
+              "background_color_key": null,
+              "font_family": "",
+              "w": 62,
+              "h": 18,
+              "x": 0,
+              "y": 0
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "name": "title",
+     "attrs": {
+      "tag": "title",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#8A040B",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 250,
+      "h": 30,
+      "x": 35,
+      "y": 54
+     }
+    },
+    {
+     "type": "component",
+     "name": "reward_detail_all_panel",
+     "attrs": {
+      "tag": "",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       0.9,
+       0.9
+      ],
+      "rotate": 0,
+      "w": 113,
+      "h": 85,
+      "x": 87,
+      "y": 84
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "all",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 64,
+        "h": 84,
+        "x": 52,
+        "y": 0
+       },
+       "children": [
+        {
+         "type": "image",
+         "name": "all_class_char",
+         "attrs": {
+          "tag": "all_char",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": null,
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 58,
+          "h": 58,
+          "x": 4,
+          "y": 4
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "image0",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/ally_thumbnail_card.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 58,
+            "h": 58,
+            "x": 0,
+            "y": 0
+           }
+          }
+         ]
+        },
+        {
+         "type": "image",
+         "name": "all_class_frame",
+         "attrs": {
+          "tag": "all_frame",
+          "mock_image": null,
+          "visible": true,
+          "enabled": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "image": "common/ui/arena/diamond_frame.png",
+          "uvs": [
+           0,
+           0,
+           1,
+           1
+          ],
+          "image_color": null,
+          "w": 64,
+          "h": 64,
+          "x": 0,
+          "y": 0
+         },
+         "children": [
+          {
+           "type": "image",
+           "name": "all_bg",
+           "attrs": {
+            "tag": "",
+            "mock_image": null,
+            "visible": true,
+            "enabled": true,
+            "anchor": [
+             0,
+             0
+            ],
+            "image": "common/ui/arena/bg_text.png",
+            "uvs": [
+             0,
+             0,
+             1,
+             1
+            ],
+            "image_color": null,
+            "w": 62,
+            "h": 18,
+            "x": 0,
+            "y": 65
+           },
+           "children": [
+            {
+             "type": "text",
+             "name": "all_num",
+             "attrs": {
+              "tag": "all_num",
+              "mock_image": null,
+              "visible": true,
+              "anchor": [
+               0,
+               0
+              ],
+              "scale": [
+               1,
+               1
+              ],
+              "rotate": 0,
+              "text_size": 12,
+              "horizontal_align": 1,
+              "vertical_align": 0,
+              "text": "",
+              "text_wrap": true,
+              "text_color_key": null,
+              "background_color_key": null,
+              "font_family": "",
+              "w": 62,
+              "h": 18,
+              "x": 0,
+              "y": 1
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "image",
+       "name": "all_class",
+       "attrs": {
+        "tag": "",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "image": "ui/arena/all_realms_cleared.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": null,
+        "w": 78,
+        "h": 39,
+        "x": -29,
+        "y": 18
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "name": "title0",
+     "attrs": {
+      "tag": "title_left",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 10,
+      "horizontal_align": 1,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#FFFFFF",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 70,
+      "h": 30,
+      "x": 44,
+      "y": 164
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "title00",
+       "attrs": {
+        "tag": "title_mid",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 10,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 70,
+        "h": 30,
+        "x": 83,
+        "y": 0
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "title000",
+         "attrs": {
+          "tag": "title_right",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 10,
+          "horizontal_align": 1,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 72,
+          "h": 30,
+          "x": 81,
+          "y": 0
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "TowerClearStatusDialogLayout",
+ "type": "component"
+}

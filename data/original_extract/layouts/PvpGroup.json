@@ -1,0 +1,499 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": 0,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "pvp_group",
+   "attrs": {
+    "tag": "pvp_group",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": 0,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "pvp_group_view",
+     "attrs": {
+      "tag": "pvp_group_view",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "sprite",
+       "name": "pvp_group_center_line",
+       "attrs": {
+        "tag": "pvp_group_center_line",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/zone/header/boss_list_line_h.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 224,
+        "h": 8,
+        "x": 0,
+        "y": 58
+       }
+      },
+      {
+       "type": "text",
+       "name": "pvp_group_promotion_text",
+       "attrs": {
+        "tag": "pvp_group_promotion_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 220,
+        "h": 20,
+        "x": 5,
+        "y": 2
+       }
+      },
+      {
+       "type": "text",
+       "name": "pvp_group_demotion_text",
+       "attrs": {
+        "tag": "pvp_group_demotion_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 220,
+        "h": 20,
+        "x": 5,
+        "y": 20
+       }
+      },
+      {
+       "type": "component",
+       "name": "pvp_group_content",
+       "attrs": {
+        "tag": "pvp_group_content",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 64,
+        "h": 64,
+        "x": 2,
+        "y": 53
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "pvp_group_text",
+         "attrs": {
+          "tag": "pvp_group_text",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 20,
+          "horizontal_align": 1,
+          "vertical_align": 1,
+          "text": "",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 224,
+          "h": 200,
+          "x": 2,
+          "y": 0
+         }
+        }
+       ]
+      },
+      {
+       "type": "text",
+       "name": "pvp_group_grows_text",
+       "attrs": {
+        "tag": "pvp_group_grows_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 255,
+        "h": 20,
+        "x": 5,
+        "y": 38
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "pvp_group_column",
+     "attrs": {
+      "tag": "pvp_group_column",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 223,
+      "h": 71,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "pvp_group_column_rank",
+       "attrs": {
+        "tag": "pvp_group_column_rank",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#7F0000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 130,
+        "h": 17,
+        "x": 75,
+        "y": 5
+       }
+      },
+      {
+       "type": "text",
+       "name": "pvp_group_column_name",
+       "attrs": {
+        "tag": "pvp_group_column_name",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 130,
+        "h": 18,
+        "x": 75,
+        "y": 18
+       }
+      },
+      {
+       "type": "text",
+       "name": "pvp_group_column_point",
+       "attrs": {
+        "tag": "pvp_group_column_point",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 11,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 130,
+        "h": 14,
+        "x": 75,
+        "y": 35
+       }
+      },
+      {
+       "type": "text",
+       "name": "pvp_group_column_result",
+       "attrs": {
+        "tag": "pvp_group_column_result",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 12,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFF3E9",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 130,
+        "h": 17,
+        "x": 75,
+        "y": 50
+       }
+      },
+      {
+       "type": "component",
+       "name": "pvp_group_column_thumb",
+       "attrs": {
+        "tag": "pvp_group_column_thumb",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "w": 64,
+        "h": 64,
+        "x": 20,
+        "y": 10
+       }
+      }
+     ]
+    },
+    {
+     "type": "component",
+     "name": "pvp_group_result",
+     "attrs": {
+      "tag": "pvp_group_result",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "w": 64,
+      "h": 64,
+      "x": 2,
+      "y": 53
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "pvp_group_result_text",
+       "attrs": {
+        "tag": "pvp_group_result_text",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 20,
+        "horizontal_align": 1,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 224,
+        "h": 100,
+        "x": 2,
+        "y": 0
+       }
+      },
+      {
+       "type": "button",
+       "name": "pvp_group_result_button",
+       "attrs": {
+        "tag": "pvp_group_result_button",
+        "mock_image": null,
+        "visible": true,
+        "enabled": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "text_size": 18,
+        "horizontal_align": 0,
+        "vertical_align": 0,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#FFFFFF",
+        "font_family": "",
+        "action": "PvpGroupBattleResult_Clicked",
+        "image_color": "FFFFFF",
+        "image": "common/ui/button/bt_base_red_n_40.png",
+        "image_pressed": "common/ui/button/bt_base_red_p_40.png",
+        "image_checked": null,
+        "image_disabled": null,
+        "image_selected": null,
+        "image_focused": null,
+        "w": 120,
+        "h": 40,
+        "x": 55,
+        "y": 132
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "name": "PvpGroup",
+ "type": "component"
+}

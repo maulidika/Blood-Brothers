@@ -1,0 +1,500 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "tag": null,
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "name": "title",
+   "type": "text",
+   "attrs": {
+    "visible": true,
+    "tag": "title",
+    "mock_image": null,
+    "text_color_key": "#1AFF00",
+    "text": "Another Worrior!!!",
+    "text_wrap": true,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text_size": "22",
+    "rotate": 0,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 48,
+    "w": 320,
+    "h": 40
+   }
+  },
+  {
+   "name": "desc",
+   "type": "text",
+   "attrs": {
+    "visible": true,
+    "tag": "desc",
+    "mock_image": null,
+    "text_color_key": "#1AFF00",
+    "text": "",
+    "text_wrap": true,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text_size": "14",
+    "rotate": 0,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 80,
+    "w": 320,
+    "h": 20
+   }
+  },
+  {
+   "name": "chara",
+   "type": "component",
+   "attrs": {
+    "visible": true,
+    "tag": "chara",
+    "mock_image": null,
+    "anchor": [
+     0.5,
+     0.5
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 160,
+    "y": 185,
+    "w": 125,
+    "h": 179
+   }
+  },
+  {
+   "name": "bg",
+   "type": "sprite",
+   "attrs": {
+    "visible": true,
+    "tag": "bg",
+    "mock_image": null,
+    "image": "common/ally/profile_back.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image_color_key": "#FFFFFF",
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 19,
+    "y": 267,
+    "w": 281,
+    "h": 107
+   },
+   "children": [
+    {
+     "name": "avatar",
+     "type": "component",
+     "attrs": {
+      "visible": true,
+      "tag": "avatar",
+      "mock_image": null,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 15,
+      "y": 8,
+      "w": 48,
+      "h": 48
+     }
+    },
+    {
+     "name": "lv",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "lv",
+      "mock_image": null,
+      "image": "common/ui/level_back.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color_key": "#FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 64,
+      "y": 7,
+      "w": 107,
+      "h": 22
+     },
+     "children": [
+      {
+       "name": "lv_label",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "lv_label",
+        "mock_image": null,
+        "text_color_key": "#000000",
+        "text": "LV:",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text_size": "12",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 4,
+        "y": 2,
+        "w": 80,
+        "h": 18
+       }
+      },
+      {
+       "name": "lv_value",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "lv_value",
+        "mock_image": null,
+        "text_color_key": "#000000",
+        "text": "99",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text_size": "17",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 80,
+        "y": -1,
+        "w": 40,
+        "h": 22
+       }
+      }
+     ]
+    },
+    {
+     "name": "user_name",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "user_name",
+      "mock_image": null,
+      "text_color_key": "#0A0A0A",
+      "text": "USER NAME",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": "20",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 64,
+      "y": 26,
+      "w": 200,
+      "h": 26
+     }
+    },
+    {
+     "name": "comment",
+     "type": "sprite",
+     "attrs": {
+      "visible": true,
+      "tag": "comment",
+      "mock_image": null,
+      "image": "common/ally/profile_mycomment_back.png",
+      "uvs": [
+       0,
+       0,
+       1,
+       1
+      ],
+      "rotate": 0,
+      "image_color_key": "#FFFFFF",
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 13,
+      "y": 52,
+      "w": 256,
+      "h": 48
+     },
+     "children": [
+      {
+       "name": "comment_text",
+       "type": "text",
+       "attrs": {
+        "visible": true,
+        "tag": "comment_text",
+        "mock_image": null,
+        "text_color_key": "#000000",
+        "text": "Commnet",
+        "text_wrap": true,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text_size": "12",
+        "rotate": 0,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "x": 13,
+        "y": 13,
+        "w": 232,
+        "h": 28
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "button_request",
+   "type": "button",
+   "attrs": {
+    "visible": true,
+    "tag": "button_request",
+    "mock_image": null,
+    "action": "Request",
+    "enabled": true,
+    "text_color_key": "#FFFFFF",
+    "image_color_key": "#FFFFFF",
+    "text": "",
+    "text_wrap": true,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text_size": "18",
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "anchor": null,
+    "scale": [
+     1,
+     1
+    ],
+    "x": 68,
+    "y": 397,
+    "w": 84,
+    "h": 28
+   }
+  },
+  {
+   "name": "button_cancel",
+   "type": "button",
+   "attrs": {
+    "visible": true,
+    "tag": "button_cancel",
+    "mock_image": null,
+    "action": "Cancel",
+    "enabled": true,
+    "text_color_key": "#FFFFFF",
+    "image_color_key": "#FFFFFF",
+    "text": "",
+    "text_wrap": true,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text_size": 18,
+    "image": "common/ui/button/bt_base_red_n_56.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56.png",
+    "anchor": null,
+    "scale": [
+     1,
+     1
+    ],
+    "x": 168,
+    "y": 397,
+    "w": 84,
+    "h": 28
+   }
+  },
+  {
+   "name": "button_ok",
+   "type": "button",
+   "attrs": {
+    "visible": true,
+    "tag": "button_ok",
+    "mock_image": null,
+    "action": "OK",
+    "enabled": true,
+    "text_color_key": "#FFFFFF",
+    "image_color_key": "#FFFFFF",
+    "text": "",
+    "text_wrap": true,
+    "horizontal_align": 0,
+    "vertical_align": 0,
+    "text_size": 18,
+    "image": "common/ui/button/bt_base_red_n_56L.png",
+    "image_pressed": "common/ui/button/bt_base_red_p_56L.png",
+    "anchor": null,
+    "scale": [
+     1,
+     1
+    ],
+    "x": 96,
+    "y": 397,
+    "w": 128,
+    "h": 28
+   }
+  },
+  {
+   "name": "message",
+   "type": "text",
+   "attrs": {
+    "visible": true,
+    "tag": "message",
+    "mock_image": null,
+    "text_color_key": "#000000",
+    "text": "message",
+    "text_wrap": true,
+    "horizontal_align": 1,
+    "vertical_align": 1,
+    "text_size": "12",
+    "rotate": 0,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 0,
+    "y": 377,
+    "w": 320,
+    "h": 16
+   }
+  },
+  {
+   "name": "friend_board",
+   "type": "sprite",
+   "attrs": {
+    "visible": true,
+    "tag": "friend_board",
+    "mock_image": null,
+    "image": "common/ally/my_id.png",
+    "uvs": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "rotate": 0,
+    "image_color_key": "#FFFFFF",
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "x": 212,
+    "y": 448,
+    "w": 108,
+    "h": 37
+   },
+   "children": [
+    {
+     "name": "friends_count_label",
+     "type": "text",
+     "attrs": {
+      "visible": true,
+      "tag": "friends_count_label",
+      "mock_image": null,
+      "text_color_key": "#FFFFFF",
+      "text": "Allies:",
+      "text_wrap": true,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text_size": "12",
+      "rotate": 0,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "x": 10,
+      "y": 8,
+      "w": 80,
+      "h": 16
+     }
+    }
+   ]
+  }
+ ],
+ "name": "FriendEncounterLayout",
+ "type": "component"
+}

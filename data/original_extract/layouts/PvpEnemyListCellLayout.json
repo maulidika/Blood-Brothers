@@ -1,0 +1,406 @@
+{
+ "attrs": {
+  "anchor": [
+   0,
+   0
+  ],
+  "h": 480,
+  "mock_image": null,
+  "rotate": null,
+  "scale": [
+   1,
+   1
+  ],
+  "tag": "",
+  "visible": true,
+  "w": 320,
+  "x": 0,
+  "y": 0
+ },
+ "children": [
+  {
+   "type": "component",
+   "name": "list",
+   "attrs": {
+    "tag": "list",
+    "mock_image": null,
+    "visible": true,
+    "anchor": [
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "rotate": null,
+    "w": 64,
+    "h": 64,
+    "x": 0,
+    "y": 0
+   },
+   "children": [
+    {
+     "type": "component",
+     "name": "time",
+     "attrs": {
+      "tag": "time",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 36,
+      "y": 64
+     },
+     "children": [
+      {
+       "type": "text",
+       "name": "time_label",
+       "attrs": {
+        "tag": "time_label",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 180,
+        "h": 20,
+        "x": 0,
+        "y": 0
+       }
+      },
+      {
+       "type": "text",
+       "name": "time_value",
+       "attrs": {
+        "tag": "time_value",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "text_size": 14,
+        "horizontal_align": 0,
+        "vertical_align": 1,
+        "text": "",
+        "text_wrap": true,
+        "text_color_key": "#000000",
+        "background_color_key": null,
+        "font_family": "",
+        "w": 100,
+        "h": 20,
+        "x": 132,
+        "y": 0
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "name": "nickname",
+     "attrs": {
+      "tag": "nickname",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 18,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "test",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 200,
+      "h": 28,
+      "x": 88,
+      "y": 25
+     }
+    },
+    {
+     "type": "component",
+     "name": "common",
+     "attrs": {
+      "tag": "common",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": null,
+      "w": 0,
+      "h": 0,
+      "x": 0,
+      "y": 0
+     },
+     "children": [
+      {
+       "type": "component",
+       "name": "chara",
+       "attrs": {
+        "tag": "chara",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 48,
+        "h": 48,
+        "x": 32,
+        "y": 4
+       }
+      },
+      {
+       "type": "component",
+       "name": "avatar",
+       "attrs": {
+        "tag": "avatar",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 32,
+        "h": 32,
+        "x": 12,
+        "y": 12
+       }
+      },
+      {
+       "type": "sprite",
+       "name": "info_bg",
+       "attrs": {
+        "tag": "info_bg",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/level_back.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 107,
+        "h": 20,
+        "x": 86,
+        "y": 46
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "lv_label",
+         "attrs": {
+          "tag": "lv_label",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 12,
+          "horizontal_align": 0,
+          "vertical_align": 1,
+          "text": "LV.",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 103,
+          "h": 18,
+          "x": 4,
+          "y": 2
+         }
+        }
+       ]
+      },
+      {
+       "type": "sprite",
+       "name": "info_bg2",
+       "attrs": {
+        "tag": "info_bg2",
+        "mock_image": null,
+        "visible": false,
+        "anchor": [
+         0,
+         0
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": 0,
+        "image": "common/ui/level_back.png",
+        "uvs": [
+         0,
+         0,
+         1,
+         1
+        ],
+        "image_color": "FFFFFF",
+        "w": 107,
+        "h": 20,
+        "x": 86,
+        "y": 66
+       },
+       "children": [
+        {
+         "type": "text",
+         "name": "boost_lv_label",
+         "attrs": {
+          "tag": "boost_lv_label",
+          "mock_image": null,
+          "visible": true,
+          "anchor": [
+           0,
+           0
+          ],
+          "scale": [
+           1,
+           1
+          ],
+          "rotate": 0,
+          "text_size": 12,
+          "horizontal_align": 0,
+          "vertical_align": 1,
+          "text": "Boost Level: 99",
+          "text_wrap": true,
+          "text_color_key": "#FFFFFF",
+          "background_color_key": null,
+          "font_family": "",
+          "w": 103,
+          "h": 18,
+          "x": 4,
+          "y": 2
+         }
+        }
+       ]
+      },
+      {
+       "type": "component",
+       "name": "rank_image",
+       "attrs": {
+        "tag": "rank_image",
+        "mock_image": null,
+        "visible": true,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "scale": [
+         1,
+         1
+        ],
+        "rotate": null,
+        "w": 64,
+        "h": 28,
+        "x": 116,
+        "y": 17
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "name": "rank",
+     "attrs": {
+      "tag": "rank",
+      "mock_image": null,
+      "visible": true,
+      "anchor": [
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "rotate": 0,
+      "text_size": 14,
+      "horizontal_align": 0,
+      "vertical_align": 1,
+      "text": "",
+      "text_wrap": true,
+      "text_color_key": "#000000",
+      "background_color_key": null,
+      "font_family": "",
+      "w": 160,
+      "h": 24,
+      "x": 152,
+      "y": 4
+     }
+    }
+   ]
+  }
+ ],
+ "name": "PvpEnemyListCellLayout",
+ "type": "component"
+}

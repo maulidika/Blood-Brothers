@@ -1,0 +1,935 @@
+{
+ "action": [
+  {
+   "actionName": "action_se_play",
+   "frame": 25,
+   "se_id": "forge_pact"
+  }
+ ],
+ "fps": 30,
+ "meta": {
+  "app": "AnimationBuilder",
+  "app_ver": "20140708_0",
+  "core_ver": "1.0",
+  "created_date": "Fri Oct 10 20:32:49 2014",
+  "date": "Tue Oct 14 11:50:21 2014",
+  "runtime_type": "cocos2d-x",
+  "runtime_ver": "2.1.4",
+  "ver": "0.05"
+ },
+ "screenSize": {
+  "h": 480,
+  "w": 320
+ },
+ "tag": {
+  "all": [
+   0,
+   60,
+   0
+  ]
+ },
+ "tree": [
+  {
+   "attrs": {
+    "alpha": 1,
+    "anchor": [
+     0,
+     0
+    ],
+    "color": [
+     1,
+     1,
+     1
+    ],
+    "frame": [
+     0,
+     0,
+     64,
+     64
+    ],
+    "rotation": [
+     0,
+     0,
+     0
+    ],
+    "scale": [
+     1,
+     1
+    ],
+    "visible": true
+   },
+   "children": [
+    {
+     "attrs": {
+      "alpha": 1,
+      "anchor": [
+       0,
+       0
+      ],
+      "anime": {
+       "alpha": [
+        {
+         "point": [
+          55,
+          1,
+          60,
+          0
+         ],
+         "type": "liner"
+        }
+       ]
+      },
+      "color": [
+       1,
+       1,
+       1
+      ],
+      "frame": [
+       160,
+       240,
+       64,
+       64
+      ],
+      "rotation": [
+       0,
+       0,
+       0
+      ],
+      "scale": [
+       1,
+       1
+      ],
+      "visible": true
+     },
+     "children": [
+      {
+       "attrs": {
+        "alpha": 1,
+        "anchor": [
+         0.5,
+         0
+        ],
+        "anime": {
+         "alpha": [
+          {
+           "point": [
+            0,
+            1,
+            3,
+            1
+           ],
+           "type": "liner"
+          },
+          {
+           "point": [
+            3,
+            1,
+            4,
+            0
+           ],
+           "type": "liner"
+          }
+         ]
+        },
+        "blend": "alpha",
+        "color": [
+         1,
+         1,
+         1
+        ],
+        "filtering": true,
+        "frame": [
+         0,
+         -240,
+         512,
+         512
+        ],
+        "image": {
+         "url": "battle/cutin_bg1.png",
+         "uvs": [
+          0,
+          0,
+          1,
+          1
+         ]
+        },
+        "rotation": [
+         0,
+         0,
+         0
+        ],
+        "scale": [
+         0.6299999952316284,
+         0.30000001192092896
+        ],
+        "visible": true
+       },
+       "name": "cutin_bg1",
+       "type": "image"
+      },
+      {
+       "attrs": {
+        "alpha": 0,
+        "anchor": [
+         0.5,
+         0
+        ],
+        "anime": {
+         "alpha": [
+          {
+           "point": [
+            3,
+            0,
+            4,
+            1
+           ],
+           "type": "liner"
+          },
+          {
+           "point": [
+            4,
+            1,
+            7,
+            1
+           ],
+           "type": "liner"
+          },
+          {
+           "point": [
+            7,
+            1,
+            8,
+            0
+           ],
+           "type": "liner"
+          }
+         ]
+        },
+        "blend": "alpha",
+        "color": [
+         1,
+         1,
+         1
+        ],
+        "filtering": true,
+        "frame": [
+         0,
+         -240,
+         512,
+         512
+        ],
+        "image": {
+         "url": "battle/cutin_bg1.png",
+         "uvs": [
+          0,
+          0,
+          1,
+          1
+         ]
+        },
+        "rotation": [
+         0,
+         0,
+         0
+        ],
+        "scale": [
+         0.6299999952316284,
+         0.6499999761581421
+        ],
+        "visible": true
+       },
+       "name": "cutin_bg1_1",
+       "type": "image"
+      },
+      {
+       "attrs": {
+        "alpha": 0,
+        "anchor": [
+         0.5,
+         0
+        ],
+        "anime": {
+         "alpha": [
+          {
+           "point": [
+            7,
+            0,
+            8,
+            1
+           ],
+           "type": "liner"
+          },
+          {
+           "point": [
+            8,
+            1,
+            11,
+            1
+           ],
+           "type": "liner"
+          },
+          {
+           "point": [
+            11,
+            1,
+            12,
+            0
+           ],
+           "type": "liner"
+          }
+         ]
+        },
+        "blend": "alpha",
+        "color": [
+         1,
+         1,
+         1
+        ],
+        "filtering": true,
+        "frame": [
+         0,
+         -240,
+         512,
+         512
+        ],
+        "image": {
+         "url": "battle/cutin_bg1.png",
+         "uvs": [
+          0,
+          0,
+          1,
+          1
+         ]
+        },
+        "rotation": [
+         0,
+         0,
+         0
+        ],
+        "scale": [
+         0.6299999952316284,
+         0.800000011920929
+        ],
+        "visible": true
+       },
+       "name": "cutin_bg1_1_1",
+       "type": "image"
+      },
+      {
+       "attrs": {
+        "alpha": 0,
+        "anchor": [
+         0.5,
+         0
+        ],
+        "anime": {
+         "alpha": [
+          {
+           "point": [
+            11,
+            0,
+            12,
+            1
+           ],
+           "type": "liner"
+          },
+          {
+           "point": [
+            12,
+            1,
+            15,
+            1
+           ],
+           "type": "liner"
+          },
+          {
+           "point": [
+            15,
+            1,
+            16,
+            0
+           ],
+           "type": "liner"
+          }
+         ]
+        },
+        "blend": "alpha",
+        "color": [
+         1,
+         1,
+         1
+        ],
+        "filtering": true,
+        "frame": [
+         0,
+         -240,
+         512,
+         512
+        ],
+        "image": {
+         "url": "battle/cutin_bg3.png",
+         "uvs": [
+          0,
+          0,
+          1,
+          1
+         ]
+        },
+        "rotation": [
+         0,
+         0,
+         0
+        ],
+        "scale": [
+         0.6299999952316284,
+         0.6299999952316284
+        ],
+        "visible": true
+       },
+       "name": "cutin_bg3",
+       "type": "image"
+      },
+      {
+       "attrs": {
+        "alpha": 0,
+        "anchor": [
+         0.5,
+         0
+        ],
+        "anime": {
+         "alpha": [
+          {
+           "point": [
+            15,
+            0,
+            16,
+            1
+           ],
+           "type": "liner"
+          },
+          {
+           "point": [
+            16,
+            1,
+            18,
+            1
+           ],
+           "type": "liner"
+          },
+          {
+           "point": [
+            18,
+            1,
+            19,
+            0
+           ],
+           "type": "liner"
+          }
+         ]
+        },
+        "blend": "alpha",
+        "color": [
+         1,
+         1,
+         1
+        ],
+        "filtering": true,
+        "frame": [
+         0,
+         -240,
+         512,
+         512
+        ],
+        "image": {
+         "url": "battle/cutin_bg4.png",
+         "uvs": [
+          0,
+          0,
+          1,
+          1
+         ]
+        },
+        "rotation": [
+         0,
+         0,
+         0
+        ],
+        "scale": [
+         0.6299999952316284,
+         0.6299999952316284
+        ],
+        "visible": true
+       },
+       "name": "cutin_bg4",
+       "type": "image"
+      },
+      {
+       "attrs": {
+        "alpha": 0,
+        "anchor": [
+         0.5,
+         0
+        ],
+        "anime": {
+         "alpha": [
+          {
+           "point": [
+            18,
+            0,
+            19,
+            1
+           ],
+           "type": "liner"
+          },
+          {
+           "point": [
+            19,
+            1,
+            21,
+            1
+           ],
+           "type": "liner"
+          }
+         ],
+         "posY": [
+          {
+           "point": [
+            19,
+            -240,
+            21,
+            -238
+           ],
+           "type": "liner"
+          }
+         ]
+        },
+        "blend": "alpha",
+        "color": [
+         1,
+         1,
+         1
+        ],
+        "filtering": true,
+        "frame": [
+         0,
+         -240,
+         512,
+         512
+        ],
+        "image": {
+         "url": "battle/cutin_bg5.png",
+         "uvs": [
+          0,
+          0,
+          1,
+          1
+         ]
+        },
+        "rotation": [
+         0,
+         0,
+         0
+        ],
+        "scale": [
+         0.6299999952316284,
+         0.6299999952316284
+        ],
+        "visible": true
+       },
+       "name": "cutin_bg5",
+       "type": "image"
+      },
+      {
+       "attrs": {
+        "alpha": 0,
+        "anchor": [
+         0.5,
+         0
+        ],
+        "anime": {
+         "alpha": [
+          {
+           "point": [
+            5,
+            0,
+            6,
+            1
+           ],
+           "type": "liner"
+          }
+         ],
+         "posY": [
+          {
+           "point": [
+            5,
+            -400,
+            20,
+            -240
+           ],
+           "type": "liner"
+          }
+         ]
+        },
+        "blend": "alpha",
+        "color": [
+         1,
+         1,
+         1
+        ],
+        "filtering": true,
+        "frame": [
+         0,
+         -400,
+         512,
+         512
+        ],
+        "image": {
+         "url": "battle/blood_1.png",
+         "uvs": [
+          0,
+          0,
+          1,
+          1
+         ]
+        },
+        "rotation": [
+         0,
+         0,
+         0
+        ],
+        "scale": [
+         0.6299999952316284,
+         0.6299999952316284
+        ],
+        "visible": true
+       },
+       "name": "blood_small_1",
+       "type": "image"
+      },
+      {
+       "attrs": {
+        "alpha": 0,
+        "anchor": [
+         0.5,
+         0
+        ],
+        "anime": {
+         "alpha": [
+          {
+           "point": [
+            10,
+            0,
+            11,
+            1
+           ],
+           "type": "liner"
+          }
+         ],
+         "posY": [
+          {
+           "point": [
+            10,
+            -280,
+            22,
+            -240
+           ],
+           "type": "liner"
+          }
+         ]
+        },
+        "blend": "alpha",
+        "color": [
+         1,
+         1,
+         1
+        ],
+        "filtering": true,
+        "frame": [
+         0,
+         -280,
+         512,
+         512
+        ],
+        "image": {
+         "url": "battle/blood_2.png",
+         "uvs": [
+          0,
+          0,
+          1,
+          1
+         ]
+        },
+        "rotation": [
+         0,
+         0,
+         0
+        ],
+        "scale": [
+         0.6299999952316284,
+         0.6299999952316284
+        ],
+        "visible": true
+       },
+       "name": "blood_m",
+       "type": "image"
+      },
+      {
+       "attrs": {
+        "alpha": 0,
+        "anchor": [
+         0.5,
+         0
+        ],
+        "anime": {
+         "alpha": [
+          {
+           "point": [
+            15,
+            0,
+            16,
+            1
+           ],
+           "type": "liner"
+          }
+         ],
+         "posY": [
+          {
+           "point": [
+            15,
+            -300,
+            30,
+            -240
+           ],
+           "type": "liner"
+          }
+         ]
+        },
+        "blend": "alpha",
+        "color": [
+         1,
+         1,
+         1
+        ],
+        "filtering": true,
+        "frame": [
+         0,
+         -300,
+         512,
+         512
+        ],
+        "image": {
+         "url": "battle/blood_3.png",
+         "uvs": [
+          0,
+          0,
+          1,
+          1
+         ]
+        },
+        "rotation": [
+         0,
+         0,
+         0
+        ],
+        "scale": [
+         0.6299999952316284,
+         0.6299999952316284
+        ],
+        "visible": true
+       },
+       "name": "blood_l",
+       "type": "image"
+      },
+      {
+       "attrs": {
+        "alpha": 1,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "anime": {
+         "scaleX": [
+          {
+           "point": [
+            25,
+            0,
+            28,
+            0.800000011920929
+           ],
+           "type": "liner"
+          },
+          {
+           "point": [
+            28,
+            0.800000011920929,
+            30,
+            0.6000000238418579
+           ],
+           "type": "liner"
+          }
+         ],
+         "scaleY": [
+          {
+           "point": [
+            25,
+            0,
+            28,
+            0.800000011920929
+           ],
+           "type": "liner"
+          },
+          {
+           "point": [
+            28,
+            0.800000011920929,
+            30,
+            0.6000000238418579
+           ],
+           "type": "liner"
+          }
+         ]
+        },
+        "blend": "alpha",
+        "color": [
+         1,
+         1,
+         1
+        ],
+        "filtering": true,
+        "frame": [
+         5,
+         -65,
+         512,
+         153
+        ],
+        "image": {
+         "url": "battle/trick_or_treat.png",
+         "uvs": [
+          0,
+          0,
+          1,
+          1
+         ]
+        },
+        "rotation": [
+         0,
+         0,
+         -10
+        ],
+        "scale": [
+         0,
+         0
+        ],
+        "visible": true
+       },
+       "name": "trickortreat",
+       "type": "image"
+      },
+      {
+       "attrs": {
+        "alpha": 0,
+        "anchor": [
+         0.5,
+         0.5
+        ],
+        "anime": {
+         "alpha": [
+          {
+           "point": [
+            35,
+            0,
+            36,
+            1
+           ],
+           "type": "liner"
+          }
+         ],
+         "scaleX": [
+          {
+           "point": [
+            35,
+            0.6499999761581421,
+            38,
+            1.2000000476837158
+           ],
+           "type": "liner"
+          },
+          {
+           "point": [
+            38,
+            1.2000000476837158,
+            41,
+            0.6499999761581421
+           ],
+           "type": "liner"
+          }
+         ],
+         "scaleY": [
+          {
+           "point": [
+            35,
+            0.6899999976158142,
+            38,
+            1.2400000095367432
+           ],
+           "type": "liner"
+          },
+          {
+           "point": [
+            38,
+            1.2400000095367432,
+            41,
+            0.6899999976158142
+           ],
+           "type": "liner"
+          }
+         ]
+        },
+        "blend": "alpha",
+        "color": [
+         1,
+         1,
+         1
+        ],
+        "filtering": true,
+        "frame": [
+         -10,
+         -50,
+         44,
+         41
+        ],
+        "image": {
+         "url": "battle/cutin_pumpkin_2.png",
+         "uvs": [
+          0,
+          0,
+          1,
+          1
+         ]
+        },
+        "rotation": [
+         0,
+         0,
+         -20
+        ],
+        "scale": [
+         0.6499999761581421,
+         0.6899999976158142
+        ],
+        "visible": true
+       },
+       "name": "pumpkin_2",
+       "type": "image"
+      }
+     ],
+     "isCreate": true,
+     "name": "effect",
+     "type": "null"
+    }
+   ],
+   "isCreate": true,
+   "name": "root",
+   "type": "null"
+  }
+ ]
+}
