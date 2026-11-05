@@ -25,3 +25,9 @@ Opening movie playback, original cutscenes/animation sheets, Arena/Raid boss (of
 items/shop, Ally/trade stubs, treasure hunt/board game, more content from `textureJSON` animations.
 
 See `docs/ARCHITECTURE.md`, `docs/BACKEND_READINESS.md`, `docs/ORIGINAL_FINDINGS.md`.
+
+## Part 8 (asset expansion)
+Run in order from the project root (set `BB2_UPLOADS` to the folder holding the two original ZIPs):
+`python3 tools/part8/stage1_textures.py assets/extracted_v2`, `python3 tools/part8/stage2_layouts.py data/original_extract assets/extracted_v2`,
+`tools/part8/stage3_video.sh <folder with opening_*.mp4> assets/extracted_v2/movie`, `python3 tools/part8/stage4_trace.py`, `python3 tools/part8/build_reports.py <out dir>`.
+Results are documented in `docs/PART8_REPORT.md` and `docs/ORIGINAL_FINDINGS.md`. `assets/extracted_v2` and `data/original_extract` contain DeNA material: keep private.

@@ -12,7 +12,10 @@ func _ready() -> void:
 	y += 48
 	UI.text_button(self, "Sound: %s" % ("ON" if Assets.sfx_on else "OFF"), Vector2(60, y), Vector2(200, 38), _toggle_sfx, "gray")
 	y += 48
-	UI.text_button(self, "Stats", Vector2(60, y), Vector2(200, 38), _stats, "gray"); y += 48
+	UI.text_button(self, "Stats", Vector2(60, y), Vector2(200, 38), _stats, "gray")
+	y += 48
+	UI.text_button(self, "Watch Opening", Vector2(60, y), Vector2(200, 38), func(): main.go("opening", {"next": "more"}), "gray")
+	y += 48
 	UI.text_button(self, "Back", Vector2(100, 430), Vector2(120, 34), func(): main.go("home"), "black")
 
 func _stats() -> void:

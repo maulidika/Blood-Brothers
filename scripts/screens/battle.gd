@@ -81,6 +81,19 @@ func _popup(idx: int, text: String, color: Color) -> void:
 	tw.parallel().tween_property(l, "modulate:a", 0.0, 0.5 / speed)
 	tw.tween_callback(l.queue_free)
 
+## Damage = white digits, heal = sky-blue digits (client: DamageNumberMotion uses imagefont "blackframe", height 16,
+## RGB_WHITE for damage / RGB_SKYBLUE [0, 0.5, 0.5] for negative numbers, rises 10 px). Fade timing is our approximation.
+func _popup_number(idx: int, amount: int, heal: bool) -> void:
+	var root: Control = tiles[idx]["root"]
+	var col: Color = Color(0.0, 0.5, 0.5) if heal else Color(1.0, 1.0, 1.0)
+	var n: Control = UI.image_text(self, "blackframe", str(amount), Vector2.ZERO, 16.0, col)
+	n.position = root.position + Vector2((124.0 - n.size.x) / 2.0, 14.0)
+	var tw := create_tween()
+	tw.tween_property(n, "position:y", n.position.y - 10.0, 0.2 / speed).set_ease(Tween.EASE_OUT)
+	tw.tween_interval(0.35 / speed)
+	tw.tween_property(n, "modulate:a", 0.0, 0.2 / speed)
+	tw.tween_callback(n.queue_free)
+
 func _shake(idx: int) -> void:
 	if skip:
 		return
@@ -126,7 +139,7 @@ func _handle(e: Dictionary) -> void:
 			if str(e["kind"]) == "drain":
 				_set_hp(int(e["src"]), float(e["src_hp"]))
 			if not skip:
-				_popup(dst, str(amt), Color("ff6a5a"))
+				_popup_number(dst, amt, false)
 				_shake(dst)
 				if str(e["kind"]) == "magic":
 					Assets.sfx("magic_small")
@@ -140,7 +153,7 @@ func _handle(e: Dictionary) -> void:
 		"heal":
 			_set_hp(int(e["dst"]), float(e["hp"]))
 			if not skip:
-				_popup(int(e["dst"]), "+%d" % int(e["amount"]), Color("7fe07f"))
+				_popup_number(int(e["dst"]), int(e["amount"]), true)
 				Assets.sfx("skill_cure")
 			await _wait(0.28)
 		"buff":

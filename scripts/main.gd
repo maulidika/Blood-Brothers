@@ -10,6 +10,7 @@ const SCREENS := {
 	"pact": preload("res://scripts/screens/pact.gd"),
 	"gear": preload("res://scripts/screens/gear.gd"),
 	"more": preload("res://scripts/screens/more.gd"),
+	"opening": preload("res://scripts/screens/opening.gd"),
 }
 var current: Control = null
 var screen_layer: Control
@@ -91,7 +92,7 @@ func go(name: String, args: Dictionary = {}) -> void:
 	scr.size = Vector2(UI.W, UI.H)
 	screen_layer.add_child(scr)
 	current = scr
-	header.visible = not (name == "title" or name == "battle")
+	header.visible = not (name == "title" or name == "battle" or name == "opening")
 	_refresh_header()
 	var tw2 := create_tween()
 	tw2.tween_property(fade, "color:a", 0.0, 0.18)

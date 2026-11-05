@@ -21,4 +21,4 @@ func _ready() -> void:
 func _new_game() -> void:
 	main.confirm("New Game", "This erases your current save and starts over. Continue?", func():
 		Game.new_game()
-		main.go("home"))
+		main.go("opening", {"next": "home"}))

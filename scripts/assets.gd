@@ -2,6 +2,10 @@ extends Node
 ## Loads the ORIGINAL sprites/audio extracted by tools/extract_assets.py.
 const UI_ROOT := "res://assets/original/ui/"
 const AUDIO_ROOT := "res://assets/original/audio/common/audio/"
+## Part 8 extraction (byte-exact standalone textures, converted video, imagefont). Kept separate from assets/original.
+const V2_IMAGE_ROOT := "res://assets/extracted_v2/images/"
+const V2_MOVIE_ROOT := "res://assets/extracted_v2/movie/"
+const V2_FONT_ROOT := "res://assets/extracted_v2/imagefont/high/"
 
 var audio_map: Dictionary = {}
 var music_on: bool = true
@@ -33,6 +37,8 @@ func tex(path: String) -> Texture2D:
 	var t: Texture2D = null
 	if ResourceLoader.exists(full):
 		t = load(full)
+	elif ResourceLoader.exists(V2_IMAGE_ROOT + path):      # standalone textures that are not part of any sprite sheet
+		t = load(V2_IMAGE_ROOT + path)
 	_tex_cache[path] = t
 	return t
 
@@ -81,3 +87,31 @@ func sfx(name: String) -> void:
 	_sfx_next = (_sfx_next + 1) % _sfx_players.size()
 	p.stream = load(path)
 	p.play()
+
+var _imagefonts: Dictionary = {}
+
+## Opening movies (converted to Ogg Theora, the only video format Godot 4 plays natively). null if unavailable.
+func video(name: String) -> VideoStream:
+	var p: String = V2_MOVIE_ROOT + name + ".ogv"
+	if ResourceLoader.exists(p):
+		var s = load(p)
+		if s is VideoStream:
+			return s
+	return null
+
+## Original bitmap font ("imagefont": styles blackframe / cutin / white). Returns {} if not extracted.
+func imagefont(style: String) -> Dictionary:
+	if _imagefonts.has(style):
+		return _imagefonts[style]
+	var out: Dictionary = {}
+	var base: String = V2_FONT_ROOT + style + "/"
+	if ResourceLoader.exists(base + "imagefont.png") and FileAccess.file_exists(base + "glyphs.json"):
+		var f := FileAccess.open(base + "glyphs.json", FileAccess.READ)
+		var j = JSON.parse_string(f.get_as_text())
+		if typeof(j) == TYPE_DICTIONARY and j.has("glyphs"):
+			var glyphs: Dictionary = {}
+			for g in j["glyphs"]:
+				glyphs[int(g["code"])] = g
+			out = {"atlas": load(base + "imagefont.png"), "glyphs": glyphs}
+	_imagefonts[style] = out
+	return out

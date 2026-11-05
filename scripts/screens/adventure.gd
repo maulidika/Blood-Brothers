@@ -13,6 +13,8 @@ func _ready() -> void:
 		_stages()
 
 func _zones() -> void:
+	if Assets.tex("common/world/worldmap.png") != null:
+		UI.sprite(self, "common/world/worldmap.png", Vector2.ZERO, Vector2(UI.W, UI.H))   # original RegionSelect backdrop
 	UI.label(self, "Adventure", Vector2(0, 36), 20, Color("f3d7a0"), UI.W, HORIZONTAL_ALIGNMENT_CENTER)
 	var content: Control = UI.scroll(self, Vector2(10, 70), Vector2(300, 350), 70.0 * Data.zones.size())
 	for i in range(Data.zones.size()):

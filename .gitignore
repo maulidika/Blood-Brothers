@@ -2,3 +2,5 @@ assets/original/
 build/
 .godot/
 *.import
+assets/extracted_v2/
+data/original_extract/

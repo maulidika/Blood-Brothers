@@ -163,3 +163,40 @@ func set_hp_bar(bar: Dictionary, ratio: float) -> void:
 func stat_line(inst_uid: String) -> String:
 	return "ATK %d  DEF %d  WIS %d  AGI %d" % [int(Game.fam_stat(inst_uid, "atk")), int(Game.fam_stat(inst_uid, "def")),
 		int(Game.fam_stat(inst_uid, "wis")), int(Game.fam_stat(inst_uid, "agi"))]
+
+## Text drawn with the ORIGINAL bitmap font (imagefont). `height` = glyph height in px (the client uses 16 for damage numbers).
+## Glyphs are white with a dark frame, so `color` tints them exactly like the client's BBSPImageText.
+func image_text(parent: Node, style: String, text: String, pos: Vector2, height: float, color: Color = Color.WHITE) -> Control:
+	var root := Control.new()
+	root.position = pos
+	root.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	parent.add_child(root)
+	var font: Dictionary = Assets.imagefont(style)
+	if font.is_empty() or not font["glyphs"].has(48):
+		var l := label(root, text, Vector2.ZERO, int(height), color)       # fallback when the font is not extracted
+		root.size = Vector2(float(text.length()) * height * 0.6, height)
+		return root
+	var ref_h: float = float(font["glyphs"][48]["h"])                      # height of the digit "0"
+	var k: float = height / ref_h
+	var x: float = 0.0
+	for ch in text:
+		var code: int = ch.unicode_at(0)
+		if not font["glyphs"].has(code):
+			x += height * 0.4
+			continue
+		var g: Dictionary = font["glyphs"][code]
+		var at := AtlasTexture.new()
+		at.atlas = font["atlas"]
+		at.region = Rect2(float(g["x"]), float(g["y"]), float(g["w"]), float(g["h"]))
+		var r := TextureRect.new()
+		r.texture = at
+		r.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+		r.stretch_mode = TextureRect.STRETCH_SCALE
+		r.size = Vector2(float(g["w"]) * k, float(g["h"]) * k)
+		r.position = Vector2(x, 0.0)
+		r.modulate = color
+		r.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		root.add_child(r)
+		x += float(g["w"]) * k
+	root.size = Vector2(x, height)
+	return root
